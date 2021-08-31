@@ -10,9 +10,10 @@ There is an assumption that the freely available Anaconda software is installed 
 You will also need to download the standalone hyphy-analyses repository (https://github.com/veg/hyphy-analyses). Make sure to modify the config.yml file to point to the correct directory on your system
 
 ### To install -- Steps necessary to complete before running
-1. `git clone https://github.com/aglucaci/AnalysisOfOrthologousCollections.git`
-2. `conda env create -f environment.yml`. This will create a virtual environment called (GeneInvestigator) with the necessary dependencies.
-3. At this point, run `conda activate AOC` and your environment will be ready to go.
+1. `git clone https://github.com/aglucaci/AnalysisOfOrthologousCollections.git AOC`
+2. `cd AOC`
+3. `conda env create -f environment.yml`. This will create a virtual environment called (GeneInvestigator) with the necessary dependencies.
+4. At this point, run `conda activate AOC` and your environment will be ready to go.
 
 ## Data retrieval via NCBI Orthologs
 Here, we rely on the NCBI Ortholog database. For example, if we are interested in the TP53 gene: https://www.ncbi.nlm.nih.gov/gene/7157/ortholog/?scope=117570&term=TP53
