@@ -1,4 +1,4 @@
-name: GeneInvestigator
+name: AOC
 channels:
   - conda-forge
   - bioconda
@@ -8,7 +8,7 @@ dependencies:
   - hyphy=2.5.31 
   - iqtree=2.1.2
   - snakemake=6.3.0
-  - stephenshank::tn93=1.0.7
+  - tn93=1.0.6
   - altair=4.1
   - altair_saver=0.5.0
   - biopython=1.78
