@@ -14,7 +14,7 @@ You will also need to download the standalone hyphy-analyses repository (https:/
 2. `conda env create -f environment.yml`. This will create a virtual environment called (GeneInvestigator) with the necessary dependencies.
 3. At this point, run `conda activate AOC` and your environment will be ready to go.
 
-## Data retrival via NCBI Orthologs
+## Data retrieval via NCBI Orthologs
 Here, we rely on the NCBI Ortholog database. For example, if we are interested in the TP53 gene: https://www.ncbi.nlm.nih.gov/gene/7157/ortholog/?scope=117570&term=TP53
 
 Download all information: Tabular data, RefSeq Transcripts, and RefSeq Protein. 
