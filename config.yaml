@@ -1,0 +1,18 @@
+# User settings for data files and gene label
+#Label: "TP53"
+#Nucleotide: data/TP53/TP53_refseq_transcript.fasta
+#Protein: data/TP53/TP53_refseq_protein.fasta
+
+Nucleotide: data/REV3L/REV3L_refseq_transcript.fasta
+Protein: data/REV3L/REV3L_refseq_protein.fasta
+Label: "REV3L"
+
+# HyPhy-analyses
+PREMSA: /home/aglucaci/hyphy-analyses/codon-msa/pre-msa.bf
+POSTMSA: /home/aglucaci/hyphy-analyses/codon-msa/post-msa.bf
+FMM: /home/aglucaci/hyphy-analyses/FitMultiModel/FitMultiModel.bf
+BUSTEDSMH: /home/aglucaci/hyphy-analyses/BUSTED-MH/BUSTED-MH.bf
+#MSS: /home/aglucaci/hyphy-analyses/MulticlassSynonymousSubstitutions/MultipleSynClasses.bf
+#BUSTEDMSS: /home/aglucaci/hyphy-analyses/MulticlassSynonymousSubstitutions/BUSTED-MSS.bf
+#CODONSTSV: /home/aglucaci/hyphy-analyses/MulticlassSynonymousSubstitutions/codons.tsv
+
