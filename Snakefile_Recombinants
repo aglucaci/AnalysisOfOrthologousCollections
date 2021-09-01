@@ -1,0 +1,228 @@
+"""``snakemake`` file that runs the AOC Part I Selection analysis.
+Written by Alexander G Lucaci.
+
+For this, I don't need the alignment stuff, since we have an alignment, and its recombination free (tested via RDP).
+Jump back in ad the TN93 and IQTREE step, then selection analyes
+
+"""
+
+import itertools
+import os
+import sys
+import csv
+import json
+from pathlib import Path
+from snakemake.utils import min_version
+#min_version('6.3.0')
+
+#----------------------------------------------------------------------------
+# Configuration
+#----------------------------------------------------------------------------
+configfile: 'config.yml'
+
+Nucleotide_file = config["Nucleotide"]
+Protein_file = config["Protein"]
+#CSV = config["CSV"]
+Label = config["Label"]
+Recombinant = config["Recombinant"]
+
+# Batch files
+PREMSA = config["PREMSA"]
+POSTMSA = config["POSTMSA"]
+FMM = config["FMM"]
+BUSTEDS_MH = config["BUSTEDSMH"]
+#LabelTrees_bf = config["LabelTrees"]
+
+# Set output directory
+BASEDIR = os.getcwd()
+#SUBDIR = os.path.join(BASEDIR, 
+#OUTDIR = os.path.join(BASEDIR, *["results", Label, "Recombinants"])
+
+#print("{snakemake} Output directory:", BASEDIR)
+
+# Create output dir.
+#Path(BASEDIR).mkdir(parents=True, exist_ok=True)
+
+#----------------------------------------------------------------------------
+# Helper functions
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+# Rule all
+#----------------------------------------------------------------------------
+rule all:
+    input:
+        os.path.join(BASEDIR, Recombinant + ".dst"),
+        os.path.join(BASEDIR, Recombinant + ".treefile"),
+        os.path.join(BASEDIR, Recombinant + ".FEL.json"),
+        os.path.join(BASEDIR, Recombinant + ".FUBAR.json"),
+        os.path.join(BASEDIR, Recombinant + ".BUSTEDS.json"),
+        os.path.join(BASEDIR, Recombinant + ".MEME.json"),
+        os.path.join(BASEDIR, Recombinant + ".ABSREL.json"),
+        os.path.join(BASEDIR, Recombinant + ".SLAC.json"),
+        os.path.join(BASEDIR, Recombinant + ".BGM.json"),
+        os.path.join(BASEDIR, Recombinant + ".PRIME.json"),
+        os.path.join(BASEDIR, Recombinant + ".ABSREL-MH.json"),
+        os.path.join(BASEDIR, Recombinant + ".BUSTEDS-MH.json"),
+        os.path.join(BASEDIR, Recombinant + ".FMM.json")
+#end rule all
+
+#----------------------------------------------------------------------------
+# Rules
+#----------------------------------------------------------------------------
+
+#----------------------------------------------------------------------------
+# TN93, on codon alignment, can be modified for distance calcs on protein aln
+#----------------------------------------------------------------------------
+rule tn93:
+    input:
+       #input = Recombinant
+       input = Recombinant
+    output:
+       output = os.path.join(BASEDIR, Recombinant + ".dst")
+    conda: 'environment.yml'
+    shell:
+       "tn93 -t 1 -o {output.output} {input.input}"
+#end rule tn93
+
+#----------------------------------------------------------------------------
+# IQ-TREE for ML tree inference
+#----------------------------------------------------------------------------
+rule iqtree: # Unrooted
+    input:
+        codons_fas = Recombinant
+    output:
+        tree = os.path.join(BASEDIR, Recombinant + ".treefile")
+    conda: 'environment.yml'
+    shell:
+        "iqtree -s {input.codons_fas} -T AUTO"
+#end rule iqtree
+
+#----------------------------------------------------------------------------
+# Selection Analyses
+#----------------------------------------------------------------------------
+
+rule FEL:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".FEL.json")
+    conda: 'environment.yml'
+    shell: 
+        "hyphy FEL --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+#end rule FEL
+
+rule FUBAR:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".FUBAR.json")
+    conda: 'environment.yml'    
+    shell: 
+        "hyphy FUBAR --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+#end rule FUBAR
+
+rule BUSTEDS:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".BUSTEDS.json")
+    conda: 'environment.yml'
+    shell: 
+        "hyphy BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+#end rule BUSTEDS
+
+rule MEME:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".MEME.json")
+    conda: 'environment.yml'
+    shell: 
+        "hyphy MEME --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+#end rule MEME
+
+rule ABSREL:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".ABSREL.json")
+    conda: 'environment.yml'
+    shell: 
+        "hyphy ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+#end rule ABSREL
+
+rule SLAC:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".SLAC.json")
+    conda: 'environment.yml'
+    shell: 
+        "hyphy SLAC --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+#end rule 
+
+rule BGM:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".BGM.json")
+    conda: 'environment.yml'
+    shell: 
+        "hyphy BGM --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+#end rule 
+
+rule PRIME:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".PRIME.json")
+    conda: 'environment.yml'
+    shell: 
+        "hyphy PRIME --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --impute-states Yes"
+#end rule 
+
+rule ABSRELMH:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".ABSREL-MH.json")
+    conda: 'environment.yml'
+    shell: 
+        "hyphy ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --multiple-hits Double+Triple"
+#end rule ABSRELMH
+
+rule BUSTEDSMH:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".BUSTEDS-MH.json")
+    conda: 'environment.yml'
+    shell: 
+        "hyphy {BUSTEDS_MH} --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+#end rule BUSTEDSMH
+
+rule FMM:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree      
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".FMM.json")
+    conda: 'environment.yml'
+    shell: 
+        "hyphy {FMM} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --triple-islands Yes"
+#end rule FMM
+
+#----------------------------------------------------------------------------
+# End of file
+#----------------------------------------------------------------------------

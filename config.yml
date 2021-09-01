@@ -1,7 +1,9 @@
 # User settings for data files and gene label
-Nucleotide: data/REV3L/REV3L_refseq_transcript.fasta
-Protein: data/REV3L/REV3L_refseq_protein.fasta
-Label: "REV3L"
+Nucleotide: data/BDNF/BDNF_refseq_transcript.fasta
+Protein: data/BDNF/HU76CMYP212-alignment.fa
+Label: "BDNF"
+Recombinant: results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas
+
 
 # HyPhy-Analyses batch files
 PREMSA: /home/aglucaci/hyphy-analyses/codon-msa/pre-msa.bf
@@ -9,3 +11,6 @@ POSTMSA: /home/aglucaci/hyphy-analyses/codon-msa/post-msa.bf
 FMM: /home/aglucaci/hyphy-analyses/FitMultiModel/FitMultiModel.bf
 BUSTEDSMH: /home/aglucaci/hyphy-analyses/BUSTED-MH/BUSTED-MH.bf
 
+
+# User settings for NCBI Entrez
+EMAIL: ""
