@@ -1,5 +1,7 @@
 # Analysis Of Orthologous Collections (AOC)
 
+```alpha v.0.01```
+
 This repository expands on work oringally done for https://github.com/aglucaci/GeneInvestigator. A simple application to interrogate the molecular evolution of a single gene. AOC allows for the inclusion of recombination detection, a powerful force in shaping gene evolution and interpreting analytic results. As well, it allows for lineage assignment and annotation. This feature (lineage assignment) allows between group comparison of selective pressures.
 
 ## Installation and dependencies
