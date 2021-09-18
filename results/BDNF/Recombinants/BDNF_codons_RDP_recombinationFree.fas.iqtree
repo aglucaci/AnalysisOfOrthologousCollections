@@ -2,7 +2,7 @@ IQ-TREE 2.1.2 COVID-edition built Mar 30 2021
 
 Input file name: results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas
 Type of analysis: ModelFinder + tree reconstruction
-Random seed number: 737960
+Random seed number: 101440
 
 REFERENCES
 ----------
@@ -25,52 +25,50 @@ https://doi.org/10.1038/nmeth.4285
 SEQUENCE ALIGNMENT
 ------------------
 
-Input data: 132 sequences with 1347 nucleotide sites
-Number of constant sites: 745 (= 55.3081% of all sites)
-Number of invariant (constant or ambiguous constant) sites: 745 (= 55.3081% of all sites)
-Number of parsimony informative sites: 484
-Number of distinct site patterns: 698
+Input data: 126 sequences with 783 nucleotide sites
+Number of constant sites: 455 (= 58.1098% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 455 (= 58.1098% of all sites)
+Number of parsimony informative sites: 259
+Number of distinct site patterns: 349
 
 ModelFinder
 -----------
 
-Best-fit model according to BIC: GTR+F+I+G4
+Best-fit model according to BIC: GTR+F+R5
 
 List of models sorted by BIC scores: 
 
 Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
-GTR+F+I+G4       -13327.131   27196.262 +        1   27333.400 +        1   28606.989 +    0.985
-TIM+F+I+G4       -13338.538   27215.076 - 8.21e-05   27349.951 - 0.000255   28615.392 -   0.0147
-TIM3+F+I+G4      -13342.110   27222.221 - 2.31e-06   27357.095 - 7.15e-06   28622.537 - 0.000414
-TVMe+I+G4        -13351.593   27237.186 -  1.3e-09   27369.820 - 1.23e-08   28627.090 - 4.25e-05
-TN+F+I+G4        -13349.098   27234.196 - 5.79e-09   27367.947 - 3.15e-08   28629.306 -  1.4e-05
-TVM+F+I+G4       -13342.605   27225.210 - 5.17e-07   27361.214 - 9.12e-07   28630.732 - 6.88e-06
-SYM+I+G4         -13350.451   27236.902 -  1.5e-09   27370.653 - 8.14e-09   28632.012 - 3.63e-06
-TIM2+F+I+G4      -13347.654   27233.308 - 9.03e-09   27368.183 -  2.8e-08   28633.624 - 1.62e-06
-K3Pu+F+I+G4      -13354.194   27244.388 - 3.54e-11   27378.140 - 1.93e-10   28639.498 - 8.59e-08
-TPM3u+F+I+G4     -13357.319   27250.639 - 1.56e-12   27384.390 - 8.46e-12   28645.749 - 3.77e-09
-TPM3+F+I+G4      -13357.319   27250.639 - 1.56e-12   27384.390 - 8.46e-12   28645.749 - 3.77e-09
-TIM3e+I+G4       -13367.534   27267.067 - 4.21e-16   27398.590 - 6.99e-15   28651.766 - 1.86e-10
-HKY+F+I+G4       -13364.701   27263.402 - 2.63e-15   27396.036 -  2.5e-14   28653.307 - 8.62e-11
-TPM2u+F+I+G4     -13363.483   27262.966 - 3.28e-15   27396.717 - 1.78e-14   28658.076 - 7.94e-12
-TPM2+F+I+G4      -13363.483   27262.966 - 3.28e-15   27396.717 - 1.78e-14   28658.076 - 7.94e-12
-K3P+I+G4         -13376.374   27282.748 - 1.66e-19   27413.164 - 4.78e-18   28662.241 -  9.9e-13
-TIMe+I+G4        -13375.348   27282.695 -  1.7e-19   27414.218 - 2.82e-18   28667.394 - 7.52e-14
-K2P+I+G4         -13386.010   27300.020 - 2.95e-23   27429.336 - 1.47e-21   28674.307 - 2.37e-15
-TIM2e+I+G4       -13381.012   27294.023 - 5.91e-22   27425.546 - 9.79e-21   28678.722 - 2.61e-16
-TNe+I+G4         -13385.003   27300.007 - 2.96e-23   27430.423 - 8.54e-22   28679.500 - 1.77e-16
-GTR+F+R7         -13336.993   27235.986 - 2.37e-09   27384.797 -  6.9e-12   28698.770 - 1.16e-20
-GTR+F+G4         -13377.229   27294.458 - 4.75e-22   27430.461 - 8.38e-22   28699.979 - 6.32e-21
-GTR+F+R8         -13330.655   27227.310 - 1.81e-07   27378.528 - 1.59e-10   28700.505 - 4.86e-21
-GTR+F+R6         -13353.225   27264.449 - 1.56e-15   27410.879 -  1.5e-17   28716.822 - 1.39e-24
-GTR+F+R5         -13379.881   27313.762 - 3.06e-26   27457.833 - 9.54e-28   28755.723 - 4.97e-33
-GTR+F+R4         -13410.955   27371.909 - 7.22e-39   27513.646 - 7.25e-40   28803.459 - 2.14e-43
-GTR+F+R3         -13488.487   27522.974 - 1.14e-71   27662.400 - 3.62e-72   28944.112 - 6.14e-74
-GTR+F+R2         -13684.591   27911.182 - 5.71e-156   28048.321 - 5.71e-156   29321.910 - 5.63e-156
-F81+F+I+G4       -13778.332   28088.664 - 1.65e-194   28220.186 - 2.73e-193   29473.363 - 7.29e-189
-JC+I+G4          -13797.880   28121.760 - 1.07e-201   28249.982 - 9.26e-200   29490.842 - 1.17e-192
-GTR+F+I          -13910.964   28361.928 - 7.56e-254   28497.932 - 1.33e-253   29767.449 - 1.01e-252
-GTR+F            -15244.477   31026.954 -        0   31161.828 -        0   32427.270 -        0
+GTR+F+R5          -9359.832   19249.664 +    0.878   19522.352 +    0.989   20485.394 +    0.984
+TIM3+F+R5         -9371.197   19268.395 - 7.52e-05   19535.955 -   0.0011   20494.799 -  0.00893
+GTR+F+I+G4        -9385.654   19289.307 - 2.16e-09   19546.821 -  4.8e-06   20497.058 -  0.00288
+TVMe+R5           -9379.235   19280.470 - 1.79e-07   19542.973 - 3.29e-05   20497.547 -  0.00226
+GTR+F+R6          -9359.805   19253.610 +    0.122   19531.498 -   0.0102   20498.667 -  0.00129
+SYM+R5            -9376.797   19277.595 - 7.56e-07   19542.618 - 3.93e-05   20499.336 - 0.000924
+TVM+F+R5          -9374.955   19277.909 - 6.46e-07   19548.025 - 2.63e-06   20508.976 - 7.45e-06
+TIM3e+R5          -9389.337   19298.674 -    2e-11   19558.674 - 1.28e-08   20511.088 - 2.59e-06
+GTR+F+R4          -9381.342   19288.684 - 2.95e-09   19556.245 - 4.32e-08   20515.088 - 3.51e-07
+TIM+F+R5          -9382.140   19290.281 - 1.33e-09   19557.841 - 1.94e-08   20516.685 - 1.58e-07
+GTR+F+R3          -9388.836   19299.672 - 1.21e-11   19562.175 - 2.23e-09   20516.750 - 1.53e-07
+TPM3u+F+R5        -9386.402   19296.805 - 5.09e-11   19561.828 - 2.65e-09   20518.545 - 6.22e-08
+TPM3+F+R5         -9386.402   19296.805 - 5.09e-11   19561.828 - 2.65e-09   20518.545 - 6.22e-08
+TN+F+R5           -9389.228   19302.456 - 3.02e-12   19567.479 - 1.57e-10   20524.197 - 3.69e-09
+TIM2+F+R5         -9387.761   19301.522 - 4.81e-12   19569.083 - 7.04e-11   20527.926 - 5.72e-10
+K3Pu+F+R5         -9397.912   19319.823 - 5.11e-16   19584.847 - 2.66e-14   20541.564 - 6.25e-13
+HKY+F+R5          -9405.351   19332.703 - 8.16e-19   19595.206 -  1.5e-16   20549.780 - 1.03e-14
+TPM2u+F+R5        -9404.378   19332.756 - 7.95e-19   19597.779 - 4.13e-17   20554.497 - 9.71e-16
+TPM2+F+R5         -9404.378   19332.756 - 7.95e-19   19597.779 - 4.13e-17   20554.497 - 9.71e-16
+K3P+R5            -9415.068   19348.137 - 3.63e-22   19605.651 - 8.07e-19   20555.888 - 4.84e-16
+TIMe+R5           -9412.953   19345.905 - 1.11e-21   19605.905 - 7.11e-19   20558.320 - 1.44e-16
+K2P+R5            -9421.831   19359.662 - 1.14e-24   19614.708 - 8.72e-21   20562.750 - 1.57e-17
+TNe+R5            -9419.540   19357.079 - 4.15e-24   19614.593 - 9.23e-21   20564.830 - 5.54e-18
+TIM2e+R5          -9416.658   19353.317 - 2.73e-23   19613.317 - 1.75e-20   20565.731 - 3.53e-18
+GTR+F+G4          -9436.189   19388.379 - 6.64e-31   19643.425 - 5.06e-27   20591.467 - 9.11e-24
+GTR+F+R2          -9537.617   19593.234 - 2.18e-75   19850.748 - 4.84e-72   20800.985 - 2.91e-69
+GTR+F+I           -9833.682   20183.365 - 1.56e-203   20438.411 - 1.19e-199   21386.453 - 2.14e-196
+F81+F+R5          -9861.296   20242.593 - 2.15e-216   20502.593 - 1.38e-213   21455.007 - 2.78e-211
+JC+R5             -9876.336   20266.671 - 1.27e-221   20519.265 - 3.3e-217   21465.096 - 1.79e-213
+GTR+F            -10830.259   22174.518 -        0   22427.112 -        0   23372.943 -        0
 
 AIC, w-AIC   : Akaike information criterion scores and weights.
 AICc, w-AICc : Corrected AIC scores and weights.
@@ -82,333 +80,319 @@ Minus signs denote significant exclusion.
 SUBSTITUTION PROCESS
 --------------------
 
-Model of substitution: GTR+F+I+G4
+Model of substitution: GTR+F+R5
 
 Rate parameter R:
 
-  A-C: 1.1755
-  A-G: 2.6564
-  A-T: 0.4575
-  C-G: 0.9698
-  C-T: 4.1347
+  A-C: 1.4175
+  A-G: 3.7985
+  A-T: 0.3555
+  C-G: 1.1602
+  C-T: 6.7783
   G-T: 1.0000
 
 State frequencies: (empirical counts from alignment)
 
-  pi(A) = 0.2597
-  pi(C) = 0.2465
-  pi(G) = 0.2905
-  pi(T) = 0.2034
+  pi(A) = 0.2636
+  pi(C) = 0.2457
+  pi(G) = 0.2872
+  pi(T) = 0.2036
 
 Rate matrix Q:
 
-  A   -0.9082    0.2279     0.607   0.07321
-  C    0.2402    -1.123    0.2216    0.6616
-  G    0.5427     0.188   -0.8907      0.16
-  T   0.09346    0.8017    0.2285    -1.124
+  A    -0.861    0.1984    0.6214   0.04123
+  C    0.2129    -1.189    0.1898    0.7861
+  G    0.5705    0.1624   -0.8488     0.116
+  T   0.05339    0.9486    0.1636    -1.166
 
-Model of rate heterogeneity: Invar+Gamma with 4 categories
-Proportion of invariable sites: 0.3779
-Gamma shape alpha: 0.7113
+Model of rate heterogeneity: FreeRate with 5 categories
+Site proportion and rates:  (0.6309,0.05035) (0.134,0.6758) (0.1245,1.72) (0.07928,4.415) (0.03136,9.999)
 
  Category  Relative_rate  Proportion
-  0         0              0.3779
-  1         0.1231         0.1555
-  2         0.5929         0.1555
-  3         1.493          0.1555
-  4         4.221          0.1555
-Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+  1         0.05035        0.6309
+  2         0.6758         0.134
+  3         1.72           0.1245
+  4         4.415          0.07928
+  5         9.999          0.03136
 
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -13279.9425 (s.e. 508.5835)
-Unconstrained log-likelihood (without tree): -7361.5480
-Number of free parameters (#branches + #model parameters): 271
-Akaike information criterion (AIC) score: 27101.8850
-Corrected Akaike information criterion (AICc) score: 27239.0236
-Bayesian information criterion (BIC) score: 28512.6121
+Log-likelihood of the tree: -9274.3676 (s.e. 472.0654)
+Unconstrained log-likelihood (without tree): -3280.2044
+Number of free parameters (#branches + #model parameters): 265
+Akaike information criterion (AIC) score: 19078.7352
+Corrected Akaike information criterion (AICc) score: 19351.4237
+Bayesian information criterion (BIC) score: 20314.4653
 
-Total tree length (sum of branch lengths): 7.5921
-Sum of internal branch lengths: 3.7608 (49.5355% of tree length)
+Total tree length (sum of branch lengths): 3.0217
+Sum of internal branch lengths: 1.3555 (44.8601% of tree length)
 
-WARNING: 15 near-zero internal branches (<0.0007) should be treated with caution
+WARNING: 20 near-zero internal branches (<0.0013) should be treated with caution
          Such branches are denoted by '**' in the figure below
 
 NOTE: Tree is UNROOTED although outgroup taxon 'NM_001709_5_Homo_sapiens_brain_derived_neurotrophi' is drawn at root
 
 +--NM_001709_5_Homo_sapiens_brain_derived_neurotrophi
 |
-|                                                       +**NM_001270630_1_Rattus_norvegicus_brain_derived_neu
-|                                                    +--|
-|                                                    |  |        +**NM_001048142_1_Mus_musculus_brain_derived_neurotro
-|                                                    |  |     +--|
-|                                                    |  |     |  +--XM_021151236_2_PREDICTED_Mus_caroli_brain_derived_
-|                                                    |  |  +--|
-|                                                    |  |  |  +--XM_021192829_2_PREDICTED_Mus_pahari_brain_derived_
-|                                                    |  +--|
-|                                                    |     +--XM_032903861_1_PREDICTED_Rattus_rattus_brain_deriv
-|                                               +----|
-|                                               |    |  +--XM_007653166_4_PREDICTED_Cricetulus_griseus_brain_
-|                                               |    +--|
-|                                               |       +--XM_037204438_1_PREDICTED_Peromyscus_leucopus_brain
-|                                            +--|
-|                                            |  +--XM_029555090_1_PREDICTED_Nannospalax_galili_brain_
+|                                            +**NM_001270630_1_Rattus_norvegicus_brain_derived_neu
 |                                         +--|
-|                                         |  +--------XM_004660846_2_PREDICTED_Jaculus_jaculus_brain_der
+|                                         |  +--XM_032903861_1_PREDICTED_Rattus_rattus_brain_deriv
 |                                      +--|
-|                                      |  |                  +-----XM_007497196_2_PREDICTED_Monodelphis_domestica_bra
-|                                      |  |               +--|
-|                                      |  |               |  |     +----XM_020977976_1_PREDICTED_Phascolarctos_cinereus_br
-|                                      |  |               |  |  +--|
-|                                      |  |               |  |  |  +--XM_027852578_1_PREDICTED_Vombatus_ursinus_brain_de
-|                                      |  |               |  +--|
-|                                      |  |               |     +--XM_036763631_1_PREDICTED_Trichosurus_vulpecula_bra
-|                                      |  |         +-----|
-|                                      |  |         |     +----XM_031944159_1_PREDICTED_Sarcophilus_harrisii_brai
-|                                      |  +---------|
-|                                      |            |                   +--XM_029059317_2_PREDICTED_Ornithorhynchus_anatinus_
-|                                      |            +-------------------|
-|                                      |                                +--XM_038764545_1_PREDICTED_Tachyglossus_aculeatus_br
+|                                      |  |        +**NM_001048142_1_Mus_musculus_brain_derived_neurotro
+|                                      |  |     +--|
+|                                      |  |     |  +--XM_021151236_2_PREDICTED_Mus_caroli_brain_derived_
+|                                      |  |  +--|
+|                                      |  |  |  +--XM_021192829_2_PREDICTED_Mus_pahari_brain_derived_
+|                                      |  +--|
+|                                      |     +--XM_031371313_1_PREDICTED_Mastomys_coucha_brain_der
 |                                   +--|
-|                                   |  |                                +--XM_005654684_3_PREDICTED_Sus_scrofa_brain_derived_
-|                                   |  |                             +--|
-|                                   |  |                             |  |                  +--XM_005216334_4_PREDICTED_Bos_taurus_brain_derived_
-|                                   |  |                             |  |               +**|
-|                                   |  |                             |  |               |  |  +**XM_010831788_1_PREDICTED_Bison_bison_bison_brain_d
-|                                   |  |                             |  |               |  +**|
-|                                   |  |                             |  |               |     +**XM_005890667_2_PREDICTED_Bos_mutus_brain_derived_n
-|                                   |  |                             |  |            +--|
-|                                   |  |                             |  |            |  +**XM_019974522_1_PREDICTED_Bos_indicus_brain_derived
-|                                   |  |                             |  |         +--|
-|                                   |  |                             |  |         |  +--XM_006068006_2_PREDICTED_Bubalus_bubalis_brain_der
-|                                   |  |                             |  |      +--|
-|                                   |  |                             |  |      |  +--XM_020903256_1_PREDICTED_Odocoileus_virginianus_te
-|                                   |  |                             |  |   +--|
-|                                   |  |                             |  |   |  |     +**XM_012096129_4_PREDICTED_Ovis_aries_brain_derived_
-|                                   |  |                             |  |   |  |  +--|
-|                                   |  |                             |  |   |  |  |  +--XM_005690025_2_PREDICTED_Capra_hircus_brain_derive
-|                                   |  |                             |  |   |  +--|
-|                                   |  |                             |  |   |     +--XM_040258919_1_PREDICTED_Oryx_dammah_brain_derived
-|                                   |  |                             |  +---|
-|                                   |  |                             |      |                    +**XM_024764694_1_PREDICTED_Neophocaena_asiaeoriental
-|                                   |  |                             |      |                 +--|
-|                                   |  |                             |      |                 |  +--XM_032641481_1_PREDICTED_Phocoena_sinus_brain_deri
-|                                   |  |                             |      |              +**|
-|                                   |  |                             |      |              |  +--XM_022583733_1_PREDICTED_Delphinapterus_leucas_bra
-|                                   |  |                             |      |           +**|
-|                                   |  |                             |      |           |  +--XM_029207934_1_PREDICTED_Monodon_monoceros_brain_d
-|                                   |  |                             |      |        +**|
-|                                   |  |                             |      |        |  +--XM_027115138_1_PREDICTED_Lagenorhynchus_obliquiden
-|                                   |  |                             |      |     +--|
-|                                   |  |                             |      |     |  +--XM_007461679_1_PREDICTED_Lipotes_vexillifer_brain_
-|                                   |  |                             |      |  +--|
-|                                   |  |                             |      |  |  +--XM_028501134_1_PREDICTED_Physeter_catodon_brain_de
-|                                   |  |                             |      +--|
-|                                   |  |                             |         |  +--XM_007180991_1_PREDICTED_Balaenoptera_acutorostrat
-|                                   |  |                             |         +--|
-|                                   |  |                             |            +--XM_036862552_1_PREDICTED_Balaenoptera_musculus_bra
-|                                   |  |                          +--|
-|                                   |  |                          |  |     +--XM_031681074_1_PREDICTED_Vicugna_pacos_brain_deriv
-|                                   |  |                          |  |  +**|
-|                                   |  |                          |  |  |  |  +**XM_006195083_3_PREDICTED_Camelus_ferus_brain_deriv
-|                                   |  |                          |  |  |  +--|
-|                                   |  |                          |  |  |     +--XM_031459858_1_PREDICTED_Camelus_dromedarius_brain
-|                                   |  |                          |  +--|
-|                                   |  |                          |     +**XM_010964743_1_PREDICTED_Camelus_bactrianus_brain_
-|                                   |  |                       +--|
-|                                   |  |                       |  |                              +---XM_013147262_2_PREDICTED_Cavia_porcellus_brain_der
-|                                   |  |                       |  |                      +-------|
-|                                   |  |                       |  |                      |       |     +--XM_005401751_2_PREDICTED_Chinchilla_lanigera_brain
-|                                   |  |                       |  |                      |       |  +--|
-|                                   |  |                       |  |                      |       |  |  +--XM_004644113_2_PREDICTED_Octodon_degus_brain_deriv
-|                                   |  |                       |  |                      |       +--|
-|                                   |  |                       |  |                      |          |  +--XM_004851581_3_PREDICTED_Heterocephalus_glaber_bra
-|                                   |  |                       |  |                      |          +--|
-|                                   |  |                       |  |                      |             +----------XM_033764060_1_PREDICTED_Fukomys_damarensis_brain_
-|                                   |  |                       |  |                   +--|
-|                                   |  |                       |  |                   |  +-------XM_016206154_1_PREDICTED_Miniopterus_natalensis_br
-|                                   |  |                       |  |              +----|
-|                                   |  |                       |  |              |    +-----XM_036427676_1_PREDICTED_Pipistrellus_kuhlii_brain
-|                                   |  |                       |  |           +--|
-|                                   |  |                       |  |           |  +**XM_008148947_2_PREDICTED_Eptesicus_fuscus_brain_de
-|                                   |  |                       |  |        +--|
-|                                   |  |                       |  |        |  +--XM_036325692_1_PREDICTED_Myotis_myotis_brain_deriv
-|                                   |  |                       |  |     +--|
-|                                   |  |                       |  |     |  +**XM_014545223_1_PREDICTED_Myotis_brandtii_brain_der
-|                                   |  |                       |  |  +--|
-|                                   |  |                       |  |  |  |  +--XM_006753948_2_PREDICTED_Myotis_davidii_brain_deri
-|                                   |  |                       |  |  |  +**|
-|                                   |  |                       |  |  |     +--XM_023756374_1_PREDICTED_Myotis_lucifugus_brain_de
-|                                   |  |                       |  +--|
-|                                   |  |                       |     +--XM_036258707_1_PREDICTED_Molossus_molossus_brain_d
-|                                   |  |                    +--|
-|                                   |  |                    |  |    +--XM_036879079_1_PREDICTED_Manis_pentadactyla_brain_
-|                                   |  |                    |  +----|
-|                                   |  |                    |       +--XM_017667612_2_PREDICTED_Manis_javanica_brain_deri
-|                                   |  |                 +**|
-|                                   |  |                 |  |      +**NM_001081787_1_Equus_caballus_brain_derived_neurot
-|                                   |  |                 |  |   +--|
-|                                   |  |                 |  |   |  +--XM_014831462_1_PREDICTED_Equus_asinus_brain_derive
-|                                   |  |                 |  +---|
-|                                   |  |                 |      +--XM_004418542_2_PREDICTED_Ceratotherium_simum_simum
-|                                   |  |              +--|
-|                                   |  |              |  |  +--XM_004682964_2_PREDICTED_Condylura_cristata_brain_
-|                                   |  |              |  +--|
-|                                   |  |              |     +--XM_037522538_1_PREDICTED_Talpa_occidentalis_brain_
-|                                   |  |           +--|
-|                                   |  |           |  |                 +--NM_001009828_1_Felis_catus_brain_derived_neurotrop
-|                                   |  |           |  |              +--|
-|                                   |  |           |  |              |  +--XM_030333208_1_PREDICTED_Lynx_canadensis_brain_der
-|                                   |  |           |  |           +--|
-|                                   |  |           |  |           |  +--XM_015544869_1_PREDICTED_Panthera_tigris_altaica_b
-|                                   |  |           |  |        +--|
-|                                   |  |           |  |        |  +--XM_029957152_1_PREDICTED_Suricata_suricatta_brain_
-|                                   |  |           |  |     +--|
-|                                   |  |           |  |     |  +--XM_039217098_1_PREDICTED_Hyaena_hyaena_brain_deriv
-|                                   |  |           |  |  +--|
-|                                   |  |           |  |  |  +--------XM_016194241_1_PREDICTED_Erinaceus_europaeus_brain
-|                                   |  |           |  +--|
-|                                   |  |           |     |         +**XM_038429434_1_PREDICTED_Canis_lupus_familiaris_br
-|                                   |  |           |     |     +---|
-|                                   |  |           |     |     |   |  +**XM_041730708_1_PREDICTED_Vulpes_lagopus_brain_deri
-|                                   |  |           |     |     |   +--|
-|                                   |  |           |     |     |      +**XM_026018600_1_PREDICTED_Vulpes_vulpes_brain_deriv
-|                                   |  |           |     |  +--|
-|                                   |  |           |     |  |  |     +--XM_011226480_3_PREDICTED_Ailuropoda_melanoleuca_br
-|                                   |  |           |     |  |  |  +--|
-|                                   |  |           |     |  |  |  |  |     +--XM_004408653_1_PREDICTED_Odobenus_rosmarus_diverge
-|                                   |  |           |     |  |  |  |  |  +--|
-|                                   |  |           |     |  |  |  |  |  |  |  +--XM_025879326_1_PREDICTED_Callorhinus_ursinus_brain
-|                                   |  |           |     |  |  |  |  |  |  +--|
-|                                   |  |           |     |  |  |  |  |  |     |  +**XM_028117708_1_PREDICTED_Eumetopias_jubatus_brain_
-|                                   |  |           |     |  |  |  |  |  |     +--|
-|                                   |  |           |     |  |  |  |  |  |        +--XM_027577807_1_PREDICTED_Zalophus_californianus_br
-|                                   |  |           |     |  |  |  |  +--|
-|                                   |  |           |     |  |  |  |     |     +**XM_021685880_1_PREDICTED_Neomonachus_schauinslandi
-|                                   |  |           |     |  |  |  |     |  +--|
-|                                   |  |           |     |  |  |  |     |  |  +--XM_031025064_1_PREDICTED_Leptonychotes_weddellii_b
-|                                   |  |           |     |  |  |  |     +--|
-|                                   |  |           |     |  |  |  |        |     +**XM_036109493_1_PREDICTED_Halichoerus_grypus_brain_
-|                                   |  |           |     |  |  |  |        |  +--|
-|                                   |  |           |     |  |  |  |        |  |  +--XM_032414183_1_PREDICTED_Phoca_vitulina_brain_deri
-|                                   |  |           |     |  |  |  |        +**|
-|                                   |  |           |     |  |  |  |           +--XM_035012477_1_PREDICTED_Mirounga_leonina_brain_de
-|                                   |  |           |     |  |  +--|
-|                                   |  |           |     |  |     +--XM_026512203_1_PREDICTED_Ursus_arctos_horribilis_b
-|                                   |  |           |     +--|
-|                                   |  |           |        |           +**XM_011362565_2_PREDICTED_Pteropus_vampyrus_brain_d
-|                                   |  |           |        |        +--|
-|                                   |  |           |        |        |  +--XM_039866065_1_PREDICTED_Pteropus_giganteus_brain_
-|                                   |  |           |        |     +--|
-|                                   |  |           |        |     |  +--XM_006907988_2_PREDICTED_Pteropus_alecto_brain_der
-|                                   |  |           |        |  +--|
-|                                   |  |           |        |  |  |        +--XM_037040421_1_PREDICTED_Sturnira_hondurensis_brai
-|                                   |  |           |        |  |  |     +--|
-|                                   |  |           |        |  |  |     |  +--XM_037146035_1_PREDICTED_Artibeus_jamaicensis_brai
-|                                   |  |           |        |  |  |  +**|
-|                                   |  |           |        |  |  |  |  +--XM_024558903_1_PREDICTED_Desmodus_rotundus_brain_d
-|                                   |  |           |        |  |  +--|
-|                                   |  |           |        |  |     +--XM_028517638_2_PREDICTED_Phyllostomus_discolor_bra
-|                                   |  |           |        +--|
-|                                   |  |           |           |  +--XM_033118944_1_PREDICTED_Rhinolophus_ferrumequinum
-|                                   |  |           |           +--|
-|                                   |  |           |              +--XM_019650718_1_PREDICTED_Hipposideros_armiger_brai
-|                                   |  |        +--|
-|                                   |  |        |  |     +--XM_012649556_1_PREDICTED_Propithecus_coquereli_bra
-|                                   |  |        |  |  +--|
-|                                   |  |        |  |  |  +--XM_020286534_1_PREDICTED_Microcebus_murinus_brain_
-|                                   |  |        |  +--|
-|                                   |  |        |     +--XM_012814047_1_PREDICTED_Otolemur_garnettii_brain_
-|                                   |  |     +--|
-|                                   |  |     |  |        +--XM_009007854_3_PREDICTED_Callithrix_jacchus_brain_
-|                                   |  |     |  |     +--|
-|                                   |  |     |  |     |  |  +**XM_015476449_1_PREDICTED_Marmota_marmota_marmota_b
-|                                   |  |     |  |     |  +--|
-|                                   |  |     |  |     |     |     +--XM_040284582_1_PREDICTED_Ictidomys_tridecemlineatu
-|                                   |  |     |  |     |     |  +--|
-|                                   |  |     |  |     |     |  |  +--XM_026412272_1_PREDICTED_Urocitellus_parryii_brain
-|                                   |  |     |  |     |     +--|
-|                                   |  |     |  |     |        +**XM_027936596_1_PREDICTED_Marmota_flaviventris_brai
-|                                   |  |     |  |  +**|
-|                                   |  |     |  |  |  |  +--XM_013019592_1_PREDICTED_Dipodomys_ordii_brain_der
-|                                   |  |     |  |  |  +--|
-|                                   |  |     |  |  |     +--XM_020177315_1_PREDICTED_Castor_canadensis_brain_d
-|                                   |  |     |  +--|
-|                                   |  |     |     +--XM_031371313_1_PREDICTED_Mastomys_coucha_brain_der
-|                                   |  |  +--|
-|                                   |  |  |  +-------XM_008050727_1_PREDICTED_Carlito_syrichta_brain_de
+|                                   |  |  +--XM_007653166_4_PREDICTED_Cricetulus_griseus_brain_
 |                                   |  +--|
-|                                   |     +------XM_014591303_2_PREDICTED_Tupaia_chinensis_brain_de
+|                                   |     +--XM_037204438_1_PREDICTED_Peromyscus_leucopus_brain
 |                                +--|
-|                                |  |  +--XM_007951952_1_PREDICTED_Orycteropus_afer_afer_bra
-|                                |  +--|
-|                                |     +--XM_004369733_1_PREDICTED_Trichechus_manatus_latiro
+|                                |  +--XM_029555090_1_PREDICTED_Nannospalax_galili_brain_
 |                             +--|
-|                             |  |  +--XM_006883713_1_PREDICTED_Elephantulus_edwardii_bra
-|                             |  +--|
-|                             |     |  +-------XM_004708253_2_PREDICTED_Echinops_telfairi_brain_d
-|                             |     +--|
-|                             |        +--XM_006864851_1_PREDICTED_Chrysochloris_asiatica_br
+|                             |  +-------------XM_004660846_2_PREDICTED_Jaculus_jaculus_brain_der
 |                          +--|
-|                          |  |         +--XM_040980297_1_PREDICTED_Ochotona_curzoniae_brain_
-|                          |  |  +------|
-|                          |  |  |      +**XM_004585440_1_PREDICTED_Ochotona_princeps_brain_d
+|                          |  |     +---------XM_013019592_1_PREDICTED_Dipodomys_ordii_brain_der
+|                          |  |  +--|
+|                          |  |  |  |         +--XM_015476449_1_PREDICTED_Marmota_marmota_marmota_b
+|                          |  |  |  |      +--|
+|                          |  |  |  |      |  +**XM_027936596_1_PREDICTED_Marmota_flaviventris_brai
+|                          |  |  |  |   +--|
+|                          |  |  |  |   |  +--XM_040284582_1_PREDICTED_Ictidomys_tridecemlineatu
+|                          |  |  |  +---|
+|                          |  |  |      +--XM_026412272_1_PREDICTED_Urocitellus_parryii_brain
 |                          |  +--|
-|                          |     +--XM_008584165_1_PREDICTED_Galeopterus_variegatus_br
+|                          |     +----XM_020177315_1_PREDICTED_Castor_canadensis_brain_d
 |                       +--|
-|                       |  |  +--XM_037839114_1_PREDICTED_Choloepus_didactylus_brai
-|                       |  +--|
-|                       |     +--XM_012523604_2_PREDICTED_Dasypus_novemcinctus_brai
-|                    +--|
-|                    |  +--XM_008003703_2_PREDICTED_Chlorocebus_sabaeus_brain
-|                 +**|
-|                 |  +--XM_017948537_3_PREDICTED_Papio_anubis_brain_derive
-|              +**|
-|              |  |     +**XM_011936307_1_PREDICTED_Colobus_angolensis_pallia
-|              |  |  +--|
-|              |  |  |  +**XM_023230347_2_PREDICTED_Piliocolobus_tephrosceles
-|              |  +--|
-|              |     |  +--XM_033205475_1_PREDICTED_Trachypithecus_francoisi_
-|              |     +**|
-|              |        |  +--XM_017858805_1_PREDICTED_Rhinopithecus_bieti_brain
-|              |        +--|
-|              |           +**XM_010374529_2_PREDICTED_Rhinopithecus_roxellana_b
+|                       |  |              +--XM_040980297_1_PREDICTED_Ochotona_curzoniae_brain_
+|                       |  |     +--------|
+|                       |  |     |        +**XM_004585440_1_PREDICTED_Ochotona_princeps_brain_d
+|                       |  |  +--|
+|                       |  |  |  +--XM_008584165_1_PREDICTED_Galeopterus_variegatus_br
+|                       |  +**|
+|                       |     +----------XM_008050727_1_PREDICTED_Carlito_syrichta_brain_de
+|                    +**|
+|                    |  +----------XM_014591303_2_PREDICTED_Tupaia_chinensis_brain_de
+|                 +--|
+|                 |  |                                +---XM_005654684_3_PREDICTED_Sus_scrofa_brain_derived_
+|                 |  |                             +--|
+|                 |  |                             |  |               +--XM_005216334_4_PREDICTED_Bos_taurus_brain_derived_
+|                 |  |                             |  |            +--|
+|                 |  |                             |  |            |  +**XM_010831788_1_PREDICTED_Bison_bison_bison_brain_d
+|                 |  |                             |  |         +**|
+|                 |  |                             |  |         |  +--XM_006068006_2_PREDICTED_Bubalus_bubalis_brain_der
+|                 |  |                             |  |      +--|
+|                 |  |                             |  |      |  +---XM_020903256_1_PREDICTED_Odocoileus_virginianus_te
+|                 |  |                             |  |  +---|
+|                 |  |                             |  |  |   |     +**XM_012096129_4_PREDICTED_Ovis_aries_brain_derived_
+|                 |  |                             |  |  |   |  +--|
+|                 |  |                             |  |  |   |  |  +--XM_005690025_2_PREDICTED_Capra_hircus_brain_derive
+|                 |  |                             |  |  |   +--|
+|                 |  |                             |  |  |      +--XM_040258919_1_PREDICTED_Oryx_dammah_brain_derived
+|                 |  |                             |  +--|
+|                 |  |                             |     |              +**XM_024764694_1_PREDICTED_Neophocaena_asiaeoriental
+|                 |  |                             |     |           +--|
+|                 |  |                             |     |           |  +--XM_032641481_1_PREDICTED_Phocoena_sinus_brain_deri
+|                 |  |                             |     |        +**|
+|                 |  |                             |     |        |  |     +--XM_007461679_1_PREDICTED_Lipotes_vexillifer_brain_
+|                 |  |                             |     |        |  |  +**|
+|                 |  |                             |     |        |  |  |  +--XM_027115138_1_PREDICTED_Lagenorhynchus_obliquiden
+|                 |  |                             |     |        |  +**|
+|                 |  |                             |     |        |     +**XM_022583733_1_PREDICTED_Delphinapterus_leucas_bra
+|                 |  |                             |     |     +--|
+|                 |  |                             |     |     |  +--XM_029207934_1_PREDICTED_Monodon_monoceros_brain_d
+|                 |  |                             |     |  +**|
+|                 |  |                             |     |  |  +--XM_028501134_1_PREDICTED_Physeter_catodon_brain_de
+|                 |  |                             |     +--|
+|                 |  |                             |        |  +--XM_007180991_1_PREDICTED_Balaenoptera_acutorostrat
+|                 |  |                             |        +--|
+|                 |  |                             |           +**XM_036862552_1_PREDICTED_Balaenoptera_musculus_bra
+|                 |  |                          +--|
+|                 |  |                          |  |       +--XM_031681074_1_PREDICTED_Vicugna_pacos_brain_deriv
+|                 |  |                          |  |    +**|
+|                 |  |                          |  |    |  +**XM_010964743_1_PREDICTED_Camelus_bactrianus_brain_
+|                 |  |                          |  +----|
+|                 |  |                          |       |  +**XM_006195083_3_PREDICTED_Camelus_ferus_brain_deriv
+|                 |  |                          |       +--|
+|                 |  |                          |          +--XM_031459858_1_PREDICTED_Camelus_dromedarius_brain
+|                 |  |                       +--|
+|                 |  |                       |  |                                         +------XM_013147262_2_PREDICTED_Cavia_porcellus_brain_der
+|                 |  |                       |  |                                      +--|
+|                 |  |                       |  |                                      |  |  +----XM_004851581_3_PREDICTED_Heterocephalus_glaber_bra
+|                 |  |                       |  |                                      |  +--|
+|                 |  |                       |  |                                      |     +--------------XM_033764060_1_PREDICTED_Fukomys_damarensis_brain_
+|                 |  |                       |  |                      +---------------|
+|                 |  |                       |  |                      |               |  +--XM_005401751_2_PREDICTED_Chinchilla_lanigera_brain
+|                 |  |                       |  |                      |               +--|
+|                 |  |                       |  |                      |                  +---XM_004644113_2_PREDICTED_Octodon_degus_brain_deriv
+|                 |  |                       |  |                   +--|
+|                 |  |                       |  |                   |  +---XM_036427676_1_PREDICTED_Pipistrellus_kuhlii_brain
+|                 |  |                       |  |                +--|
+|                 |  |                       |  |                |  +**XM_008148947_2_PREDICTED_Eptesicus_fuscus_brain_de
+|                 |  |                       |  |             +--|
+|                 |  |                       |  |             |  +**XM_023756374_1_PREDICTED_Myotis_lucifugus_brain_de
+|                 |  |                       |  |          +**|
+|                 |  |                       |  |          |  +--XM_036325692_1_PREDICTED_Myotis_myotis_brain_deriv
+|                 |  |                       |  |       +**|
+|                 |  |                       |  |       |  +**XM_014545223_1_PREDICTED_Myotis_brandtii_brain_der
+|                 |  |                       |  |  +----|
+|                 |  |                       |  |  |    +--XM_006753948_2_PREDICTED_Myotis_davidii_brain_deri
+|                 |  |                       |  +--|
+|                 |  |                       |     |  +----------------XM_016206154_1_PREDICTED_Miniopterus_natalensis_br
+|                 |  |                       |     +--|
+|                 |  |                       |        +--XM_036258707_1_PREDICTED_Molossus_molossus_brain_d
+|                 |  |                    +--|
+|                 |  |                    |  |      +--XM_036879079_1_PREDICTED_Manis_pentadactyla_brain_
+|                 |  |                    |  +------|
+|                 |  |                    |         +--XM_017667612_2_PREDICTED_Manis_javanica_brain_deri
+|                 |  |                 +**|
+|                 |  |                 |  |         +**NM_001081787_1_Equus_caballus_brain_derived_neurot
+|                 |  |                 |  |     +---|
+|                 |  |                 |  |     |   +--XM_014831462_1_PREDICTED_Equus_asinus_brain_derive
+|                 |  |                 |  +-----|
+|                 |  |                 |        +--XM_004418542_2_PREDICTED_Ceratotherium_simum_simum
+|                 |  |              +--|
+|                 |  |              |  |   +--XM_004682964_2_PREDICTED_Condylura_cristata_brain_
+|                 |  |              |  +---|
+|                 |  |              |      +--XM_037522538_1_PREDICTED_Talpa_occidentalis_brain_
+|                 |  |           +--|
+|                 |  |           |  |     +--XM_011226480_3_PREDICTED_Ailuropoda_melanoleuca_br
+|                 |  |           |  |  +--|
+|                 |  |           |  |  |  +--XM_026512203_1_PREDICTED_Ursus_arctos_horribilis_b
+|                 |  |           |  +--|
+|                 |  |           |     |     +--XM_004408653_1_PREDICTED_Odobenus_rosmarus_diverge
+|                 |  |           |     |  +--|
+|                 |  |           |     |  |  |  +--XM_025879326_1_PREDICTED_Callorhinus_ursinus_brain
+|                 |  |           |     |  |  +--|
+|                 |  |           |     |  |     |  +**XM_028117708_1_PREDICTED_Eumetopias_jubatus_brain_
+|                 |  |           |     |  |     +--|
+|                 |  |           |     |  |        +--XM_027577807_1_PREDICTED_Zalophus_californianus_br
+|                 |  |           |     +--|
+|                 |  |           |        |        +**XM_021685880_1_PREDICTED_Neomonachus_schauinslandi
+|                 |  |           |        |     +--|
+|                 |  |           |        |     |  +--XM_031025064_1_PREDICTED_Leptonychotes_weddellii_b
+|                 |  |           |        |  +**|
+|                 |  |           |        |  |  +--XM_035012477_1_PREDICTED_Mirounga_leonina_brain_de
+|                 |  |           |        +--|
+|                 |  |           |           +--XM_036109493_1_PREDICTED_Halichoerus_grypus_brain_
+|                 |  |        +**|
+|                 |  |        |  |           +**XM_011362565_2_PREDICTED_Pteropus_vampyrus_brain_d
+|                 |  |        |  |        +--|
+|                 |  |        |  |        |  +--XM_039866065_1_PREDICTED_Pteropus_giganteus_brain_
+|                 |  |        |  |     +--|
+|                 |  |        |  |     |  +--XM_006907988_2_PREDICTED_Pteropus_alecto_brain_der
+|                 |  |        |  |  +**|
+|                 |  |        |  |  |  |        +--XM_037040421_1_PREDICTED_Sturnira_hondurensis_brai
+|                 |  |        |  |  |  |     +--|
+|                 |  |        |  |  |  |     |  +--XM_037146035_1_PREDICTED_Artibeus_jamaicensis_brai
+|                 |  |        |  |  |  |  +**|
+|                 |  |        |  |  |  |  |  +--XM_024558903_1_PREDICTED_Desmodus_rotundus_brain_d
+|                 |  |        |  |  |  +--|
+|                 |  |        |  |  |     +--XM_028517638_2_PREDICTED_Phyllostomus_discolor_bra
+|                 |  |        |  +--|
+|                 |  |        |     |  +--XM_033118944_1_PREDICTED_Rhinolophus_ferrumequinum
+|                 |  |        |     +--|
+|                 |  |        |        +---XM_019650718_1_PREDICTED_Hipposideros_armiger_brai
+|                 |  |     +--|
+|                 |  |     |  |              +--NM_001009828_1_Felis_catus_brain_derived_neurotrop
+|                 |  |     |  |           +--|
+|                 |  |     |  |           |  +--XM_030333208_1_PREDICTED_Lynx_canadensis_brain_der
+|                 |  |     |  |        +--|
+|                 |  |     |  |        |  +--XM_015544869_1_PREDICTED_Panthera_tigris_altaica_b
+|                 |  |     |  |     +--|
+|                 |  |     |  |     |  +--XM_029957152_1_PREDICTED_Suricata_suricatta_brain_
+|                 |  |     |  |  +--|
+|                 |  |     |  |  |  +--XM_039217098_1_PREDICTED_Hyaena_hyaena_brain_deriv
+|                 |  |     |  +--|
+|                 |  |     |     |        +**XM_038429434_1_PREDICTED_Canis_lupus_familiaris_br
+|                 |  |     |     |  +-----|
+|                 |  |     |     |  |     +--XM_041730708_1_PREDICTED_Vulpes_lagopus_brain_deri
+|                 |  |     |     +--|
+|                 |  |     |        +-----------XM_016194241_1_PREDICTED_Erinaceus_europaeus_brain
+|                 |  |  +--|
+|                 |  |  |  |     +--XM_012649556_1_PREDICTED_Propithecus_coquereli_bra
+|                 |  |  |  |  +--|
+|                 |  |  |  |  |  +--XM_020286534_1_PREDICTED_Microcebus_murinus_brain_
+|                 |  |  |  +--|
+|                 |  |  |     +---XM_012814047_1_PREDICTED_Otolemur_garnettii_brain_
+|                 |  +**|
+|                 |     |        +----XM_007951952_1_PREDICTED_Orycteropus_afer_afer_bra
+|                 |     |     +--|
+|                 |     |     |  +--XM_004369733_1_PREDICTED_Trichechus_manatus_latiro
+|                 |     |  +--|
+|                 |     |  |  |  +--XM_037839114_1_PREDICTED_Choloepus_didactylus_brai
+|                 |     |  |  +--|
+|                 |     |  |     +--XM_012523604_2_PREDICTED_Dasypus_novemcinctus_brai
+|                 |     +--|
+|                 |        |  +--XM_006883713_1_PREDICTED_Elephantulus_edwardii_bra
+|                 |        +--|
+|                 |           |  +----------XM_004708253_2_PREDICTED_Echinops_telfairi_brain_d
+|                 |           +--|
+|                 |              +--XM_006864851_1_PREDICTED_Chrysochloris_asiatica_br
+|              +--|
+|              |  |                       +-----XM_007497196_2_PREDICTED_Monodelphis_domestica_bra
+|              |  |              +--------|
+|              |  |              |        |  +-------XM_031944159_1_PREDICTED_Sarcophilus_harrisii_brai
+|              |  |              |        +--|
+|              |  |              |           |     +------XM_020977976_1_PREDICTED_Phascolarctos_cinereus_br
+|              |  |              |           |  +--|
+|              |  |              |           |  |  +--XM_027852578_1_PREDICTED_Vombatus_ursinus_brain_de
+|              |  |              |           +--|
+|              |  |              |              +---XM_036763631_1_PREDICTED_Trichosurus_vulpecula_bra
+|              |  +--------------|
+|              |                 |                              +---XM_029059317_2_PREDICTED_Ornithorhynchus_anatinus_
+|              |                 +------------------------------|
+|              |                                                +--XM_038764545_1_PREDICTED_Tachyglossus_aculeatus_br
 |           +--|
-|           |  +--XM_015114598_2_PREDICTED_Macaca_mulatta_brain_deri
+|           |  +**XM_008003703_2_PREDICTED_Chlorocebus_sabaeus_brain
 |        +--|
-|        |  |  +--XM_012031697_1_PREDICTED_Cercocebus_atys_brain_der
-|        |  +--|
-|        |     +--XM_011964715_1_PREDICTED_Mandrillus_leucophaeus_br
+|        |  |  +**XM_015114598_2_PREDICTED_Macaca_mulatta_brain_deri
+|        |  +**|
+|        |     |  +--XM_011936307_1_PREDICTED_Colobus_angolensis_pallia
+|        |     +--|
+|        |        |  +--XM_033205475_1_PREDICTED_Trachypithecus_francoisi_
+|        |        +**|
+|        |           |  +--XM_017858805_1_PREDICTED_Rhinopithecus_bieti_brain
+|        |           +--|
+|        |              +**XM_010374529_2_PREDICTED_Rhinopithecus_roxellana_b
 |     +--|
-|     |  |     +--XM_003919940_3_PREDICTED_Saimiri_boliviensis_boliv
-|     |  |  +--|
-|     |  |  |  |  +--XM_032283691_1_PREDICTED_Sapajus_apella_brain_deri
-|     |  |  |  +--|
-|     |  |  |     +--XM_017538722_1_PREDICTED_Cebus_imitator_brain_deri
+|     |  |  +--XM_012031697_1_PREDICTED_Cercocebus_atys_brain_der
 |     |  +--|
-|     |     +--XM_012452238_1_PREDICTED_Aotus_nancymaae_brain_der
+|     |     +**XM_011964715_1_PREDICTED_Mandrillus_leucophaeus_br
 |  +--|
-|  |  |  +--XM_002821931_2_PREDICTED_Pongo_abelii_brain_derive
+|  |  |     +--XM_009007854_3_PREDICTED_Callithrix_jacchus_brain_
+|  |  |  +**|
+|  |  |  |  |  +--XM_003919940_3_PREDICTED_Saimiri_boliviensis_boliv
+|  |  |  |  +--|
+|  |  |  |     |  +**XM_032283691_1_PREDICTED_Sapajus_apella_brain_deri
+|  |  |  |     +--|
+|  |  |  |        +--XM_017538722_1_PREDICTED_Cebus_imitator_brain_deri
 |  |  +--|
-|  |     |  +--XM_003254347_2_PREDICTED_Nomascus_leucogenys_brain
-|  |     +--|
-|  |        +--XM_032166370_1_PREDICTED_Hylobates_moloch_brain_de
-+**|
-|  +--XM_004050851_2_PREDICTED_Gorilla_gorilla_gorilla_b
-|
-|  +--NM_001012441_1_Pan_troglodytes_brain_derived_neuro
+|  |     +--XM_012452238_1_PREDICTED_Aotus_nancymaae_brain_der
 +--|
-   +--XM_034932318_1_PREDICTED_Pan_paniscus_brain_derive
+|  |  +--XM_002821931_2_PREDICTED_Pongo_abelii_brain_derive
+|  +--|
+|     |  +**XM_003254347_2_PREDICTED_Nomascus_leucogenys_brain
+|     +--|
+|        +--XM_032166370_1_PREDICTED_Hylobates_moloch_brain_de
+|
+|     +--NM_001012441_1_Pan_troglodytes_brain_derived_neuro
+|  +--|
+|  |  +--XM_034932318_1_PREDICTED_Pan_paniscus_brain_derive
++**|
+   +--XM_004050851_2_PREDICTED_Gorilla_gorilla_gorilla_b
 
 Tree in newick format:
 
-(NM_001709_5_Homo_sapiens_brain_derived_neurotrophi:0.0071469016,((((((((((((((((((NM_001270630_1_Rattus_norvegicus_brain_derived_neu:0.0001094152,(((NM_001048142_1_Mus_musculus_brain_derived_neurotro:0.0000027298,XM_021151236_2_PREDICTED_Mus_caroli_brain_derived_:0.0037966559):0.0029468170,XM_021192829_2_PREDICTED_Mus_pahari_brain_derived_:0.0145740170):0.0368754967,XM_032903861_1_PREDICTED_Rattus_rattus_brain_deriv:0.0041646641):0.0055525802):0.0768005770,(XM_007653166_4_PREDICTED_Cricetulus_griseus_brain_:0.0666600488,XM_037204438_1_PREDICTED_Peromyscus_leucopus_brain:0.0297164581):0.0259268757):0.0980773777,XM_029555090_1_PREDICTED_Nannospalax_galili_brain_:0.0649608394):0.0603182280,XM_004660846_2_PREDICTED_Jaculus_jaculus_brain_der:0.1912716400):0.0601442911,(((XM_007497196_2_PREDICTED_Monodelphis_domestica_bra:0.1212507875,((XM_020977976_1_PREDICTED_Phascolarctos_cinereus_br:0.1156377651,XM_027852578_1_PREDICTED_Vombatus_ursinus_brain_de:0.0376574017):0.0254879496,XM_036763631_1_PREDICTED_Trichosurus_vulpecula_bra:0.0605374361):0.0287696276):0.0135842752,XM_031944159_1_PREDICTED_Sarcophilus_harrisii_brai:0.1084858122):0.1236295912,(XM_029059317_2_PREDICTED_Ornithorhynchus_anatinus_:0.0523196543,XM_038764545_1_PREDICTED_Tachyglossus_aculeatus_br:0.0259257617):0.3972775451):0.2068531163):0.0397432741,(((((((((((XM_005654684_3_PREDICTED_Sus_scrofa_brain_derived_:0.0558327550,((((((XM_005216334_4_PREDICTED_Bos_taurus_brain_derived_:0.0032497527,(XM_010831788_1_PREDICTED_Bison_bison_bison_brain_d:0.0000010002,XM_005890667_2_PREDICTED_Bos_mutus_brain_derived_n:0.0000010002):0.0000010002):0.0000021477,XM_019974522_1_PREDICTED_Bos_indicus_brain_derived:0.0000010002):0.0034525816,XM_006068006_2_PREDICTED_Bubalus_bubalis_brain_der:0.0067543681):0.0032054875,XM_020903256_1_PREDICTED_Odocoileus_virginianus_te:0.0684341471):0.0033281845,((XM_012096129_4_PREDICTED_Ovis_aries_brain_derived_:0.0000028719,XM_005690025_2_PREDICTED_Capra_hircus_brain_derive:0.0098205802):0.0032258501,XM_040258919_1_PREDICTED_Oryx_dammah_brain_derived:0.0101460186):0.0037059765):0.0552385858,(((((((XM_024764694_1_PREDICTED_Neophocaena_asiaeoriental:0.0000025918,XM_032641481_1_PREDICTED_Phocoena_sinus_brain_deri:0.0070241165):0.0069204699,XM_022583733_1_PREDICTED_Delphinapterus_leucas_bra:0.0080257349):0.0000023570,XM_029207934_1_PREDICTED_Monodon_monoceros_brain_d:0.0085941272):0.0000024799,XM_027115138_1_PREDICTED_Lagenorhynchus_obliquiden:0.0067289501):0.0000027173,XM_007461679_1_PREDICTED_Lipotes_vexillifer_brain_:0.0101292893):0.0056994087,XM_028501134_1_PREDICTED_Physeter_catodon_brain_de:0.0144669773):0.0016298290,(XM_007180991_1_PREDICTED_Balaenoptera_acutorostrat:0.0096748085,XM_036862552_1_PREDICTED_Balaenoptera_musculus_bra:0.0008915414):0.0156987766):0.0630902597):0.0792649194):0.0218102174,((XM_031681074_1_PREDICTED_Vicugna_pacos_brain_deriv:0.0179025588,(XM_006195083_3_PREDICTED_Camelus_ferus_brain_deriv:0.0000010002,XM_031459858_1_PREDICTED_Camelus_dromedarius_brain:0.0039775260):0.0039807906):0.0000022936,XM_010964743_1_PREDICTED_Camelus_bactrianus_brain_:0.0000010002):0.0603045846):0.0287795547,((((((((XM_013147262_2_PREDICTED_Cavia_porcellus_brain_der:0.0827137272,((XM_005401751_2_PREDICTED_Chinchilla_lanigera_brain:0.0555622995,XM_004644113_2_PREDICTED_Octodon_degus_brain_deriv:0.0713971788):0.0379364528,(XM_004851581_3_PREDICTED_Heterocephalus_glaber_bra:0.0725371410,XM_033764060_1_PREDICTED_Fukomys_damarensis_brain_:0.2149337476):0.0348744407):0.0269322932):0.1723608688,XM_016206154_1_PREDICTED_Miniopterus_natalensis_br:0.1699281883):0.0590404746,XM_036427676_1_PREDICTED_Pipistrellus_kuhlii_brain:0.1272325188):0.1120960153,XM_008148947_2_PREDICTED_Eptesicus_fuscus_brain_de:0.0000021223):0.0527220855,XM_036325692_1_PREDICTED_Myotis_myotis_brain_deriv:0.0062839716):0.0109165989,XM_014545223_1_PREDICTED_Myotis_brandtii_brain_der:0.0000024865):0.0028877691,(XM_006753948_2_PREDICTED_Myotis_davidii_brain_deri:0.0244973548,XM_023756374_1_PREDICTED_Myotis_lucifugus_brain_de:0.0034127610):0.0000029464):0.0600917089,XM_036258707_1_PREDICTED_Molossus_molossus_brain_d:0.0299366709):0.0136201078):0.0019913877,(XM_036879079_1_PREDICTED_Manis_pentadactyla_brain_:0.0158827729,XM_017667612_2_PREDICTED_Manis_javanica_brain_deri:0.0088275321):0.1079745500):0.0067609846,((NM_001081787_1_Equus_caballus_brain_derived_neurot:0.0000010002,XM_014831462_1_PREDICTED_Equus_asinus_brain_derive:0.0035219763):0.0608805302,XM_004418542_2_PREDICTED_Ceratotherium_simum_simum:0.0310176083):0.0846747052):0.0002119388,(XM_004682964_2_PREDICTED_Condylura_cristata_brain_:0.0563754452,XM_037522538_1_PREDICTED_Talpa_occidentalis_brain_:0.0285069307):0.0556706320):0.0033679584,((((((NM_001009828_1_Felis_catus_brain_derived_neurotrop:0.0180044641,XM_030333208_1_PREDICTED_Lynx_canadensis_brain_der:0.0036560733):0.0056040896,XM_015544869_1_PREDICTED_Panthera_tigris_altaica_b:0.0083777678):0.0184975850,XM_029957152_1_PREDICTED_Suricata_suricatta_brain_:0.0218559434):0.0037213984,XM_039217098_1_PREDICTED_Hyaena_hyaena_brain_deriv:0.0186788109):0.0232190588,XM_016194241_1_PREDICTED_Erinaceus_europaeus_brain:0.1817126941):0.0025117983,(((XM_038429434_1_PREDICTED_Canis_lupus_familiaris_br:0.0000022024,(XM_041730708_1_PREDICTED_Vulpes_lagopus_brain_deri:0.0000010002,XM_026018600_1_PREDICTED_Vulpes_vulpes_brain_deriv:0.0000010002):0.0034018531):0.0850095489,((XM_011226480_3_PREDICTED_Ailuropoda_melanoleuca_br:0.0045417465,((XM_004408653_1_PREDICTED_Odobenus_rosmarus_diverge:0.0033517163,(XM_025879326_1_PREDICTED_Callorhinus_ursinus_brain:0.0070255004,(XM_028117708_1_PREDICTED_Eumetopias_jubatus_brain_:0.0000010002,XM_027577807_1_PREDICTED_Zalophus_californianus_br:0.0033892029):0.0034117427):0.0034634123):0.0104202191,((XM_021685880_1_PREDICTED_Neomonachus_schauinslandi:0.0000023246,XM_031025064_1_PREDICTED_Leptonychotes_weddellii_b:0.0033992029):0.0033951966,((XM_036109493_1_PREDICTED_Halichoerus_grypus_brain_:0.0000010002,XM_032414183_1_PREDICTED_Phoca_vitulina_brain_deri:0.0056393540):0.0054316314,XM_035012477_1_PREDICTED_Mirounga_leonina_brain_de:0.0177881608):0.0000029092):0.0112891936):0.0426245133):0.0028899687,XM_026512203_1_PREDICTED_Ursus_arctos_horribilis_b:0.0111853795):0.0220918501):0.0100841924,((((XM_011362565_2_PREDICTED_Pteropus_vampyrus_brain_d:0.0000010002,XM_039866065_1_PREDICTED_Pteropus_giganteus_brain_:0.0035253601):0.0036672149,XM_006907988_2_PREDICTED_Pteropus_alecto_brain_der:0.0031870992):0.0394552214,(((XM_037040421_1_PREDICTED_Sturnira_hondurensis_brai:0.0510344025,XM_037146035_1_PREDICTED_Artibeus_jamaicensis_brai:0.0319970314):0.0063529981,XM_024558903_1_PREDICTED_Desmodus_rotundus_brain_d:0.0157346826):0.0000021391,XM_028517638_2_PREDICTED_Phyllostomus_discolor_bra:0.0092881958):0.0583195327):0.0016178674,(XM_033118944_1_PREDICTED_Rhinolophus_ferrumequinum:0.0620352521,XM_019650718_1_PREDICTED_Hipposideros_armiger_brai:0.0692237669):0.0458213381):0.0387031537):0.0080239532):0.0162312147):0.0082900047,((XM_012649556_1_PREDICTED_Propithecus_coquereli_bra:0.0188681240,XM_020286534_1_PREDICTED_Microcebus_murinus_brain_:0.0088511488):0.0082733367,XM_012814047_1_PREDICTED_Otolemur_garnettii_brain_:0.0390396407):0.0234876837):0.0040457645,(((XM_009007854_3_PREDICTED_Callithrix_jacchus_brain_:0.0303011487,(XM_015476449_1_PREDICTED_Marmota_marmota_marmota_b:0.0000022872,((XM_040284582_1_PREDICTED_Ictidomys_tridecemlineatu:0.0139440669,XM_026412272_1_PREDICTED_Urocitellus_parryii_brain:0.0131722252):0.0284727381,XM_027936596_1_PREDICTED_Marmota_flaviventris_brai:0.0000010002):0.0090101772):0.0319370106):0.0420827005,(XM_013019592_1_PREDICTED_Dipodomys_ordii_brain_der:0.0534781220,XM_020177315_1_PREDICTED_Castor_canadensis_brain_d:0.0322660950):0.0377251480):0.0000022728,XM_031371313_1_PREDICTED_Mastomys_coucha_brain_der:0.0561178269):0.0109014068):0.0288979828,XM_008050727_1_PREDICTED_Carlito_syrichta_brain_de:0.1622776828):0.0719961442,XM_014591303_2_PREDICTED_Tupaia_chinensis_brain_de:0.1463563988):0.0215761246):0.0525196766,(XM_007951952_1_PREDICTED_Orycteropus_afer_afer_bra:0.0687781590,XM_004369733_1_PREDICTED_Trichechus_manatus_latiro:0.0180803451):0.0045618459):0.0369428865,(XM_006883713_1_PREDICTED_Elephantulus_edwardii_bra:0.0468756973,(XM_004708253_2_PREDICTED_Echinops_telfairi_brain_d:0.1586478296,XM_006864851_1_PREDICTED_Chrysochloris_asiatica_br:0.0491246857):0.0112582044):0.0062313697):0.0447411509,((XM_040980297_1_PREDICTED_Ochotona_curzoniae_brain_:0.0137893875,XM_004585440_1_PREDICTED_Ochotona_princeps_brain_d:0.0000022628):0.1411286601,XM_008584165_1_PREDICTED_Galeopterus_variegatus_br:0.0168489213):0.0139955570):0.0081975918,(XM_037839114_1_PREDICTED_Choloepus_didactylus_brai:0.0325466494,XM_012523604_2_PREDICTED_Dasypus_novemcinctus_brai:0.0570078552):0.0265283666):0.0379932488,XM_008003703_2_PREDICTED_Chlorocebus_sabaeus_brain:0.0027749144):0.0015007669,XM_017948537_3_PREDICTED_Papio_anubis_brain_derive:0.0027325352):0.0000026049,((XM_011936307_1_PREDICTED_Colobus_angolensis_pallia:0.0000010002,XM_023230347_2_PREDICTED_Piliocolobus_tephrosceles:0.0000010002):0.0013612204,(XM_033205475_1_PREDICTED_Trachypithecus_francoisi_:0.0027325965,(XM_017858805_1_PREDICTED_Rhinopithecus_bieti_brain:0.0013611122,XM_010374529_2_PREDICTED_Rhinopithecus_roxellana_b:0.0000022285):0.0027302348):0.0000023427):0.0027369614):0.0000024911,XM_015114598_2_PREDICTED_Macaca_mulatta_brain_deri:0.0013627159):0.0015572943,(XM_012031697_1_PREDICTED_Cercocebus_atys_brain_der:0.0013724180,XM_011964715_1_PREDICTED_Mandrillus_leucophaeus_br:0.0027431559):0.0013511363):0.0066257600,((XM_003919940_3_PREDICTED_Saimiri_boliviensis_boliv:0.0211598169,(XM_032283691_1_PREDICTED_Sapajus_apella_brain_deri:0.0027123997,XM_017538722_1_PREDICTED_Cebus_imitator_brain_deri:0.0013719296):0.0016801792):0.0033752296,XM_012452238_1_PREDICTED_Aotus_nancymaae_brain_der:0.0074939924):0.0049346876):0.0031310411,(XM_002821931_2_PREDICTED_Pongo_abelii_brain_derive:0.0097712134,(XM_003254347_2_PREDICTED_Nomascus_leucogenys_brain:0.0013709546,XM_032166370_1_PREDICTED_Hylobates_moloch_brain_de:0.0013658767):0.0027436326):0.0025568327):0.0568743129,XM_004050851_2_PREDICTED_Gorilla_gorilla_gorilla_b:0.0035258792):0.0000024076,(NM_001012441_1_Pan_troglodytes_brain_derived_neuro:0.0035061023,XM_034932318_1_PREDICTED_Pan_paniscus_brain_derive:0.0197253074):0.0199781719);
+(NM_001709_5_Homo_sapiens_brain_derived_neurotrophi:0.0029488377,(((((((((((((((NM_001270630_1_Rattus_norvegicus_brain_derived_neu:0.0000012534,XM_032903861_1_PREDICTED_Rattus_rattus_brain_deriv:0.0042541155):0.0039513138,(((NM_001048142_1_Mus_musculus_brain_derived_neurotro:0.0000012534,XM_021151236_2_PREDICTED_Mus_caroli_brain_derived_:0.0028211013):0.0018641414,XM_021192829_2_PREDICTED_Mus_pahari_brain_derived_:0.0037938749):0.0090284995,XM_031371313_1_PREDICTED_Mastomys_coucha_brain_der:0.0109800869):0.0078256093):0.0104426925,(XM_007653166_4_PREDICTED_Cricetulus_griseus_brain_:0.0211728641,XM_037204438_1_PREDICTED_Peromyscus_leucopus_brain:0.0127118905):0.0101439859):0.0187471730,XM_029555090_1_PREDICTED_Nannospalax_galili_brain_:0.0166596988):0.0120065761,XM_004660846_2_PREDICTED_Jaculus_jaculus_brain_der:0.0877088541):0.0209003930,((XM_013019592_1_PREDICTED_Dipodomys_ordii_brain_der:0.0649145876,(((XM_015476449_1_PREDICTED_Marmota_marmota_marmota_b:0.0014228233,XM_027936596_1_PREDICTED_Marmota_flaviventris_brai:0.0000026642):0.0057591808,XM_040284582_1_PREDICTED_Ictidomys_tridecemlineatu:0.0014519677):0.0014652349,XM_026412272_1_PREDICTED_Urocitellus_parryii_brain:0.0014261417):0.0251335494):0.0028290418,XM_020177315_1_PREDICTED_Castor_canadensis_brain_d:0.0320262305):0.0030767253):0.0095244377,(((XM_040980297_1_PREDICTED_Ochotona_curzoniae_brain_:0.0058549996,XM_004585440_1_PREDICTED_Ochotona_princeps_brain_d:0.0000030463):0.0552774566,XM_008584165_1_PREDICTED_Galeopterus_variegatus_br:0.0147752691):0.0079490161,XM_008050727_1_PREDICTED_Carlito_syrichta_brain_de:0.0704262824):0.0001122808):0.0054867103,XM_014591303_2_PREDICTED_Tupaia_chinensis_brain_de:0.0691779068):0.0000024214,(((((((((((XM_005654684_3_PREDICTED_Sus_scrofa_brain_derived_:0.0252928591,(((((XM_005216334_4_PREDICTED_Bos_taurus_brain_derived_:0.0013811333,XM_010831788_1_PREDICTED_Bison_bison_bison_brain_d:0.0000026561):0.0013937612,XM_006068006_2_PREDICTED_Bubalus_bubalis_brain_der:0.0028022732):0.0011992046,XM_020903256_1_PREDICTED_Odocoileus_virginianus_te:0.0294304840):0.0013656636,((XM_012096129_4_PREDICTED_Ovis_aries_brain_derived_:0.0000012534,XM_005690025_2_PREDICTED_Capra_hircus_brain_derive:0.0041763119):0.0013666860,XM_040258919_1_PREDICTED_Oryx_dammah_brain_derived:0.0042081414):0.0016550377):0.0243861330,(((((XM_024764694_1_PREDICTED_Neophocaena_asiaeoriental:0.0000027727,XM_032641481_1_PREDICTED_Phocoena_sinus_brain_deri:0.0028942435):0.0028457914,((XM_007461679_1_PREDICTED_Lipotes_vexillifer_brain_:0.0042851775,XM_027115138_1_PREDICTED_Lagenorhynchus_obliquiden:0.0028452399):0.0000023683,XM_022583733_1_PREDICTED_Delphinapterus_leucas_bra:0.0000012534):0.0000023642):0.0000024504,XM_029207934_1_PREDICTED_Monodon_monoceros_brain_d:0.0014159946):0.0016230277,XM_028501134_1_PREDICTED_Physeter_catodon_brain_de:0.0185017272):0.0001762713,(XM_007180991_1_PREDICTED_Balaenoptera_acutorostrat:0.0039768601,XM_036862552_1_PREDICTED_Balaenoptera_musculus_bra:0.0005706481):0.0066264785):0.0139875270):0.0133077493):0.0029496547,((XM_031681074_1_PREDICTED_Vicugna_pacos_brain_deriv:0.0073635461,XM_010964743_1_PREDICTED_Camelus_bactrianus_brain_:0.0000028160):0.0000028872,(XM_006195083_3_PREDICTED_Camelus_ferus_brain_deriv:0.0000027931,XM_031459858_1_PREDICTED_Camelus_dromedarius_brain:0.0014451418):0.0014450814):0.0354918990):0.0205488591,(((((((((XM_013147262_2_PREDICTED_Cavia_porcellus_brain_der:0.0476970865,(XM_004851581_3_PREDICTED_Heterocephalus_glaber_bra:0.0299324353,XM_033764060_1_PREDICTED_Fukomys_damarensis_brain_:0.0911851425):0.0135945615):0.0086546417,(XM_005401751_2_PREDICTED_Chinchilla_lanigera_brain:0.0230030974,XM_004644113_2_PREDICTED_Octodon_degus_brain_deriv:0.0294051116):0.0114816974):0.0992340378,XM_036427676_1_PREDICTED_Pipistrellus_kuhlii_brain:0.0274079298):0.0212418392,XM_008148947_2_PREDICTED_Eptesicus_fuscus_brain_de:0.0000027192):0.0168352284,XM_023756374_1_PREDICTED_Myotis_lucifugus_brain_de:0.0000024318):0.0014425451,XM_036325692_1_PREDICTED_Myotis_myotis_brain_deriv:0.0043389175):0.0000024142,XM_014545223_1_PREDICTED_Myotis_brandtii_brain_der:0.0000012534):0.0000024293,XM_006753948_2_PREDICTED_Myotis_davidii_brain_deri:0.0088533216):0.0320759596,(XM_016206154_1_PREDICTED_Miniopterus_natalensis_br:0.1059211445,XM_036258707_1_PREDICTED_Molossus_molossus_brain_d:0.0100255929):0.0076531960):0.0087753275):0.0023257671,(XM_036879079_1_PREDICTED_Manis_pentadactyla_brain_:0.0068131316,XM_017667612_2_PREDICTED_Manis_javanica_brain_deri:0.0036954568):0.0463439486):0.0077858522,((NM_001081787_1_Equus_caballus_brain_derived_neurot:0.0000028402,XM_014831462_1_PREDICTED_Equus_asinus_brain_derive:0.0014477406):0.0254034773,XM_004418542_2_PREDICTED_Ceratotherium_simum_simum:0.0130871964):0.0365056365):0.0000028451,(XM_004682964_2_PREDICTED_Condylura_cristata_brain_:0.0238183626,XM_037522538_1_PREDICTED_Talpa_occidentalis_brain_:0.0122619216):0.0239180921):0.0055331597,((XM_011226480_3_PREDICTED_Ailuropoda_melanoleuca_br:0.0032863110,XM_026512203_1_PREDICTED_Ursus_arctos_horribilis_b:0.0055536976):0.0044418934,((XM_004408653_1_PREDICTED_Odobenus_rosmarus_diverge:0.0014440345,(XM_025879326_1_PREDICTED_Callorhinus_ursinus_brain:0.0029034673,(XM_028117708_1_PREDICTED_Eumetopias_jubatus_brain_:0.0000012534,XM_027577807_1_PREDICTED_Zalophus_californianus_br:0.0014362841):0.0014545554):0.0014438418):0.0045141292,(((XM_021685880_1_PREDICTED_Neomonachus_schauinslandi:0.0000025888,XM_031025064_1_PREDICTED_Leptonychotes_weddellii_b:0.0014433825):0.0014431439,XM_035012477_1_PREDICTED_Mirounga_leonina_brain_de:0.0073507041):0.0000028547,XM_036109493_1_PREDICTED_Halichoerus_grypus_brain_:0.0014449777):0.0029259890):0.0066697784):0.0123165763):0.0016914619,((((XM_011362565_2_PREDICTED_Pteropus_vampyrus_brain_d:0.0000012534,XM_039866065_1_PREDICTED_Pteropus_giganteus_brain_:0.0014441360):0.0016249219,XM_006907988_2_PREDICTED_Pteropus_alecto_brain_der:0.0012797094):0.0204446261,(((XM_037040421_1_PREDICTED_Sturnira_hondurensis_brai:0.0212449746,XM_037146035_1_PREDICTED_Artibeus_jamaicensis_brai:0.0133864650):0.0025958425,XM_024558903_1_PREDICTED_Desmodus_rotundus_brain_d:0.0068482353):0.0002422957,XM_028517638_2_PREDICTED_Phyllostomus_discolor_bra:0.0035338760):0.0238606882):0.0009425326,(XM_033118944_1_PREDICTED_Rhinolophus_ferrumequinum:0.0152244073,XM_019650718_1_PREDICTED_Hipposideros_armiger_brai:0.0290284824):0.0050046790):0.0076792114):0.0000028119,(((((NM_001009828_1_Felis_catus_brain_derived_neurotrop:0.0074408073,XM_030333208_1_PREDICTED_Lynx_canadensis_brain_der:0.0015173328):0.0023572314,XM_015544869_1_PREDICTED_Panthera_tigris_altaica_b:0.0034207831):0.0076989868,XM_029957152_1_PREDICTED_Suricata_suricatta_brain_:0.0086436244):0.0015814175,XM_039217098_1_PREDICTED_Hyaena_hyaena_brain_deriv:0.0076029685):0.0100541170,((XM_038429434_1_PREDICTED_Canis_lupus_familiaris_br:0.0000026824,XM_041730708_1_PREDICTED_Vulpes_lagopus_brain_deri:0.0014394232):0.0360480708,XM_016194241_1_PREDICTED_Erinaceus_europaeus_brain:0.0726747668):0.0035655504):0.0032351186):0.0051628885,((XM_012649556_1_PREDICTED_Propithecus_coquereli_bra:0.0108053854,XM_020286534_1_PREDICTED_Microcebus_murinus_brain_:0.0028784902):0.0044352338,XM_012814047_1_PREDICTED_Otolemur_garnettii_brain_:0.0297660073):0.0152826746):0.0060530489,(((XM_007951952_1_PREDICTED_Orycteropus_afer_afer_bra:0.0298904650,XM_004369733_1_PREDICTED_Trichechus_manatus_latiro:0.0078006683):0.0031336925,(XM_037839114_1_PREDICTED_Choloepus_didactylus_brai:0.0218793142,XM_012523604_2_PREDICTED_Dasypus_novemcinctus_brai:0.0202752741):0.0157809924):0.0025020935,(XM_006883713_1_PREDICTED_Elephantulus_edwardii_bra:0.0198288346,(XM_004708253_2_PREDICTED_Echinops_telfairi_brain_d:0.0697064754,XM_006864851_1_PREDICTED_Chrysochloris_asiatica_br:0.0211302206):0.0046899311):0.0061414862):0.0023672377):0.0007263609):0.0067473278,((XM_007497196_2_PREDICTED_Monodelphis_domestica_bra:0.0361119777,(XM_031944159_1_PREDICTED_Sarcophilus_harrisii_brai:0.0478940703,((XM_020977976_1_PREDICTED_Phascolarctos_cinereus_br:0.0430295643,XM_027852578_1_PREDICTED_Vombatus_ursinus_brain_de:0.0159720002):0.0093358033,XM_036763631_1_PREDICTED_Trichosurus_vulpecula_bra:0.0256486444):0.0107381212):0.0016888621):0.0578014094,(XM_029059317_2_PREDICTED_Ornithorhynchus_anatinus_:0.0246893821,XM_038764545_1_PREDICTED_Tachyglossus_aculeatus_br:0.0083911833):0.1850890152):0.0919628386):0.0155358143,XM_008003703_2_PREDICTED_Chlorocebus_sabaeus_brain:0.0000029000):0.0014621522,(XM_015114598_2_PREDICTED_Macaca_mulatta_brain_deri:0.0000032270,(XM_011936307_1_PREDICTED_Colobus_angolensis_pallia:0.0014693016,(XM_033205475_1_PREDICTED_Trachypithecus_francoisi_:0.0029562655,(XM_017858805_1_PREDICTED_Rhinopithecus_bieti_brain:0.0014687399,XM_010374529_2_PREDICTED_Rhinopithecus_roxellana_b:0.0000028823):0.0029493655):0.0000024147):0.0014692960):0.0000024706):0.0014665877,(XM_012031697_1_PREDICTED_Cercocebus_atys_brain_der:0.0014693913,XM_011964715_1_PREDICTED_Mandrillus_leucophaeus_br:0.0000024492):0.0014861756):0.0044823877,((XM_009007854_3_PREDICTED_Callithrix_jacchus_brain_:0.0073954974,(XM_003919940_3_PREDICTED_Saimiri_boliviensis_boliv:0.0058458793,(XM_032283691_1_PREDICTED_Sapajus_apella_brain_deri:0.0000033690,XM_017538722_1_PREDICTED_Cebus_imitator_brain_deri:0.0014429625):0.0014794873):0.0029806752):0.0000028849,XM_012452238_1_PREDICTED_Aotus_nancymaae_brain_der:0.0043083007):0.0045788277):0.0030194940,(XM_002821931_2_PREDICTED_Pongo_abelii_brain_derive:0.0045134999,(XM_003254347_2_PREDICTED_Nomascus_leucogenys_brain:0.0000028086,XM_032166370_1_PREDICTED_Hylobates_moloch_brain_de:0.0014684328):0.0029600968):0.0030251968):0.0029656350,((NM_001012441_1_Pan_troglodytes_brain_derived_neuro:0.0015290028,XM_034932318_1_PREDICTED_Pan_paniscus_brain_derive:0.0014729219):0.0014678336,XM_004050851_2_PREDICTED_Gorilla_gorilla_gorilla_b:0.0014690622):0.0000033014);
 
 TIME STAMP
 ----------
 
-Date and time: Tue Aug 31 17:05:20 2021
-Total CPU time used: 355.468 seconds (0h:5m:55s)
-Total wall-clock time used: 576.997 seconds (0h:9m:36s)
+Date and time: Fri Sep 17 19:10:11 2021
+Total CPU time used: 375.491 seconds (0h:6m:15s)
+Total wall-clock time used: 131.214 seconds (0h:2m:11s)
 
