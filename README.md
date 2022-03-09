@@ -52,7 +52,7 @@ The following are JSON files produced by HyPhy analyses. These can be visualized
 ```
 
 ## Removing the AOC environment from conda
-```conda env remove --name myenv```
+```conda env remove --name AOC```
 
 ## Starting a tmux session for AOC
 ```tmux new -s AOC ```
