@@ -51,4 +51,8 @@ The following are JSON files produced by HyPhy analyses. These can be visualized
 │   ├── BDNF.BUSTEDS-MH.json
 ```
 
+## Removing the AOC environment from conda
+```conda env remove --name myenv```
 
+## Starting a tmux session for AOC
+```tmux new -s AOC ```
