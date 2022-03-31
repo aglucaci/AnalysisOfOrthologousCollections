@@ -5,9 +5,7 @@ channels:
   - defaults
 
 dependencies:
-<<<<<<< HEAD
   - snakemake=6.4
-=======
   - hyphy=2.5.36
   - iqtree=2.1.2
   - snakemake=6.3.0
@@ -17,5 +15,4 @@ dependencies:
   - biopython=1.78
   - jupyterlab>=3
   - mafft=7.475
->>>>>>> 2431a62be0fb17002f12b83a9505eca1b061a5d4
   - python=3.8
