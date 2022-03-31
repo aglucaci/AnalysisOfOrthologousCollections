@@ -13,35 +13,35 @@ import csv
 import json
 from pathlib import Path
 from snakemake.utils import min_version
-#min_version('6.3.0')
 
 #----------------------------------------------------------------------------
 # Configuration
 #----------------------------------------------------------------------------
 configfile: 'config.yml'
 
-Nucleotide_file = config["Nucleotide"]
-Protein_file = config["Protein"]
-#CSV = config["CSV"]
+with open("cluster.json", "r") as in_c:
+  cluster = json.load(in_c)
+#end with
+
 Label = config["Label"]
-Recombinant = config["Recombinant"]
+Recombinant = config["Recombinants"]
 
 # Batch files
-PREMSA = config["PREMSA"]
-POSTMSA = config["POSTMSA"]
 FMM = config["FMM"]
 BUSTEDS_MH = config["BUSTEDSMH"]
+FITMG94 = config["FITMG94"]
 #LabelTrees_bf = config["LabelTrees"]
 
 # Set output directory
 BASEDIR = os.getcwd()
-#SUBDIR = os.path.join(BASEDIR, 
-#OUTDIR = os.path.join(BASEDIR, *["results", Label, "Recombinants"])
 
-#print("{snakemake} Output directory:", BASEDIR)
+# Set PPN
+PPN = cluster["__default__"]["ppn"]
 
-# Create output dir.
-#Path(BASEDIR).mkdir(parents=True, exist_ok=True)
+# HyPhy settings
+HYPHY = config["HYPHY"]
+HYPHYMPI = config["HYPHYMPI"]
+RES = config["RES"]
 
 #----------------------------------------------------------------------------
 # Helper functions
@@ -52,8 +52,9 @@ BASEDIR = os.getcwd()
 #----------------------------------------------------------------------------
 rule all:
     input:
-        os.path.join(BASEDIR, Recombinant + ".dst"),
+        #os.path.join(BASEDIR, Recombinant + ".dst"),
         os.path.join(BASEDIR, Recombinant + ".treefile"),
+        os.path.join(BASEDIR, Recombinant + ".MG94.json"),
         os.path.join(BASEDIR, Recombinant + ".FEL.json"),
         os.path.join(BASEDIR, Recombinant + ".FUBAR.json"),
         os.path.join(BASEDIR, Recombinant + ".BUSTEDS.json"),
@@ -62,7 +63,7 @@ rule all:
         os.path.join(BASEDIR, Recombinant + ".SLAC.json"),
         os.path.join(BASEDIR, Recombinant + ".BGM.json"),
         os.path.join(BASEDIR, Recombinant + ".PRIME.json"),
-        os.path.join(BASEDIR, Recombinant + ".ABSREL-MH.json"),
+        os.path.join(BASEDIR, Recombinant + ".ABSREL-MH.json"), 
         os.path.join(BASEDIR, Recombinant + ".BUSTEDS-MH.json"),
         os.path.join(BASEDIR, Recombinant + ".FMM.json")
 #end rule all
@@ -76,7 +77,6 @@ rule all:
 #----------------------------------------------------------------------------
 rule tn93:
     input:
-       #input = Recombinant
        input = Recombinant
     output:
        output = os.path.join(BASEDIR, Recombinant + ".dst")
@@ -101,6 +101,16 @@ rule iqtree: # Unrooted
 #----------------------------------------------------------------------------
 # Selection Analyses
 #----------------------------------------------------------------------------
+rule FITMG94:
+    input: 
+        codon_aln = Recombinant,
+        tree = rules.iqtree.output.tree
+    output: 
+        results = os.path.join(BASEDIR, Recombinant + ".MG94.json")
+    conda: 'environment.yml'
+    shell: 
+        "{HYPHY} LIBPATH={RES} {FITMG94} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --rooted No --lrt Yes --type global --frequencies CF3x4"
+#end rule 
 
 rule FEL:
     input: 
@@ -110,7 +120,7 @@ rule FEL:
         results = os.path.join(BASEDIR, Recombinant + ".FEL.json")
     conda: 'environment.yml'
     shell: 
-        "hyphy FEL --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} FEL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --ci Yes"
 #end rule FEL
 
 rule FUBAR:
@@ -121,7 +131,7 @@ rule FUBAR:
         results = os.path.join(BASEDIR, Recombinant + ".FUBAR.json")
     conda: 'environment.yml'    
     shell: 
-        "hyphy FUBAR --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} FUBAR --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule FUBAR
 
 rule BUSTEDS:
@@ -132,7 +142,7 @@ rule BUSTEDS:
         results = os.path.join(BASEDIR, Recombinant + ".BUSTEDS.json")
     conda: 'environment.yml'
     shell: 
-        "hyphy BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10"
 #end rule BUSTEDS
 
 rule MEME:
@@ -143,7 +153,7 @@ rule MEME:
         results = os.path.join(BASEDIR, Recombinant + ".MEME.json")
     conda: 'environment.yml'
     shell: 
-        "hyphy MEME --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} MEME --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule MEME
 
 rule ABSREL:
@@ -154,7 +164,7 @@ rule ABSREL:
         results = os.path.join(BASEDIR, Recombinant + ".ABSREL.json")
     conda: 'environment.yml'
     shell: 
-        "hyphy ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule ABSREL
 
 rule SLAC:
@@ -165,7 +175,7 @@ rule SLAC:
         results = os.path.join(BASEDIR, Recombinant + ".SLAC.json")
     conda: 'environment.yml'
     shell: 
-        "hyphy SLAC --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} SLAC --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule 
 
 rule BGM:
@@ -176,7 +186,7 @@ rule BGM:
         results = os.path.join(BASEDIR, Recombinant + ".BGM.json")
     conda: 'environment.yml'
     shell: 
-        "hyphy BGM --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} BGM --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule 
 
 rule PRIME:
@@ -187,7 +197,7 @@ rule PRIME:
         results = os.path.join(BASEDIR, Recombinant + ".PRIME.json")
     conda: 'environment.yml'
     shell: 
-        "hyphy PRIME --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --impute-states Yes"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} PRIME --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --impute-states Yes"
 #end rule 
 
 rule ABSRELMH:
@@ -198,7 +208,7 @@ rule ABSRELMH:
         results = os.path.join(BASEDIR, Recombinant + ".ABSREL-MH.json")
     conda: 'environment.yml'
     shell: 
-        "hyphy ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --multiple-hits Double+Triple"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --multiple-hits Double+Triple"
 #end rule ABSRELMH
 
 rule BUSTEDSMH:
@@ -209,7 +219,7 @@ rule BUSTEDSMH:
         results = os.path.join(BASEDIR, Recombinant + ".BUSTEDS-MH.json")
     conda: 'environment.yml'
     shell: 
-        "hyphy {BUSTEDS_MH} --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} {BUSTEDS_MH} --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule BUSTEDSMH
 
 rule FMM:
@@ -220,7 +230,7 @@ rule FMM:
         results = os.path.join(BASEDIR, Recombinant + ".FMM.json")
     conda: 'environment.yml'
     shell: 
-        "hyphy {FMM} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --triple-islands Yes"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} {FMM} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --triple-islands Yes"
 #end rule FMM
 
 #----------------------------------------------------------------------------

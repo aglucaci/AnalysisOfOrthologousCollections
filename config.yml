@@ -1,16 +1,77 @@
 # User settings for data files and gene label
-Nucleotide: data/BDNF/BDNF_refseq_transcript.fasta
-Protein: data/BDNF/HU76CMYP212-alignment.fa
-Label: "BDNF"
-Recombinant: results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas
+
+# BDNF
+#Nucleotide: data/BDNF/BDNF_refseq_transcript.fasta
+#Protein: data/BDNF/HU76CMYP212-alignment.fa
+#Label: "BDNF"
+#Recombinant: results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas
+
+# REV3L
+#Nucleotide: data/REV3L/REV3L_refseq_transcript.fasta
+#Protein: data/REV3L/Y0PZ1F8B212-alignment.fa
+#Label: REV3L
+#HumanSeq: results/REV3L/REV3L_Human
+
+# Mammalian REV3L
+#Nucleotide: data/mammalian_REV3L/REV3L_refseq_transcript.fasta
+#Protein: data/mammalian_REV3L/YYBZHZKX212-alignment.fa
+#Label: mammalian_REV3L
+
+# ACE2
+#Nucleotide: data/ACE2/ACE2_refseq_transcript.fasta
+#Protein: data/ACE2/YK2JSM4D212-alignment.fa
+#Label: ACE2
+
+# Mammalian ACE2
+#Nucleotide: data/mammalianACE2/ACE2_refseq_transcript.fasta
+#Protein: data/mammalianACE2/YY8TBGM1212-alignment.fa
+#Label: mammalianACE2
+
+# New ... use this/
+Recombinants: results/mammalianACE2/mammalianACE2.1.codon.fas
+#Recombinants: results/mammalianACE2/mammalianACE2.2.codon.fas
+#Recombinants: results/mammalianACE2/mammalianACE2.3.codon.fas
+
+# Mammalian ACE2 -- GARD TEST
+Nucleotide: data/mammalianACE2/ACE2_refseq_transcript.fasta
+Protein: data/mammalianACE2/YY8TBGM1212-alignment.fa
+Label: mammalianACE2
+
+# New ... use this/
+#Recombinants: results/mammalianACE2/GARD_test/mammalianACE2.1.codon.fas
+#Recombinants: results/mammalianACE2/GARD_test/mammalianACE2.2.codon.fas
+#Recombinants: results/mammalianACE2/GARD_test/mammalianACE2.3.codon.fas
+Recombinants: results/mammalianACE2/GARD_test/mammalianACE2.4.codon.fas
+
+# ---
 
 
-# HyPhy-Analyses batch files
+# NPC1
+#Nucleotide: data/NPC1/NPC1_refseq_transcript.fasta
+#Protein: data/NPC1/1DA7BG8U212-alignment.fa
+#Label: NPC1
+
+# mammalian NPC1 
+#Nucleotide: data/mammalianNPC1/NPC1_refseq_transcript.fasta
+#Protein: data/mammalianNPC1/1DAF7NFK212-alignment.fa
+#Label: mammalianNPC1
+
+# -- MISC, can remove
+#HumanSeq: results/REV3L/REV3L_Human.fasta
+#Recombinant: results/REV3L/Recombinants/REV3L_Recombinants_Main.fas
+#CSV: 
+#Recombinant_Tree: 
+
+# HyPhy-Analyses batch files ------------------------------------------
 PREMSA: /home/aglucaci/hyphy-analyses/codon-msa/pre-msa.bf
 POSTMSA: /home/aglucaci/hyphy-analyses/codon-msa/post-msa.bf
 FMM: /home/aglucaci/hyphy-analyses/FitMultiModel/FitMultiModel.bf
 BUSTEDSMH: /home/aglucaci/hyphy-analyses/BUSTED-MH/BUSTED-MH.bf
-
+HYPHY: /home/aglucaci/hyphy/HYPHYMP
+HYPHYMPI: /home/aglucaci/hyphy/HYPHYMPI
+RES: /home/aglucaci/hyphy/res
+STRIKEAMBIGS: /home/aglucaci/AOC/scripts/strike-ambigs.bf
+FITMG94: /home/aglucaci/hyphy-analyses/FitMG94/FitMG94.bf
 
 # User settings for NCBI Entrez
 EMAIL: ""

@@ -9,16 +9,30 @@ import csv
 import json
 from pathlib import Path
 from snakemake.utils import min_version
-#min_version('6.3.0')
-
+min_version("6.3")
 #----------------------------------------------------------------------------
 # Configuration
 #----------------------------------------------------------------------------
 configfile: 'config.yml'
 
+print("# Loaded config yaml file")
+
+with open("cluster.json", "r") as in_c:
+  cluster = json.load(in_c)
+#end with
+in_c.close()
+
+print("# Loaded cluster json file")
+
 Nucleotide_file = config["Nucleotide"]
 Protein_file = config["Protein"]
 Label = config["Label"]
+
+print("# Using nucleotide data from:", Nucleotide_file)
+print("# Using protein data from:", Protein_file)
+print("# Using the analysis label:", Label)
+
+#HumanSeq = config["HumanSeq"]
 
 # Batch files
 PREMSA = config["PREMSA"]
@@ -26,12 +40,33 @@ POSTMSA = config["POSTMSA"]
 
 # Set output directory
 BASEDIR = os.getcwd()
-OUTDIR = os.path.join(BASEDIR, "results/" + Label)
+
+print("# We are operating out of base directory:", BASEDIR)
+OUTDIR = os.path.join(BASEDIR, "results", Label)
 OUTDIR_RESULTS = os.path.join(BASEDIR, "results")
 
+print("# We will create and store results in:", OUTDIR)
+
 # Create output dir.
-Path(OUTDIR_RESULTS).mkdir(parents=True, exist_ok=True)
-Path(OUTDIR).mkdir(parents=True, exist_ok=True)
+os.makedirs(OUTDIR_RESULTS, exist_ok = True)
+print("# Directory '% s' created" % OUTDIR_RESULTS)
+
+os.makedirs(OUTDIR, exist_ok = True)
+print("# Directory '% s' created" % OUTDIR)
+
+#Path(OUTDIR_RESULTS).mkdir(parents=True, exist_ok=True)
+#Path(OUTDIR).mkdir(parents=True, exist_ok=True)
+
+PPN = cluster["__default__"]["ppn"]
+
+#PPN_MSA = int(PPN) - 7
+
+# Hard-coded HyPhy settings
+HYPHY = config["HYPHY"]
+HYPHYMPI = config["HYPHYMPI"]
+RES = config["RES"]
+
+CODON_OUTPUT = os.path.join(OUTDIR, Label)
 
 #----------------------------------------------------------------------------
 # Helper functions
@@ -43,29 +78,31 @@ Path(OUTDIR).mkdir(parents=True, exist_ok=True)
 #----------------------------------------------------------------------------
 rule all:
     input:
-        os.path.join(OUTDIR, Label),
+        CODON_OUTPUT,
         os.path.join(OUTDIR, Label + "_protein.fas"),
         os.path.join(OUTDIR, Label + "_nuc.fas"),
         os.path.join(OUTDIR, Label + "_protein.aln"),
         os.path.join(OUTDIR, Label + "_codons.fasta"),
         os.path.join(OUTDIR, Label + "_codons_duplicates.json"),
-        os.path.join(OUTDIR, Label + "_codons.fasta.dst"),
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta.dst"),
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta"),
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json")
 #end rule all
 
+print("# Moving on to processing rules")
 #----------------------------------------------------------------------------
 # Rules
 #----------------------------------------------------------------------------
 rule get_codons:
     output:
-        codons = os.path.join(OUTDIR, Label)
+        codons = CODON_OUTPUT
     params:
         Nuc = Nucleotide_file,
         Prot = Protein_file,
-        Out = os.path.join(OUTDIR, Label)
-    conda: 'environment.yml'
+        Out = CODON_OUTPUT
     script:
         "scripts/codons.py"
-#end rule get_codons
+#end rule
 
 rule pre_msa:
     input: 
@@ -73,33 +110,42 @@ rule pre_msa:
     output: 
         protein_fas = os.path.join(OUTDIR, Label + "_protein.fas"),
         nucleotide_fas = os.path.join(OUTDIR, Label + "_nuc.fas")
-    conda: 'environment.yml'
     shell: 
-        "hyphy {PREMSA} --input {input.codons}"
-#end rule pre_msa
+        #"mpirun -np {PPN} HYPHYMPI {PREMSA} --input {input.codons}"
+        #"mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} {PREMSA} --input {input.codons} --reference {HumanSeq}"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} {PREMSA} --input {input.codons}"
+#end rule 
 
 rule mafft:
     input:
         protein = rules.pre_msa.output.protein_fas
     output:
         protein_aln = os.path.join(OUTDIR, Label + "_protein.aln")
-    conda: 'environment.yml'
     shell:
         "mafft --auto {input.protein} > {output.protein_aln}"
-#end rule mafft
+#end rule
 
 rule post_msa:
     input: 
         protein_aln = rules.mafft.output.protein_aln,
-        nucleotide_seqs = rules.pre_msa.output.nucleotide_fas      
+        nucleotide_seqs = rules.pre_msa.output.nucleotide_fas  
     output: 
         codons_fas = os.path.join(OUTDIR, Label + "_codons.fasta"),
         duplicates_json = os.path.join(OUTDIR, Label + "_codons_duplicates.json")
-    conda: 'environment.yml'
     shell: 
-        "hyphy {POSTMSA} --protein-msa {input.protein_aln} --nucleotide-sequences {input.nucleotide_seqs} --output {output.codons_fas} --duplicates {output.duplicates_json}"
-#end rule pre_msa
+        #"mpirun -np {PPN} HYPHYMPI {POSTMSA} --protein-msa {input.protein_aln} --nucleotide-sequences {input.nucleotide_seqs} --output {output.codons_fas} --duplicates {output.duplicates_json}"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} {POSTMSA} --protein-msa {input.protein_aln} --nucleotide-sequences {input.nucleotide_seqs} --output {output.codons_fas} --duplicates {output.duplicates_json}"
+#end rule 
 
+rule strike_ambigs:
+   input:
+       in_msa = rules.post_msa.output.codons_fas
+   output:
+       out_strike_ambigs = os.path.join(OUTDIR, Label + "_codons.SA.fasta")  
+   shell:
+       #"hyphy scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
+       "{HYPHY} LIBPATH={RES} scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
+#end rule 
 #----------------------------------------------------------------------------
 # AlignmentProfiler
 #----------------------------------------------------------------------------
@@ -109,13 +155,25 @@ rule post_msa:
 #----------------------------------------------------------------------------
 rule tn93:
     input:
-       input = rules.post_msa.output.codons_fas
+       input = rules.strike_ambigs.output.out_strike_ambigs
     output:
-       output = os.path.join(OUTDIR, Label + "_codons.fasta.dst")
-    conda: 'environment.yml'
+       output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.dst")
     shell:
        "tn93 -t 1 -o {output.output} {input.input}"
-#end rule tn93
+#end rule
+
+#----------------------------------------------------------------------------
+# Recombination detection
+#----------------------------------------------------------------------------
+
+rule recombination:
+    input: 
+        input = rules.strike_ambigs.output.out_strike_ambigs 
+    output: 
+        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json")
+    shell: 
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} GARD --alignment {input.input} --rv GDD"
+#end rule
 
 
 #----------------------------------------------------------------------------
