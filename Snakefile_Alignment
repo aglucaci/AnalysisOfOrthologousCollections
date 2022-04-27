@@ -9,7 +9,8 @@ import csv
 import json
 from pathlib import Path
 from snakemake.utils import min_version
-min_version("6.3")
+#min_version("6.3")
+
 #----------------------------------------------------------------------------
 # Configuration
 #----------------------------------------------------------------------------
@@ -86,7 +87,9 @@ rule all:
         os.path.join(OUTDIR, Label + "_codons_duplicates.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.dst"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json")
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.json"),
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta"),
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta.GARD.json")
 #end rule all
 
 print("# Moving on to processing rules")
@@ -163,16 +166,37 @@ rule tn93:
 #end rule
 
 #----------------------------------------------------------------------------
+# Downsample for GARD
+#----------------------------------------------------------------------------
+rule tn93_cluster:
+    input:
+        input = rules.strike_ambigs.output.out_strike_ambigs
+    output:
+        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.json")
+    shell:
+        "tn93-cluster -f -o {output.output} -t 0.1 {input.input}" 
+#end rule
+
+rule cluster_to_fasta:
+   input: 
+       input = rules.tn93_cluster.output.output
+   output:
+       output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta")
+   shell:
+       "python scripts/cluster_to_fasta.py -i {input.input} -o {output.output}"
+#end rule 
+
+#----------------------------------------------------------------------------
 # Recombination detection
 #----------------------------------------------------------------------------
 
 rule recombination:
     input: 
-        input = rules.strike_ambigs.output.out_strike_ambigs 
+        input = rules.cluster_to_fasta.output.output 
     output: 
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json")
+        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta.GARD.json")
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} GARD --alignment {input.input} --rv GDD"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} GARD --alignment {input.input} --rv GDD --output {output.output}"
 #end rule
 
 
