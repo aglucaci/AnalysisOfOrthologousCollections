@@ -14,112 +14,71 @@ from Bio import Entrez
 from ete3 import NCBITaxa
 import pandas as pd
 from ete3 import Tree
+import glob
 
 #----------------------------------------------------------------------------
 # Configuration
 #----------------------------------------------------------------------------
 configfile: 'config.yml'
 
+print("# Loaded config yaml file")
+
+with open("cluster.json", "r") as in_c:
+  cluster = json.load(in_c)
+#end with
+in_c.close()
+
+#Nucleotide: data/mammalian_REV3L/REV3L_refseq_transcript.fasta
+#Protein: data/mammalian_REV3L/YYBZHZKX212-alignment.fa
+#Label: mammalian_REV3L
+
 Nucleotide_file = config["Nucleotide"]
 Protein_file = config["Protein"]
 Label = config["Label"]
 CSV = config["CSV"]
-Tree = config["Recombinant_Tree"] + ".treefile" # For IQ-TREE output
-TREE_NEWICK = Tree
-DATA_DICT = {}
 
 # Set output directory
 BASEDIR = os.getcwd()
-OUTDIR = os.path.join(*[BASEDIR, "results", Label, "Recombinants")
+OUTDIR = os.path.join(BASEDIR, "results", Label)
 
 # Create output dir.
-Path(OUTDIR_RESULTS).mkdir(parents=True, exist_ok=True)
-Path(OUTDIR).mkdir(parents=True, exist_ok=True)
+#Path(OUTDIR_RESULTS).mkdir(parents=True, exist_ok=True)
+#Path(OUTDIR).mkdir(parents=True, exist_ok=True)
 
+# This is the main treefile, prior to recombination detection.
+TREE_NEWICK = os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile")
+
+# Recombinants newicks. 
+# results/mammalian_REV3L/mammalian_REV3L.10.codon.fas.treefile
+# .codon.fas
+FASTAS_RECOMBINANTS                 = [x for x in glob.glob(os.path.join(OUTDIR, "*.codon.fas"))]
+FASTAS_RECOMBINANTS_BASENAMES       = [os.path.basename(x) for x in glob.glob(os.path.join(OUTDIR, "*.codon.fas"))]
+TREE_NEWICKS_RECOMBINANTS           = [x for x in glob.glob(os.path.join(OUTDIR, "*.codon.fas.treefile"))]
+TREE_NEWICKS_RECOMBINANTS_BASENAMES = [os.path.basename(x) for x in TREE_NEWICKS_RECOMBINANTS]
+DATA_DICT = {}
+
+# Set PPN
+PPN = cluster["__default__"]["ppn"]
+
+# HyPhy settings
+HYPHY = config["HYPHY"]
+HYPHYMPI = config["HYPHYMPI"]
+RES = config["RES"]
+
+# Report to user
+print("Output directory is:", OUTDIR)
+print("Orthologs (CSV) file is:", CSV)
+print("Main Newick file is:", TREE_NEWICK)
+print("We have", len(TREE_NEWICKS_RECOMBINANTS), "recombinant tree files")
+print(TREE_NEWICKS_RECOMBINANTS)
+print()
+print("# Basenames for Newicks", TREE_NEWICKS_RECOMBINANTS_BASENAMES)
+print()
+print("# Basenames for FASTAs", FASTAS_RECOMBINANTS_BASENAMES)
+print()
 #----------------------------------------------------------------------------
 # Helper functions
 #----------------------------------------------------------------------------
-def match_transcript_to_tree(TREE_NEWICK, accession):
-    t = Tree(TREE_NEWICK, format=1)
-    
-    # uncomment to debug
-    #print("# in 'match_transcript_to_tree'", accession)
-    
-    for leafname in t.get_leaf_names():
-        if accession in leafname:
-            # uncomment to debug
-            #print("# Returning:", leafname)
-            return leafname
-        #end if
-    #end for
-#end match
-    
-def main(transcript_accessions):
-    global DATA_DICT, TREE_NEWICK
-    count = 1
-    for ACCESSION in transcript_accessions:
-        #print("# Checking ACCESION:", ACCESSION)
-        skip = False
-        for i in DATA_DICT.keys():
-            if ACCESSION == DATA_DICT[i]["ACCESSION"]:
-                skip = True
-                break
-            #end if
-        #end for
-        if skip == True: 
-            count += 1
-            continue
-        #end if
-        
-        try:
-            handle = Entrez.esummary(db="nucleotide", id=ACCESSION, rettype="gb", retmode="text", retmax=1)
-            records = Entrez.parse(handle)
-        except Exception as e:
-            print("# Error, sleeping", e)
-            time.sleep(5)
-            handle = Entrez.esummary(db="nucleotide", id=ACCESSION, rettype="gb", retmode="text", retmax=1)
-            records = Entrez.parse(handle)
-        #end try
-        
-        try:
-            for record in records:
-                TAXON_ID = record["TaxId"]
-                
-                print("#", count, "Processing transcript accession:", str(ACCESSION), "with NCBI Taxon ID:", str(TAXON_ID))
-                ncbi = NCBITaxa()
-                
-                lineage = ncbi.get_lineage(TAXON_ID)
-                # uncomment to debug
-                #print(lineage) # returns a list of taxon id's
-                
-                names = ncbi.get_taxid_translator(lineage)
-                # uncomment to debug
-                #print(names) # translates the taxon id's into clade names
-                
-                # uncomment to debug
-                #print("# ACCESSION:", ACCESSION)
-                leafname = ""
-                leafname = match_transcript_to_tree(TREE_NEWICK, ACCESSION.replace(".", "_"))
-                
-                # uncomment to debug
-                #print(leafname)
-                
-                DATA_DICT[str(count)] = {"ACCESSION": ACCESSION, "TAXON_ID": TAXON_ID, 
-                                         "LINEAGE": [names[taxid] for taxid in lineage], 
-                                         "TITLE":record["Title"], "LEAFNAME": leafname}
-                count += 1
-            #end inner for
-            handle.close
-        except Exception as e:
-            print("# Error (in main):", ACCESSION, e, "\n")
-            #print(names)
-            #print(e)
-            #main(TREE_NEWICK) # Recursive.
-            #break
-        #end try
-    #end outer for    
-    #return DATA_DICT
-#end method
 
 
 #----------------------------------------------------------------------------
@@ -127,55 +86,87 @@ def main(transcript_accessions):
 #----------------------------------------------------------------------------
 rule all:
     input:
-        os.path.join(OUTDIR, ".clade")
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile.log"),
+        #os.path.join(OUTDIR, "CladeLabels.json"),
+        expand(os.path.join(OUTDIR, "{sample}.labelled"), sample=TREE_NEWICKS_RECOMBINANTS_BASENAMES),
+        expand(os.path.join(OUTDIR, "{sample}.RELAX.json"), sample=FASTAS_RECOMBINANTS_BASENAMES),
+        expand(os.path.join(OUTDIR, "{sample}.CFEL.json"), sample=FASTAS_RECOMBINANTS_BASENAMES)
 #end rule all
 
 #----------------------------------------------------------------------------
 # Rules
 #----------------------------------------------------------------------------
-rule get_lineages:
+rule GatherLineages:
     input:
-        csv = CSV
-        tree = Tree
-        email = "aglucaci@gmail.com"
+        out_d  = OUTDIR,
+        csv_f  = CSV,
+        tree_f = TREE_NEWICK
     output:
-        os.path.join(OUTDIR, ".clade")
-    conda: 'environment.yml'
-    run:
-        with open(TREE_FILE, "r") as fh:
-            TREE_NEWICK = fh.read()
-        #end with
-        df = pd.read_csv(CSV_FILE)
-        df.index += 1
-        transcript_accessions = df['RefSeq Transcript accessions'].tolist()
-        main(transcript_accessions)
-        # after data is gathered.
-        df2 = pd.DataFrame.from_dict(DATA_DICT, orient="index")
-        lineages = df2['LINEAGE'].tolist()
-        num_taxa = 20
-        for i in range(len(lineages[0])):
-            to_add = []
-            for species in lineages:
-                to_add.append(species[i])
-            #end inner for
-            df2["Annotation"] = to_add
-            a = df2["Annotation"].nunique() # number of unique taxa
-            if a >= num_taxa: break
-        
-        print("#",i, "=", df2["Annotation"].nunique())
-        #end outer for
-        #Output, can do quality control.
-        for item in set(df2["Annotation"].to_list()):
-            df3 = df2[df2["Annotation"] == item]
-            df3 = df3.dropna()
-            output_file_clade = os.path.join(*["..", "results", "BDNF", "Recombinants", item.replace(" ", "_") + ".clade"])
-            print("# Saving", str(len(df3["LEAFNAME"].to_list())), "to:", output_file_clade)
-            with open(output_file_clade, "w") as fh:
-                fh.write("\n".join(df3["LEAFNAME"].to_list()))
-            #end with
-        #end for 
-#end rule get_codons
+        output = TREE_NEWICK + ".log"
+        #json   = os.path.join(OUTDIR, "CladeLabels.json")
+    shell:
+        "python scripts/LineageAnnotation_Pipeline.py {input.out_d} {input.csv_f} {input.tree_f}"
+#end rule
 
+CLADE_FILES = [x for x in glob.glob(os.path.join(OUTDIR, "*.clade"))]
+print("# We have", len(CLADE_FILES), "clade files")
+print(CLADE_FILES) 
+
+# For each of the recombinant trees, annotate it according to the clade files.
+rule AssignLineages:
+    input:
+        #os.path.join(OUTDIR, "{sample}"), rules.GatherLineages.output.json
+        os.path.join(OUTDIR, "{sample}")
+    output:
+        os.path.join(OUTDIR, "{sample}.labelled")
+    run:
+        first_time = True
+        for clade_file in CLADE_FILES:
+            print(clade_file, input[0])
+            label      = os.path.basename(clade_file).split(".")[0]
+
+            if first_time == True:
+            	cmd = " ".join(["hyphy", "scripts/label-tree.bf",
+                            	"--tree", input[0],
+                            	"--list", clade_file,
+                            	"--output", output[0],
+                            	"--label", label])
+                first_time = False
+            else:
+                cmd = " ".join(["hyphy", "scripts/label-tree.bf",
+                            	"--tree", output[0],
+                            	"--list", clade_file,
+                            	"--output", output[0],
+                            	"--label", label])
+            #end if
+            print(cmd)
+            os.system(cmd)
+#end rule
+
+# mammalian_REV3L.11.codon.fas.treefile.labelled
+
+rule RELAX:
+    input:
+        treefile = os.path.join(OUTDIR, "{sample}.treefile.labelled"),
+        fasta    = os.path.join(OUTDIR, "{sample}")
+    output:
+        output = os.path.join(OUTDIR, "{sample}.RELAX.json")
+    shell:
+        #"mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} RELAX --alignment {input.fasta} --tree {input.treefile} --reference Carnivora --test {params.label} --starting-points 10 --srv Yes"
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} RELAX --alignment {input.fasta} --tree {input.treefile} --output {output.output} --reference-group Primates --models All --mode 'Group mode' --starting-points 10 --srv Yes"
+#end rule
+
+rule CFEL:
+    input:  
+        treefile = os.path.join(OUTDIR, "{sample}.treefile.labelled"),
+        fasta    = os.path.join(OUTDIR, "{sample}")
+    output: 
+        output = os.path.join(OUTDIR, "{sample}.CFEL.json")
+    params:
+        label = os.path.basename("{sample}").split(".")[0]
+    shell:
+        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} contrast-fel --alignment {input.fasta} --tree {input.treefile} --output {output.output} --branch-set Primates"
+#end file
 
 #----------------------------------------------------------------------------
 # End of file

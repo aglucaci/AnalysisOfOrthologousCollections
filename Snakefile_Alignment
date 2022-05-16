@@ -87,9 +87,11 @@ rule all:
         os.path.join(OUTDIR, Label + "_codons_duplicates.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.dst"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta"),
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta.GARD.json")
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta.GARD.json"),
+        os.path.join(OUTDIR, Label + ".1.codon.fas")
 #end rule all
 
 print("# Moving on to processing rules")
@@ -154,6 +156,20 @@ rule strike_ambigs:
 #----------------------------------------------------------------------------
 
 #----------------------------------------------------------------------------
+# IQ-TREE for ML tree inference
+#----------------------------------------------------------------------------
+rule iqtree: # Unrooted
+    input:
+        codons_fas = rules.strike_ambigs.output.out_strike_ambigs
+    output:
+        tree = os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile")  
+    conda: 'environment.yml'
+    shell:
+        "iqtree -s {input.codons_fas} -T AUTO"
+#end rule iqtree
+
+
+#----------------------------------------------------------------------------
 # TN93, on codon alignment, can be modified for distance calcs on protein aln
 #----------------------------------------------------------------------------
 rule tn93:
@@ -199,6 +215,18 @@ rule recombination:
         "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} GARD --alignment {input.input} --rv GDD --output {output.output}"
 #end rule
 
+#----------------------------------------------------------------------------
+# Split out GARD partitions
+#----------------------------------------------------------------------------
+
+rule gard_parse:
+    params:
+        genelabel = Label
+    output:
+        output = os.path.join(OUTDIR, Label + ".1.codon.fas")
+    notebook:
+        "notebooks/GARD_parse.ipynb"
+#end rule
 
 #----------------------------------------------------------------------------
 # End of file

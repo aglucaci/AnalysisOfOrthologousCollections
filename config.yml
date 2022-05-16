@@ -13,10 +13,11 @@
 #HumanSeq: results/REV3L/REV3L_Human
 
 # Mammalian REV3L
-#Nucleotide: data/mammalian_REV3L/REV3L_refseq_transcript.fasta
-#Protein: data/mammalian_REV3L/YYBZHZKX212-alignment.fa
-#Label: mammalian_REV3L
-
+Nucleotide: data/mammalian_REV3L/REV3L_refseq_transcript.fasta
+Protein: data/mammalian_REV3L/YYBZHZKX212-alignment.fa
+CSV: data/mammalian_REV3L/REV3L_orthologs.csv
+Label: mammalian_REV3L
+ 
 # ACE2
 #Nucleotide: data/ACE2/ACE2_refseq_transcript.fasta
 #Protein: data/ACE2/YK2JSM4D212-alignment.fa
@@ -28,20 +29,20 @@
 #Label: mammalianACE2
 
 # New ... use this/
-Recombinants: results/mammalianACE2/mammalianACE2.1.codon.fas
+#Recombinants: results/mammalianACE2/mammalianACE2.1.codon.fas
 #Recombinants: results/mammalianACE2/mammalianACE2.2.codon.fas
 #Recombinants: results/mammalianACE2/mammalianACE2.3.codon.fas
 
 # Mammalian ACE2 -- GARD TEST
-Nucleotide: data/mammalianACE2/ACE2_refseq_transcript.fasta
-Protein: data/mammalianACE2/YY8TBGM1212-alignment.fa
-Label: mammalianACE2
+#Nucleotide: data/mammalianACE2/ACE2_refseq_transcript.fasta
+#Protein: data/mammalianACE2/YY8TBGM1212-alignment.fa
+#Label: mammalianACE2
 
 # New ... use this/
 #Recombinants: results/mammalianACE2/GARD_test/mammalianACE2.1.codon.fas
 #Recombinants: results/mammalianACE2/GARD_test/mammalianACE2.2.codon.fas
 #Recombinants: results/mammalianACE2/GARD_test/mammalianACE2.3.codon.fas
-Recombinants: results/mammalianACE2/GARD_test/mammalianACE2.4.codon.fas
+#Recombinants: results/mammalianACE2/GARD_test/mammalianACE2.4.codon.fas
 
 # ---
 
