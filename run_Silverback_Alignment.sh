@@ -10,13 +10,12 @@ mkdir -p logs
 
 snakemake \
       -s Snakefile_Alignment \
-      --cluster-config cluster.yml \
-      --cluster "qsub -V -l nodes={cluster.nodes}:ppn={cluster.ppn} -q {cluster.name} -l walltime=72:00:00 -e logs -o logs" \
+      --cluster-config cluster.json \
+      --cluster "qsub -V -l nodes={cluster.nodes}:ppn={cluster.ppn} -q {cluster.name} -l walltime=730:00:00 -e logs -o logs" \
       --jobs 10 all \
       --rerun-incomplete \
       --keep-going \
       --reason \
-      --latency-wait 60 \
-      --use-conda
+      --latency-wait 60 
 
 # End of file 

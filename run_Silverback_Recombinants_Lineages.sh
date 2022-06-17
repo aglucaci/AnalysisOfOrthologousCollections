@@ -10,7 +10,7 @@ mkdir -p logs
 
 snakemake \
       -s Snakefile_Recombinants_Lineages \
-      --cluster-config cluster.yml \
+      --cluster-config cluster.json \
       --cluster "qsub -V -l nodes={cluster.nodes}:ppn={cluster.ppn} -q {cluster.name} -l walltime=120:00:00 -e logs -o logs" \
       --jobs 20 all \
       --rerun-incomplete \

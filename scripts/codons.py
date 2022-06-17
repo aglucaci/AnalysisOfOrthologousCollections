@@ -26,8 +26,17 @@ import argparse
 PROTEIN_FASTA = snakemake.params.Prot
 TRANSCRIPTS_FASTA = snakemake.params.Nuc
 OUTPUT = snakemake.params.Out
+
 results = []
 no_match = []
+
+logfile = OUTPUT + ".log"
+
+with open(logfile, "w") as fh2:
+    print("", file=fh2)
+#end with
+
+fh2.close()
 
 # =============================================================================
 # Helper functions
@@ -47,11 +56,24 @@ def already_in_results(transcript_desc):
     return Found
 #end method
 
-def Process(protein_desc, protein_seq, TRANSCRIPTS_FASTA, species): #protein species
-    global results, no_match
+def log(msg, logfile):
+    with open(logfile, "a") as fh2:
+        print(msg, file=fh2)
+    #end with
+    fh2.close()
+#end method
+
+def Process(protein_desc, protein_seq, TRANSCRIPTS_FASTA, species, seq_threshold = None): #protein species
+    global results, no_match, logfile
     start = 0
     NT_SEQ_LENGTH = len(protein_seq) * 3
-    # loop over all of the TRANSCRIPTS_Fasta seqs
+    # loop over all of the TRANSCRIPTS_Fasta seq
+
+    #if seq_threshold != None:
+    #    seq_threshold = seq_threshold / 2
+    #    log("# Sequence length treshold is: " + str(seq_threshold), logfile)
+    #end if
+  
     with open(TRANSCRIPTS_FASTA, "r") as transcript_handle:
         for m, transcript_record in enumerate(SeqIO.parse(transcript_handle, "fasta")):
             DONE = False
@@ -59,11 +81,25 @@ def Process(protein_desc, protein_seq, TRANSCRIPTS_FASTA, species): #protein spe
             transcript_id = transcript_record.id
             transcript_desc = transcript_record.description
             transcript_seq = transcript_record.seq
+
+            #if seq_threshold != None:
+            #    #seq_threshold = seq_threshold / 2
+            #    #log("# Sequence length treshold is: " + seq_threshold, logfile)
+            #    if len(transcript_seq) < seq_threshold:
+            #        with open(logfile, "a") as fh2:
+            #            print("# Sequence length minimum is:", seq_threshold, file=fh2)
+            #            print("# Skipping this sequence due to it failing the sequence length minimum:", transcript_record.description, file = fh2)
+            #        #end with
+            #        fh2.close()
+            #        continue
+            #    #end if
+            ##end if
  
             if species not in transcript_desc: 
                 #print("# Mismatch between species") # move on to the next one
                 continue # only look at sequences from your species, not something similar.
             #end if
+
             #print("TX DESC:", transcript_desc)
             # can be a separate subroutine.
             start = 0
@@ -93,10 +129,10 @@ def Process(protein_desc, protein_seq, TRANSCRIPTS_FASTA, species): #protein spe
             if DONE == True:  break
         #end for
     #end with
+
     if DONE == True:
         #return transcript_id, transcript_desc, coding_seq
-        transcript_record.seq = coding_seq
-        
+        transcript_record.seq = coding_seq        
         # If it fails, return a known
         return transcript_record
     else:
@@ -104,22 +140,22 @@ def Process(protein_desc, protein_seq, TRANSCRIPTS_FASTA, species): #protein spe
     #end if
 #end method
 
+
+# Average length of sequences?
+# Skip those that are half the average.
+
+def average_seq_length():
+    pass
+
 # =============================================================================
 # Main subroutine.
 # =============================================================================
-def progressBar(value, endvalue, bar_length=50):
-    percent = float(value) / endvalue
-    arrow = '-' * int(round(percent * bar_length)-1) + '>'
-    spaces = ' ' * (bar_length - len(arrow))
-    sys.stdout.write("\rPercent: [{0}] {1}%".format(arrow + spaces, int(round(percent * 100))))
-    sys.stdout.flush()
-#end method
-
 def main(PROTEIN, TRANSCRIPTS): # Really to verify things.
     print("# TRANSCRIPT INPUT FILE:", TRANSCRIPTS)
     print("# PROTEIN INPUT FILE:", PROTEIN)
     protein_list = []
     transcript_list = []
+
     with open(TRANSCRIPTS, "r") as handle:
         trans_count = 0 
         for record in SeqIO.parse(handle, "fasta"):
@@ -165,6 +201,31 @@ successful_count = 0
 num_errors = 0
 errors_IDs = []
 
+# Get average sequence length.
+
+prot_seq_lengths = []
+
+with open(PROTEIN_FASTA, "r") as prot_handle:
+    for n, record in enumerate(SeqIO.parse(prot_handle, "fasta")):
+        prot_seq_lengths.append(len(record.seq.ungap("-")))
+    #end for
+#end with
+prot_handle.close()
+
+avg_sequence_length = sum(prot_seq_lengths) / len(prot_seq_lengths) 
+avg_sequence_length_nt = avg_sequence_length * 3
+
+     
+with open(logfile, "a") as fh2:
+    #print()
+    #print("# Processing:", protein_desc, file=fh2)
+    print("# Average sequence length is (PROTEIN AA ungapped):", avg_sequence_length, file=fh2)
+    print("# Average sequence length is (NUCLEOTIDE NUC):", avg_sequence_length_nt, file=fh2)
+#end with
+fh2.close()
+#print("# Average sequence length is:", avg_sequence_length)
+
+
 # Grab the mrna transcript
 # iterate over the possible proteins from it.
 # Does any of them match a protein within the protein file? if so, have a dict store the transcript, protein pair.
@@ -182,50 +243,107 @@ with open(PROTEIN_FASTA, "r") as prot_handle:
         protein_id = record.id 
         protein_desc = record.description
         protein_seq = record.seq
-        
-        print("# Processing:", record.description)
+       
+        #print() 
+        # Send to log 
+        with open(logfile, "a") as fh2:
+            print("\n", file=fh2)
+            print("# Processing:", protein_desc, file=fh2)
+        #end with
+        fh2.close()
+
+        if "LOW QUALITY PROTEIN" in str(protein_desc) or "partial" in str(protein_desc):
+            with open(logfile, "a") as fh2:
+                print("# Skipping this sequence due to quality issues", record.description, file = fh2) 
+            #end with
+            fh2.close()
+            continue
+        #end if
 
         species = ""
 
-        if "[" in record.description:
+        if "[" in protein_desc:
             species = record.description.split("[")[1].replace("]", "")
- 
-        #if "PREDICTED:" in record.description:
-        #    species = " ".join(record.description.split(" ")[2:4])
+        #end if
 
-        #if species == "":
-        #    species = " ".join(record.description.split(" ")[1:3])
-        print("# Species:", species)
 
-        #print([species])
-        #continue
-        #print(n+1, protein_desc)
-        #transcript_id, transcript_desc, coding_seq = Process (protein_desc, protein_seq, TRANSCRIPTS_FASTA)
-        tx_record = Process (protein_desc, protein_seq.ungap("-"), TRANSCRIPTS_FASTA, species)
-        #results[tx_record.id] = {"TX_DESC": tx_record.desc, "CodonSequence": tx_record.seq}
+        with open(logfile, "a") as fh2:
+            print("# Species:", species, file=fh2)
+        #end with
+        fh2.close()
+
+        # Threshold here based on protein length.
+        #if int(avg_sequence_length) > 0:
+        #    prot_threshold = avg_sequence_length / 2
+        #    if len(protein_seq.ungap("-")) < prot_threshold:
+        #        log("# Skipping protein sequence, failed to meet minimum length requirement", logfile)
+        #        continue 
+        #    #end if
+        #    #continue
+        ##end if 
+
+        # Heavy lifting here.
+        tx_record = Process (protein_desc, protein_seq.ungap("-"), TRANSCRIPTS_FASTA, species, int(avg_sequence_length_nt))
 
         if type(tx_record) != str:
-            print("# Match:", tx_record.description, "\n")
+            with open(logfile, "a") as fh2:
+                print("# Match:", tx_record.description, "\n", file=fh2)
+            #end with
+            fh2.close()
             results.append(tx_record)
         else:
             # No match...
-            print("# -- NO Match -- \n")
+            with open(logfile, "a") as fh2:
+                print("# -- NO Match -- \n", file=fh2)
+            #end with
+            fh2.close()
             no_match.append(protein_desc)
-            pass
+            #pass
     #end for
 #end with
 
+# Bad binary operator fix here?
+
+#for item in results:
+#    a = str(item.description).split(" ")
+#    #item.description = "_".join([a[0], a[1], a[2]])
+#    item.id = "_".join([a[0], a[1], a[2]])
+#    item.description = ""
 
 # Write out records
-print("# Writing to:", OUTPUT)
+with open(logfile, "a") as fh2:
+    print("# Writing data to:", OUTPUT, file=fh2)
+#end with
+fh2.close()
+
+# Write
 SeqIO.write(results, OUTPUT, "fasta")
 
-# Report on no matches
-print("--- The following had no matches")
-print("Total:", len(no_match))
-for item in no_match:
-    print(item)
-#sys.exit(0)
+"""
+with open(OUTPUT, "a") as fh:
+    #fh.write("")
+    for item in results:
+         fh.write(">" + str(item.description) + "\n" + str(item.seq) + "\n")
+fh.close()
+"""
+
+# Report on no matches, this needs to be written to a log
+
+# Send to log 
+with open(logfile, "a") as fh2:
+    print("--- The following had no matches", file=fh2)
+    for item in no_match: 
+        print(item, file=fh2)
+#end with
+fh2.close()
+
+
+#print("--- The following had no matches")
+#print("Total:", len(no_match))
+#for item in no_match:
+#    print(item)
+
+
 # =============================================================================
 # End of file    
 # =============================================================================

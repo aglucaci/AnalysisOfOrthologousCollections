@@ -1,0 +1,2349 @@
+{
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond",
+   "contact":"spond@temple.edu",
+   "info":"Fit an MG94xREV model with several selectable options frequency estimator and \nreport the fit results including dN/dS ratios, and synonymous and non-synonymous branch lengths. v0.2 adds LRT test for dN/dS != 1",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"0.2"
+  },
+ "branch attributes":{
+   "0":{
+     "NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1",
+       "synonymous":1e-10
+      },
+     "NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
+       "Nucleotide GTR":0.01457834408426313,
+       "Standard MG94":0.01472525839336702,
+       "dN":0.01230444462198997,
+       "dS":0.02201383848869773,
+       "nonsynonymous":0.009236614703976792,
+       "original name":"NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1",
+       "synonymous":0.005488643689390236
+      },
+     "Node10":{
+       "Nucleotide GTR":0.01502083579056183,
+       "Standard MG94":0.02976015024227226,
+       "dN":0.02486761935281802,
+       "dS":0.04449057010285577,
+       "nonsynonymous":0.0186674511222262,
+       "synonymous":0.01109269912004605
+      },
+     "Node100":{
+       "Nucleotide GTR":0.01403073431226123,
+       "Standard MG94":0.01409891957733576,
+       "dN":0.01178107511154858,
+       "dS":0.0210774799429268,
+       "nonsynonymous":0.008843735328737319,
+       "synonymous":0.005255184248598441
+      },
+     "Node105":{
+       "Nucleotide GTR":0.02250034384452816,
+       "Standard MG94":0.02703493143048821,
+       "dN":0.02259042305129123,
+       "dS":0.04041644622900923,
+       "nonsynonymous":0.01695802127888864,
+       "synonymous":0.01007691015159956
+      },
+     "Node11":{
+       "Nucleotide GTR":0.01508093496410784,
+       "Standard MG94":0.01478675499927831,
+       "dN":0.01235583126402109,
+       "dS":0.02210577414877033,
+       "nonsynonymous":0.009275189270156267,
+       "synonymous":0.005511565729122037
+      },
+     "Node112":{
+       "Nucleotide GTR":0.0151287178633278,
+       "Standard MG94":0.01616305868494493,
+       "dN":0.01350587237236278,
+       "dS":0.02416330864074991,
+       "nonsynonymous":0.01013849411144123,
+       "synonymous":0.006024564573503699
+      },
+     "Node113":{
+       "Nucleotide GTR":0.07223520190343026,
+       "Standard MG94":0.07257193573042824,
+       "dN":0.06064120169924496,
+       "dS":0.108492960144009,
+       "nonsynonymous":0.04552171450965348,
+       "synonymous":0.02705022122077483
+      },
+     "Node12":{
+       "Nucleotide GTR":0.02717267383611083,
+       "Standard MG94":0.02572289007650304,
+       "dN":0.0214940796289481,
+       "dS":0.03845498207771586,
+       "nonsynonymous":0.01613502584215637,
+       "synonymous":0.009587864234346698
+      },
+     "Node13":{
+       "Nucleotide GTR":0.01523536834799115,
+       "Standard MG94":0.01586201188123757,
+       "dN":0.01325431728070387,
+       "dS":0.02371325231322649,
+       "nonsynonymous":0.009949658489041464,
+       "synonymous":0.005912353392196095
+      },
+     "Node136":{
+       "Nucleotide GTR":0.04839143130136597,
+       "Standard MG94":0.0489102599075659,
+       "dN":0.04086947531941894,
+       "dS":0.0731194341914151,
+       "nonsynonymous":0.03067961279654328,
+       "synonymous":0.01823064711102259
+      },
+     "Node14":{
+       "Nucleotide GTR":0.04107188512645557,
+       "Standard MG94":0.04313573228257927,
+       "dN":0.03604427269942251,
+       "dS":0.06448668119726454,
+       "nonsynonymous":0.02705746333439889,
+       "synonymous":0.01607826894818034
+      },
+     "Node145":{
+       "Nucleotide GTR":0.01459200079646452,
+       "Standard MG94":0.01444754786083502,
+       "dN":0.01207238934817402,
+       "dS":0.02159866921652227,
+       "nonsynonymous":0.009062417068885388,
+       "synonymous":0.005385130791949633
+      },
+     "Node149":{
+       "Nucleotide GTR":0.02915785645315201,
+       "Standard MG94":0.02889230520494276,
+       "dN":0.02414244693702538,
+       "dS":0.04319316669066193,
+       "nonsynonymous":0.01812308374893914,
+       "synonymous":0.01076922145600363
+      },
+     "Node152":{
+       "Nucleotide GTR":0.0149503916107478,
+       "Standard MG94":0.01463367773688352,
+       "dN":0.01222791970907878,
+       "dS":0.02187692803682919,
+       "nonsynonymous":0.009179169515873562,
+       "synonymous":0.005454508221009942
+      },
+     "Node159":{
+       "Nucleotide GTR":0.01479229050503437,
+       "Standard MG94":0.0144913002757882,
+       "dN":0.01210894892169649,
+       "dS":0.02166407782060515,
+       "nonsynonymous":0.00908986135464903,
+       "synonymous":0.005401438921139171
+      },
+     "Node16":{
+       "Nucleotide GTR":0.01242691977175589,
+       "Standard MG94":0.01205658485491298,
+       "dN":0.01007449762269866,
+       "dS":0.01802424817488348,
+       "nonsynonymous":0.007562653637425872,
+       "synonymous":0.004493931217487095
+      },
+     "Node161":{
+       "Nucleotide GTR":0.01479985777990908,
+       "Standard MG94":0.01455942883172265,
+       "dN":0.01216587722959289,
+       "dS":0.02176592805553787,
+       "nonsynonymous":0.009132595899924536,
+       "synonymous":0.005426832931798121
+      },
+     "Node166":{
+       "Nucleotide GTR":0.01463564627793494,
+       "Standard MG94":0.01483184565178931,
+       "dN":0.01239350907054711,
+       "dS":0.0221731833795771,
+       "nonsynonymous":0.009303472983274849,
+       "synonymous":0.005528372668514466
+      },
+     "Node167":{
+       "Nucleotide GTR":0.01448892606662012,
+       "Standard MG94":0.01470866497904708,
+       "dN":0.01229057914390223,
+       "dS":0.02198903181073953,
+       "nonsynonymous":0.009226206263554054,
+       "synonymous":0.005482458715493025
+      },
+     "Node17":{
+       "Nucleotide GTR":0.04820617411222019,
+       "Standard MG94":0.06494750942894476,
+       "dN":0.05427022139486496,
+       "dS":0.09709466174501828,
+       "nonsynonymous":0.0407391914323408,
+       "synonymous":0.02420831799660396
+      },
+     "Node179":{
+       "Nucleotide GTR":0.01493531028434675,
+       "Standard MG94":0.01447101224849001,
+       "dN":0.01209199622031012,
+       "dS":0.02163374780232868,
+       "nonsynonymous":0.009077135418964164,
+       "synonymous":0.005393876829525856
+      },
+     "Node180":{
+       "Nucleotide GTR":0.0282287405646425,
+       "Standard MG94":0.02919637372978652,
+       "dN":0.02439652698270494,
+       "dS":0.043647740404521,
+       "nonsynonymous":0.01831381478621951,
+       "synonymous":0.01088255894356702
+      },
+     "Node181":{
+       "Nucleotide GTR":0.001989229841636444,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "synonymous":1e-10
+      },
+     "Node183":{
+       "Nucleotide GTR":0.02935477094657723,
+       "Standard MG94":0.02830307710488775,
+       "dN":0.02365008718800305,
+       "dS":0.04231228759970791,
+       "nonsynonymous":0.01775348256520604,
+       "synonymous":0.01054959453968175
+      },
+     "Node186":{
+       "Nucleotide GTR":0.02948460820818838,
+       "Standard MG94":0.02841721102389968,
+       "dN":0.02374545763573693,
+       "dS":0.04248291453147985,
+       "nonsynonymous":0.01782507458800155,
+       "synonymous":0.01059213643589812
+      },
+     "Node191":{
+       "Nucleotide GTR":0.01445271554002916,
+       "Standard MG94":0.0141310167678533,
+       "dN":0.01180789556472462,
+       "dS":0.02112546432113723,
+       "nonsynonymous":0.00886386871953908,
+       "synonymous":0.005267148048314207
+      },
+     "Node193":{
+       "Nucleotide GTR":0.01443336148312256,
+       "Standard MG94":0.01406168572914612,
+       "dN":0.01174996246069558,
+       "dS":0.02102181640898644,
+       "nonsynonymous":0.00882037990090802,
+       "synonymous":0.005241305828238097
+      },
+     "Node195":{
+       "Nucleotide GTR":0.0222613631392749,
+       "Standard MG94":0.01834343635966281,
+       "dN":0.01532779872753453,
+       "dS":0.02742291065881859,
+       "nonsynonymous":0.01150616508552706,
+       "synonymous":0.006837271274135747
+      },
+     "Node196":{
+       "Nucleotide GTR":0.0217032832725204,
+       "Standard MG94":0.02436615052803267,
+       "dN":0.02036038633850391,
+       "dS":0.03642669540909555,
+       "nonsynonymous":0.01528399286683601,
+       "synonymous":0.009082157661196685
+      },
+     "Node199":{
+       "Nucleotide GTR":0.0145092851092405,
+       "Standard MG94":0.01402057184445864,
+       "dN":0.01171560764641536,
+       "dS":0.02096035233189014,
+       "nonsynonymous":0.00879459066844108,
+       "synonymous":0.005225981176017539
+      },
+     "Node204":{
+       "Nucleotide GTR":0.01462297058821981,
+       "Standard MG94":0.01418904887008083,
+       "dN":0.01185638726307595,
+       "dS":0.02121222064767967,
+       "nonsynonymous":0.008900270129580152,
+       "synonymous":0.005288778740500685
+      },
+     "Node206":{
+       "Nucleotide GTR":0.01482957503432904,
+       "Standard MG94":0.01450352838477918,
+       "dN":0.0121191667451052,
+       "dS":0.02168235849243843,
+       "nonsynonymous":0.009097531599088255,
+       "synonymous":0.005405996785690919
+      },
+     "Node207":{
+       "Nucleotide GTR":0.01466379333925573,
+       "Standard MG94":0.01408073105919245,
+       "dN":0.01176587676267945,
+       "dS":0.0210502886305532,
+       "nonsynonymous":0.008832326338168999,
+       "synonymous":0.005248404721023448
+      },
+     "Node212":{
+       "Nucleotide GTR":0.04536383166372417,
+       "Standard MG94":0.03029093024207033,
+       "dN":0.02531113979500716,
+       "dS":0.04528407096215802,
+       "nonsynonymous":0.01900038995560655,
+       "synonymous":0.01129054028646376
+      },
+     "Node214":{
+       "Nucleotide GTR":0.07871444184496001,
+       "Standard MG94":0.07813193738614872,
+       "dN":0.06528714614676659,
+       "dS":0.1168050029738349,
+       "nonsynonymous":0.04900929969664727,
+       "synonymous":0.02912263768950146
+      },
+     "Node215":{
+       "Nucleotide GTR":0.02260783886648172,
+       "Standard MG94":0.0231817321025274,
+       "dN":0.0193706847973439,
+       "dS":0.03465602387141613,
+       "nonsynonymous":0.01454105061397807,
+       "synonymous":0.008640681488549342
+      },
+     "Node216":{
+       "Nucleotide GTR":0.01475433591470744,
+       "Standard MG94":0.01457404675228724,
+       "dN":0.01217809198258879,
+       "dS":0.02178778142705455,
+       "nonsynonymous":0.00914176518554396,
+       "synonymous":0.005432281566743294
+      },
+     "Node220":{
+       "Nucleotide GTR":0.249364406507815,
+       "Standard MG94":0.2720232254762107,
+       "dN":0.2273029528143841,
+       "dS":0.406666911427871,
+       "nonsynonymous":0.17063019589446,
+       "synonymous":0.1013930295817503
+      },
+     "Node226":{
+       "Nucleotide GTR":0.02989644046444703,
+       "Standard MG94":0.02973452008664835,
+       "dN":0.02484620276221545,
+       "dS":0.04445225375612187,
+       "nonsynonymous":0.01865137426530612,
+       "synonymous":0.01108314582134217
+      },
+     "Node228":{
+       "Nucleotide GTR":0.01442835886949105,
+       "Standard MG94":0.01335739570324866,
+       "dN":0.01116145682025273,
+       "dS":0.01996892304269477,
+       "nonsynonymous":0.008378604589718997,
+       "synonymous":0.00497879111352968
+      },
+     "Node229":{
+       "Nucleotide GTR":0.1491720136591345,
+       "Standard MG94":0.1506353831987519,
+       "dN":0.1258711175836601,
+       "dS":0.22519557265726,
+       "nonsynonymous":0.09448805299196007,
+       "synonymous":0.05614733020679163
+      },
+     "Node233":{
+       "Nucleotide GTR":0.01441163995485412,
+       "Standard MG94":0.01509154438070987,
+       "dN":0.0126105136583813,
+       "dS":0.02256142552253009,
+       "nonsynonymous":0.009466372474344727,
+       "synonymous":0.005625171906365162
+      },
+     "Node238":{
+       "Nucleotide GTR":0.01459193191183846,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "synonymous":1e-10
+      },
+     "Node239":{
+       "Nucleotide GTR":0.01490416617066646,
+       "Standard MG94":0.01468078071726238,
+       "dN":0.01226727901932788,
+       "dS":0.02194734564001799,
+       "nonsynonymous":0.009208715488483772,
+       "synonymous":0.005472065228778606
+      },
+     "Node24":{
+       "Nucleotide GTR":0.02968781065035095,
+       "Standard MG94":0.02974038988252744,
+       "dN":0.02485110757110969,
+       "dS":0.04446102893242049,
+       "nonsynonymous":0.01865505617305121,
+       "synonymous":0.01108533370947624
+      },
+     "Node243":{
+       "Nucleotide GTR":0.06023683502148782,
+       "Standard MG94":0.0619512658309361,
+       "dN":0.0517665564376308,
+       "dS":0.09261536359775656,
+       "nonsynonymous":0.03885975767744448,
+       "synonymous":0.0230915081534915
+      },
+     "Node250":{
+       "Nucleotide GTR":0.01388229320135811,
+       "Standard MG94":0.01518381935737018,
+       "dN":0.01268761874611436,
+       "dS":0.0226993739631268,
+       "nonsynonymous":0.009524253184038345,
+       "synonymous":0.005659566173331874
+      },
+     "Node251":{
+       "Nucleotide GTR":0.08137005876331657,
+       "Standard MG94":0.07878453071377535,
+       "dN":0.06583245396045355,
+       "dS":0.1177806112605897,
+       "nonsynonymous":0.04941864756441634,
+       "synonymous":0.02936588314935904
+      },
+     "Node253":{
+       "Nucleotide GTR":0.01441744005530337,
+       "Standard MG94":0.01338413555854876,
+       "dN":0.01118380067731457,
+       "dS":0.02000889835858141,
+       "nonsynonymous":0.008395377520559948,
+       "synonymous":0.004988758037988822
+      },
+     "Node258":{
+       "Nucleotide GTR":0.04787794251026736,
+       "Standard MG94":0.04560002311837288,
+       "dN":0.03810343725270187,
+       "dS":0.06817072523908428,
+       "nonsynonymous":0.02860322262504877,
+       "synonymous":0.01699680049332414
+      },
+     "Node261":{
+       "Nucleotide GTR":0.01520099160291689,
+       "Standard MG94":0.01546897762061534,
+       "dN":0.01292589735317654,
+       "dS":0.02312567737887017,
+       "nonsynonymous":0.009703122507542824,
+       "synonymous":0.005765855113072513
+      },
+     "Node268":{
+       "Nucleotide GTR":0.01496052500322063,
+       "Standard MG94":0.01495025097961949,
+       "dN":0.0124924487129164,
+       "dS":0.02235019594488654,
+       "nonsynonymous":0.009377744304215343,
+       "synonymous":0.005572506675404143
+      },
+     "Node271":{
+       "Nucleotide GTR":0.02999940601801777,
+       "Standard MG94":0.03029048168498903,
+       "dN":0.02531076498014015,
+       "dS":0.04528340038220105,
+       "nonsynonymous":0.01900010859219534,
+       "synonymous":0.0112903730927937
+      },
+     "Node274":{
+       "Nucleotide GTR":0.01485242793494735,
+       "Standard MG94":0.01495806932209396,
+       "dN":0.01249898172982129,
+       "dS":0.0223618841423962,
+       "nonsynonymous":0.009382648463798233,
+       "synonymous":0.00557542085829572
+      },
+     "Node295":{
+       "Nucleotide GTR":0.01510798504523802,
+       "Standard MG94":0.01505908413369793,
+       "dN":0.01258338983473723,
+       "dS":0.02251289838528496,
+       "nonsynonymous":0.009446011351515083,
+       "synonymous":0.005613072782182826
+      },
+     "Node31":{
+       "Nucleotide GTR":0.01459642343766449,
+       "Standard MG94":0.01468893206622069,
+       "dN":0.01227409029687374,
+       "dS":0.02195953167265929,
+       "nonsynonymous":0.009213828530824633,
+       "synonymous":0.005475103535396043
+      },
+     "Node36":{
+       "Nucleotide GTR":0.0153124854675095,
+       "Standard MG94":0.03098686721535111,
+       "dN":0.02589266561407093,
+       "dS":0.04632447675463072,
+       "nonsynonymous":0.01943692570314506,
+       "synonymous":0.01154994151220602
+      },
+     "Node38":{
+       "Nucleotide GTR":0.01456755955481026,
+       "Standard MG94":0.01556229097222478,
+       "dN":0.01300387010833634,
+       "dS":0.02326517816020075,
+       "nonsynonymous":0.009761654551771089,
+       "synonymous":0.005800636420453695
+      },
+     "Node40":{
+       "Nucleotide GTR":0.0149762564102901,
+       "Standard MG94":0.01574456382636071,
+       "dN":0.01315617753683063,
+       "dS":0.02353767084349583,
+       "nonsynonymous":0.009875987630327201,
+       "synonymous":0.005868576196033515
+      },
+     "Node43":{
+       "Nucleotide GTR":0.06317271607278789,
+       "Standard MG94":0.06791643487442262,
+       "dN":0.05675105926913641,
+       "dS":0.1015331200386382,
+       "nonsynonymous":0.04260148951174589,
+       "synonymous":0.02531494536267671
+      },
+     "Node49":{
+       "Nucleotide GTR":0.01523082347812339,
+       "Standard MG94":0.01657465809270455,
+       "dN":0.01384980536042522,
+       "dS":0.02477863793701171,
+       "nonsynonymous":0.01039667532906748,
+       "synonymous":0.006177982763637066
+      },
+     "Node50":{
+       "Nucleotide GTR":0.03166694098958259,
+       "Standard MG94":0.03225182104524537,
+       "dN":0.02694966264145893,
+       "dS":0.04821554640944212,
+       "nonsynonymous":0.02023038486242996,
+       "synonymous":0.01202143618281546
+      },
+     "Node51":{
+       "Nucleotide GTR":0.0146176225066625,
+       "Standard MG94":0.02939090687841517,
+       "dN":0.02455907912885405,
+       "dS":0.04393856187605032,
+       "nonsynonymous":0.01843583829800001,
+       "synonymous":0.01095506858041514
+      },
+     "Node52":{
+       "Nucleotide GTR":0.01468918296547111,
+       "Standard MG94":0.01543198145203005,
+       "dN":0.01289498330770291,
+       "dS":0.02307036916911381,
+       "nonsynonymous":0.009679916167415059,
+       "synonymous":0.005752065284614991
+      },
+     "Node55":{
+       "Nucleotide GTR":0.01460572194706421,
+       "Standard MG94":0.01450128802424258,
+       "dN":0.01211729469699444,
+       "dS":0.02167900921776417,
+       "nonsynonymous":0.009096126303064122,
+       "synonymous":0.00540516172117846
+      },
+     "Node56":{
+       "Nucleotide GTR":0.01456186985330826,
+       "Standard MG94":0.0142449708221773,
+       "dN":0.01190311571729677,
+       "dS":0.02129582236036533,
+       "nonsynonymous":0.008935347919810424,
+       "synonymous":0.005309622902366865
+      },
+     "Node6":{
+       "Nucleotide GTR":0.01480144218014614,
+       "Standard MG94":0.01486544883360252,
+       "dN":0.01242158793196319,
+       "dS":0.02222341917153274,
+       "nonsynonymous":0.009324551027200792,
+       "synonymous":0.005540897806401726
+      },
+     "Node60":{
+       "Nucleotide GTR":0.01451696367338322,
+       "Standard MG94":0.01406566438335687,
+       "dN":0.01175328702920896,
+       "dS":0.02102776438279159,
+       "nonsynonymous":0.008822875564821218,
+       "synonymous":0.005242788818535634
+      },
+     "Node66":{
+       "Nucleotide GTR":0.0140096721524138,
+       "Standard MG94":0.01382346052655414,
+       "dN":0.01155090117874375,
+       "dS":0.02066567657132088,
+       "nonsynonymous":0.008670949965599707,
+       "synonymous":0.005152510560954423
+      },
+     "Node67":{
+       "Nucleotide GTR":0.02793093751267683,
+       "Standard MG94":0.02727700462124758,
+       "dN":0.02279269971704461,
+       "dS":0.040778338698497,
+       "nonsynonymous":0.01710986491609191,
+       "synonymous":0.01016713970515569
+      },
+     "Node68":{
+       "Nucleotide GTR":0.02794837756367828,
+       "Standard MG94":0.02663431375107306,
+       "dN":0.02225566640938575,
+       "dS":0.03981753430130179,
+       "nonsynonymous":0.0167067284968193,
+       "synonymous":0.009927585254253754
+      },
+     "Node8":{
+       "Nucleotide GTR":0.01482902374474238,
+       "Standard MG94":0.01488372797235681,
+       "dN":0.01243686200352999,
+       "dS":0.02225074595911771,
+       "nonsynonymous":0.009336016860755882,
+       "synonymous":0.005547711111600934
+      },
+     "Node89":{
+       "Nucleotide GTR":0.01391607846926773,
+       "Standard MG94":0.01378525201966271,
+       "dN":0.01151897410184125,
+       "dS":0.02060855595060699,
+       "nonsynonymous":0.008646983170101626,
+       "synonymous":0.005138268849561095
+      },
+     "Node9":{
+       "Nucleotide GTR":0.03106155294749835,
+       "Standard MG94":0.03174197279890303,
+       "dN":0.02652363279905123,
+       "dS":0.04745333792053827,
+       "nonsynonymous":0.01991057575055153,
+       "synonymous":0.01183139704835149
+      },
+     "Node90":{
+       "Nucleotide GTR":0.01393671492350614,
+       "Standard MG94":0.0137949242976505,
+       "dN":0.01152705626961651,
+       "dS":0.0206230157284766,
+       "nonsynonymous":0.008653050235459423,
+       "synonymous":0.005141874062191084
+      },
+     "Node92":{
+       "Nucleotide GTR":0.01389005985977943,
+       "Standard MG94":0.01358613755549428,
+       "dN":0.01135259380260646,
+       "dS":0.02031088554388989,
+       "nonsynonymous":0.008522085967052119,
+       "synonymous":0.005064051588442145
+      },
+     "Node94":{
+       "Nucleotide GTR":0.04627111912433106,
+       "Standard MG94":0.04628479383141092,
+       "dN":0.03867563253052005,
+       "dS":0.06919443779311334,
+       "nonsynonymous":0.02903275418693626,
+       "synonymous":0.01725203964447472
+      },
+     "Node97":{
+       "Nucleotide GTR":0.0194888858673337,
+       "Standard MG94":0.01787761402137866,
+       "dN":0.01493855698983537,
+       "dS":0.02672651963833683,
+       "nonsynonymous":0.01121397181160975,
+       "synonymous":0.006663642209768911
+      },
+     "Node98":{
+       "Nucleotide GTR":0.02701113639914213,
+       "Standard MG94":0.02773782585145812,
+       "dN":0.02317776252248353,
+       "dS":0.04146725320600653,
+       "nonsynonymous":0.01739892117827503,
+       "synonymous":0.01033890467318309
+      },
+     "XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.0927081762448648,
+       "Standard MG94":0.09055967048672862,
+       "dN":0.07567177571508971,
+       "dS":0.1353841071191343,
+       "nonsynonymous":0.05680476102081816,
+       "original name":"XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1",
+       "synonymous":0.03375490946591051
+      },
+     "XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.01496937118229736,
+       "Standard MG94":0.01462710313822688,
+       "dN":0.01222242596608825,
+       "dS":0.02186709920061534,
+       "nonsynonymous":0.009175045511187035,
+       "original name":"XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.005452057627039841
+      },
+     "XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.8546304604035134,
+       "Standard MG94":0.7541449648059012,
+       "dN":0.6301644907356356,
+       "dS":1.127425068464666,
+       "nonsynonymous":0.4730474864871609,
+       "original name":"XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.2810974783187396
+      },
+     "XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.07932043896590174,
+       "Standard MG94":0.06781194645055062,
+       "dN":0.05666374860939611,
+       "dS":0.1013769128451472,
+       "nonsynonymous":0.04253594775440969,
+       "original name":"XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.02527599869614094
+      },
+     "XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.04577118192612979,
+       "Standard MG94":0.04571007164869358,
+       "dN":0.03819539394445483,
+       "dS":0.06833524463206755,
+       "nonsynonymous":0.02867225203330475,
+       "original name":"XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01703781961538882
+      },
+     "XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01395325404633433,
+       "Standard MG94":0.01424716522130021,
+       "dN":0.01190494935999188,
+       "dS":0.02129910292404586,
+       "nonsynonymous":0.008936724385924893,
+       "original name":"XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005310440835375325
+      },
+     "XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.0424936273912565,
+       "Standard MG94":0.04288362218242783,
+       "dN":0.03583360917942924,
+       "dS":0.06410978383642761,
+       "nonsynonymous":0.0268993239119268,
+       "original name":"XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01598429827050105
+      },
+     "XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1":{
+       "Nucleotide GTR":0.03067265112977342,
+       "Standard MG94":0.03058683544201736,
+       "dN":0.02555839855603155,
+       "dS":0.0457264407396918,
+       "nonsynonymous":0.01918600043847901,
+       "original name":"XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1",
+       "synonymous":0.0114008350035384
+      },
+     "XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.0983559116308384,
+       "Standard MG94":0.1003995347176506,
+       "dN":0.08389397876803004,
+       "dS":0.1500944216103082,
+       "nonsynonymous":0.06297694708455527,
+       "original name":"XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.03742258763309522
+      },
+     "XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01395634201471818,
+       "Standard MG94":0.01411986815922044,
+       "dN":0.01179857977318666,
+       "dS":0.02110879747134343,
+       "nonsynonymous":0.008856875606095754,
+       "original name":"XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005262992553124683
+      },
+     "XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.175239241017652,
+       "Standard MG94":0.181665311969061,
+       "dN":0.1517997654877638,
+       "dS":0.2715844252001177,
+       "nonsynonymous":0.1139519896297235,
+       "original name":"XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.06771332233933734
+      },
+     "XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.08041232102822753,
+       "Standard MG94":0.08174136340101908,
+       "dN":0.06830318711058066,
+       "dS":0.1222009912278713,
+       "nonsynonymous":0.05127336029994948,
+       "original name":"XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.03046800310106957
+      },
+     "XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01495528610451078,
+       "Standard MG94":0.02932503064938621,
+       "dN":0.02450403286818149,
+       "dS":0.04384007880516985,
+       "nonsynonymous":0.01839451655481312,
+       "original name":"XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01093051409457309
+      },
+     "XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.09400127539067123,
+       "Standard MG94":0.09439374242177499,
+       "dN":0.07887553109521636,
+       "dS":0.1411159345735291,
+       "nonsynonymous":0.05920973377343939,
+       "original name":"XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.03518400864833569
+      },
+     "XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.06199893521857455,
+       "Standard MG94":0.06400117660227166,
+       "dN":0.0534794644825777,
+       "dS":0.0956799213413919,
+       "nonsynonymous":0.04014559154647106,
+       "original name":"XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.02385558505580056
+      },
+     "XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.04401737201553359,
+       "Standard MG94":0.03057685969376762,
+       "dN":0.02555006280811983,
+       "dS":0.04571152728249413,
+       "nonsynonymous":0.0191797430173523,
+       "original name":"XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01139711667641535
+      },
+     "XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.03006881536673489,
+       "Standard MG94":0.03032941310341748,
+       "dN":0.02534329612284146,
+       "dS":0.04534160173490569,
+       "nonsynonymous":0.01902452884359581,
+       "original name":"XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01130488425982167
+      },
+     "XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.03079871673388558,
+       "Standard MG94":0.03030004168904407,
+       "dN":0.02531875333167452,
+       "dS":0.04529769231376496,
+       "nonsynonymous":0.0190061052322315,
+       "original name":"XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01129393645681255
+      },
+     "XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.03178323388858375,
+       "Standard MG94":0.03115228176674317,
+       "dN":0.02603088622337394,
+       "dS":0.04657176675937968,
+       "nonsynonymous":0.01954068418648198,
+       "original name":"XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01161159758026119
+      },
+     "XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01491781172621328,
+       "Standard MG94":0.01493645118247457,
+       "dN":0.01248091758488942,
+       "dS":0.02232956564439136,
+       "nonsynonymous":0.009369088197421455,
+       "original name":"XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005567362985053128
+      },
+     "XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01516393231955088,
+       "Standard MG94":0.01536568946001762,
+       "dN":0.01283958963495312,
+       "dS":0.02297126454451085,
+       "nonsynonymous":0.009638333631352148,
+       "original name":"XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005727355828665467
+      },
+     "XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01388246832925893,
+       "Standard MG94":0.01238449185991989,
+       "dN":0.01034849713268944,
+       "dS":0.01851445973210726,
+       "nonsynonymous":0.007768337679299678,
+       "original name":"XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.004616154180620211
+      },
+     "XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01483583084587673,
+       "Standard MG94":0.01507120513668391,
+       "dN":0.01259351816023211,
+       "dS":0.02253101893671619,
+       "nonsynonymous":0.00945361441228432,
+       "original name":"XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005617590724399598
+      },
+     "XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1":{
+       "Nucleotide GTR":0.1068402816501201,
+       "Standard MG94":0.134113737495273,
+       "dN":0.1120656094430244,
+       "dS":0.2004961867199852,
+       "nonsynonymous":0.08412463039101022,
+       "original name":"XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1",
+       "synonymous":0.04998910710426278
+      },
+     "XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.02860169972291489,
+       "Standard MG94":0.03035640810252682,
+       "dN":0.02536585317839446,
+       "dS":0.04538195848346116,
+       "nonsynonymous":0.01904146181679371,
+       "original name":"XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.0113149462857331
+      },
+     "XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.02236202505293231,
+       "Standard MG94":0.01870929120516437,
+       "dN":0.01563350750125552,
+       "dS":0.02796985314797771,
+       "nonsynonymous":0.01173565241642533,
+       "original name":"XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.006973638788739065
+      },
+     "XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01452328790523769,
+       "Standard MG94":0.01395767432570509,
+       "dN":0.01166305039983339,
+       "dS":0.02086632234734302,
+       "nonsynonymous":0.00875513736099867,
+       "original name":"XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005202536964706414
+      },
+     "XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.0146355095655509,
+       "Standard MG94":0.01549943796343273,
+       "dN":0.01295135005433471,
+       "dS":0.02317121471676803,
+       "nonsynonymous":0.009722229163795584,
+       "original name":"XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005777208799637126
+      },
+     "XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01443491932547344,
+       "Standard MG94":0.01427260488174947,
+       "dN":0.01192620677258445,
+       "dS":0.02133713448596324,
+       "nonsynonymous":0.008952681752206188,
+       "original name":"XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005319923129543268
+      },
+     "XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1":{
+       "Nucleotide GTR":0.02938564855610891,
+       "Standard MG94":0.02932004800419904,
+       "dN":0.02449986936353262,
+       "dS":0.04383262989368278,
+       "nonsynonymous":0.01839139112417068,
+       "original name":"XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1",
+       "synonymous":0.01092865688002837
+      },
+     "XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.01486502359249502,
+       "Standard MG94":0.01354806994509973,
+       "dN":0.01132078445899575,
+       "dS":0.02025397555939321,
+       "nonsynonymous":0.008498207550760707,
+       "original name":"XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.005049862394339019
+      },
+     "XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
+       "Nucleotide GTR":0.0911277464515937,
+       "Standard MG94":0.07652094216886206,
+       "dN":0.06394099649642683,
+       "dS":0.1143966113808299,
+       "nonsynonymous":0.04799878146229639,
+       "original name":"XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1",
+       "synonymous":0.02852216070656576
+      },
+     "XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01436404016773601,
+       "Standard MG94":0.01457066507466405,
+       "dN":0.01217526624847041,
+       "dS":0.02178272591610666,
+       "nonsynonymous":0.009139643983156592,
+       "original name":"XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005431021091507453
+      },
+     "XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":1.463397713345149,
+       "Standard MG94":1.579922969102951,
+       "dN":1.320185640280107,
+       "dS":2.361939474154348,
+       "nonsynonymous":0.9910277522967256,
+       "original name":"XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.5888952168062288
+      },
+     "XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.0681299753442984,
+       "Standard MG94":0.06600441526912097,
+       "dN":0.0551533732577187,
+       "dS":0.09867470562892593,
+       "nonsynonymous":0.04140214971553718,
+       "original name":"XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.02460226555358371
+      },
+     "XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01649628902052301,
+       "Standard MG94":0.01492914801073864,
+       "dN":0.01247481504530818,
+       "dS":0.0223186476123436,
+       "nonsynonymous":0.00936450718555466,
+       "original name":"XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005564640825183996
+      },
+     "XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01427574991963651,
+       "Standard MG94":0.01386595887492709,
+       "dN":0.0115864128526385,
+       "dS":0.02072921038187458,
+       "nonsynonymous":0.008697607621376618,
+       "original name":"XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005168351253550468
+      },
+     "XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01397993024489037,
+       "Standard MG94":0.01405605825114044,
+       "dN":0.0117452601329243,
+       "dS":0.02101340349095092,
+       "nonsynonymous":0.008816849990280642,
+       "original name":"XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005239208260859797
+      },
+     "XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.02999618112363745,
+       "Standard MG94":0.02883265242570602,
+       "dN":0.02409260099890607,
+       "dS":0.04310398749852562,
+       "nonsynonymous":0.01808566574763062,
+       "original name":"XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.01074698667807541
+      },
+     "XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01503994459664872,
+       "Standard MG94":0.01522719791833848,
+       "dN":0.01272386592677202,
+       "dS":0.02276422366623677,
+       "nonsynonymous":0.009551462964904193,
+       "original name":"XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005675734953434267
+      },
+     "XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.014618568287864,
+       "Standard MG94":0.01484283868564724,
+       "dN":0.0124026948636055,
+       "dS":0.02218961764954945,
+       "nonsynonymous":0.009310368510365862,
+       "original name":"XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005532470175281392
+      },
+     "XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01387124109671352,
+       "Standard MG94":0.01388594609888518,
+       "dN":0.01160311420237172,
+       "dS":0.02075909070779464,
+       "nonsynonymous":0.008710144874154887,
+       "original name":"XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.00517580122473029
+      },
+     "XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1":{
+       "Nucleotide GTR":0.04496727179953995,
+       "Standard MG94":0.04770270222477954,
+       "dN":0.03986043858547646,
+       "dS":0.07131417012850273,
+       "nonsynonymous":0.02992215613596964,
+       "original name":"XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1",
+       "synonymous":0.01778054608880994
+      },
+     "XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01508066807793356,
+       "Standard MG94":0.01532764964425104,
+       "dN":0.01280780351656886,
+       "dS":0.02291439611218491,
+       "nonsynonymous":0.009614472649611802,
+       "original name":"XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005713176994639246
+      },
+     "XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01448567164150674,
+       "Standard MG94":0.01390810005453112,
+       "dN":0.01162162607585615,
+       "dS":0.02079221023537424,
+       "nonsynonymous":0.008724041238279997,
+       "original name":"XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005184058816251129
+      },
+     "XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
+       "Nucleotide GTR":0.0145979014609528,
+       "Standard MG94":0.01460342338532798,
+       "dN":0.01220263913448074,
+       "dS":0.0218316986499531,
+       "nonsynonymous":0.009160192070386914,
+       "original name":"XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1",
+       "synonymous":0.005443231314941066
+      },
+     "XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.02966783017043669,
+       "Standard MG94":0.03205787581053678,
+       "dN":0.02678760175692833,
+       "dS":0.04792560385234237,
+       "nonsynonymous":0.02010873012749624,
+       "original name":"XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01194914568304059
+      },
+     "XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01462718394287624,
+       "Standard MG94":0.01459580581232998,
+       "dN":0.01219627388080544,
+       "dS":0.02182031059704604,
+       "nonsynonymous":0.009155413846135595,
+       "original name":"XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005440391966194374
+      },
+     "XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.02956596035690042,
+       "Standard MG94":0.02974946023435576,
+       "dN":0.02485868676862132,
+       "dS":0.04447458884796496,
+       "nonsynonymous":0.01866074567219814,
+       "original name":"XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01108871456215761
+      },
+     "XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1":{
+       "Nucleotide GTR":0.01474897570479647,
+       "Standard MG94":0.01470800959265731,
+       "dN":0.01229003150220224,
+       "dS":0.02198805202690504,
+       "nonsynonymous":0.009225795163700787,
+       "original name":"XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1",
+       "synonymous":0.005482214428956494
+      },
+     "XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.1243698491392605,
+       "Standard MG94":0.1240278224800298,
+       "dN":0.1036378060420971,
+       "dS":0.1854180333711584,
+       "nonsynonymous":0.077798105691463,
+       "original name":"XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.04622971678856722
+      },
+     "XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01467873839165394,
+       "Standard MG94":0.01480422807784655,
+       "dN":0.01237043179067232,
+       "dS":0.02213189589952176,
+       "nonsynonymous":0.009286149491709993,
+       "original name":"XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005518078586136559
+      },
+     "XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.02951055029056655,
+       "Standard MG94":0.02856693718691563,
+       "dN":0.02387056900778068,
+       "dS":0.04270675084607051,
+       "nonsynonymous":0.01791899232050845,
+       "original name":"XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01064794486640719
+      },
+     "XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01481994158961918,
+       "Standard MG94":0.0146294441914258,
+       "dN":0.0122243821531156,
+       "dS":0.0218705990079286,
+       "nonsynonymous":0.009176513968026464,
+       "original name":"XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005452930223399346
+      },
+     "XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.0147082973022349,
+       "Standard MG94":0.01411009505850358,
+       "dN":0.01179041335781091,
+       "dS":0.02109418696638882,
+       "nonsynonymous":0.008850745298336588,
+       "original name":"XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005259349760167013
+      },
+     "XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.06125773553313713,
+       "Standard MG94":0.06029217080757084,
+       "dN":0.05038021452822091,
+       "dS":0.09013506417576389,
+       "nonsynonymous":0.03781906819826962,
+       "original name":"XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.0224731026093013
+      },
+     "XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.02190360884786873,
+       "Standard MG94":0.02476272639571118,
+       "dN":0.0206917656373871,
+       "dS":0.0370195649443101,
+       "nonsynonymous":0.01553275036859174,
+       "original name":"XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.009229976027119455
+      },
+     "XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.04397008913324939,
+       "Standard MG94":0.04249438184667496,
+       "dN":0.03550835946034291,
+       "dS":0.06352788071081532,
+       "nonsynonymous":0.0266551677203984,
+       "original name":"XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.01583921412627658
+      },
+     "XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.0233042445530491,
+       "Standard MG94":0.02275380223522587,
+       "dN":0.01901310605654033,
+       "dS":0.03401628100703893,
+       "nonsynonymous":0.01427262589782037,
+       "original name":"XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.008481176337405477
+      },
+     "XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01487466145507079,
+       "Standard MG94":0.01435714240696572,
+       "dN":0.01199684643606039,
+       "dS":0.02146351565881813,
+       "nonsynonymous":0.009005709042294495,
+       "original name":"XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.005351433364671226
+      },
+     "XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.02993697890145347,
+       "Standard MG94":0.0288902253300742,
+       "dN":0.0241407089909427,
+       "dS":0.04319005733745337,
+       "nonsynonymous":0.01812177911969052,
+       "original name":"XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.0107684462103837
+      },
+     "XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1":{
+       "Nucleotide GTR":0.03107470362231702,
+       "Standard MG94":0.03220550478170155,
+       "dN":0.02691096071279668,
+       "dS":0.04814630492533253,
+       "nonsynonymous":0.02020133236844619,
+       "original name":"XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1",
+       "synonymous":0.01200417241325536
+      },
+     "XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.07687344610334682,
+       "Standard MG94":0.07564541617577132,
+       "dN":0.06320940586424126,
+       "dS":0.1130877251603178,
+       "nonsynonymous":0.04744959610707439,
+       "original name":"XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":0.02819582006869689
+      },
+     "XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.01445079244048911,
+       "Standard MG94":0.01373117567565423,
+       "dN":0.01147378784008356,
+       "dS":0.02052771336901952,
+       "nonsynonymous":0.008613063062157636,
+       "original name":"XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.00511811261349659
+      },
+     "XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0.03056253646465655,
+       "Standard MG94":0.03076111177457774,
+       "dN":0.02570402408093763,
+       "dS":0.04598697885283716,
+       "nonsynonymous":0.01929531759223481,
+       "original name":"XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":0.01146579418234291
+      },
+     "XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01481719438796633,
+       "Standard MG94":0.01543421811320859,
+       "dN":0.01289685226462537,
+       "dS":0.02307371291335395,
+       "nonsynonymous":0.009681319142967508,
+       "original name":"XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.00575289897024106
+      },
+     "XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      },
+     "XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0.01519622541607113,
+       "Standard MG94":0.01604041901632447,
+       "dN":0.0134033945094494,
+       "dS":0.0239799658575405,
+       "nonsynonymous":0.01006156674377067,
+       "original name":"XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1",
+       "synonymous":0.00597885227255381
+      },
+     "XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "dN":1.332137911597886e-10,
+       "dS":4.010797518383521e-10,
+       "nonsynonymous":1e-10,
+       "original name":"XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1",
+       "synonymous":1e-10
+      }
+    },
+   "attributes":{
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Standard MG94":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "dN":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "dS":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "nonsynonymous":{
+       "attribute type":"branch length",
+       "display order":3
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      },
+     "synonymous":{
+       "attribute type":"branch length",
+       "display order":2
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24] 
+      ],
+     "name":"fitter.filter.default"
+    }
+  },
+ "fits":{
+   "Nucleotide GTR":{
+     "AIC-c":4009.411311084449,
+     "Equilibrium frequencies":      [
+[0.2368170569198553],
+      [0.1968399010089472],
+      [0.2341519131924614],
+      [0.332191128878736] 
+      ],
+     "Log Likelihood":-1687.068144270809,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.333072209397798,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.2161785421114922,
+       "Substitution rate from nucleotide C to nucleotide G":0.301922183638175,
+       "Substitution rate from nucleotide C to nucleotide T":0.6429365666949699,
+       "Substitution rate from nucleotide G to nucleotide T":0.1160527005136273
+      },
+     "display order":0,
+     "estimated parameters":309
+    },
+   "Standard MG94":{
+     "AIC-c":3838.135550769047,
+     "Confidence Intervals":{
+       "non-synonymous/synonymous rate ratio":{
+         "LB":0.5036193419696527,
+         "UB":0.6695154732509158
+        }
+      },
+     "Log Likelihood":-1657.109418603432,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.4070371140816,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.2047263487958574,
+       "Substitution rate from nucleotide C to nucleotide G":0.3391749179194434,
+       "Substitution rate from nucleotide C to nucleotide T":0.7688105010987388,
+       "Substitution rate from nucleotide G to nucleotide T":0.1412560241701411,
+       "non-synonymous/synonymous rate ratio":0.5825888015964127
+      },
+     "display order":1,
+     "estimated parameters":245
+    }
+  },
+ "input":{
+   "file name":"/home/aglucaci/AOC/results/mammalian_REV3L/mammalian_REV3L.3.codon.fas",
+   "number of sequences":152,
+   "number of sites":25,
+   "partition count":1,
+   "trees":{
+     "0":"(NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1,XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node295,XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1,(XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,((((((((XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1,(XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,(XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node40)Node38,(XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node43)Node36,(((XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node31,NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,(XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node24,XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node17,XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node16,XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node14,XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1)Node13,XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node12,((((((XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1,XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node167,XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node166,XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,(((XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node60,XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node56,(XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node161)Node159,XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1,(((XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node68,XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node67,XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node66,((XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,((XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node113,(XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1)Node136)Node112,XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1,(XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node94)Node92,((XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node100)Node98,(XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node105)Node97)Node90,XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1,((XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node149,XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node145,(XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node152)Node89)Node55,XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node52,(((XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node183,(XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node186)Node181,XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node180,(XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1,(XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,((XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node196,(XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node199)Node195,XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node193,(XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,((XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node207,XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node206)Node204)Node191)Node179)Node51,((XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1,((XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node229,XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1)Node228,(XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node233)Node226,((((XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node220,XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node216,XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node215,XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node214,XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node212)Node50,XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node49)Node11,((XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1,XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node243)Node239,((XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,(XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node253,XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node251,(XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node258)Node250)Node238)Node10,(XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node261)Node9,(XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node268,XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node8,(XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node274,XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node271)Node6,XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1)"
+    }
+  },
+ "test results":{
+   "non-synonymous/synonymous rate ratio":{
+     "LRT":17.31338143536505,
+     "p-value":3.16947066101303e-05
+    }
+  },
+ "tested":{
+   "0":{
+     "NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1":"test",
+     "NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
+     "Node10":"test",
+     "Node100":"test",
+     "Node105":"test",
+     "Node11":"test",
+     "Node112":"test",
+     "Node113":"test",
+     "Node12":"test",
+     "Node13":"test",
+     "Node136":"test",
+     "Node14":"test",
+     "Node145":"test",
+     "Node149":"test",
+     "Node152":"test",
+     "Node159":"test",
+     "Node16":"test",
+     "Node161":"test",
+     "Node166":"test",
+     "Node167":"test",
+     "Node17":"test",
+     "Node179":"test",
+     "Node180":"test",
+     "Node181":"test",
+     "Node183":"test",
+     "Node186":"test",
+     "Node191":"test",
+     "Node193":"test",
+     "Node195":"test",
+     "Node196":"test",
+     "Node199":"test",
+     "Node204":"test",
+     "Node206":"test",
+     "Node207":"test",
+     "Node212":"test",
+     "Node214":"test",
+     "Node215":"test",
+     "Node216":"test",
+     "Node220":"test",
+     "Node226":"test",
+     "Node228":"test",
+     "Node229":"test",
+     "Node233":"test",
+     "Node238":"test",
+     "Node239":"test",
+     "Node24":"test",
+     "Node243":"test",
+     "Node250":"test",
+     "Node251":"test",
+     "Node253":"test",
+     "Node258":"test",
+     "Node261":"test",
+     "Node268":"test",
+     "Node271":"test",
+     "Node274":"test",
+     "Node295":"test",
+     "Node31":"test",
+     "Node36":"test",
+     "Node38":"test",
+     "Node40":"test",
+     "Node43":"test",
+     "Node49":"test",
+     "Node50":"test",
+     "Node51":"test",
+     "Node52":"test",
+     "Node55":"test",
+     "Node56":"test",
+     "Node6":"test",
+     "Node60":"test",
+     "Node66":"test",
+     "Node67":"test",
+     "Node68":"test",
+     "Node8":"test",
+     "Node89":"test",
+     "Node9":"test",
+     "Node90":"test",
+     "Node92":"test",
+     "Node94":"test",
+     "Node97":"test",
+     "Node98":"test",
+     "XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1":"test",
+     "XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1":"test",
+     "XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
+     "XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1":"test",
+     "XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
+     "XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1":"test",
+     "XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
+     "XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1":"test",
+     "XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
+     "XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1":"test",
+     "XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
+     "XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
+     "XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
+     "XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1":"test",
+     "XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1":"test",
+     "XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1":"test",
+     "XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
+     "XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
+     "XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1":"test",
+     "XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
+     "XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test",
+     "XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":"test",
+     "XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":"test"
+    }
+  },
+ "timers":{
+   "LRT":{
+     "order":2,
+     "timer":42
+    },
+   "Overall":{
+     "order":0,
+     "timer":71
+    },
+   "Standard MG94":{
+     "order":null,
+     "timer":70
+    }
+  }
+}
