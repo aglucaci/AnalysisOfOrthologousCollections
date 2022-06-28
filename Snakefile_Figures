@@ -1,0 +1,98 @@
+"""``snakemake`` file that runs the AOC alignment step.
+Written by Alexander G Lucaci.
+"""
+
+
+import itertools
+import os
+import sys
+import csv
+import json
+from pathlib import Path
+from snakemake.utils import min_version
+import glob
+
+#----------------------------------------------------------------------------
+# Configuration
+#----------------------------------------------------------------------------
+configfile: "config.yml"
+
+with open("cluster.json", "r") as in_c:
+  cluster = json.load(in_c)
+#end with
+
+Label = config["Label"]
+print("# Analysis label:", Label)
+
+print("# Snakefile for creating Figures and Figure Legends")
+
+# Set WD directory
+BASEDIR = os.getcwd()
+
+print("# We are operating out of base directory:", BASEDIR)
+
+# Create figures directory
+os.makedirs(os.path.join(BASEDIR, "figures"), exist_ok = True)
+
+# Where are the hyphy results located?
+OUTDIR_RESULTS = os.path.join(BASEDIR, "results", Label)
+
+# Create output directory for the figures from this analysis.
+OUTDIR = os.path.join(BASEDIR, "figures", Label)
+os.makedirs(OUTDIR, exist_ok = True)
+
+print("# Output directory:", OUTDIR)
+
+# Set PPN
+PPN = cluster["__default__"]["ppn"]
+
+# HyPhy settings
+HYPHY = config["HYPHY"]
+HYPHYMPI = config["HYPHYMPI"]
+RES = config["RES"]
+
+print("# Searching:", os.path.join(OUTDIR, "*.codon.fas.FEL.json"))
+
+FEL_JSONS = [os.path.basename(x) for x in glob.glob(os.path.join(OUTDIR_RESULTS, "*.codon.fas.FEL.json"))]
+
+#DEGUG ---
+#FEL_JSONS = FEL_JSONS[0]
+
+print("# We will process FEL selection analyses in", len(FEL_JSONS), "files")
+
+#----------------------------------------------------------------------------
+# Rule all
+#----------------------------------------------------------------------------
+rule all:
+    input:
+        #expand(os.path.join(OUTDIR, "{sample}.FEL.cp"), sample=FEL_JSONS)
+        expand(os.path.join(OUTDIR, "{sample}.FEL.png"), sample=FEL_JSONS),
+	expand(os.path.join(OUTDIR, "{sample}.FEL.csv"), sample=FEL_JSONS),
+        expand(os.path.join(OUTDIR, "{sample}.FEL.txt"), sample=FEL_JSONS)
+    #end input
+#end rule all
+
+#----------------------------------------------------------------------------
+# Rules
+#----------------------------------------------------------------------------
+rule test:
+    input:
+        input = os.path.join(OUTDIR_RESULTS, "{sample}")
+    output:
+        output = os.path.join(OUTDIR, "{sample}.FEL.cp")
+    shell:
+        "cp {input.input} {output.output}"
+#end test rule 
+
+rule FEL_figures:
+    input:
+       input = os.path.join(OUTDIR_RESULTS, "{sample}")
+    output:
+       output_png = os.path.join(OUTDIR, "{sample}.FEL.png"),
+       output_csv = os.path.join(OUTDIR, "{sample}.FEL.csv"),
+       figure_legend = os.path.join(OUTDIR, "{sample}.FEL.txt")
+    #conda:
+    #   "environment.yml"
+    notebook:
+       "notebooks/SummarizeFEL_P.py.ipynb"
+#end rule
