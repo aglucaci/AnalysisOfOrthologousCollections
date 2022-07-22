@@ -1,6 +1,11 @@
-"""``snakemake`` file that runs the AOC alignment step.
-Written by Alexander G Lucaci.
 """
+2022 - Analysis of Orthologous Collections (AOC).
+@Author: Alexander G. Lucaci
+"""
+
+#----------------------------------------------------------------------------
+# Imports 
+#----------------------------------------------------------------------------
 
 import itertools
 import os
@@ -9,19 +14,20 @@ import csv
 import json
 from pathlib import Path
 from snakemake.utils import min_version
-#min_version("6.3")
+min_version("6.3")
 
 #----------------------------------------------------------------------------
 # Configuration
 #----------------------------------------------------------------------------
+
 configfile: 'config.yml'
 
 print("# Loaded config yaml file")
 
-with open("cluster.json", "r") as in_c:
-  cluster = json.load(in_c)
+with open("cluster.json", "r") as fh_cluster:
+  cluster = json.load(fh_cluster)
+  fh_cluster.close()
 #end with
-in_c.close()
 
 print("# Loaded cluster json file")
 
@@ -34,10 +40,6 @@ print("# Using protein data from:", Protein_file)
 print("# Using the analysis label:", Label)
 
 #HumanSeq = config["HumanSeq"]
-
-# Batch files
-PREMSA = config["PREMSA"]
-POSTMSA = config["POSTMSA"]
 
 # Set output directory
 BASEDIR = os.getcwd()
@@ -62,21 +64,24 @@ PPN = cluster["__default__"]["ppn"]
 
 #PPN_MSA = int(PPN) - 7
 
+# Batch files
+PREMSA = os.path.join(BASEDIR, config["PREMSA"])
+POSTMSA = os.path.join(BASEDIR, config["POSTMSA"])
+
 # Hard-coded HyPhy settings
 HYPHY = config["HYPHY"]
 HYPHYMPI = config["HYPHYMPI"]
-RES = config["RES"]
+#RES = os.path.join(BASEDIR, config["RES"])
 
 CODON_OUTPUT = os.path.join(OUTDIR, Label)
 
-#----------------------------------------------------------------------------
-# Helper functions
-#----------------------------------------------------------------------------
-
+# Clustering
+TN93_T = config["TN93_Threshold"]
 
 #----------------------------------------------------------------------------
 # Rule all
 #----------------------------------------------------------------------------
+
 rule all:
     input:
         CODON_OUTPUT,
@@ -95,19 +100,26 @@ rule all:
 #end rule all
 
 print("# Moving on to processing rules")
+
 #----------------------------------------------------------------------------
 # Rules
 #----------------------------------------------------------------------------
+
 rule get_codons:
     output:
-        codons = CODON_OUTPUT
+        codons = CODON_OUTPUT, 
     params:
         Nuc = Nucleotide_file,
         Prot = Protein_file,
-        Out = CODON_OUTPUT
+        Out = CODON_OUTPUT,
+        Logfile = CODON_OUTPUT + ".log"
     script:
         "scripts/codons.py"
 #end rule
+
+#----------------------------------------------------------------------------
+# Alignment
+#----------------------------------------------------------------------------
 
 rule pre_msa:
     input: 
@@ -116,9 +128,8 @@ rule pre_msa:
         protein_fas = os.path.join(OUTDIR, Label + "_protein.fas"),
         nucleotide_fas = os.path.join(OUTDIR, Label + "_nuc.fas")
     shell: 
-        #"mpirun -np {PPN} HYPHYMPI {PREMSA} --input {input.codons}"
-        #"mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} {PREMSA} --input {input.codons} --reference {HumanSeq}"
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} {PREMSA} --input {input.codons}"
+        #"mpirun -np {PPN} {HYPHYMPI} {PREMSA} --input {input.codons} --reference {HumanSeq}"
+        "mpirun -np {PPN} {HYPHYMPI} {PREMSA} --input {input.codons}"
 #end rule 
 
 rule mafft:
@@ -138,9 +149,12 @@ rule post_msa:
         codons_fas = os.path.join(OUTDIR, Label + "_codons.fasta"),
         duplicates_json = os.path.join(OUTDIR, Label + "_codons_duplicates.json")
     shell: 
-        #"mpirun -np {PPN} HYPHYMPI {POSTMSA} --protein-msa {input.protein_aln} --nucleotide-sequences {input.nucleotide_seqs} --output {output.codons_fas} --duplicates {output.duplicates_json}"
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} {POSTMSA} --protein-msa {input.protein_aln} --nucleotide-sequences {input.nucleotide_seqs} --output {output.codons_fas} --duplicates {output.duplicates_json}"
+        "mpirun -np {PPN} {HYPHYMPI} {POSTMSA} --protein-msa {input.protein_aln} --nucleotide-sequences {input.nucleotide_seqs} --output {output.codons_fas} --duplicates {output.duplicates_json}"
 #end rule 
+
+#----------------------------------------------------------------------------
+# Remove ambiguous codons, a source of noise.
+#----------------------------------------------------------------------------
 
 rule strike_ambigs:
    input:
@@ -149,15 +163,13 @@ rule strike_ambigs:
        out_strike_ambigs = os.path.join(OUTDIR, Label + "_codons.SA.fasta")  
    shell:
        #"hyphy scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
-       "{HYPHY} LIBPATH={RES} scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
+       "{HYPHY} scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
 #end rule 
-#----------------------------------------------------------------------------
-# AlignmentProfiler
-#----------------------------------------------------------------------------
 
 #----------------------------------------------------------------------------
 # IQ-TREE for ML tree inference
 #----------------------------------------------------------------------------
+
 rule iqtree: # Unrooted
     input:
         codons_fas = rules.strike_ambigs.output.out_strike_ambigs
@@ -166,12 +178,13 @@ rule iqtree: # Unrooted
     conda: 'environment.yml'
     shell:
         "iqtree -s {input.codons_fas} -T AUTO"
+    #end shell
 #end rule iqtree
 
+#----------------------------------------------------------------------------
+# TN93, genetic distance calculation
+#----------------------------------------------------------------------------
 
-#----------------------------------------------------------------------------
-# TN93, on codon alignment, can be modified for distance calcs on protein aln
-#----------------------------------------------------------------------------
 rule tn93:
     input:
        input = rules.strike_ambigs.output.out_strike_ambigs
@@ -179,18 +192,20 @@ rule tn93:
        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.dst")
     shell:
        "tn93 -t 1 -o {output.output} {input.input}"
+    #end shell
 #end rule
 
 #----------------------------------------------------------------------------
 # Downsample for GARD
 #----------------------------------------------------------------------------
+
 rule tn93_cluster:
     input:
         input = rules.strike_ambigs.output.out_strike_ambigs
     output:
         output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.json")
     shell:
-        "tn93-cluster -f -o {output.output} -t 0.1 {input.input}" 
+        "tn93-cluster -f -o {output.output} -t {TN93_T} {input.input}" 
 #end rule
 
 rule cluster_to_fasta:
@@ -212,7 +227,7 @@ rule recombination:
     output: 
         output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta.GARD.json")
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} GARD --alignment {input.input} --rv GDD --output {output.output}"
+        "mpirun -np {PPN} {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output}"
 #end rule
 
 #----------------------------------------------------------------------------
@@ -220,14 +235,17 @@ rule recombination:
 #----------------------------------------------------------------------------
 
 rule gard_parse:
+    input:
+        input = rules.recombination.output.output
     params:
         genelabel = Label
     output:
         output = os.path.join(OUTDIR, Label + ".1.codon.fas")
     notebook:
-        "notebooks/GARD_parse.ipynb"
+        "notebooks/GARD_Parser.ipynb"
 #end rule
 
 #----------------------------------------------------------------------------
 # End of file
 #----------------------------------------------------------------------------
+
