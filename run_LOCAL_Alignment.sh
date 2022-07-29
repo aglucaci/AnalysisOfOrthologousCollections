@@ -25,16 +25,15 @@ echo "Initialized --- "
 echo "Creating 'log' directory"
 mkdir -p logs
 
-echo "Executing HPC Snakemake command"
+echo "Executing LOCAL Snakemake command"
 
+# Snakemake command ----
 snakemake \
       -s Snakefile_Alignment \
-      --cluster-config cluster.json \
-      --cluster "qsub -V -l nodes={cluster.nodes}:ppn={cluster.ppn} -q {cluster.name} -l walltime=720:00:00 -e logs -o logs" \
-      --jobs 10 all \
+      --jobs 2 all \
       --rerun-incomplete \
       --keep-going \
       --reason \
       --latency-wait 60 
 
-# End of file 
+# End of file  -- done.
