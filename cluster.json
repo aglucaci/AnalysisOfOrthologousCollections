@@ -2,6 +2,7 @@
   {
   "cluster" : "qsub",
   "nodes": 1,
-  "ppn": 4,
-  "name": "epyc2"
+  "ppn": 28,
+  "name": "epyc2",
+  "walltime": "240:00:00"
 }}

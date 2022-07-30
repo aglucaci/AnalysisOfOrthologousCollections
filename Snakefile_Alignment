@@ -90,13 +90,13 @@ rule all:
         os.path.join(OUTDIR, Label + "_protein.aln"),
         os.path.join(OUTDIR, Label + "_codons.fasta"),
         os.path.join(OUTDIR, Label + "_codons_duplicates.json"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.dst"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.json"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta.GARD.json"),
-        os.path.join(OUTDIR, Label + ".1.codon.fas")
+        os.path.join(OUTDIR, Label + "_codons.fasta.dst"),
+        os.path.join(OUTDIR, Label + "_codons.fasta"),
+        os.path.join(OUTDIR, Label + "_codons.fasta.treefile"),
+        os.path.join(OUTDIR, Label + "_codons.fasta.cluster.json"),
+        os.path.join(OUTDIR, Label + "_codons.fasta.cluster.fasta"),
+        os.path.join(OUTDIR, Label + "_codons.fasta.cluster.fasta.GARD.json")
+        #os.path.join(OUTDIR, Label + ".1.codon.fas")
 #end rule all
 
 print("# Moving on to processing rules")
@@ -153,29 +153,14 @@ rule post_msa:
 #end rule 
 
 #----------------------------------------------------------------------------
-# Remove ambiguous codons, a source of noise.
-#----------------------------------------------------------------------------
-
-rule strike_ambigs:
-   input:
-       in_msa = rules.post_msa.output.codons_fas
-   output:
-       out_strike_ambigs = os.path.join(OUTDIR, Label + "_codons.SA.fasta")  
-   shell:
-       #"hyphy scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
-       "{HYPHY} scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
-#end rule 
-
-#----------------------------------------------------------------------------
 # IQ-TREE for ML tree inference
 #----------------------------------------------------------------------------
 
 rule iqtree: # Unrooted
     input:
-        codons_fas = rules.strike_ambigs.output.out_strike_ambigs
+        codons_fas = rules.post_msa.output.codons_fas
     output:
-        tree = os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile")  
-    conda: 'environment.yml'
+        tree = os.path.join(OUTDIR, Label + "_codons.fasta.treefile")
     shell:
         "iqtree -s {input.codons_fas} -T AUTO"
     #end shell
@@ -187,9 +172,9 @@ rule iqtree: # Unrooted
 
 rule tn93:
     input:
-       input = rules.strike_ambigs.output.out_strike_ambigs
+       input = rules.post_msa.output.codons_fas
     output:
-       output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.dst")
+       output = os.path.join(OUTDIR, Label + "_codons.fasta.dst")
     shell:
        "tn93 -t 1 -o {output.output} {input.input}"
     #end shell
@@ -201,9 +186,9 @@ rule tn93:
 
 rule tn93_cluster:
     input:
-        input = rules.strike_ambigs.output.out_strike_ambigs
+        input = rules.post_msa.output.codons_fas
     output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.json")
+        output = os.path.join(OUTDIR, Label + "_codons.fasta.cluster.json")
     shell:
         "tn93-cluster -f -o {output.output} -t {TN93_T} {input.input}" 
 #end rule
@@ -212,7 +197,7 @@ rule cluster_to_fasta:
    input: 
        input = rules.tn93_cluster.output.output
    output:
-       output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta")
+       output = os.path.join(OUTDIR, Label + "_codons.fasta.cluster.fasta")
    shell:
        "python scripts/cluster_to_fasta.py -i {input.input} -o {output.output}"
 #end rule 
@@ -225,11 +210,12 @@ rule recombination:
     input: 
         input = rules.cluster_to_fasta.output.output 
     output: 
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.cluster.fasta.GARD.json")
+        output = os.path.join(OUTDIR, Label + "_codons.fasta.cluster.fasta.GARD.json")
     shell: 
         "mpirun -np {PPN} {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output}"
 #end rule
 
+"""
 #----------------------------------------------------------------------------
 # Split out GARD partitions
 #----------------------------------------------------------------------------
@@ -244,6 +230,23 @@ rule gard_parse:
     notebook:
         "notebooks/GARD_Parser.ipynb"
 #end rule
+
+
+#----------------------------------------------------------------------------
+# Remove ambiguous codons, a source of noise.
+#----------------------------------------------------------------------------
+
+rule strike_ambigs:
+   input:
+       in_msa = rules.post_msa.output.codons_fas
+   output:
+       out_strike_ambigs = os.path.join(OUTDIR, Label + "_codons.SA.fasta")  
+   shell:
+       #"hyphy scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
+       "{HYPHY} scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
+#end rule 
+
+"""
 
 #----------------------------------------------------------------------------
 # End of file
