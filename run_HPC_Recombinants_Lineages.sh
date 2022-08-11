@@ -6,16 +6,13 @@ printf "Running snakemake...\n"
 
 #snakemake --forceall --dag | dot -Tpdf > dag.pdf
 
-mkdir -p logs
-
 snakemake \
       -s Snakefile_Recombinants_Lineages \
       --cluster-config cluster.json \
-      --cluster "qsub -V -l nodes={cluster.nodes}:ppn={cluster.ppn} -q {cluster.name} -l walltime={cluster.walletime} -e logs -o logs" \
+      --cluster "qsub -V -l nodes={cluster.nodes}:ppn={cluster.ppn} -q {cluster.name} -l walltime={cluster.walltime} -e logs -o logs" \
       --jobs 20 all \
       --rerun-incomplete \
       --keep-going \
       --reason \
       --use-conda \
-      --latency-wait 60 \
-      --use-conda 
+      --latency-wait 60 

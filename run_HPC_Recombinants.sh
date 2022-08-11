@@ -12,7 +12,7 @@ snakemake \
       -s Snakefile_Recombinants \
       --cluster-config cluster.json \
       --cluster "qsub -V -l nodes={cluster.nodes}:ppn={cluster.ppn} -q {cluster.name} -l walltime={cluster.walltime} -e logs -o logs" \
-      --jobs 10 all \
+      --jobs 8 all \
       --rerun-incomplete \
       --keep-going \
       --use-conda \
