@@ -1,153 +1,156 @@
-IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Mar 30 2021
+IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built May 11 2022
 Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
-Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
 
-Host:    n7 (AVX2, FMA3, 251 GB RAM)
-Command: iqtree -s /home/aglucaci/AOC/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta -T AUTO
-Seed:    82353 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Fri May  6 20:48:16 2022
-Kernel:  AVX+FMA - auto-detect threads (4 CPU cores detected)
+Host:    s040 (AVX512, FMA3, 92 GB RAM)
+Command: iqtree -s /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta -T 16 -redo
+Seed:    199030 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Aug  7 09:44:31 2022
+Kernel:  AVX+FMA - 16 threads (16 CPU cores detected)
 
-Reading alignment file /home/aglucaci/AOC/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta ... Fasta format detected
+Reading alignment file /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta ... Fasta format detected
+Reading fasta file: done in 0.0756714 secs using 91.45% CPU
 Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.0645279 secs using 1126% CPU
 Alignment has 152 sequences with 10884 columns, 6037 distinct patterns
 5271 parsimony-informative, 897 singleton sites, 4716 constant sites
                                                                                                                                                             Gap/Ambiguity  Composition  p-value
-   1  NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1                                       13.73%    passed     77.57%
-   2  NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                               13.95%    failed      0.26%
-   3  XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                       13.64%    failed      0.00%
-   4  XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          13.07%    passed     70.43%
-   5  XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  13.53%    passed     96.42%
+Analyzing sequences: done in 0.000973899 secs using 1156% CPU
+   1  NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                               13.95%    failed      0.26%
+   2  XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          13.07%    passed     70.43%
+   3  XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  13.53%    passed     96.42%
+   4  XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                              13.73%    passed     96.54%
+   5  NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1                                       13.73%    passed     77.57%
    6  XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                              13.62%    passed     98.39%
-   7  XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         13.70%    passed     67.84%
-   8  XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                              13.73%    passed     96.54%
-   9  XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                    13.78%    passed     96.43%
-  10  XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     13.78%    passed     74.89%
-  11  XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.70%    passed     97.65%
-  12  XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  13.73%    passed     98.71%
-  13  XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         13.73%    passed     59.15%
-  14  XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         14.44%    passed     38.66%
-  15  XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1                        16.12%    passed     10.60%
-  16  XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1                      13.81%    passed     89.58%
-  17  XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                   14.00%    passed     23.83%
-  18  XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                      13.97%    failed      1.32%
-  19  XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          13.73%    passed     98.05%
-  20  XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.01%    passed     22.92%
-  21  XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.73%    passed     51.45%
-  22  XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    13.07%    failed      3.88%
-  23  XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.09%    passed     98.45%
-  24  XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        13.34%    passed     60.50%
-  25  XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.89%    passed     92.51%
-  26  XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                             14.36%    passed     54.73%
-  27  XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.75%    passed     63.04%
-  28  XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1                                               16.10%    failed      0.06%
-  29  XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                             13.64%    passed     34.90%
-  30  XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                    29.11%    failed      0.50%
+   7  XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                    13.78%    passed     96.43%
+   8  XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.70%    passed     97.65%
+   9  XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         13.73%    passed     59.15%
+  10  XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         13.70%    passed     67.84%
+  11  XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  13.73%    passed     98.71%
+  12  XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1                        16.12%    passed     10.60%
+  13  XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                   14.00%    passed     23.83%
+  14  XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                       13.64%    failed      0.00%
+  15  XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         14.44%    passed     38.66%
+  16  XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                      13.97%    failed      1.32%
+  17  XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.73%    passed     51.45%
+  18  XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    13.07%    failed      3.88%
+  19  XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     13.78%    passed     74.89%
+  20  XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          13.73%    passed     98.05%
+  21  XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.09%    passed     98.45%
+  22  XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.89%    passed     92.51%
+  23  XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.75%    passed     63.04%
+  24  XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                             13.64%    passed     34.90%
+  25  XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1                      13.81%    passed     89.58%
+  26  XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        13.34%    passed     60.50%
+  27  XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1          14.00%    failed      0.01%
+  28  XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                    29.11%    failed      0.50%
+  29  XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.01%    passed     22.92%
+  30  XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1                                               16.10%    failed      0.06%
   31  XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                              13.75%    failed      0.31%
-  32  XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1          14.00%    failed      0.01%
-  33  XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                         13.78%    passed     59.59%
-  34  XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                 13.89%    failed      0.00%
-  35  XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                           13.92%    failed      0.01%
-  36  XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                         13.92%    failed      0.00%
-  37  XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                         13.64%    failed      0.45%
-  38  XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                      14.17%    failed      0.01%
-  39  XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                        13.78%    passed     55.50%
-  40  XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                    13.84%    passed     51.61%
-  41  XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                     14.08%    passed     81.25%
-  42  XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                           13.97%    passed     22.77%
-  43  XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                      16.10%    failed      2.18%
+  32  XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                           13.92%    failed      0.01%
+  33  XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                         13.92%    failed      0.00%
+  34  XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                         13.78%    passed     59.59%
+  35  XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                 13.89%    failed      0.00%
+  36  XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                        13.78%    passed     55.50%
+  37  XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                             14.36%    passed     54.73%
+  38  XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                         13.64%    failed      0.45%
+  39  XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                           13.97%    passed     22.77%
+  40  XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                      16.10%    failed      2.18%
+  41  XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1              15.93%    passed      9.18%
+  42  XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                           13.89%    passed     25.56%
+  43  XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                    13.84%    passed     51.61%
   44  XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                       16.21%    passed     11.11%
-  45  XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1              15.93%    passed      9.18%
-  46  XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                           13.89%    passed     25.56%
-  47  XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                          13.73%    passed     31.14%
-  48  XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 15.85%    passed     73.70%
-  49  XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        13.70%    passed     94.90%
-  50  XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                         13.70%    passed     98.64%
-  51  XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.70%    passed     96.87%
-  52  XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                 15.90%    passed     73.85%
-  53  XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             13.70%    passed     96.28%
-  54  XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         13.67%    passed     97.23%
-  55  XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.53%    passed     96.42%
-  56  XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 13.75%    passed     98.53%
+  45  XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        13.70%    passed     94.90%
+  46  XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                     14.08%    passed     81.25%
+  47  XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                      14.17%    failed      0.01%
+  48  XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                          13.73%    passed     31.14%
+  49  XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             13.70%    passed     96.28%
+  50  XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         13.67%    passed     97.23%
+  51  XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.53%    passed     96.42%
+  52  XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 13.75%    passed     98.53%
+  53  XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                         13.70%    passed     98.64%
+  54  XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.70%    passed     96.87%
+  55  XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                   13.78%    passed     99.34%
+  56  XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                 15.90%    passed     73.85%
   57  XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.70%    passed     96.31%
   58  XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         13.70%    passed     98.74%
-  59  XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                   13.78%    passed     99.34%
-  60  XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                 13.56%    passed     95.13%
+  59  XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                 13.56%    passed     95.13%
+  60  XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 15.85%    passed     73.70%
   61  XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.67%    passed     98.84%
   62  XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          13.45%    passed     92.62%
   63  XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           13.48%    passed     92.28%
-  64  XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                               13.75%    passed     99.12%
+  64  XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                     13.75%    passed     95.56%
   65  XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     13.81%    passed     99.45%
   66  XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.86%    passed     99.04%
   67  XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  13.86%    passed     99.14%
-  68  XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                     13.75%    passed     95.56%
-  69  XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                       16.65%    passed     79.40%
-  70  XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        13.73%    passed     94.40%
-  71  XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1                          13.75%    passed     99.58%
-  72  XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1          13.67%    passed     92.11%
-  73  XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.64%    passed     97.54%
-  74  XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                13.62%    passed     98.34%
-  75  XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                                     15.79%    passed     72.15%
-  76  XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             13.95%    passed     97.31%
-  77  XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         13.62%    passed     96.68%
-  78  XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             13.62%    passed     98.00%
-  79  XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            13.62%    passed     93.88%
+  68  XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1          13.67%    passed     92.11%
+  69  XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.64%    passed     97.54%
+  70  XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                13.62%    passed     98.34%
+  71  XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                                     15.79%    passed     72.15%
+  72  XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             13.95%    passed     97.31%
+  73  XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         13.62%    passed     96.68%
+  74  XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                       16.65%    passed     79.40%
+  75  XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1                          13.75%    passed     99.58%
+  76  XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                               13.75%    passed     99.12%
+  77  XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           13.59%    passed     97.97%
+  78  XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           13.64%    passed     97.50%
+  79  XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        13.73%    passed     94.40%
   80  XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                              13.59%    passed     78.24%
-  81  XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           13.59%    passed     97.97%
-  82  XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           13.64%    passed     97.50%
-  83  XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                            15.82%    passed     73.71%
+  81  XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             13.62%    passed     98.00%
+  82  XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1     13.64%    passed     99.72%
+  83  XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            13.62%    passed     93.88%
   84  XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     13.64%    passed     97.56%
   85  XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                   13.64%    passed     99.29%
-  86  XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1     13.64%    passed     99.72%
-  87  XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.64%    passed     96.97%
+  86  XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            13.62%    passed     95.16%
+  87  XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.64%    passed     92.32%
   88  XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1              13.67%    passed     91.02%
   89  XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.64%    passed     93.08%
-  90  XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            13.62%    passed     95.16%
-  91  XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.64%    passed     92.32%
-  92  XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          13.64%    passed     99.06%
-  93  XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.62%    passed     94.05%
+  90  XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                            15.82%    passed     73.71%
+  91  XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.64%    passed     96.97%
+  92  XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.62%    passed     99.24%
+  93  XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                           13.75%    passed     38.72%
   94  XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.64%    passed     95.24%
-  95  XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        13.62%    passed     93.59%
-  96  XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.62%    passed     99.24%
-  97  XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                           13.75%    passed     38.72%
+  95  XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.84%    passed      9.27%
+  96  XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                      13.81%    passed     18.38%
+  97  XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.75%    passed     64.84%
   98  XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                                 16.54%    failed      0.14%
-  99  XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      13.84%    passed      9.27%
- 100  XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                      13.81%    passed     18.38%
- 101  XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.75%    passed     64.84%
- 102  XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.75%    passed     48.04%
+  99  XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        13.62%    passed     93.59%
+ 100  XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    13.86%    passed     87.44%
+ 101  XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    13.84%    passed     89.39%
+ 102  XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                             13.86%    passed     67.34%
  103  XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1               13.67%    passed     99.61%
- 104  XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    13.84%    passed     89.39%
- 105  XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    13.86%    passed     87.44%
- 106  XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                             13.86%    passed     67.34%
+ 104  XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1                  13.67%    passed     96.92%
+ 105  XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                          14.06%    passed     93.12%
+ 106  XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.75%    passed     48.04%
  107  XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   13.86%    passed     96.46%
- 108  XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1                  13.67%    passed     96.92%
- 109  XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                          14.06%    passed     93.12%
+ 108  XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          13.64%    passed     99.06%
+ 109  XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.62%    passed     94.05%
  110  XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     13.78%    passed     76.95%
  111  XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        13.84%    passed     79.79%
  112  XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          14.42%    passed     46.56%
  113  XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           13.73%    passed     90.04%
  114  XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        15.90%    passed     37.43%
- 115  XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.64%    passed     65.91%
+ 115  XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                        16.79%    passed     18.47%
  116  XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            13.73%    passed     98.99%
  117  XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      14.11%    failed      0.00%
- 118  XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                        16.79%    passed     18.47%
- 119  XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                 6.86%    failed      0.00%
- 120  XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1            13.78%    passed     60.21%
+ 118  XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                 6.86%    failed      0.00%
+ 119  XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            13.78%    passed     78.64%
+ 120  XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    13.81%    passed     73.33%
  121  XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     13.75%    passed     66.37%
  122  XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.89%    passed     75.98%
- 123  XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            13.78%    passed     78.64%
- 124  XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    13.81%    passed     73.33%
- 125  XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  13.81%    passed     71.70%
+ 123  XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 13.78%    passed     61.95%
+ 124  XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1               14.69%    passed     61.58%
+ 125  XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                 13.73%    passed     76.38%
  126  XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                13.78%    passed     64.88%
- 127  XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 13.78%    passed     61.95%
- 128  XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1               14.69%    passed     61.58%
- 129  XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                 13.73%    passed     76.38%
- 130  XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            13.70%    passed     72.48%
+ 127  XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       13.64%    passed     65.91%
+ 128  XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1            13.78%    passed     60.21%
+ 129  XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            13.70%    passed     72.48%
+ 130  XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  13.81%    passed     71.70%
  131  XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            13.70%    passed     79.33%
  132  XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     13.73%    passed     63.10%
  133  XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        13.84%    passed     59.50%
- 134  XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                               13.73%    passed     63.09%
- 135  XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          24.12%    passed     26.42%
+ 134  XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          24.12%    passed     26.42%
+ 135  XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                               13.73%    passed     63.09%
  136  XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          13.73%    passed     81.30%
  137  XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         13.59%    passed     40.90%
  138  XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        14.66%    failed      0.32%
@@ -162,212 +165,268 @@ Alignment has 152 sequences with 10884 columns, 6037 distinct patterns
  147  XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                          12.51%    failed      3.79%
  148  XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                13.15%    failed      0.00%
  149  XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                        12.68%    failed      0.00%
- 150  XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1        13.64%    passed     95.82%
- 151  XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1           13.78%    passed     99.43%
+ 150  XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1           13.78%    passed     99.43%
+ 151  XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1        13.64%    passed     95.82%
  152  XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1   13.75%    passed     87.52%
 ****  TOTAL                                                                                                                                                        14.10%  21 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.00649895 secs using 1572% CPU
 
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.311 seconds
-Measuring multi-threading efficiency up to 4 CPU cores
-Increase to 10 rounds for branch lengths
-2 trees examined
-Threads: 1 / Time: 4.476 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -334010
-Threads: 2 / Time: 2.307 sec / Speedup: 1.941 / Efficiency: 97% / LogL: -334010
-Threads: 3 / Time: 1.572 sec / Speedup: 2.848 / Efficiency: 95% / LogL: -334010
-Threads: 4 / Time: 1.519 sec / Speedup: 2.948 / Efficiency: 74% / LogL: -334010
-BEST NUMBER OF THREADS: 3
-
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.193 seconds
 Perform fast likelihood tree search using GTR+I+G model...
 Estimate model parameters (epsilon = 5.000)
 Perform nearest neighbor interchange...
+Optimizing NNI: done in 0.607523 secs using 1595% CPU
 Estimate model parameters (epsilon = 1.000)
-1. Initial log-likelihood: -167864.743
-2. Current log-likelihood: -167861.557
-3. Current log-likelihood: -167859.868
-4. Current log-likelihood: -167858.704
-Optimal log-likelihood: -167857.669
-Rate parameters:  A-C: 1.23735  A-G: 5.52615  A-T: 0.65956  C-G: 1.17473  C-T: 5.29805  G-T: 1.00000
+1. Initial log-likelihood: -167871.602
+2. Current log-likelihood: -167868.251
+3. Current log-likelihood: -167866.565
+4. Current log-likelihood: -167865.418
+Optimal log-likelihood: -167864.394
+Rate parameters:  A-C: 1.23518  A-G: 5.51708  A-T: 0.65884  C-G: 1.17184  C-T: 5.29271  G-T: 1.00000
 Base frequencies:  A: 0.334  C: 0.204  G: 0.199  T: 0.263
 Proportion of invariable sites: 0.261
-Gamma shape alpha: 1.292
-Parameters optimization took 4 rounds (2.007 sec)
-Time for fast ML tree search: 8.099 seconds
+Gamma shape alpha: 1.294
+Parameters optimization took 4 rounds (0.606 sec)
+Time for fast ML tree search: 2.887 seconds
 
 NOTE: ModelFinder requires 297 MB RAM!
-ModelFinder will test up to 286 DNA models (sample size: 10884) ...
+ModelFinder will test up to 484 DNA models (sample size: 10884) ...
  No. Model         -LnL         df  AIC          AICc         BIC
-  1  GTR+F         178067.645   309 356753.290   356771.408   359007.460
-  2  GTR+F+I       170734.725   310 342089.449   342107.686   344350.915
-  3  GTR+F+G4      168114.840   310 336849.681   336867.918   339111.146
-  4  GTR+F+I+G4    167856.775   311 336335.549   336353.906   338604.309
-  5  GTR+F+R2      168850.060   311 338322.119   338340.476   340590.879
-  6  GTR+F+R3      167858.106   313 336342.212   336360.808   338625.562
-  7  GTR+F+R4      167678.575   315 335987.150   336005.988   338285.091
-  8  GTR+F+R5      167677.525   317 335989.051   336008.132   338301.582
- 20  SYM+R4        167886.610   312 336397.219   336415.695   338673.275
- 33  TVM+F+R4      167678.847   314 335985.694   336004.411   338276.339
- 46  TVMe+R4       167918.678   311 336459.356   336477.712   338728.116
- 59  TIM3+F+R4     167743.531   313 336113.061   336131.658   338396.412
- 72  TIM3e+R4      167972.349   310 336564.698   336582.935   338826.163
- 85  TIM2+F+R4     167874.936   313 336375.873   336394.469   338659.223
- 98  TIM2e+R4      167959.200   310 336538.400   336556.637   338799.865
-111  TIM+F+R4      167803.168   313 336232.336   336250.932   338515.686
-124  TIMe+R4       167968.974   310 336557.949   336576.186   338819.414
-137  TPM3u+F+R4    167744.938   312 336113.876   336132.352   338389.931
-150  TPM3+F+R4     167744.938   312 336113.876   336132.352   338389.931
-163  TPM2u+F+R4    167875.905   312 336375.810   336394.286   338651.865
-176  TPM2+F+R4     167875.905   312 336375.810   336394.286   338651.865
-189  K3Pu+F+R4     167804.214   312 336232.429   336250.905   338508.484
-202  K3P+R4        167994.892   309 336607.784   336625.902   338861.954
-215  TN+F+R4       167900.712   312 336425.424   336443.900   338701.479
-228  TNe+R4        168011.799   309 336641.597   336659.715   338895.768
-241  HKY+F+R4      167901.744   311 336425.488   336443.845   338694.248
-254  K2P+R4        168037.639   308 336691.278   336709.277   338938.153
-267  F81+F+R4      177274.822   310 355169.643   355187.880   357431.108
-280  JC+R4         176818.762   307 354251.523   354269.404   356491.103
-Akaike Information Criterion:           TVM+F+R4
-Corrected Akaike Information Criterion: TVM+F+R4
-Bayesian Information Criterion:         TVM+F+R4
-Best-fit model: TVM+F+R4 chosen according to BIC
+  1  GTR+F         178080.898   309 356779.795   356797.913   359033.965
+  2  GTR+F+I       170742.292   310 342104.584   342122.821   344366.049
+  3  GTR+F+G4      168123.061   310 336866.122   336884.359   339127.587
+  4  GTR+F+I+G4    167863.513   311 336349.027   336367.383   338617.787
+  5  GTR+F+R2      168859.018   311 338340.036   338358.393   340608.796
+  6  GTR+F+R3      167863.740   313 336353.480   336372.076   338636.830
+  7  GTR+F+R4      167686.184   315 336002.368   336021.206   338300.308
+  8  GTR+F+R5      167685.353   317 336004.705   336023.786   338317.236
+ 14  GTR+F+I+I+R2  168096.965   312 336817.930   336836.406   339093.985
+ 15  GTR+F+I+I+R3  167722.399   314 336072.797   336091.514   338363.443
+ 16  GTR+F+I+I+R4  167662.060   316 335956.119   335975.079   338261.355
+ 17  GTR+F+I+I+R5  167660.473   318 335956.946   335976.149   338276.771
+ 38  SYM+I+I+R4    167880.233   313 336386.466   336405.063   338669.817
+ 60  TVM+F+I+I+R4  167662.992   315 335955.984   335974.822   338253.925
+ 82  TVMe+I+I+R4   167912.544   312 336449.087   336467.564   338725.143
+104  TIM3+F+I+I+R4 167728.526   314 336085.052   336103.769   338375.697
+126  TIM3e+I+I+R4  167966.781   311 336555.563   336573.919   338824.323
+148  TIM2+F+I+I+R4 167861.487   314 336350.975   336369.692   338641.620
+170  TIM2e+I+I+R4  167953.663   311 336529.326   336547.682   338798.086
+192  TIM+F+I+I+R4  167790.009   314 336208.017   336226.734   338498.663
+214  TIMe+I+I+R4   167964.043   311 336550.085   336568.442   338818.845
+236  TPM3u+F+I+I+R4 167729.598   313 336085.195   336103.791   338368.545
+258  TPM3+I+I+R4   167994.728   310 336609.456   336627.693   338870.921
+280  TPM2u+F+I+I+R4 167862.293   313 336350.585   336369.182   338633.936
+302  TPM2+I+I+R4   167983.300   310 336586.599   336604.836   338848.064
+324  K3Pu+F+I+I+R4 167790.909   313 336207.818   336226.414   338491.168
+346  K3P+I+I+R4    167989.446   310 336598.892   336617.129   338860.357
+368  TN+F+I+I+R4   167887.960   313 336401.920   336420.516   338685.270
+390  TNe+I+I+R4    168006.730   310 336633.460   336651.697   338894.925
+412  HKY+F+I+I+R4  167888.802   312 336401.604   336420.080   338677.659
+434  K2P+I+I+R4    168032.031   309 336682.063   336700.181   338936.233
+456  F81+F+I+I+R4  177274.039   311 355170.079   355188.435   357438.839
+478  JC+I+I+R4     176821.150   308 354258.300   354276.299   356505.175
+Akaike Information Criterion:           TVM+F+I+I+R4
+Corrected Akaike Information Criterion: TVM+F+I+I+R4
+Bayesian Information Criterion:         TVM+F+I+I+R4
+Best-fit model: TVM+F+I+I+R4 chosen according to BIC
 
-All model information printed to /home/aglucaci/AOC/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.model.gz
-CPU time for ModelFinder: 1008.234 seconds (0h:16m:48s)
-Wall-clock time for ModelFinder: 340.754 seconds (0h:5m:40s)
+All model information printed to /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.model.gz
+CPU time for ModelFinder: 3046.441 seconds (0h:50m:46s)
+Wall-clock time for ModelFinder: 193.777 seconds (0h:3m:13s)
 
 NOTE: 119 MB RAM (0 GB) is required!
 Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -167678.847
-Optimal log-likelihood: -167678.723
-Rate parameters:  A-C: 1.22708  A-G: 5.40603  A-T: 0.65646  C-G: 1.17041  C-T: 5.40603  G-T: 1.00000
+1. Initial log-likelihood: -167662.992
+Optimal log-likelihood: -167662.895
+Rate parameters:  A-C: 1.22812  A-G: 5.41339  A-T: 0.65467  C-G: 1.17547  C-T: 5.41339  G-T: 1.00000
 Base frequencies:  A: 0.334  C: 0.204  G: 0.199  T: 0.263
-Site proportion and rates:  (0.433,0.075) (0.310,0.930) (0.238,2.382) (0.019,5.980)
-Parameters optimization took 1 rounds (0.743 sec)
+Proportion of invariable sites: 0.239
+Site proportion and rates:  (0.272,0.264) (0.289,1.210) (0.185,2.610) (0.015,6.322)
+Parameters optimization took 1 rounds (0.625 sec)
+Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Computing ML distances took 0.183157 sec (of wall-clock time) 0.537159 sec(of CPU time)
-Computing RapidNJ tree took 0.348069 sec (of wall-clock time) 0.231312 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -168155.375
+Calculating distance matrix: done in 0.0323835 secs using 1524% CPU
+Computing ML distances took 0.033282 sec (of wall-clock time) 0.508151 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00238604 secs using 395.2% CPU
+Constructing RapidNJ tree: done in 0.185965 secs using 165.7% CPU
+Computing RapidNJ tree took 0.188500 sec (of wall-clock time) 0.317646 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -167770.405
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 98 parsimony trees... 29.956 second
-Computing log-likelihood of 98 initial trees ... 10.645 seconds
-Current best score: -167678.723
+Generating 98 parsimony trees... 14.747 second
+Computing log-likelihood of 98 initial trees ... 6.160 seconds
+Current best score: -167662.895
 
 Do NNI search on 20 best initial trees
+Optimizing NNI: done in 0.446002 secs using 1587% CPU
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 1: -167678.580
-Iteration 10 / LogL: -167678.588 / Time: 0h:0m:54s
-Iteration 20 / LogL: -167678.594 / Time: 0h:1m:6s
-Finish initializing candidate tree set (2)
-Current best tree score: -167678.580 / CPU time: 64.544
+BETTER TREE FOUND at iteration 1: -167657.641
+Optimizing NNI: done in 0.674958 secs using 1593% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -167654.982
+Optimizing NNI: done in 0.656655 secs using 1596% CPU
+Optimizing NNI: done in 0.587015 secs using 1595% CPU
+Optimizing NNI: done in 0.682228 secs using 1586% CPU
+Optimizing NNI: done in 0.66234 secs using 1596% CPU
+Optimizing NNI: done in 0.739076 secs using 1596% CPU
+Optimizing NNI: done in 0.679764 secs using 1597% CPU
+Optimizing NNI: done in 0.673491 secs using 1594% CPU
+Optimizing NNI: done in 0.752822 secs using 1594% CPU
+Iteration 10 / LogL: -167655.086 / Time: 0h:0m:30s
+Optimizing NNI: done in 0.764913 secs using 1591% CPU
+Optimizing NNI: done in 0.776007 secs using 1596% CPU
+Optimizing NNI: done in 0.73513 secs using 1595% CPU
+Optimizing NNI: done in 0.742876 secs using 1595% CPU
+Optimizing NNI: done in 0.760073 secs using 1593% CPU
+Optimizing NNI: done in 0.781865 secs using 1596% CPU
+Optimizing NNI: done in 0.720574 secs using 1592% CPU
+Optimizing NNI: done in 0.763387 secs using 1595% CPU
+Optimizing NNI: done in 0.759723 secs using 1595% CPU
+Optimizing NNI: done in 0.765207 secs using 1596% CPU
+Iteration 20 / LogL: -167655.113 / Time: 0h:0m:37s
+Finish initializing candidate tree set (4)
+Current best tree score: -167654.982 / CPU time: 36.573
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Estimate model parameters (epsilon = 0.100)
-UPDATE BEST LOG-LIKELIHOOD: -167678.418
-Estimate model parameters (epsilon = 0.100)
-UPDATE BEST LOG-LIKELIHOOD: -167678.244
-Iteration 30 / LogL: -167681.165 / Time: 0h:1m:29s (0h:3m:38s left)
-Estimate model parameters (epsilon = 0.100)
-UPDATE BEST LOG-LIKELIHOOD: -167678.090
-Iteration 40 / LogL: -167678.524 / Time: 0h:1m:50s (0h:2m:52s left)
-Estimate model parameters (epsilon = 0.100)
-UPDATE BEST LOG-LIKELIHOOD: -167677.945
-UPDATE BEST LOG-LIKELIHOOD: -167677.940
-Iteration 50 / LogL: -167699.250 / Time: 0h:2m:12s (0h:2m:18s left)
-Estimate model parameters (epsilon = 0.100)
-UPDATE BEST LOG-LIKELIHOOD: -167677.809
-Iteration 60 / LogL: -167678.117 / Time: 0h:2m:34s (0h:1m:47s left)
-UPDATE BEST LOG-LIKELIHOOD: -167677.805
-Estimate model parameters (epsilon = 0.100)
-UPDATE BEST LOG-LIKELIHOOD: -167677.673
-Iteration 70 / LogL: -167677.673 / Time: 0h:2m:56s (0h:1m:19s left)
-UPDATE BEST LOG-LIKELIHOOD: -167677.664
-Iteration 80 / LogL: -167682.028 / Time: 0h:3m:17s (0h:0m:52s left)
-UPDATE BEST LOG-LIKELIHOOD: -167677.656
-Iteration 90 / LogL: -167677.895 / Time: 0h:3m:38s (0h:0m:27s left)
-Iteration 100 / LogL: -167677.668 / Time: 0h:4m:0s (0h:0m:2s left)
-TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:4m:4s
+Optimizing NNI: done in 1.12686 secs using 1595% CPU
+Optimizing NNI: done in 1.3293 secs using 1595% CPU
+Optimizing NNI: done in 1.30666 secs using 1593% CPU
+Optimizing NNI: done in 1.29723 secs using 1596% CPU
+Optimizing NNI: done in 1.41749 secs using 1595% CPU
+Optimizing NNI: done in 1.33961 secs using 1593% CPU
+Optimizing NNI: done in 1.27334 secs using 1596% CPU
+Optimizing NNI: done in 1.49813 secs using 1595% CPU
+Optimizing NNI: done in 1.51386 secs using 1595% CPU
+UPDATE BEST LOG-LIKELIHOOD: -167654.979
+Optimizing NNI: done in 1.19803 secs using 1596% CPU
+Iteration 30 / LogL: -167655.519 / Time: 0h:0m:51s (0h:2m:7s left)
+Optimizing NNI: done in 1.28062 secs using 1593% CPU
+Optimizing NNI: done in 1.31656 secs using 1596% CPU
+Optimizing NNI: done in 1.10429 secs using 1595% CPU
+Optimizing NNI: done in 1.06463 secs using 1595% CPU
+Optimizing NNI: done in 1.13525 secs using 1597% CPU
+Optimizing NNI: done in 1.36871 secs using 1595% CPU
+Optimizing NNI: done in 1.21205 secs using 1596% CPU
+Optimizing NNI: done in 1.38725 secs using 1597% CPU
+Optimizing NNI: done in 1.18763 secs using 1596% CPU
+Optimizing NNI: done in 1.44943 secs using 1594% CPU
+Iteration 40 / LogL: -167655.005 / Time: 0h:1m:3s (0h:1m:41s left)
+Optimizing NNI: done in 1.19559 secs using 1596% CPU
+Optimizing NNI: done in 1.55764 secs using 1594% CPU
+Optimizing NNI: done in 1.12948 secs using 1596% CPU
+Optimizing NNI: done in 1.41517 secs using 1596% CPU
+Optimizing NNI: done in 1.19147 secs using 1596% CPU
+Optimizing NNI: done in 1.43081 secs using 1595% CPU
+Optimizing NNI: done in 1.35798 secs using 1595% CPU
+Optimizing NNI: done in 1.31049 secs using 1595% CPU
+Optimizing NNI: done in 1.43806 secs using 1596% CPU
+Optimizing NNI: done in 1.7009 secs using 1595% CPU
+Iteration 50 / LogL: -167655.085 / Time: 0h:1m:17s (0h:1m:22s left)
+Optimizing NNI: done in 1.29566 secs using 1595% CPU
+Optimizing NNI: done in 1.58598 secs using 1596% CPU
+Optimizing NNI: done in 1.31014 secs using 1595% CPU
+Optimizing NNI: done in 1.46105 secs using 1596% CPU
+Optimizing NNI: done in 1.18757 secs using 1595% CPU
+Optimizing NNI: done in 1.37763 secs using 1596% CPU
+Optimizing NNI: done in 1.56785 secs using 1596% CPU
+Optimizing NNI: done in 1.56479 secs using 1596% CPU
+Optimizing NNI: done in 1.32432 secs using 1596% CPU
+Optimizing NNI: done in 1.50995 secs using 1595% CPU
+Iteration 60 / LogL: -167655.015 / Time: 0h:1m:32s (0h:1m:5s left)
+Optimizing NNI: done in 1.2448 secs using 1595% CPU
+Optimizing NNI: done in 1.23864 secs using 1594% CPU
+Optimizing NNI: done in 1.51025 secs using 1596% CPU
+Optimizing NNI: done in 1.4105 secs using 1595% CPU
+Optimizing NNI: done in 1.14848 secs using 1595% CPU
+Optimizing NNI: done in 1.49996 secs using 1596% CPU
+Optimizing NNI: done in 1.47604 secs using 1596% CPU
+Optimizing NNI: done in 1.3729 secs using 1596% CPU
+Optimizing NNI: done in 1.29351 secs using 1596% CPU
+Optimizing NNI: done in 1.36951 secs using 1596% CPU
+Iteration 70 / LogL: -167828.395 / Time: 0h:1m:45s (0h:0m:49s left)
+Optimizing NNI: done in 1.47532 secs using 1596% CPU
+Optimizing NNI: done in 1.25033 secs using 1597% CPU
+Optimizing NNI: done in 1.42105 secs using 1594% CPU
+Optimizing NNI: done in 1.43483 secs using 1595% CPU
+Optimizing NNI: done in 1.37857 secs using 1596% CPU
+Optimizing NNI: done in 1.34403 secs using 1596% CPU
+Optimizing NNI: done in 1.38741 secs using 1596% CPU
+Optimizing NNI: done in 1.19429 secs using 1595% CPU
+Optimizing NNI: done in 1.37953 secs using 1595% CPU
+Optimizing NNI: done in 1.28343 secs using 1594% CPU
+Iteration 80 / LogL: -167655.280 / Time: 0h:1m:59s (0h:0m:33s left)
+Optimizing NNI: done in 1.19362 secs using 1593% CPU
+Optimizing NNI: done in 1.44227 secs using 1596% CPU
+Optimizing NNI: done in 1.35826 secs using 1595% CPU
+Optimizing NNI: done in 1.19931 secs using 1595% CPU
+Optimizing NNI: done in 1.38155 secs using 1595% CPU
+Optimizing NNI: done in 1.14032 secs using 1596% CPU
+Optimizing NNI: done in 1.31246 secs using 1596% CPU
+Optimizing NNI: done in 1.29048 secs using 1594% CPU
+Optimizing NNI: done in 1.45873 secs using 1593% CPU
+Optimizing NNI: done in 1.2703 secs using 1594% CPU
+Iteration 90 / LogL: -167655.063 / Time: 0h:2m:12s (0h:0m:17s left)
+Optimizing NNI: done in 1.34262 secs using 1596% CPU
+Optimizing NNI: done in 1.41053 secs using 1591% CPU
+Optimizing NNI: done in 1.29171 secs using 1594% CPU
+Optimizing NNI: done in 1.22827 secs using 1594% CPU
+Optimizing NNI: done in 1.47464 secs using 1595% CPU
+Optimizing NNI: done in 1.3544 secs using 1594% CPU
+Optimizing NNI: done in 1.22696 secs using 1596% CPU
+Optimizing NNI: done in 1.33226 secs using 1593% CPU
+Optimizing NNI: done in 1.27294 secs using 1595% CPU
+Optimizing NNI: done in 1.41248 secs using 1593% CPU
+Iteration 100 / LogL: -167659.543 / Time: 0h:2m:26s (0h:0m:2s left)
+Optimizing NNI: done in 1.16223 secs using 1595% CPU
+Optimizing NNI: done in 1.25474 secs using 1592% CPU
+Optimizing NNI: done in 1.2517 secs using 1595% CPU
+TREE SEARCH COMPLETED AFTER 103 ITERATIONS / Time: 0h:2m:29s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -167677.656
-2. Current log-likelihood: -167677.586
-3. Current log-likelihood: -167677.475
-4. Current log-likelihood: -167677.361
-5. Current log-likelihood: -167677.262
-6. Current log-likelihood: -167677.189
-7. Current log-likelihood: -167677.087
-8. Current log-likelihood: -167676.999
-9. Current log-likelihood: -167676.934
-10. Current log-likelihood: -167676.841
-11. Current log-likelihood: -167676.762
-12. Current log-likelihood: -167676.704
-13. Current log-likelihood: -167676.631
-14. Current log-likelihood: -167676.557
-15. Current log-likelihood: -167676.509
-16. Current log-likelihood: -167676.461
-17. Current log-likelihood: -167676.416
-18. Current log-likelihood: -167676.370
-19. Current log-likelihood: -167676.327
-20. Current log-likelihood: -167676.284
-21. Current log-likelihood: -167676.242
-22. Current log-likelihood: -167676.202
-23. Current log-likelihood: -167676.163
-24. Current log-likelihood: -167676.124
-25. Current log-likelihood: -167676.087
-26. Current log-likelihood: -167676.050
-27. Current log-likelihood: -167676.013
-28. Current log-likelihood: -167675.979
-29. Current log-likelihood: -167675.944
-30. Current log-likelihood: -167675.911
-31. Current log-likelihood: -167675.878
-32. Current log-likelihood: -167675.855
-33. Current log-likelihood: -167675.822
-34. Current log-likelihood: -167675.804
-35. Current log-likelihood: -167675.771
-36. Current log-likelihood: -167675.740
-37. Current log-likelihood: -167675.718
-38. Current log-likelihood: -167675.688
-39. Current log-likelihood: -167675.671
-40. Current log-likelihood: -167675.641
-41. Current log-likelihood: -167675.622
-42. Current log-likelihood: -167675.601
-43. Current log-likelihood: -167675.577
-44. Current log-likelihood: -167675.562
-45. Current log-likelihood: -167675.546
-46. Current log-likelihood: -167675.527
-47. Current log-likelihood: -167675.509
-48. Current log-likelihood: -167675.493
-49. Current log-likelihood: -167675.466
-50. Current log-likelihood: -167675.456
-51. Current log-likelihood: -167675.439
-52. Current log-likelihood: -167675.425
-53. Current log-likelihood: -167675.412
-54. Current log-likelihood: -167675.398
-Optimal log-likelihood: -167675.384
-Rate parameters:  A-C: 1.22642  A-G: 5.40600  A-T: 0.65591  C-G: 1.17113  C-T: 5.40600  G-T: 1.00000
+1. Initial log-likelihood: -167654.979
+2. Current log-likelihood: -167654.917
+3. Current log-likelihood: -167654.869
+4. Current log-likelihood: -167654.825
+5. Current log-likelihood: -167654.769
+6. Current log-likelihood: -167654.727
+7. Current log-likelihood: -167654.691
+8. Current log-likelihood: -167654.654
+9. Current log-likelihood: -167654.625
+10. Current log-likelihood: -167654.595
+11. Current log-likelihood: -167654.570
+12. Current log-likelihood: -167654.543
+13. Current log-likelihood: -167654.525
+Optimal log-likelihood: -167654.509
+Rate parameters:  A-C: 1.22832  A-G: 5.41261  A-T: 0.65449  C-G: 1.17600  C-T: 5.41261  G-T: 1.00000
 Base frequencies:  A: 0.334  C: 0.204  G: 0.199  T: 0.263
-Site proportion and rates:  (0.423,0.067) (0.312,0.890) (0.246,2.350) (0.020,5.928)
-Parameters optimization took 54 rounds (53.825 sec)
-BEST SCORE FOUND : -167675.384
-Total tree length: 3.575
+Proportion of invariable sites: 0.245
+Site proportion and rates:  (0.277,0.284) (0.292,1.268) (0.172,2.680) (0.014,6.456)
+Parameters optimization took 13 rounds (7.315 sec)
+BEST SCORE FOUND : -167654.509
+Total tree length: 3.582
 
-Total number of iterations: 102
-CPU time used for tree search: 664.208 sec (0h:11m:4s)
-Wall-clock time used for tree search: 241.913 sec (0h:4m:1s)
-Total CPU time used: 830.869 sec (0h:13m:50s)
-Total wall-clock time used: 297.936 sec (0h:4m:57s)
+Total number of iterations: 103
+CPU time used for tree search: 2146.972 sec (0h:35m:46s)
+Wall-clock time used for tree search: 148.452 sec (0h:2m:28s)
+Total CPU time used: 2279.855 sec (0h:37m:59s)
+Total wall-clock time used: 157.051 sec (0h:2m:37s)
 
 Analysis results written to: 
-  IQ-TREE report:                /home/aglucaci/AOC/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.iqtree
-  Maximum-likelihood tree:       /home/aglucaci/AOC/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.treefile
-  Likelihood distances:          /home/aglucaci/AOC/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.mldist
-  Screen log file:               /home/aglucaci/AOC/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.log
+  IQ-TREE report:                /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.iqtree
+  Maximum-likelihood tree:       /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.treefile
+  Likelihood distances:          /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.mldist
+  Screen log file:               /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.log
 
-Date and Time: Fri May  6 20:58:55 2022
+ALISIM COMMAND
+--------------
+--alisim simulated_MSA -t /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L_codons.SA.fasta.treefile -m "TVM{1.22832,5.41261,0.654493,1.176}+F{0.333767,0.204256,0.198616,0.26336}+I{0.244758}+R4{0.277476,0.283956,0.292105,1.26768,0.171542,2.68019,0.0141192,6.45564}" --length 10884
+
+Date and Time: Sun Aug  7 09:50:22 2022
