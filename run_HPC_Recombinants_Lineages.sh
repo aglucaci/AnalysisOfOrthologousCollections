@@ -1,18 +1,20 @@
 #!/bin/bash
 
+echo "Analysis of Orthologous Collections (AOC)"
+echo "@Author: Alexander G. Lucaci"
+echo ""
+
+# Set up the pipeline failure expectations.
 set -euo pipefail
 
-printf "Running snakemake...\n"
-
-#snakemake --forceall --dag | dot -Tpdf > dag.pdf
+echo "Executing HPC Snakemake command, Selection analyses on recombinant free segments with lineages labelled"
 
 snakemake \
       -s Snakefile_Recombinants_Lineages \
       --cluster-config cluster.json \
       --cluster "qsub -V -l nodes={cluster.nodes}:ppn={cluster.ppn} -q {cluster.name} -l walltime={cluster.walltime} -e logs -o logs" \
-      --jobs 20 all \
+      --jobs 8 all \
       --rerun-incomplete \
       --keep-going \
       --reason \
-      --use-conda \
       --latency-wait 60 

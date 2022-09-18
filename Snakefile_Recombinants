@@ -1,10 +1,11 @@
-"""``snakemake`` file that runs the AOC Part I Selection analysis.
-Written by Alexander G Lucaci.
-
-For this, I don't need the alignment stuff, since we have an alignment, and its recombination free (tested via RDP).
-Jump back in ad the TN93 and IQTREE step, then selection analyes
-
 """
+Analysis of Orthologous Collections (AOC)
+@Author: Alexander G. Lucaci
+"""
+
+#----------------------------------------------------------------------------
+# Imports 
+#----------------------------------------------------------------------------
 
 import itertools
 import os
@@ -14,8 +15,6 @@ import json
 from pathlib import Path
 from snakemake.utils import min_version
 import glob
-
-print("# Snakefile for Recombinants")
 
 #----------------------------------------------------------------------------
 # Configuration
@@ -28,21 +27,19 @@ with open("cluster.json", "r") as in_c:
 
 Label = config["Label"]
 
-# Batch files
+# HyPhy Batch files
 FMM = config["FMM"]
 BUSTEDS_MH = config["BUSTEDSMH"]
 FITMG94 = config["FITMG94"]
-#LabelTrees_bf = config["LabelTrees"]
 
 # Set output directory
 BASEDIR = os.getcwd()
 
-# Set single recombinant
-#Recombinant = os.path.join(BASEDIR, "results", Label, Label + ".1.codon.fas")
 # Set output directory
 BASEDIR = os.getcwd()
 
 print("# We are operating out of base directory:", BASEDIR)
+
 OUTDIR = os.path.join(BASEDIR, "results", Label)
 
 print("# Output directory:", OUTDIR)
@@ -59,12 +56,13 @@ PPN = cluster["__default__"]["ppn"]
 # HyPhy settings
 HYPHY = config["HYPHY"]
 HYPHYMPI = config["HYPHYMPI"]
-RES = config["RES"]
+
+# MPI Command
+MPICMD = ""
 
 #----------------------------------------------------------------------------
 # Helper functions
 #----------------------------------------------------------------------------
-#print(Recombinants)
 
 #----------------------------------------------------------------------------
 # Rule all
@@ -81,8 +79,8 @@ rule all:
         expand(os.path.join(OUTDIR, "{sample}.ABSREL.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.SLAC.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.BGM.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.PRIME.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.ABSREL-MH.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.PRIME.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.ABSREL-MH.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.BUSTEDS-MH.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.FMM.json"), sample=Recombinants)
 #end rule all
@@ -116,7 +114,7 @@ rule iqtree: # Unrooted
         tree = os.path.join(OUTDIR, "{sample}.treefile")
     conda: 'environment.yml'
     shell:
-        "iqtree -s {input.codons_fas} -T AUTO"
+        "iqtree -s {input.codons_fas} -T AUTO --redo"
 #end rule iqtree
 
 #----------------------------------------------------------------------------
@@ -130,7 +128,7 @@ rule FITMG94:
         results = os.path.join(OUTDIR, "{sample}.MG94.json")
     conda: 'environment.yml'
     shell: 
-        "{HYPHY} LIBPATH={RES} {FITMG94} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --rooted No --lrt Yes --type global --frequencies CF3x4"
+        "{HYPHY} {FITMG94} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --rooted No --lrt Yes --type global --frequencies CF3x4"
 #end rule 
 
 rule FEL:
@@ -141,7 +139,7 @@ rule FEL:
         results = os.path.join(OUTDIR, "{sample}.FEL.json")
     conda: 'environment.yml'
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} FEL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --ci Yes"
+        "mpirun -np {PPN} {HYPHYMPI} FEL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --ci Yes"
 #end rule 
 
 rule FUBAR:
@@ -152,7 +150,7 @@ rule FUBAR:
         results = os.path.join(OUTDIR, "{sample}.FUBAR.json")
     conda: 'environment.yml'    
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} FUBAR --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} FUBAR --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule 
 
 rule BUSTEDS:
@@ -163,7 +161,7 @@ rule BUSTEDS:
         results = os.path.join(BASEDIR, "{sample}.BUSTEDS.json")
     conda: 'environment.yml'
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10"
+        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10"
 #end rule
 
 rule MEME:
@@ -174,7 +172,7 @@ rule MEME:
         results = os.path.join(BASEDIR, "{sample}.MEME.json")
     conda: 'environment.yml'
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} MEME --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} MEME --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule 
 
 rule ABSREL:
@@ -185,7 +183,7 @@ rule ABSREL:
         results = os.path.join(BASEDIR, "{sample}.ABSREL.json")
     conda: 'environment.yml'
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule
 
 rule SLAC:
@@ -196,7 +194,7 @@ rule SLAC:
         results = os.path.join(BASEDIR, "{sample}.SLAC.json")
     conda: 'environment.yml'
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} SLAC --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} SLAC --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule 
 
 rule BGM:
@@ -207,7 +205,7 @@ rule BGM:
         results = os.path.join(BASEDIR, "{sample}.BGM.json")
     conda: 'environment.yml'
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} BGM --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "{HYPHY} BGM --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule 
 
 rule PRIME:
@@ -218,7 +216,7 @@ rule PRIME:
         results = os.path.join(BASEDIR, "{sample}.PRIME.json")
     conda: 'environment.yml'
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} PRIME --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --impute-states Yes"
+        "{HYPHY} PRIME --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --impute-states Yes"
 #end rule 
 
 rule ABSRELMH:
@@ -229,7 +227,7 @@ rule ABSRELMH:
         results = os.path.join(BASEDIR, "{sample}.ABSREL-MH.json")
     conda: 'environment.yml'
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --multiple-hits Double+Triple"
+        "mpirun -np {PPN} {HYPHYMPI} ABSREL --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --multiple-hits Double+Triple"
 #end rule ABSRELMH
 
 rule BUSTEDSMH:
@@ -240,7 +238,7 @@ rule BUSTEDSMH:
         results = os.path.join(BASEDIR, "{sample}.BUSTEDS-MH.json")
     conda: 'environment.yml'
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} {BUSTEDS_MH} --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10 --multiple-hits Double+Triple"
 #end rule
 
 rule FMM:
@@ -251,7 +249,7 @@ rule FMM:
         results = os.path.join(BASEDIR, "{sample}.FMM.json")
     conda: 'environment.yml'
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} {FMM} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --triple-islands Yes"
+        "mpirun -np {PPN} {HYPHYMPI} {FMM} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --triple-islands Yes"
 #end rule
 
 #----------------------------------------------------------------------------

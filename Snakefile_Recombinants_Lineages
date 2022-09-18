@@ -1,6 +1,11 @@
-"""``snakemake`` file that runs the AOC alignment step.
-Written by Alexander G Lucaci.
 """
+Analysis of Orthologous Collections (AOC)
+@Author: Alexander G. Lucaci
+"""
+
+#----------------------------------------------------------------------------
+# Imports 
+#----------------------------------------------------------------------------
 
 import itertools
 import os
@@ -28,10 +33,6 @@ with open("cluster.json", "r") as in_c:
 #end with
 in_c.close()
 
-#Nucleotide: data/mammalian_REV3L/REV3L_refseq_transcript.fasta
-#Protein: data/mammalian_REV3L/YYBZHZKX212-alignment.fa
-#Label: mammalian_REV3L
-
 Nucleotide_file = config["Nucleotide"]
 Protein_file = config["Protein"]
 Label = config["Label"]
@@ -41,15 +42,10 @@ CSV = config["CSV"]
 BASEDIR = os.getcwd()
 OUTDIR = os.path.join(BASEDIR, "results", Label)
 
-# Create output dir.
-#Path(OUTDIR_RESULTS).mkdir(parents=True, exist_ok=True)
-#Path(OUTDIR).mkdir(parents=True, exist_ok=True)
-
 # This is the main treefile, prior to recombination detection.
 TREE_NEWICK = os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile")
 
 # Recombinants newicks. 
-# results/mammalian_REV3L/mammalian_REV3L.10.codon.fas.treefile
 # .codon.fas
 FASTAS_RECOMBINANTS                 = [x for x in glob.glob(os.path.join(OUTDIR, "*.codon.fas"))]
 FASTAS_RECOMBINANTS_BASENAMES       = [os.path.basename(x) for x in glob.glob(os.path.join(OUTDIR, "*.codon.fas"))]
@@ -63,7 +59,6 @@ PPN = cluster["__default__"]["ppn"]
 # HyPhy settings
 HYPHY = config["HYPHY"]
 HYPHYMPI = config["HYPHYMPI"]
-RES = config["RES"]
 
 # Report to user
 print("Output directory is:", OUTDIR)
@@ -76,6 +71,7 @@ print("# Basenames for Newicks", TREE_NEWICKS_RECOMBINANTS_BASENAMES)
 print()
 print("# Basenames for FASTAs", FASTAS_RECOMBINANTS_BASENAMES)
 print()
+
 #----------------------------------------------------------------------------
 # Helper functions
 #----------------------------------------------------------------------------
@@ -108,11 +104,18 @@ rule GatherLineages:
         "python scripts/LineageAnnotation_Pipeline.py {input.out_d} {input.csv_f} {input.tree_f}"
 #end rule
 
+#----------------------------------------------------------------------------
+# We have clade files, now label the trees with them.
+#----------------------------------------------------------------------------
+
 CLADE_FILES = [x for x in glob.glob(os.path.join(OUTDIR, "*.clade"))]
+
 print("# We have", len(CLADE_FILES), "clade files")
+
 print(CLADE_FILES) 
 
 # For each of the recombinant trees, annotate it according to the clade files.
+
 rule AssignLineages:
     input:
         #os.path.join(OUTDIR, "{sample}"), rules.GatherLineages.output.json
@@ -143,7 +146,9 @@ rule AssignLineages:
             os.system(cmd)
 #end rule
 
-# mammalian_REV3L.11.codon.fas.treefile.labelled
+#----------------------------------------------------------------------------
+# Run selection analyses on labelled trees
+#----------------------------------------------------------------------------
 
 rule RELAX:
     input:
@@ -152,9 +157,11 @@ rule RELAX:
     output:
         output = os.path.join(OUTDIR, "{sample}.RELAX.json")
     shell:
-        #"mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} RELAX --alignment {input.fasta} --tree {input.treefile} --reference Carnivora --test {params.label} --starting-points 10 --srv Yes"
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} RELAX --alignment {input.fasta} --tree {input.treefile} --output {output.output} --reference-group Primates --models All --mode 'Group mode' --starting-points 10 --srv Yes"
+        "mpirun -np {PPN} {HYPHYMPI} RELAX --alignment {input.fasta} --tree {input.treefile} --output {output.output} --reference-group Primates --models All --mode 'Group mode' --starting-points 10 --srv Yes"
 #end rule
+
+# The Default Group needs to be assigned here, or Pull from somewhere.
+# By Default I will use Primates for now, as I largely explore Mammalian genes.
 
 rule CFEL:
     input:  
@@ -165,7 +172,7 @@ rule CFEL:
     params:
         label = os.path.basename("{sample}").split(".")[0]
     shell:
-        "mpirun -np {PPN} {HYPHYMPI} LIBPATH={RES} contrast-fel --alignment {input.fasta} --tree {input.treefile} --output {output.output} --branch-set Primates"
+        "mpirun -np {PPN} {HYPHYMPI} contrast-fel --alignment {input.fasta} --tree {input.treefile} --output {output.output} --branch-set Primates"
 #end file
 
 #----------------------------------------------------------------------------

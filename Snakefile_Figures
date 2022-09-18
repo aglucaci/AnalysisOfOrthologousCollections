@@ -1,7 +1,11 @@
-"""``snakemake`` file that runs the AOC alignment step.
-Written by Alexander G Lucaci.
+"""
+Analysis of Orthologous Collections (AOC)
+@Author: Alexander G. Lucaci
 """
 
+#----------------------------------------------------------------------------
+# Imports 
+#----------------------------------------------------------------------------
 
 import itertools
 import os
@@ -49,7 +53,6 @@ PPN = cluster["__default__"]["ppn"]
 # HyPhy settings
 HYPHY = config["HYPHY"]
 HYPHYMPI = config["HYPHYMPI"]
-RES = config["RES"]
 
 print("# Searching:", os.path.join(OUTDIR, "*.codon.fas.FEL.json"))
 

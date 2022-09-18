@@ -2,589 +2,1355 @@ IQ-TREE multicore version 2.2.0.3 COVID-edition for Linux 64-bit built May 11 20
 Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
 Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
 
-Host:    s033 (AVX512, FMA3, 92 GB RAM)
-Command: iqtree -s /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas -T 16 -redo
-Seed:    114176 (Using SPRNG - Scalable Parallel Random Number Generator)
-Time:    Sun Aug  7 09:58:07 2022
-Kernel:  AVX+FMA - 16 threads (16 CPU cores detected)
+Host:    n7 (AVX2, FMA3, 251 GB RAM)
+Command: iqtree -s /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas -T AUTO --redo
+Seed:    470858 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Sep 12 20:33:01 2022
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
 
-Reading alignment file /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas ... Fasta format detected
-Reading fasta file: done in 0.00699928 secs using 77.89% CPU
+Reading alignment file /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas ... Fasta format detected
+Reading fasta file: done in 0.00123659 secs using 76.58% CPU
 Alignment most likely contains DNA/RNA sequences
-Constructing alignment: done in 0.00849656 secs using 1535% CPU
+Constructing alignment: done in 0.00033936 secs using 99.89% CPU
 WARNING: 3 sites contain only gaps or ambiguous characters.
-Alignment has 152 sequences with 711 columns, 387 distinct patterns
-302 parsimony-informative, 69 singleton sites, 340 constant sites
+Alignment has 152 sequences with 276 columns, 106 distinct patterns
+79 parsimony-informative, 22 singleton sites, 175 constant sites
                                                                                                                                                             Gap/Ambiguity  Composition  p-value
-Analyzing sequences: done in 0.000163779 secs using 1207% CPU
-   1  NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                                3.80%    passed     89.22%
-   2  XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           3.38%    passed     93.78%
-   3  XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   3.38%    passed     97.60%
-   4  XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                               3.38%    passed     87.61%
-   5  NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1                                        3.80%    passed     94.38%
-   6  XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                               2.95%    passed     96.82%
-   7  XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                     3.80%    passed     97.91%
-   8  XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    3.38%    passed     99.42%
-   9  XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          3.38%    passed     97.58%
-  10  XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          3.38%    passed     93.10%
-  11  XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   3.38%    passed     92.06%
-  12  XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1                         4.22%    passed     98.84%
-  13  XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                    3.38%    passed     99.59%
-  14  XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                        3.38%    passed     51.18%
-  15  XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          3.80%    passed     90.01%
-  16  XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                       3.80%    passed     92.08%
-  17  XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.38%    passed     98.81%
-  18  XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     3.38%    passed     34.79%
-  19  XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      3.38%    passed     93.78%
-  20  XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           3.38%    passed     97.82%
-  21  XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    3.38%    passed     80.15%
-  22  XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.80%    passed     90.24%
-  23  XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    3.38%    passed     92.78%
-  24  XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                              3.80%    passed     96.21%
-  25  XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1                       3.80%    passed     99.82%
-  26  XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         3.80%    passed     46.48%
-  27  XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1           3.38%    passed     89.93%
-  28  XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                     3.38%    passed     73.20%
-  29  XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    3.38%    passed     78.30%
-  30  XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1                                                3.80%    passed     65.11%
-  31  XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                               3.38%    passed     76.71%
-  32  XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                            3.80%    passed     49.55%
-  33  XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                          3.38%    passed     89.59%
-  34  XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                          4.22%    passed     99.74%
-  35  XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                  3.80%    passed     57.95%
-  36  XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                         3.38%    passed     94.68%
-  37  XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                              3.80%    passed     88.03%
-  38  XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                          3.80%    passed     86.93%
-  39  XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                            3.38%    passed     97.90%
-  40  XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                       3.38%    passed     94.58%
-  41  XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1               3.38%    passed     92.78%
-  42  XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                            4.22%    passed     89.25%
-  43  XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                     3.80%    passed     96.14%
-  44  XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                        3.80%    passed     94.46%
-  45  XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         3.80%    passed     99.74%
-  46  XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                      3.38%    passed     88.83%
-  47  XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                       3.80%    passed     88.40%
-  48  XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                           3.80%    passed     95.67%
-  49  XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                              3.80%    passed     98.77%
-  50  XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          3.80%    passed     98.11%
-  51  XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        3.38%    passed     97.60%
-  52  XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  3.80%    passed     98.77%
-  53  XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                          3.80%    passed     99.21%
-  54  XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        3.80%    passed     99.34%
-  55  XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                    3.80%    passed     94.67%
-  56  XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                  3.80%    passed     99.74%
-  57  XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        3.38%    passed     97.94%
-  58  XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          3.38%    passed     97.94%
-  59  XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                  3.80%    passed     99.21%
-  60  XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  3.80%    passed     99.21%
-  61  XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.38%    passed     99.22%
-  62  XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           3.38%    passed     92.50%
-  63  XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            3.38%    passed     95.05%
-  64  XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                      3.80%    passed     99.92%
-  65  XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      3.38%    passed     98.03%
-  66  XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.38%    passed     97.09%
-  67  XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   3.38%    passed     97.09%
-  68  XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1           2.95%    passed     98.20%
-  69  XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        3.38%    passed     98.07%
-  70  XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 2.95%    passed     96.82%
-  71  XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                                      3.38%    passed     98.07%
-  72  XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                              3.38%    passed     97.06%
-  73  XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          2.95%    passed     96.65%
-  74  XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                        3.80%    passed     99.66%
-  75  XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1                           3.80%    passed     99.33%
-  76  XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                3.80%    passed     98.77%
-  77  XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            2.95%    passed     98.99%
-  78  XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            2.95%    passed     96.35%
-  79  XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         3.38%    passed     99.76%
-  80  XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                               2.95%    passed     98.71%
-  81  XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                              2.95%    passed     98.24%
-  82  XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1      2.95%    passed     99.64%
-  83  XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             3.38%    passed     99.25%
-  84  XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      2.95%    passed     96.19%
-  85  XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                    3.38%    passed     99.55%
-  86  XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             2.95%    passed     99.70%
-  87  XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.38%    passed     99.92%
-  88  XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1               3.38%    passed     99.62%
-  89  XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.38%    passed     99.96%
-  90  XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                             3.38%    passed     95.92%
-  91  XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.38%    passed     99.52%
-  92  XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    2.95%    passed     99.72%
-  93  XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                            3.80%    passed     99.92%
-  94  XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    3.38%    passed     99.85%
-  95  XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.80%    passed     90.40%
-  96  XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                       3.80%    passed     82.36%
-  97  XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        3.38%    passed     98.67%
-  98  XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                                 11.81%    passed     81.21%
-  99  XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         2.95%    passed     99.78%
- 100  XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     3.80%    passed     99.80%
- 101  XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     3.38%    passed     99.88%
- 102  XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                              3.80%    passed     98.29%
- 103  XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                3.38%    passed     97.94%
- 104  XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1                   3.80%    passed     98.49%
- 105  XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                           3.80%    passed     99.86%
- 106  XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    3.80%    passed     86.29%
- 107  XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    3.38%    passed     99.82%
- 108  XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           3.38%    passed     99.55%
- 109  XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        2.95%    passed     99.70%
- 110  XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      3.38%    passed     78.85%
- 111  XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         3.80%    passed     91.76%
- 112  XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           3.80%    passed     89.06%
- 113  XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            3.38%    passed     89.30%
- 114  XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         3.38%    passed     82.88%
- 115  XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                         3.80%    passed     92.54%
- 116  XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             3.38%    passed     99.00%
- 117  XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.80%    passed     92.69%
- 118  XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                 3.80%    passed     98.81%
- 119  XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             3.38%    passed     89.91%
- 120  XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     3.80%    passed     86.98%
- 121  XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      3.38%    passed     91.26%
- 122  XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        3.80%    passed     89.73%
- 123  XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  3.80%    passed     88.13%
- 124  XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                3.80%    passed     85.59%
- 125  XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                  3.80%    passed     96.80%
- 126  XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 3.80%    passed     89.00%
- 127  XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        3.38%    passed     99.38%
- 128  XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1             3.80%    passed     83.22%
- 129  XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             3.38%    passed     93.40%
- 130  XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   3.80%    passed     86.98%
- 131  XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             3.38%    passed     95.55%
- 132  XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      3.38%    passed     96.24%
- 133  XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         3.38%    passed     99.25%
- 134  XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           3.38%    passed     99.35%
- 135  XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                3.80%    passed     98.64%
- 136  XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           3.38%    passed     98.50%
- 137  XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          3.38%    passed     99.13%
- 138  XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         3.80%    passed     98.04%
- 139  XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                          3.80%    passed     99.39%
- 140  XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.38%    passed     99.36%
- 141  XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                             4.64%    passed     57.56%
- 142  XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                          3.80%    passed     97.00%
- 143  XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                              3.80%    passed     88.55%
- 144  XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                         3.80%    passed     85.92%
- 145  XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       3.80%    passed     99.23%
- 146  XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     3.38%    passed     94.49%
- 147  XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                           3.38%    passed     93.13%
- 148  XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 3.80%    passed     89.86%
- 149  XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                         3.80%    passed     80.93%
- 150  XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1            3.80%    passed     99.39%
- 151  XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1         3.38%    passed     98.93%
- 152  XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1    3.80%    passed     99.22%
-****  TOTAL                                                                                                                                                         3.59%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+Analyzing sequences: done in 5.955e-05 secs using 99.08% CPU
+   1  NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1                                        1.09%    passed     99.15%
+   2  NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                                1.09%    passed     99.37%
+   3  XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                        1.09%    passed     98.74%
+   4  XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           1.09%    passed     99.74%
+   5  XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                               1.09%    passed     96.97%
+   6  XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   1.09%    passed     99.95%
+   7  XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          1.09%    passed     99.68%
+   8  XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                               1.09%    passed     99.80%
+   9  XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                     1.09%    passed     95.32%
+  10  XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      1.09%    passed     99.74%
+  11  XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    1.09%    passed     99.80%
+  12  XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   1.09%    passed     99.75%
+  13  XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          1.09%    passed     99.76%
+  14  XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          1.09%    passed     97.46%
+  15  XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1                         1.09%    passed     97.01%
+  16  XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1                       1.09%    passed     99.29%
+  17  XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                    1.09%    passed     97.93%
+  18  XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                       1.09%    passed     97.26%
+  19  XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           1.09%    passed     98.17%
+  20  XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     99.74%
+  21  XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    1.09%    passed     76.93%
+  22  XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     1.09%    passed     83.36%
+  23  XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    1.09%    passed     89.83%
+  24  XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         1.09%    passed     90.28%
+  25  XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     99.18%
+  26  XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                              1.09%    passed     99.55%
+  27  XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    1.09%    passed     91.52%
+  28  XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                     1.09%    passed     99.37%
+  29  XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                              1.09%    passed     99.07%
+  30  XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1                                                1.09%    passed     88.76%
+  31  XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                               1.09%    passed     99.95%
+  32  XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1           1.09%    passed     99.11%
+  33  XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                          1.09%    passed     97.84%
+  34  XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                                  1.09%    passed     98.74%
+  35  XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                            1.09%    passed     54.22%
+  36  XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                          1.09%    passed     99.38%
+  37  XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                          1.09%    passed     99.98%
+  38  XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                       1.09%    passed     99.98%
+  39  XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                         1.09%    passed     99.82%
+  40  XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                     1.09%    passed     99.82%
+  41  XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                      1.09%    passed     95.10%
+  42  XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                            1.09%    passed     97.45%
+  43  XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1                       1.09%    passed     95.73%
+  44  XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                        1.09%    passed     98.59%
+  45  XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1               1.09%    passed     98.67%
+  46  XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                            2.17%    passed     94.56%
+  47  XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1                                           1.09%    passed     98.59%
+  48  XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  1.09%    passed     99.50%
+  49  XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         1.09%    passed     99.71%
+  50  XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                          1.09%    passed     99.50%
+  51  XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        1.09%    passed     99.50%
+  52  XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                  1.09%    passed     99.50%
+  53  XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                              1.09%    passed     99.44%
+  54  XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          1.09%    passed     99.50%
+  55  XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        1.09%    passed     99.95%
+  56  XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  1.09%    passed     99.98%
+  57  XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        1.09%    passed     99.24%
+  58  XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          1.09%    passed     99.80%
+  59  XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                    1.09%    passed     98.79%
+  60  XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                  1.09%    passed     98.42%
+  61  XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     99.77%
+  62  XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           1.09%    passed     99.37%
+  63  XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            1.09%    passed     99.37%
+  64  XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                1.09%    passed     99.98%
+  65  XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      1.09%    passed     99.97%
+  66  XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     99.97%
+  67  XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   1.09%    passed     99.97%
+  68  XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                      1.09%    passed     99.80%
+  69  XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                        1.09%    passed     98.79%
+  70  XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         1.09%    passed     99.80%
+  71  XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1                           1.09%    passed     98.79%
+  72  XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1           1.09%    passed     95.22%
+  73  XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        1.09%    passed     98.79%
+  74  XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 1.09%    passed     96.97%
+  75  XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                                      1.09%    passed     98.79%
+  76  XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                              1.09%    passed     96.97%
+  77  XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          1.09%    passed     96.29%
+  78  XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                              1.09%    passed     91.88%
+  79  XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             1.09%    passed     95.22%
+  80  XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                               1.09%    passed     96.29%
+  81  XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            1.09%    passed     99.97%
+  82  XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            1.09%    passed     99.97%
+  83  XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                             1.09%    passed     99.97%
+  84  XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      1.09%    passed     99.97%
+  85  XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                    1.09%    passed     99.75%
+  86  XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1      1.09%    passed     99.75%
+  87  XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     99.75%
+  88  XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1               1.09%    passed     99.75%
+  89  XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     98.72%
+  90  XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             1.09%    passed     99.75%
+  91  XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     98.72%
+  92  XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           1.09%    passed     99.75%
+  93  XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        1.09%    passed     99.75%
+  94  XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    1.09%    passed     99.75%
+  95  XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         1.09%    passed     99.95%
+  96  XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    1.09%    passed     99.75%
+  97  XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                            1.09%    passed     99.55%
+  98  XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                                  1.09%    passed     97.53%
+  99  XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     98.67%
+ 100  XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                       1.09%    passed     94.04%
+ 101  XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        1.09%    passed     99.76%
+ 102  XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    1.09%    passed     99.97%
+ 103  XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                1.09%    passed     99.77%
+ 104  XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     1.09%    passed     99.60%
+ 105  XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     1.09%    passed     99.15%
+ 106  XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                              1.09%    passed     98.27%
+ 107  XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                    1.09%    passed     99.62%
+ 108  XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1                   1.09%    passed     97.69%
+ 109  XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                           1.09%    passed     99.55%
+ 110  XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      1.09%    passed     95.93%
+ 111  XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         1.09%    passed     96.95%
+ 112  XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           1.09%    passed     98.82%
+ 113  XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                            1.09%    passed     96.95%
+ 114  XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         1.09%    passed     94.04%
+ 115  XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        1.09%    passed     99.55%
+ 116  XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             1.09%    passed     97.89%
+ 117  XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     98.27%
+ 118  XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                         1.09%    passed     98.35%
+ 119  XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                                 1.09%    passed     98.74%
+ 120  XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1             1.09%    passed     99.84%
+ 121  XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      1.09%    passed     99.74%
+ 122  XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                        1.09%    passed     99.74%
+ 123  XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             1.09%    passed     99.74%
+ 124  XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     1.09%    passed     99.74%
+ 125  XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                   1.09%    passed     99.74%
+ 126  XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 1.09%    passed     99.74%
+ 127  XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                  1.09%    passed     99.74%
+ 128  XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                1.09%    passed     99.74%
+ 129  XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1                  1.09%    passed     99.68%
+ 130  XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             1.09%    passed     99.68%
+ 131  XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                             1.09%    passed     97.65%
+ 132  XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                      1.09%    passed     99.74%
+ 133  XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         1.09%    passed     99.74%
+ 134  XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                1.09%    passed     99.84%
+ 135  XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           1.09%    passed     99.74%
+ 136  XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                           1.09%    passed     99.74%
+ 137  XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                          1.09%    passed     99.84%
+ 138  XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                         1.09%    passed     99.24%
+ 139  XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                          1.09%    passed     99.82%
+ 140  XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     98.98%
+ 141  XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                             1.09%    passed     99.37%
+ 142  XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                          1.09%    passed     99.98%
+ 143  XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                              1.09%    passed     99.62%
+ 144  XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1                                         1.09%    passed     99.15%
+ 145  XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                       1.09%    passed     99.80%
+ 146  XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                     1.09%    passed     98.97%
+ 147  XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                           1.09%    passed     99.70%
+ 148  XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1                 1.09%    passed     75.59%
+ 149  XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1                                         1.09%    passed     71.36%
+ 150  XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1            1.09%    passed     99.97%
+ 151  XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1         1.09%    passed     99.95%
+ 152  XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1    1.09%    passed     99.97%
+****  TOTAL                                                                                                                                                         1.09%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1 is identical to NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1 but kept for subsequent analysis
+NOTE: XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1 is identical to XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
 NOTE: XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
-NOTE: XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
 NOTE: XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1 is identical to XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1 is identical to XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1 is identical to XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1 but kept for subsequent analysis
+NOTE: XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1 is identical to XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
 NOTE: XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1 is identical to XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
-NOTE: XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1 but kept for subsequent analysis
-NOTE: XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1 is identical to XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1 but kept for subsequent analysis
+NOTE: XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
 NOTE: XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1 is identical to XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
-NOTE: XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1 but kept for subsequent analysis
-NOTE: XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
-Checking for duplicate sequences: done in 0.0263419 secs using 1484% CPU
+NOTE: XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1 but kept for subsequent analysis
+NOTE: XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+NOTE: XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1 but kept for subsequent analysis
+NOTE: XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 is identical to XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 but kept for subsequent analysis
+Checking for duplicate sequences: done in 0.000310691 secs using 49.89% CPU
+Identifying sites to remove: done in 0.00030247 secs using 49.92% CPU
+NOTE: 25 identical sequences (see below) will be ignored for subsequent analysis
+NOTE: XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1 (identical to XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1 (identical to XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1) is ignored but added at the end
+NOTE: XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1 (identical to XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1) is ignored but added at the end
+NOTE: XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1) is ignored but added at the end
+NOTE: XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1) is ignored but added at the end
+NOTE: XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1) is ignored but added at the end
+NOTE: XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1) is ignored but added at the end
+NOTE: XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1) is ignored but added at the end
+NOTE: XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1) is ignored but added at the end
+NOTE: XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1 (identical to XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1) is ignored but added at the end
+Alignment was printed to /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.uniqueseq.phy
+
+For your convenience alignment with unique sequences printed to /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.uniqueseq.phy
 
 
-Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.028 seconds
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.005 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+246 trees examined
+Threads: 1 / Time: 8.031 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3638
+Threads: 2 / Time: 6.760 sec / Speedup: 1.188 / Efficiency: 59% / LogL: -3638
+Threads: 3 / Time: 11.710 sec / Speedup: 0.686 / Efficiency: 23% / LogL: -3638
+Determining AUTO threadcount: done in 26.5016 secs using 207.4% CPU
+BEST NUMBER OF THREADS: 2
+
 Perform fast likelihood tree search using GTR+I+G model...
 Estimate model parameters (epsilon = 5.000)
 Perform nearest neighbor interchange...
-Optimizing NNI: done in 0.8654 secs using 1584% CPU
+Optimizing NNI: done in 0.0307003 secs using 196.9% CPU
 Estimate model parameters (epsilon = 1.000)
-1. Initial log-likelihood: -9245.689
-Optimal log-likelihood: -9244.789
-Rate parameters:  A-C: 2.26523  A-G: 7.04695  A-T: 1.15977  C-G: 1.58139  C-T: 7.25621  G-T: 1.00000
-Base frequencies:  A: 0.339  C: 0.179  G: 0.215  T: 0.267
-Proportion of invariable sites: 0.281
-Gamma shape alpha: 0.811
-Parameters optimization took 1 rounds (0.071 sec)
-Time for fast ML tree search: 1.200 seconds
+1. Initial log-likelihood: -1906.299
+Optimal log-likelihood: -1906.278
+Rate parameters:  A-C: 0.51987  A-G: 8.37023  A-T: 0.84843  C-G: 1.35119  C-T: 6.73625  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.193  G: 0.186  T: 0.304
+Proportion of invariable sites: 0.329
+Gamma shape alpha: 0.659
+Parameters optimization took 1 rounds (0.019 sec)
+Time for fast ML tree search: 0.180 seconds
 
-NOTE: ModelFinder requires 19 MB RAM!
-ModelFinder will test up to 484 DNA models (sample size: 711) ...
+NOTE: ModelFinder requires 4 MB RAM!
+ModelFinder will test up to 484 DNA models (sample size: 276) ...
  No. Model         -LnL         df  AIC          AICc         BIC
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-  1  GTR+F         9917.610     309 20453.220    20930.976    21864.322
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-  2  GTR+F+I       9415.020     310 19450.039    19932.089    20865.708
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-  3  GTR+F+G4      9267.985     310 19155.969    19638.019    20571.638
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-  4  GTR+F+I+G4    9242.493     311 19106.985    19593.361    20527.221
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-  5  GTR+F+R2      9319.590     311 19261.181    19747.556    20681.416
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-  6  GTR+F+R3      9221.884     313 19069.768    19564.891    20499.136
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-  7  GTR+F+R4      9192.556     315 19015.112    19519.112    20453.614
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-  8  GTR+F+R5      9192.397     317 19018.793    19531.801    20466.428
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 14  GTR+F+I+I+R2  9244.897     312 19113.794    19604.528    20538.596
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 15  GTR+F+I+I+R3  9201.868     314 19031.736    19531.282    20465.671
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 16  GTR+F+I+I+R4  9190.300     316 19012.599    19521.087    20455.668
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 17  GTR+F+I+I+R5  9189.769     318 19015.537    19533.099    20467.739
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 29  SYM+R4        9227.685     312 19079.370    19570.104    20504.172
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 38  SYM+I+I+R4    9223.043     313 19072.087    19567.210    20501.455
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 51  TVM+F+R4      9193.568     314 19015.136    19514.682    20449.071
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 60  TVM+F+I+I+R4  9192.040     315 19014.079    19518.079    20452.581
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 73  TVMe+R4       9233.476     311 19088.952    19575.328    20509.187
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 82  TVMe+I+I+R4   9233.451     312 19090.902    19581.635    20515.704
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
- 95  TIM3+F+R4     9195.094     313 19016.188    19511.312    20445.557
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-104  TIM3+F+I+I+R4 9193.101     314 19014.203    19513.748    20448.138
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-117  TIM3e+R4      9239.286     310 19098.572    19580.622    20514.241
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-126  TIM3e+I+I+R4  9235.566     311 19093.133    19579.509    20513.368
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-139  TIM2+F+R4     9204.491     313 19034.982    19530.105    20464.350
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-148  TIM2+F+I+I+R4 9203.425     314 19034.850    19534.396    20468.786
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-161  TIM2e+R4      9227.281     310 19074.562    19556.612    20490.231
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-170  TIM2e+I+I+R4  9222.020     311 19066.041    19552.417    20486.276
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-183  TIM+F+R4      9206.018     313 19038.036    19533.160    20467.405
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-192  TIM+F+I+I+R4  9204.624     314 19037.248    19536.794    20471.184
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-205  TIMe+R4       9241.931     310 19103.862    19585.912    20519.530
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-214  TIMe+I+I+R4   9235.211     311 19092.421    19578.797    20512.656
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-227  TPM3u+F+R4    9196.195     312 19016.391    19507.124    20441.193
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-236  TPM3u+F+I+I+R4 9194.698     313 19015.395    19510.519    20444.764
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-249  TPM3+R4       9248.469     309 19114.938    19592.694    20526.040
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-258  TPM3+I+I+R4   9238.371     310 19096.741    19578.791    20512.409
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-271  TPM2u+F+R4    9205.687     312 19035.375    19526.109    20460.177
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-280  TPM2u+F+I+I+R4 9204.947     313 19035.893    19531.017    20465.262
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-293  TPM2+R4       9236.147     309 19090.294    19568.049    20501.396
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-302  TPM2+I+I+R4   9224.956     310 19069.911    19551.961    20485.580
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-315  K3Pu+F+R4     9207.094     312 19038.188    19528.922    20462.990
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-324  K3Pu+F+I+I+R4 9205.972     313 19037.944    19533.068    20467.313
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-337  K3P+R4        9250.946     309 19119.892    19597.648    20530.994
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-346  K3P+I+I+R4    9237.791     310 19095.582    19577.632    20511.250
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-359  TN+F+R4       9207.186     312 19038.373    19529.106    20463.175
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-368  TN+F+I+I+R4   9206.051     313 19038.103    19533.226    20467.471
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-381  TNe+R4        9241.211     309 19100.422    19578.177    20511.524
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-390  TNe+I+I+R4    9237.744     310 19095.488    19577.538    20511.156
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-403  HKY+F+R4      9208.434     311 19038.868    19525.244    20459.104
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-412  HKY+F+I+I+R4  9207.367     312 19038.733    19529.467    20463.535
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-425  K2P+R4        9246.395     308 19108.790    19582.283    20515.325
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-434  K2P+I+I+R4    9237.679     309 19093.358    19571.113    20504.459
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-447  F81+F+R4      9627.567     310 19875.135    20357.185    21290.803
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-456  F81+F+I+I+R4  9627.165     311 19876.330    20362.706    21296.565
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-469  JC+R4         9656.979     307 19927.958    20397.218    21329.926
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
-478  JC+I+I+R4     9656.533     308 19929.067    20402.560    21335.602
-Akaike Information Criterion:           GTR+F+I+I+R4
-Corrected Akaike Information Criterion: TPM3u+F+R4
-Bayesian Information Criterion:         TPM3u+F+R4
-Best-fit model: TPM3u+F+R4 chosen according to BIC
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+763 trees examined
+Threads: 1 / Time: 8.007 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -4038
+Threads: 2 / Time: 7.030 sec / Speedup: 1.139 / Efficiency: 57% / LogL: -4038
+Threads: 3 / Time: 6.845 sec / Speedup: 1.170 / Efficiency: 39% / LogL: -4038
+Determining AUTO threadcount: done in 21.8828 secs using 186.3% CPU
+BEST NUMBER OF THREADS: 2
 
-All model information printed to /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.model.gz
-CPU time for ModelFinder: 1164.383 seconds (0h:19m:24s)
-Wall-clock time for ModelFinder: 73.016 seconds (0h:1m:13s)
+  1  GTR+F         2011.644     259 4541.288     12958.788    5478.972
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+660 trees examined
+Threads: 1 / Time: 8.010 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3602
+Threads: 2 / Time: 7.102 sec / Speedup: 1.128 / Efficiency: 56% / LogL: -3602
+Threads: 3 / Time: 7.153 sec / Speedup: 1.120 / Efficiency: 37% / LogL: -3602
+Determining AUTO threadcount: done in 22.2655 secs using 187.6% CPU
+BEST NUMBER OF THREADS: 2
 
-NOTE: 7 MB RAM (0 GB) is required!
-WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+  2  GTR+F+I       1917.234     260 4354.468     13402.468    5295.772
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+315 trees examined
+Threads: 1 / Time: 8.015 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3578
+Threads: 2 / Time: 6.652 sec / Speedup: 1.205 / Efficiency: 60% / LogL: -3578
+Threads: 3 / Time: 11.320 sec / Speedup: 0.708 / Efficiency: 24% / LogL: -3578
+Determining AUTO threadcount: done in 25.9866 secs using 206.5% CPU
+BEST NUMBER OF THREADS: 2
+
+  3  GTR+F+G4      1907.473     260 4334.947     13382.947    5276.251
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+250 trees examined
+Threads: 1 / Time: 8.026 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3367
+Threads: 2 / Time: 6.845 sec / Speedup: 1.173 / Efficiency: 59% / LogL: -3367
+Threads: 3 / Time: 11.977 sec / Speedup: 0.670 / Efficiency: 22% / LogL: -3367
+Determining AUTO threadcount: done in 26.8475 secs using 208.4% CPU
+BEST NUMBER OF THREADS: 2
+
+  4  GTR+F+I+G4    1906.273     261 4334.546     14103.403    5279.471
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+484 trees examined
+Threads: 1 / Time: 8.006 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3663
+Threads: 2 / Time: 7.167 sec / Speedup: 1.117 / Efficiency: 56% / LogL: -3663
+Threads: 3 / Time: 12.902 sec / Speedup: 0.620 / Efficiency: 21% / LogL: -3663
+Determining AUTO threadcount: done in 28.075 secs using 210.3% CPU
+BEST NUMBER OF THREADS: 2
+
+  5  GTR+F+R2      1909.345     261 4340.690     14109.547    5285.614
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+372 trees examined
+Threads: 1 / Time: 8.006 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3554
+Threads: 2 / Time: 7.010 sec / Speedup: 1.142 / Efficiency: 57% / LogL: -3554
+Threads: 3 / Time: 12.564 sec / Speedup: 0.637 / Efficiency: 21% / LogL: -3554
+Determining AUTO threadcount: done in 27.5793 secs using 210.1% CPU
+BEST NUMBER OF THREADS: 2
+
+  6  GTR+F+R3      1908.301     263 4342.603     15914.603    5294.768
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+396 trees examined
+Threads: 1 / Time: 8.000 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3381
+Threads: 2 / Time: 7.278 sec / Speedup: 1.099 / Efficiency: 55% / LogL: -3381
+Threads: 3 / Time: 13.084 sec / Speedup: 0.611 / Efficiency: 20% / LogL: -3381
+Determining AUTO threadcount: done in 28.3626 secs using 210.5% CPU
+BEST NUMBER OF THREADS: 2
+
+ 14  GTR+F+I+I+R2  1907.500     262 4338.999     14939.922    5287.544
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+279 trees examined
+Threads: 1 / Time: 8.023 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3343
+Threads: 2 / Time: 7.155 sec / Speedup: 1.121 / Efficiency: 56% / LogL: -3343
+Threads: 3 / Time: 12.504 sec / Speedup: 0.642 / Efficiency: 21% / LogL: -3343
+Determining AUTO threadcount: done in 27.6825 secs using 209.1% CPU
+BEST NUMBER OF THREADS: 2
+
+ 15  GTR+F+I+I+R3  1906.062     264 4340.124     17060.124    5295.910
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+241 trees examined
+Threads: 1 / Time: 8.013 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3384
+Threads: 2 / Time: 6.872 sec / Speedup: 1.166 / Efficiency: 58% / LogL: -3384
+Threads: 3 / Time: 6.439 sec / Speedup: 1.244 / Efficiency: 41% / LogL: -3384
+Determining AUTO threadcount: done in 21.324 secs using 186.5% CPU
+BEST NUMBER OF THREADS: 2
+
+ 25  SYM+G4        1917.185     257 4348.371     11715.704    5278.814
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+241 trees examined
+Threads: 1 / Time: 8.017 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3355
+Threads: 2 / Time: 6.795 sec / Speedup: 1.180 / Efficiency: 59% / LogL: -3355
+Threads: 3 / Time: 11.128 sec / Speedup: 0.720 / Efficiency: 24% / LogL: -3355
+Determining AUTO threadcount: done in 25.9398 secs using 205.6% CPU
+BEST NUMBER OF THREADS: 2
+
+ 26  SYM+I+G4      1917.265     258 4350.530     12211.942    5284.594
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+477 trees examined
+Threads: 1 / Time: 8.011 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3647
+Threads: 2 / Time: 7.013 sec / Speedup: 1.142 / Efficiency: 57% / LogL: -3647
+Threads: 3 / Time: 12.274 sec / Speedup: 0.653 / Efficiency: 22% / LogL: -3647
+Determining AUTO threadcount: done in 27.2977 secs using 208.3% CPU
+BEST NUMBER OF THREADS: 2
+
+ 27  SYM+R2        1917.540     258 4351.079     12212.491    5285.143
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+251 trees examined
+Threads: 1 / Time: 8.017 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3366
+Threads: 2 / Time: 6.619 sec / Speedup: 1.211 / Efficiency: 61% / LogL: -3366
+Threads: 3 / Time: 10.953 sec / Speedup: 0.732 / Efficiency: 24% / LogL: -3366
+Determining AUTO threadcount: done in 25.5899 secs using 205.3% CPU
+BEST NUMBER OF THREADS: 2
+
+ 47  TVM+F+G4      1907.839     259 4333.678     12751.178    5271.362
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+245 trees examined
+Threads: 1 / Time: 8.032 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3296
+Threads: 2 / Time: 6.726 sec / Speedup: 1.194 / Efficiency: 60% / LogL: -3296
+Threads: 3 / Time: 11.343 sec / Speedup: 0.708 / Efficiency: 24% / LogL: -3296
+Determining AUTO threadcount: done in 26.1006 secs using 206.2% CPU
+BEST NUMBER OF THREADS: 2
+
+ 48  TVM+F+I+G4    1906.870     260 4333.741     13381.741    5275.045
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+481 trees examined
+Threads: 1 / Time: 8.002 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3636
+Threads: 2 / Time: 7.132 sec / Speedup: 1.122 / Efficiency: 56% / LogL: -3636
+Threads: 3 / Time: 12.561 sec / Speedup: 0.637 / Efficiency: 21% / LogL: -3636
+Determining AUTO threadcount: done in 27.6946 secs using 209.5% CPU
+BEST NUMBER OF THREADS: 2
+
+ 49  TVM+F+R2      1909.641     260 4339.282     13387.282    5280.587
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+235 trees examined
+Threads: 1 / Time: 8.025 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3359
+Threads: 2 / Time: 6.724 sec / Speedup: 1.193 / Efficiency: 60% / LogL: -3359
+Threads: 3 / Time: 6.353 sec / Speedup: 1.263 / Efficiency: 42% / LogL: -3359
+Determining AUTO threadcount: done in 21.1016 secs using 186% CPU
+BEST NUMBER OF THREADS: 2
+
+ 69  TVMe+G4       1918.036     256 4348.072     11273.546    5274.894
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+242 trees examined
+Threads: 1 / Time: 8.030 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3309
+Threads: 2 / Time: 6.992 sec / Speedup: 1.148 / Efficiency: 57% / LogL: -3309
+Threads: 3 / Time: 11.616 sec / Speedup: 0.691 / Efficiency: 23% / LogL: -3309
+Determining AUTO threadcount: done in 26.6387 secs using 206.8% CPU
+BEST NUMBER OF THREADS: 2
+
+ 70  TVMe+I+G4     1917.910     257 4349.821     11717.154    5280.264
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+488 trees examined
+Threads: 1 / Time: 8.018 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3663
+Threads: 2 / Time: 6.992 sec / Speedup: 1.147 / Efficiency: 57% / LogL: -3663
+Threads: 3 / Time: 12.135 sec / Speedup: 0.661 / Efficiency: 22% / LogL: -3663
+Determining AUTO threadcount: done in 27.1457 secs using 207.8% CPU
+BEST NUMBER OF THREADS: 2
+
+ 71  TVMe+R2       1918.342     257 4350.685     11718.018    5281.128
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+249 trees examined
+Threads: 1 / Time: 8.017 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3364
+Threads: 2 / Time: 6.724 sec / Speedup: 1.192 / Efficiency: 60% / LogL: -3364
+Threads: 3 / Time: 11.192 sec / Speedup: 0.716 / Efficiency: 24% / LogL: -3364
+Determining AUTO threadcount: done in 25.9332 secs using 206.2% CPU
+BEST NUMBER OF THREADS: 2
+
+ 91  TIM3+F+G4     1908.909     258 4333.817     12195.229    5267.881
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+243 trees examined
+Threads: 1 / Time: 8.006 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3328
+Threads: 2 / Time: 6.928 sec / Speedup: 1.156 / Efficiency: 58% / LogL: -3328
+Threads: 3 / Time: 11.545 sec / Speedup: 0.693 / Efficiency: 23% / LogL: -3328
+Determining AUTO threadcount: done in 26.4797 secs using 207.1% CPU
+BEST NUMBER OF THREADS: 2
+
+ 92  TIM3+F+I+G4   1907.957     259 4333.915     12751.415    5271.599
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+473 trees examined
+Threads: 1 / Time: 8.007 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3633
+Threads: 2 / Time: 6.991 sec / Speedup: 1.145 / Efficiency: 57% / LogL: -3633
+Threads: 3 / Time: 12.125 sec / Speedup: 0.660 / Efficiency: 22% / LogL: -3633
+Determining AUTO threadcount: done in 27.1225 secs using 208.1% CPU
+BEST NUMBER OF THREADS: 2
+
+ 93  TIM3+F+R2     1910.450     259 4338.901     12756.401    5276.585
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+240 trees examined
+Threads: 1 / Time: 8.025 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3369
+Threads: 2 / Time: 6.877 sec / Speedup: 1.167 / Efficiency: 58% / LogL: -3369
+Threads: 3 / Time: 11.394 sec / Speedup: 0.704 / Efficiency: 23% / LogL: -3369
+Determining AUTO threadcount: done in 26.2966 secs using 206.3% CPU
+BEST NUMBER OF THREADS: 2
+
+113  TIM3e+G4      1917.562     255 4345.123     10873.123    5268.325
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+241 trees examined
+Threads: 1 / Time: 8.005 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3332
+Threads: 2 / Time: 6.832 sec / Speedup: 1.172 / Efficiency: 59% / LogL: -3332
+Threads: 3 / Time: 11.735 sec / Speedup: 0.682 / Efficiency: 23% / LogL: -3332
+Determining AUTO threadcount: done in 26.5724 secs using 208% CPU
+BEST NUMBER OF THREADS: 2
+
+114  TIM3e+I+G4    1917.623     256 4347.245     11272.719    5274.068
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+481 trees examined
+Threads: 1 / Time: 8.011 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3742
+Threads: 2 / Time: 7.035 sec / Speedup: 1.139 / Efficiency: 57% / LogL: -3742
+Threads: 3 / Time: 12.450 sec / Speedup: 0.643 / Efficiency: 21% / LogL: -3742
+Determining AUTO threadcount: done in 27.4964 secs using 209.2% CPU
+BEST NUMBER OF THREADS: 2
+
+115  TIM3e+R2      1918.017     256 4348.035     11273.508    5274.857
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+255 trees examined
+Threads: 1 / Time: 8.001 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3338
+Threads: 2 / Time: 6.719 sec / Speedup: 1.191 / Efficiency: 60% / LogL: -3338
+Threads: 3 / Time: 10.905 sec / Speedup: 0.734 / Efficiency: 24% / LogL: -3338
+Determining AUTO threadcount: done in 25.6265 secs using 205.4% CPU
+BEST NUMBER OF THREADS: 2
+
+135  TIM2+F+G4     1908.245     258 4332.490     12193.902    5266.554
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+243 trees examined
+Threads: 1 / Time: 8.018 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3344
+Threads: 2 / Time: 6.810 sec / Speedup: 1.177 / Efficiency: 59% / LogL: -3344
+Threads: 3 / Time: 11.125 sec / Speedup: 0.721 / Efficiency: 24% / LogL: -3344
+Determining AUTO threadcount: done in 25.9526 secs using 205.3% CPU
+BEST NUMBER OF THREADS: 2
+
+136  TIM2+F+I+G4   1907.040     259 4332.080     12749.580    5269.764
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+459 trees examined
+Threads: 1 / Time: 8.002 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3723
+Threads: 2 / Time: 7.314 sec / Speedup: 1.094 / Efficiency: 55% / LogL: -3723
+Threads: 3 / Time: 13.052 sec / Speedup: 0.613 / Efficiency: 20% / LogL: -3723
+Determining AUTO threadcount: done in 28.3685 secs using 210.3% CPU
+BEST NUMBER OF THREADS: 2
+
+137  TIM2+F+R2     1910.118     259 4338.237     12755.737    5275.921
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+215 trees examined
+Threads: 1 / Time: 8.016 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3405
+Threads: 2 / Time: 6.784 sec / Speedup: 1.182 / Efficiency: 59% / LogL: -3405
+Threads: 3 / Time: 11.040 sec / Speedup: 0.726 / Efficiency: 24% / LogL: -3405
+Determining AUTO threadcount: done in 25.8404 secs using 205.4% CPU
+BEST NUMBER OF THREADS: 2
+
+157  TIM2e+G4      1919.003     255 4348.006     10876.006    5271.208
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+217 trees examined
+Threads: 1 / Time: 8.033 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3329
+Threads: 2 / Time: 6.751 sec / Speedup: 1.190 / Efficiency: 59% / LogL: -3329
+Threads: 3 / Time: 11.083 sec / Speedup: 0.725 / Efficiency: 24% / LogL: -3329
+Determining AUTO threadcount: done in 25.8674 secs using 205.4% CPU
+BEST NUMBER OF THREADS: 2
+
+158  TIM2e+I+G4    1919.157     256 4350.314     11275.788    5277.137
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+434 trees examined
+Threads: 1 / Time: 8.007 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3698
+Threads: 2 / Time: 6.891 sec / Speedup: 1.162 / Efficiency: 58% / LogL: -3698
+Threads: 3 / Time: 11.651 sec / Speedup: 0.687 / Efficiency: 23% / LogL: -3698
+Determining AUTO threadcount: done in 26.5494 secs using 206.8% CPU
+BEST NUMBER OF THREADS: 2
+
+159  TIM2e+R2      1919.243     256 4350.486     11275.960    5277.309
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+231 trees examined
+Threads: 1 / Time: 8.005 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3358
+Threads: 2 / Time: 6.703 sec / Speedup: 1.194 / Efficiency: 60% / LogL: -3358
+Threads: 3 / Time: 10.991 sec / Speedup: 0.728 / Efficiency: 24% / LogL: -3358
+Determining AUTO threadcount: done in 25.6995 secs using 205.5% CPU
+BEST NUMBER OF THREADS: 2
+
+179  TIM+F+G4      1908.690     258 4333.380     12194.791    5267.443
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+218 trees examined
+Threads: 1 / Time: 8.035 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3352
+Threads: 2 / Time: 6.749 sec / Speedup: 1.191 / Efficiency: 60% / LogL: -3352
+Threads: 3 / Time: 11.215 sec / Speedup: 0.716 / Efficiency: 24% / LogL: -3352
+Determining AUTO threadcount: done in 25.9986 secs using 205.9% CPU
+BEST NUMBER OF THREADS: 2
+
+180  TIM+F+I+G4    1907.812     259 4333.623     12751.123    5271.307
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+420 trees examined
+Threads: 1 / Time: 8.005 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3639
+Threads: 2 / Time: 6.944 sec / Speedup: 1.153 / Efficiency: 58% / LogL: -3639
+Threads: 3 / Time: 11.567 sec / Speedup: 0.692 / Efficiency: 23% / LogL: -3639
+Determining AUTO threadcount: done in 26.5169 secs using 206.3% CPU
+BEST NUMBER OF THREADS: 2
+
+181  TIM+F+R2      1910.240     259 4338.481     12755.981    5276.165
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+216 trees examined
+Threads: 1 / Time: 8.007 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3395
+Threads: 2 / Time: 6.787 sec / Speedup: 1.180 / Efficiency: 59% / LogL: -3395
+Threads: 3 / Time: 11.000 sec / Speedup: 0.728 / Efficiency: 24% / LogL: -3395
+Determining AUTO threadcount: done in 25.7945 secs using 205.1% CPU
+BEST NUMBER OF THREADS: 2
+
+201  TIMe+G4       1918.234     255 4346.468     10874.468    5269.670
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+217 trees examined
+Threads: 1 / Time: 8.023 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3350
+Threads: 2 / Time: 6.783 sec / Speedup: 1.183 / Efficiency: 59% / LogL: -3350
+Threads: 3 / Time: 11.137 sec / Speedup: 0.720 / Efficiency: 24% / LogL: -3350
+Determining AUTO threadcount: done in 25.9444 secs using 205.7% CPU
+BEST NUMBER OF THREADS: 2
+
+202  TIMe+I+G4     1918.371     256 4348.741     11274.215    5275.564
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+429 trees examined
+Threads: 1 / Time: 8.003 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3683
+Threads: 2 / Time: 6.926 sec / Speedup: 1.155 / Efficiency: 58% / LogL: -3683
+Threads: 3 / Time: 11.657 sec / Speedup: 0.687 / Efficiency: 23% / LogL: -3683
+Determining AUTO threadcount: done in 26.587 secs using 206.7% CPU
+BEST NUMBER OF THREADS: 2
+
+203  TIMe+R2       1918.608     256 4349.216     11274.690    5276.039
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+225 trees examined
+Threads: 1 / Time: 8.023 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3378
+Threads: 2 / Time: 6.718 sec / Speedup: 1.194 / Efficiency: 60% / LogL: -3378
+Threads: 3 / Time: 10.857 sec / Speedup: 0.739 / Efficiency: 25% / LogL: -3378
+Determining AUTO threadcount: done in 25.5978 secs using 205.1% CPU
+BEST NUMBER OF THREADS: 2
+
+223  TPM3u+F+G4    1909.212     257 4332.425     11699.758    5262.868
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+221 trees examined
+Threads: 1 / Time: 8.009 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3321
+Threads: 2 / Time: 6.737 sec / Speedup: 1.189 / Efficiency: 59% / LogL: -3321
+Threads: 3 / Time: 10.775 sec / Speedup: 0.743 / Efficiency: 25% / LogL: -3321
+Determining AUTO threadcount: done in 25.522 secs using 204.5% CPU
+BEST NUMBER OF THREADS: 2
+
+224  TPM3u+F+I+G4  1908.453     258 4332.907     12194.318    5266.970
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+437 trees examined
+Threads: 1 / Time: 8.013 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3673
+Threads: 2 / Time: 6.953 sec / Speedup: 1.153 / Efficiency: 58% / LogL: -3673
+Threads: 3 / Time: 11.752 sec / Speedup: 0.682 / Efficiency: 23% / LogL: -3673
+Determining AUTO threadcount: done in 26.7184 secs using 206.6% CPU
+BEST NUMBER OF THREADS: 2
+
+225  TPM3u+F+R2    1910.754     258 4337.508     12198.920    5271.572
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+221 trees examined
+Threads: 1 / Time: 8.027 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3372
+Threads: 2 / Time: 6.703 sec / Speedup: 1.197 / Efficiency: 60% / LogL: -3372
+Threads: 3 / Time: 11.103 sec / Speedup: 0.723 / Efficiency: 24% / LogL: -3372
+Determining AUTO threadcount: done in 25.8323 secs using 205.5% CPU
+BEST NUMBER OF THREADS: 2
+
+245  TPM3+G4       1918.406     254 4344.811     10513.383    5264.393
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+224 trees examined
+Threads: 1 / Time: 8.018 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3342
+Threads: 2 / Time: 6.899 sec / Speedup: 1.162 / Efficiency: 58% / LogL: -3342
+Threads: 3 / Time: 11.235 sec / Speedup: 0.714 / Efficiency: 24% / LogL: -3342
+Determining AUTO threadcount: done in 26.1521 secs using 205.9% CPU
+BEST NUMBER OF THREADS: 2
+
+246  TPM3+I+G4     1918.260     255 4346.521     10874.521    5269.723
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+448 trees examined
+Threads: 1 / Time: 8.019 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3645
+Threads: 2 / Time: 6.956 sec / Speedup: 1.153 / Efficiency: 58% / LogL: -3645
+Threads: 3 / Time: 11.886 sec / Speedup: 0.675 / Efficiency: 22% / LogL: -3645
+Determining AUTO threadcount: done in 26.862 secs using 207.2% CPU
+BEST NUMBER OF THREADS: 2
+
+247  TPM3+R2       1918.818     255 4347.637     10875.637    5270.839
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+231 trees examined
+Threads: 1 / Time: 8.016 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3363
+Threads: 2 / Time: 6.515 sec / Speedup: 1.231 / Efficiency: 62% / LogL: -3363
+Threads: 3 / Time: 10.803 sec / Speedup: 0.742 / Efficiency: 25% / LogL: -3363
+Determining AUTO threadcount: done in 25.3337 secs using 204.8% CPU
+BEST NUMBER OF THREADS: 2
+
+267  TPM2u+F+G4    1908.609     257 4331.219     11698.552    5261.662
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+232 trees examined
+Threads: 1 / Time: 8.009 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3348
+Threads: 2 / Time: 6.697 sec / Speedup: 1.196 / Efficiency: 60% / LogL: -3348
+Threads: 3 / Time: 11.263 sec / Speedup: 0.711 / Efficiency: 24% / LogL: -3348
+Determining AUTO threadcount: done in 25.9694 secs using 206.1% CPU
+BEST NUMBER OF THREADS: 2
+
+268  TPM2u+F+I+G4  1907.638     258 4331.276     12192.688    5265.340
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+426 trees examined
+Threads: 1 / Time: 8.019 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3692
+Threads: 2 / Time: 6.948 sec / Speedup: 1.154 / Efficiency: 58% / LogL: -3692
+Threads: 3 / Time: 11.828 sec / Speedup: 0.678 / Efficiency: 23% / LogL: -3692
+Determining AUTO threadcount: done in 26.7944 secs using 207.2% CPU
+BEST NUMBER OF THREADS: 2
+
+269  TPM2u+F+R2    1910.395     258 4336.790     12198.202    5270.854
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+215 trees examined
+Threads: 1 / Time: 8.030 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3352
+Threads: 2 / Time: 6.750 sec / Speedup: 1.190 / Efficiency: 59% / LogL: -3352
+Threads: 3 / Time: 11.071 sec / Speedup: 0.725 / Efficiency: 24% / LogL: -3352
+Determining AUTO threadcount: done in 25.8512 secs using 205.3% CPU
+BEST NUMBER OF THREADS: 2
+
+289  TPM2+G4       1919.912     254 4347.824     10516.395    5267.406
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+213 trees examined
+Threads: 1 / Time: 8.002 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3314
+Threads: 2 / Time: 6.749 sec / Speedup: 1.186 / Efficiency: 59% / LogL: -3314
+Threads: 3 / Time: 10.875 sec / Speedup: 0.736 / Efficiency: 25% / LogL: -3314
+Determining AUTO threadcount: done in 25.6257 secs using 204.9% CPU
+BEST NUMBER OF THREADS: 2
+
+290  TPM2+I+G4     1919.868     255 4349.737     10877.737    5272.939
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+431 trees examined
+Threads: 1 / Time: 8.007 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3599
+Threads: 2 / Time: 6.962 sec / Speedup: 1.150 / Efficiency: 58% / LogL: -3599
+Threads: 3 / Time: 11.685 sec / Speedup: 0.685 / Efficiency: 23% / LogL: -3599
+Determining AUTO threadcount: done in 26.6551 secs using 206.5% CPU
+BEST NUMBER OF THREADS: 2
+
+291  TPM2+R2       1920.112     255 4350.224     10878.224    5273.426
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+223 trees examined
+Threads: 1 / Time: 8.014 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3384
+Threads: 2 / Time: 6.664 sec / Speedup: 1.203 / Efficiency: 60% / LogL: -3384
+Threads: 3 / Time: 10.795 sec / Speedup: 0.742 / Efficiency: 25% / LogL: -3384
+Determining AUTO threadcount: done in 25.474 secs using 204.8% CPU
+BEST NUMBER OF THREADS: 2
+
+311  K3Pu+F+G4     1909.044     257 4332.087     11699.420    5262.530
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+218 trees examined
+Threads: 1 / Time: 8.010 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3351
+Threads: 2 / Time: 6.770 sec / Speedup: 1.183 / Efficiency: 59% / LogL: -3351
+Threads: 3 / Time: 10.902 sec / Speedup: 0.735 / Efficiency: 24% / LogL: -3351
+Determining AUTO threadcount: done in 25.6819 secs using 205.2% CPU
+BEST NUMBER OF THREADS: 2
+
+312  K3Pu+F+I+G4   1908.340     258 4332.680     12194.092    5266.743
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+418 trees examined
+Threads: 1 / Time: 8.001 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3647
+Threads: 2 / Time: 6.902 sec / Speedup: 1.159 / Efficiency: 58% / LogL: -3647
+Threads: 3 / Time: 11.815 sec / Speedup: 0.677 / Efficiency: 23% / LogL: -3647
+Determining AUTO threadcount: done in 26.7188 secs using 207.3% CPU
+BEST NUMBER OF THREADS: 2
+
+313  K3Pu+F+R2     1910.531     258 4337.062     12198.473    5271.125
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+214 trees examined
+Threads: 1 / Time: 8.033 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3367
+Threads: 2 / Time: 6.670 sec / Speedup: 1.204 / Efficiency: 60% / LogL: -3367
+Threads: 3 / Time: 11.036 sec / Speedup: 0.728 / Efficiency: 24% / LogL: -3367
+Determining AUTO threadcount: done in 25.74 secs using 205.4% CPU
+BEST NUMBER OF THREADS: 2
+
+333  K3P+G4        1919.147     254 4346.294     10514.865    5265.876
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+214 trees examined
+Threads: 1 / Time: 8.007 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3335
+Threads: 2 / Time: 6.660 sec / Speedup: 1.202 / Efficiency: 60% / LogL: -3335
+Threads: 3 / Time: 11.006 sec / Speedup: 0.728 / Efficiency: 24% / LogL: -3335
+Determining AUTO threadcount: done in 25.6723 secs using 205.6% CPU
+BEST NUMBER OF THREADS: 2
+
+334  K3P+I+G4      1919.053     255 4348.105     10876.105    5271.307
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+434 trees examined
+Threads: 1 / Time: 8.017 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3694
+Threads: 2 / Time: 6.880 sec / Speedup: 1.165 / Efficiency: 58% / LogL: -3694
+Threads: 3 / Time: 11.712 sec / Speedup: 0.684 / Efficiency: 23% / LogL: -3694
+Determining AUTO threadcount: done in 26.6091 secs using 206.6% CPU
+BEST NUMBER OF THREADS: 2
+
+335  K3P+R2        1919.459     255 4348.918     10876.918    5272.120
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+219 trees examined
+Threads: 1 / Time: 8.036 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3377
+Threads: 2 / Time: 6.597 sec / Speedup: 1.218 / Efficiency: 61% / LogL: -3377
+Threads: 3 / Time: 10.598 sec / Speedup: 0.758 / Efficiency: 25% / LogL: -3377
+Determining AUTO threadcount: done in 25.231 secs using 203.8% CPU
+BEST NUMBER OF THREADS: 2
+
+355  TN+F+G4       1908.965     257 4331.931     11699.264    5262.374
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+219 trees examined
+Threads: 1 / Time: 8.036 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3340
+Threads: 2 / Time: 6.718 sec / Speedup: 1.196 / Efficiency: 60% / LogL: -3340
+Threads: 3 / Time: 6.295 sec / Speedup: 1.277 / Efficiency: 43% / LogL: -3340
+Determining AUTO threadcount: done in 21.0491 secs using 185.5% CPU
+BEST NUMBER OF THREADS: 2
+
+356  TN+F+I+G4     1908.054     258 4332.108     12193.520    5266.172
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+427 trees examined
+Threads: 1 / Time: 8.007 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3699
+Threads: 2 / Time: 6.936 sec / Speedup: 1.154 / Efficiency: 58% / LogL: -3699
+Threads: 3 / Time: 11.540 sec / Speedup: 0.694 / Efficiency: 23% / LogL: -3699
+Determining AUTO threadcount: done in 26.4833 secs using 206% CPU
+BEST NUMBER OF THREADS: 2
+
+357  TN+F+R2       1910.578     258 4337.157     12198.569    5271.220
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+214 trees examined
+Threads: 1 / Time: 8.026 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3349
+Threads: 2 / Time: 6.653 sec / Speedup: 1.206 / Efficiency: 60% / LogL: -3349
+Threads: 3 / Time: 10.875 sec / Speedup: 0.738 / Efficiency: 25% / LogL: -3349
+Determining AUTO threadcount: done in 25.5553 secs using 204.9% CPU
+BEST NUMBER OF THREADS: 2
+
+377  TNe+G4        1919.027     254 4346.054     10514.625    5265.636
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+218 trees examined
+Threads: 1 / Time: 8.031 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3335
+Threads: 2 / Time: 6.765 sec / Speedup: 1.187 / Efficiency: 59% / LogL: -3335
+Threads: 3 / Time: 11.108 sec / Speedup: 0.723 / Efficiency: 24% / LogL: -3335
+Determining AUTO threadcount: done in 25.9049 secs using 205.6% CPU
+BEST NUMBER OF THREADS: 2
+
+378  TNe+I+G4      1919.156     255 4348.312     10876.312    5271.514
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+436 trees examined
+Threads: 1 / Time: 8.021 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3669
+Threads: 2 / Time: 6.989 sec / Speedup: 1.148 / Efficiency: 57% / LogL: -3669
+Threads: 3 / Time: 11.807 sec / Speedup: 0.679 / Efficiency: 23% / LogL: -3669
+Determining AUTO threadcount: done in 26.818 secs using 207.2% CPU
+BEST NUMBER OF THREADS: 2
+
+379  TNe+R2        1919.392     255 4348.785     10876.785    5271.987
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+225 trees examined
+Threads: 1 / Time: 8.013 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3370
+Threads: 2 / Time: 6.678 sec / Speedup: 1.200 / Efficiency: 60% / LogL: -3370
+Threads: 3 / Time: 10.700 sec / Speedup: 0.749 / Efficiency: 25% / LogL: -3370
+Determining AUTO threadcount: done in 25.3907 secs using 204.2% CPU
+BEST NUMBER OF THREADS: 2
+
+399  HKY+F+G4      1909.316     256 4330.633     11256.107    5257.455
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+220 trees examined
+Threads: 1 / Time: 8.025 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3345
+Threads: 2 / Time: 6.701 sec / Speedup: 1.198 / Efficiency: 60% / LogL: -3345
+Threads: 3 / Time: 11.047 sec / Speedup: 0.726 / Efficiency: 24% / LogL: -3345
+Determining AUTO threadcount: done in 25.7722 secs using 205.4% CPU
+BEST NUMBER OF THREADS: 2
+
+400  HKY+F+I+G4    1908.570     257 4331.141     11698.474    5261.584
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+426 trees examined
+Threads: 1 / Time: 8.013 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3710
+Threads: 2 / Time: 7.042 sec / Speedup: 1.138 / Efficiency: 57% / LogL: -3710
+Threads: 3 / Time: 11.913 sec / Speedup: 0.673 / Efficiency: 22% / LogL: -3710
+Determining AUTO threadcount: done in 26.9681 secs using 207.3% CPU
+BEST NUMBER OF THREADS: 2
+
+401  HKY+F+R2      1910.869     257 4335.737     11703.070    5266.180
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+216 trees examined
+Threads: 1 / Time: 8.032 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3380
+Threads: 2 / Time: 6.753 sec / Speedup: 1.189 / Efficiency: 59% / LogL: -3380
+Threads: 3 / Time: 10.956 sec / Speedup: 0.733 / Efficiency: 24% / LogL: -3380
+Determining AUTO threadcount: done in 25.7414 secs using 204.8% CPU
+BEST NUMBER OF THREADS: 2
+
+421  K2P+G4        1919.913     253 4345.827     10187.827    5261.788
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+217 trees examined
+Threads: 1 / Time: 8.028 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3321
+Threads: 2 / Time: 6.719 sec / Speedup: 1.195 / Efficiency: 60% / LogL: -3321
+Threads: 3 / Time: 10.858 sec / Speedup: 0.739 / Efficiency: 25% / LogL: -3321
+Determining AUTO threadcount: done in 25.6052 secs using 204.7% CPU
+BEST NUMBER OF THREADS: 2
+
+422  K2P+I+G4      1919.853     254 4347.706     10516.277    5267.288
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+440 trees examined
+Threads: 1 / Time: 8.014 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3710
+Threads: 2 / Time: 6.930 sec / Speedup: 1.156 / Efficiency: 58% / LogL: -3710
+Threads: 3 / Time: 11.678 sec / Speedup: 0.686 / Efficiency: 23% / LogL: -3710
+Determining AUTO threadcount: done in 26.6225 secs using 206.4% CPU
+BEST NUMBER OF THREADS: 2
+
+423  K2P+R2        1920.247     254 4348.494     10517.066    5268.076
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+219 trees examined
+Threads: 1 / Time: 8.021 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3651
+Threads: 2 / Time: 6.635 sec / Speedup: 1.209 / Efficiency: 60% / LogL: -3651
+Threads: 3 / Time: 11.042 sec / Speedup: 0.726 / Efficiency: 24% / LogL: -3651
+Determining AUTO threadcount: done in 25.6983 secs using 205.5% CPU
+BEST NUMBER OF THREADS: 2
+
+443  F81+F+G4      2033.593     255 4577.185     11105.185    5500.387
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+221 trees examined
+Threads: 1 / Time: 8.012 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3560
+Threads: 2 / Time: 6.702 sec / Speedup: 1.195 / Efficiency: 60% / LogL: -3560
+Threads: 3 / Time: 10.901 sec / Speedup: 0.735 / Efficiency: 24% / LogL: -3560
+Determining AUTO threadcount: done in 25.6151 secs using 204.9% CPU
+BEST NUMBER OF THREADS: 2
+
+444  F81+F+I+G4    2033.476     256 4578.952     11504.426    5505.775
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+432 trees examined
+Threads: 1 / Time: 8.006 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3974
+Threads: 2 / Time: 6.844 sec / Speedup: 1.170 / Efficiency: 58% / LogL: -3974
+Threads: 3 / Time: 11.744 sec / Speedup: 0.682 / Efficiency: 23% / LogL: -3974
+Determining AUTO threadcount: done in 26.5948 secs using 207% CPU
+BEST NUMBER OF THREADS: 2
+
+445  F81+F+R2      2034.192     256 4580.384     11505.858    5507.207
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+212 trees examined
+Threads: 1 / Time: 8.023 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3628
+Threads: 2 / Time: 6.535 sec / Speedup: 1.228 / Efficiency: 61% / LogL: -3628
+Threads: 3 / Time: 10.784 sec / Speedup: 0.744 / Efficiency: 25% / LogL: -3628
+Determining AUTO threadcount: done in 25.3423 secs using 204.5% CPU
+BEST NUMBER OF THREADS: 2
+
+465  JC+G4         2037.283     252 4578.567     10122.567    5490.908
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+219 trees examined
+Threads: 1 / Time: 8.016 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3572
+Threads: 2 / Time: 6.689 sec / Speedup: 1.198 / Efficiency: 60% / LogL: -3572
+Threads: 3 / Time: 6.299 sec / Speedup: 1.273 / Efficiency: 42% / LogL: -3572
+Determining AUTO threadcount: done in 21.0034 secs using 185.8% CPU
+BEST NUMBER OF THREADS: 2
+
+466  JC+I+G4       2037.308     253 4580.616     10422.616    5496.578
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+435 trees examined
+Threads: 1 / Time: 8.008 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3908
+Threads: 2 / Time: 6.853 sec / Speedup: 1.169 / Efficiency: 58% / LogL: -3908
+Threads: 3 / Time: 11.733 sec / Speedup: 0.683 / Efficiency: 23% / LogL: -3908
+Determining AUTO threadcount: done in 26.5945 secs using 206.7% CPU
+BEST NUMBER OF THREADS: 2
+
+467  JC+R2         2037.515     253 4581.031     10423.031    5496.992
+Akaike Information Criterion:           HKY+F+G4
+Corrected Akaike Information Criterion: JC+G4
+Bayesian Information Criterion:         HKY+F+G4
+Best-fit model: HKY+F+G4 chosen according to BIC
+
+All model information printed to /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.model.gz
+CPU time for ModelFinder: 3835.754 seconds (1h:3m:55s)
+Wall-clock time for ModelFinder: 1870.627 seconds (0h:31m:10s)
+
+NOTE: 1 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+281 trees examined
+Threads: 1 / Time: 8.001 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -3818
+Threads: 2 / Time: 6.464 sec / Speedup: 1.238 / Efficiency: 62% / LogL: -3818
+Threads: 3 / Time: 10.520 sec / Speedup: 0.761 / Efficiency: 25% / LogL: -3818
+Determining AUTO threadcount: done in 24.9849 secs using 204.3% CPU
+BEST NUMBER OF THREADS: 2
+
 Estimate model parameters (epsilon = 0.100)
-1. Initial log-likelihood: -9196.195
-Optimal log-likelihood: -9196.103
-Rate parameters:  A-C: 1.69798  A-G: 6.35944  A-T: 1.00000  C-G: 1.69798  C-T: 6.35944  G-T: 1.00000
-Base frequencies:  A: 0.339  C: 0.179  G: 0.215  T: 0.267
-Site proportion and rates:  (0.555,0.094) (0.345,1.390) (0.096,4.008) (0.004,18.981)
-Parameters optimization took 1 rounds (0.120 sec)
+1. Initial log-likelihood: -1909.316
+Optimal log-likelihood: -1909.301
+Rate parameters:  A-C: 1.00000  A-G: 8.53004  A-T: 1.00000  C-G: 1.00000  C-T: 8.53004  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.193  G: 0.186  T: 0.304
+Gamma shape alpha: 0.286
+Parameters optimization took 1 rounds (0.007 sec)
 Wrote distance file to... 
 Computing ML distances based on estimated model parameters...
-Calculating distance matrix: done in 0.0177699 secs using 1501% CPU
-Computing ML distances took 0.017972 sec (of wall-clock time) 0.270413 sec (of CPU time)
-Setting up auxiliary I and S matrices: done in 0.00222178 secs using 262.8% CPU
-Constructing RapidNJ tree: done in 0.186377 secs using 128.6% CPU
-Computing RapidNJ tree took 0.188762 sec (of wall-clock time) 0.246083 sec (of CPU time)
-Log-likelihood of RapidNJ tree: -9219.912
+Calculating distance matrix: done in 0.0394152 secs using 200% CPU
+Computing ML distances took 0.039511 sec (of wall-clock time) 0.078983 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.00148307 secs using 109.2% CPU
+Constructing RapidNJ tree: done in 0.101891 secs using 22.86% CPU
+Computing RapidNJ tree took 0.103415 sec (of wall-clock time) 0.024965 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -1911.286
 --------------------------------------------------------------------
 |             INITIALIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Generating 98 parsimony trees... 1.926 second
-Computing log-likelihood of 98 initial trees ... 3.291 seconds
-Current best score: -9196.103
+Generating 98 parsimony trees... 0.677 second
+Computing log-likelihood of 98 initial trees ... 0.415 seconds
+Current best score: -1882.230
 
 Do NNI search on 20 best initial trees
-Optimizing NNI: done in 0.401872 secs using 1594% CPU
+Optimizing NNI: done in 0.0519798 secs using 188.5% CPU
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 1: -9194.100
-Optimizing NNI: done in 0.695695 secs using 1595% CPU
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 2: -9189.657
-Optimizing NNI: done in 0.624306 secs using 1596% CPU
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 3: -9187.434
-Optimizing NNI: done in 0.807592 secs using 1586% CPU
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 4: -9185.687
-Optimizing NNI: done in 0.695639 secs using 1594% CPU
-Optimizing NNI: done in 0.707534 secs using 1594% CPU
-Optimizing NNI: done in 0.780393 secs using 1595% CPU
-Optimizing NNI: done in 0.811728 secs using 1595% CPU
-Optimizing NNI: done in 0.682828 secs using 1595% CPU
-Optimizing NNI: done in 0.633878 secs using 1595% CPU
-Iteration 10 / LogL: -9188.186 / Time: 0h:0m:13s
-Optimizing NNI: done in 0.753595 secs using 1594% CPU
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 11: -9184.108
-Optimizing NNI: done in 0.895569 secs using 1595% CPU
-Optimizing NNI: done in 0.828744 secs using 1594% CPU
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 13: -9183.546
-Optimizing NNI: done in 0.891935 secs using 1595% CPU
-Optimizing NNI: done in 0.812747 secs using 1595% CPU
-Optimizing NNI: done in 0.669784 secs using 1594% CPU
-Optimizing NNI: done in 0.799201 secs using 1594% CPU
-Optimizing NNI: done in 0.78947 secs using 1594% CPU
-Optimizing NNI: done in 0.672743 secs using 1593% CPU
-Optimizing NNI: done in 0.929315 secs using 1567% CPU
-Iteration 20 / LogL: -9193.124 / Time: 0h:0m:21s
+BETTER TREE FOUND at iteration 1: -1878.159
+Optimizing NNI: done in 0.0463375 secs using 189.2% CPU
+Optimizing NNI: done in 0.0605955 secs using 185.1% CPU
+Optimizing NNI: done in 0.0477105 secs using 189.5% CPU
+Optimizing NNI: done in 0.0623883 secs using 193.6% CPU
+Optimizing NNI: done in 0.0574568 secs using 191.4% CPU
+Optimizing NNI: done in 0.0884128 secs using 187.6% CPU
+Optimizing NNI: done in 0.0989078 secs using 189.9% CPU
+Optimizing NNI: done in 0.0833305 secs using 188% CPU
+Optimizing NNI: done in 0.112945 secs using 191.1% CPU
+Iteration 10 / LogL: -1883.604 / Time: 0h:0m:27s
+Optimizing NNI: done in 0.0739163 secs using 186.5% CPU
+Optimizing NNI: done in 0.0740157 secs using 186.5% CPU
+Optimizing NNI: done in 0.0876359 secs using 188.6% CPU
+Optimizing NNI: done in 0.0614887 secs using 188.7% CPU
+Optimizing NNI: done in 0.122077 secs using 188.5% CPU
+Optimizing NNI: done in 0.0691134 secs using 189.9% CPU
+Optimizing NNI: done in 0.0613459 secs using 191.8% CPU
+Optimizing NNI: done in 0.0588588 secs using 189.7% CPU
+Optimizing NNI: done in 0.0504738 secs using 200% CPU
+Optimizing NNI: done in 0.0583463 secs using 184.5% CPU
+Iteration 20 / LogL: -1893.250 / Time: 0h:0m:27s
 Finish initializing candidate tree set (20)
-Current best tree score: -9183.546 / CPU time: 21.132
+Current best tree score: -1878.159 / CPU time: 2.564
 Number of iterations: 20
 --------------------------------------------------------------------
 |               OPTIMIZING CANDIDATE TREE SET                      |
 --------------------------------------------------------------------
-Optimizing NNI: done in 1.09975 secs using 1594% CPU
+Optimizing NNI: done in 0.099231 secs using 193% CPU
+Optimizing NNI: done in 0.0936321 secs using 188.3% CPU
+Optimizing NNI: done in 0.119383 secs using 189.1% CPU
+Optimizing NNI: done in 0.135481 secs using 185.2% CPU
+Optimizing NNI: done in 0.105709 secs using 192.4% CPU
+Optimizing NNI: done in 0.100033 secs using 196% CPU
+Optimizing NNI: done in 0.0942352 secs using 190.5% CPU
+Optimizing NNI: done in 0.11759 secs using 196.6% CPU
+Optimizing NNI: done in 0.0470771 secs using 191.5% CPU
+Optimizing NNI: done in 0.0779721 secs using 194.9% CPU
+Iteration 30 / LogL: -1887.363 / Time: 0h:0m:28s (0h:1m:10s left)
+Optimizing NNI: done in 0.143836 secs using 192.4% CPU
+Optimizing NNI: done in 0.109193 secs using 189.9% CPU
+Optimizing NNI: done in 0.108185 secs using 187.1% CPU
+Optimizing NNI: done in 0.106811 secs using 194.3% CPU
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 21: -9183.292
-Optimizing NNI: done in 0.915342 secs using 1587% CPU
+BETTER TREE FOUND at iteration 34: -1877.059
+Optimizing NNI: done in 0.106041 secs using 185.8% CPU
+Optimizing NNI: done in 0.15828 secs using 187.4% CPU
+Optimizing NNI: done in 0.0941285 secs using 191.5% CPU
+Optimizing NNI: done in 0.118521 secs using 191.5% CPU
+Optimizing NNI: done in 0.0962192 secs using 191.7% CPU
+Optimizing NNI: done in 0.0811632 secs using 190.2% CPU
+Iteration 40 / LogL: -1877.064 / Time: 0h:0m:29s (0h:1m:12s left)
+Optimizing NNI: done in 0.090377 secs using 191.2% CPU
+Optimizing NNI: done in 0.0857612 secs using 194.2% CPU
+Optimizing NNI: done in 0.0979857 secs using 193.9% CPU
+Optimizing NNI: done in 0.0950371 secs using 190.5% CPU
+Optimizing NNI: done in 0.0989963 secs using 193% CPU
+Optimizing NNI: done in 0.10984 secs using 192.7% CPU
+Optimizing NNI: done in 0.116356 secs using 188% CPU
+Optimizing NNI: done in 0.0942858 secs using 192.6% CPU
+Optimizing NNI: done in 0.110803 secs using 194.6% CPU
+Optimizing NNI: done in 0.118226 secs using 188.2% CPU
+Iteration 50 / LogL: -1881.544 / Time: 0h:0m:31s (0h:0m:53s left)
+Optimizing NNI: done in 0.0974791 secs using 193.9% CPU
+Optimizing NNI: done in 0.125671 secs using 192.1% CPU
+Optimizing NNI: done in 0.095411 secs using 185.3% CPU
+Optimizing NNI: done in 0.120072 secs using 197.5% CPU
+Optimizing NNI: done in 0.0789879 secs using 191.1% CPU
+Optimizing NNI: done in 0.145306 secs using 195.2% CPU
+Optimizing NNI: done in 0.0921703 secs using 187% CPU
+Optimizing NNI: done in 0.136474 secs using 185.4% CPU
+Optimizing NNI: done in 0.119457 secs using 192.4% CPU
+Optimizing NNI: done in 0.109754 secs using 185.4% CPU
+Iteration 60 / LogL: -1881.256 / Time: 0h:0m:32s (0h:0m:40s left)
+Optimizing NNI: done in 0.114637 secs using 187.8% CPU
+Optimizing NNI: done in 0.066641 secs using 192.5% CPU
+Optimizing NNI: done in 0.112486 secs using 192% CPU
+Optimizing NNI: done in 0.123727 secs using 191.9% CPU
+Optimizing NNI: done in 0.105133 secs using 188.6% CPU
+Optimizing NNI: done in 0.101325 secs using 190.1% CPU
+Optimizing NNI: done in 0.133603 secs using 190.3% CPU
+Optimizing NNI: done in 0.111494 secs using 190.1% CPU
+Optimizing NNI: done in 0.117516 secs using 194.9% CPU
+Optimizing NNI: done in 0.0930788 secs using 192.5% CPU
+Iteration 70 / LogL: -1894.476 / Time: 0h:0m:33s (0h:0m:30s left)
+Optimizing NNI: done in 0.104448 secs using 194.2% CPU
+Optimizing NNI: done in 0.134579 secs using 192.6% CPU
+Optimizing NNI: done in 0.0910194 secs using 192.3% CPU
+Optimizing NNI: done in 0.100989 secs using 189.1% CPU
+Optimizing NNI: done in 0.094593 secs using 193.7% CPU
+Optimizing NNI: done in 0.110893 secs using 190.1% CPU
+Optimizing NNI: done in 0.104533 secs using 192.4% CPU
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 22: -9182.375
-Optimizing NNI: done in 1.16415 secs using 1594% CPU
-Optimizing NNI: done in 0.993851 secs using 1595% CPU
-Optimizing NNI: done in 0.995103 secs using 1595% CPU
-Optimizing NNI: done in 1.10459 secs using 1594% CPU
-Optimizing NNI: done in 1.00561 secs using 1594% CPU
+BETTER TREE FOUND at iteration 77: -1876.605
+Optimizing NNI: done in 0.114911 secs using 191.3% CPU
+Optimizing NNI: done in 0.109501 secs using 191.7% CPU
+Optimizing NNI: done in 0.121649 secs using 189.3% CPU
+Iteration 80 / LogL: -1877.069 / Time: 0h:0m:34s (0h:0m:42s left)
+Optimizing NNI: done in 0.0761738 secs using 188.2% CPU
+Optimizing NNI: done in 0.10902 secs using 190.8% CPU
+Optimizing NNI: done in 0.127542 secs using 188.2% CPU
+Optimizing NNI: done in 0.140447 secs using 187.9% CPU
+Optimizing NNI: done in 0.0794534 secs using 188.7% CPU
+Optimizing NNI: done in 0.138989 secs using 197.8% CPU
+Optimizing NNI: done in 0.119516 secs using 194.1% CPU
+Optimizing NNI: done in 0.106878 secs using 193.4% CPU
+Optimizing NNI: done in 0.0967816 secs using 191.7% CPU
+Optimizing NNI: done in 0.094423 secs using 189.4% CPU
+Iteration 90 / LogL: -1883.346 / Time: 0h:0m:35s (0h:0m:34s left)
+Optimizing NNI: done in 0.145032 secs using 186.2% CPU
+Optimizing NNI: done in 0.122049 secs using 188.5% CPU
+Optimizing NNI: done in 0.124209 secs using 191.2% CPU
+Optimizing NNI: done in 0.118951 secs using 189.9% CPU
+Optimizing NNI: done in 0.0834805 secs using 184.4% CPU
+Optimizing NNI: done in 0.105327 secs using 192.4% CPU
+Optimizing NNI: done in 0.0811929 secs using 192.6% CPU
+Optimizing NNI: done in 0.0951217 secs using 188.5% CPU
+Optimizing NNI: done in 0.102716 secs using 193.2% CPU
+Optimizing NNI: done in 0.0930929 secs using 193.6% CPU
+Iteration 100 / LogL: -1883.211 / Time: 0h:0m:36s (0h:0m:28s left)
+Optimizing NNI: done in 0.105568 secs using 194.3% CPU
+Optimizing NNI: done in 0.108565 secs using 186.1% CPU
+Optimizing NNI: done in 0.0953054 secs using 193.7% CPU
+Optimizing NNI: done in 0.124396 secs using 192% CPU
+Optimizing NNI: done in 0.106846 secs using 190.6% CPU
+Optimizing NNI: done in 0.134589 secs using 189.6% CPU
+Optimizing NNI: done in 0.089242 secs using 186.6% CPU
+Optimizing NNI: done in 0.0861877 secs using 197.6% CPU
+Optimizing NNI: done in 0.0929383 secs using 190.3% CPU
+Optimizing NNI: done in 0.108773 secs using 190.8% CPU
+Iteration 110 / LogL: -1877.266 / Time: 0h:0m:37s (0h:0m:23s left)
+Optimizing NNI: done in 0.0979658 secs using 188.8% CPU
+Optimizing NNI: done in 0.0887604 secs using 192.1% CPU
+Optimizing NNI: done in 0.0907989 secs using 192.3% CPU
+Optimizing NNI: done in 0.0954053 secs using 189.5% CPU
 Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 27: -9182.121
-Optimizing NNI: done in 1.21888 secs using 1595% CPU
-Optimizing NNI: done in 1.06724 secs using 1592% CPU
-Optimizing NNI: done in 0.945143 secs using 1593% CPU
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 30: -9181.432
-Iteration 30 / LogL: -9181.432 / Time: 0h:0m:32s (0h:1m:53s left)
-Optimizing NNI: done in 1.02451 secs using 1596% CPU
-Optimizing NNI: done in 0.926009 secs using 1593% CPU
-Optimizing NNI: done in 1.35912 secs using 1593% CPU
-Optimizing NNI: done in 1.0123 secs using 1593% CPU
-Optimizing NNI: done in 1.00452 secs using 1588% CPU
-Optimizing NNI: done in 1.02328 secs using 1595% CPU
-Estimate model parameters (epsilon = 0.100)
-BETTER TREE FOUND at iteration 36: -9181.263
-Optimizing NNI: done in 1.01998 secs using 1595% CPU
-Optimizing NNI: done in 1.04227 secs using 1594% CPU
-Optimizing NNI: done in 1.30578 secs using 1576% CPU
-Optimizing NNI: done in 1.0531 secs using 1595% CPU
-Iteration 40 / LogL: -9193.007 / Time: 0h:0m:43s (0h:1m:47s left)
-Optimizing NNI: done in 1.28094 secs using 1594% CPU
-Optimizing NNI: done in 1.09429 secs using 1594% CPU
-Optimizing NNI: done in 1.01827 secs using 1595% CPU
-Optimizing NNI: done in 1.05573 secs using 1592% CPU
-Optimizing NNI: done in 1.07168 secs using 1595% CPU
-Optimizing NNI: done in 0.952034 secs using 1592% CPU
-Optimizing NNI: done in 1.12216 secs using 1594% CPU
-Optimizing NNI: done in 1.09761 secs using 1594% CPU
-Optimizing NNI: done in 1.20308 secs using 1595% CPU
-Optimizing NNI: done in 1.22402 secs using 1594% CPU
-Iteration 50 / LogL: -9183.326 / Time: 0h:0m:55s (0h:1m:36s left)
-Optimizing NNI: done in 1.16509 secs using 1595% CPU
-Optimizing NNI: done in 0.984588 secs using 1596% CPU
-Optimizing NNI: done in 1.09127 secs using 1595% CPU
-Optimizing NNI: done in 1.21814 secs using 1594% CPU
-Optimizing NNI: done in 1.03145 secs using 1596% CPU
-Optimizing NNI: done in 1.04567 secs using 1595% CPU
-Optimizing NNI: done in 1.24771 secs using 1593% CPU
-Optimizing NNI: done in 0.936841 secs using 1596% CPU
-Optimizing NNI: done in 0.984233 secs using 1595% CPU
-Optimizing NNI: done in 1.01454 secs using 1595% CPU
-BETTER TREE FOUND at iteration 60: -9181.257
-Iteration 60 / LogL: -9181.257 / Time: 0h:1m:5s (0h:1m:51s left)
-Optimizing NNI: done in 1.03023 secs using 1591% CPU
-Optimizing NNI: done in 1.01567 secs using 1594% CPU
-Optimizing NNI: done in 1.07556 secs using 1582% CPU
-Optimizing NNI: done in 0.88596 secs using 1590% CPU
-Optimizing NNI: done in 1.12811 secs using 1595% CPU
-Optimizing NNI: done in 1.0798 secs using 1594% CPU
-Optimizing NNI: done in 1.07197 secs using 1594% CPU
-Optimizing NNI: done in 1.02857 secs using 1594% CPU
-Optimizing NNI: done in 1.04527 secs using 1595% CPU
-Optimizing NNI: done in 0.888985 secs using 1594% CPU
-Iteration 70 / LogL: -9187.041 / Time: 0h:1m:16s (0h:1m:39s left)
-Optimizing NNI: done in 1.08637 secs using 1594% CPU
-Optimizing NNI: done in 0.956732 secs using 1596% CPU
-Optimizing NNI: done in 1.26401 secs using 1594% CPU
-Optimizing NNI: done in 1.08384 secs using 1595% CPU
-Optimizing NNI: done in 0.986879 secs using 1596% CPU
-Optimizing NNI: done in 0.992098 secs using 1593% CPU
-Optimizing NNI: done in 1.22243 secs using 1595% CPU
-Optimizing NNI: done in 1.04135 secs using 1595% CPU
-Optimizing NNI: done in 0.965234 secs using 1595% CPU
-Optimizing NNI: done in 0.844134 secs using 1594% CPU
-Iteration 80 / LogL: -9193.396 / Time: 0h:1m:26s (0h:1m:27s left)
-Optimizing NNI: done in 0.942554 secs using 1595% CPU
-Optimizing NNI: done in 1.02873 secs using 1595% CPU
-Optimizing NNI: done in 0.9819 secs using 1593% CPU
-Optimizing NNI: done in 0.930265 secs using 1594% CPU
-Optimizing NNI: done in 1.01481 secs using 1594% CPU
-Optimizing NNI: done in 0.957506 secs using 1594% CPU
-Optimizing NNI: done in 1.04905 secs using 1594% CPU
-Optimizing NNI: done in 0.93341 secs using 1593% CPU
-Optimizing NNI: done in 1.01065 secs using 1595% CPU
-Optimizing NNI: done in 1.15441 secs using 1595% CPU
-Iteration 90 / LogL: -9188.630 / Time: 0h:1m:36s (0h:1m:16s left)
-Optimizing NNI: done in 1.10388 secs using 1594% CPU
-Optimizing NNI: done in 1.07773 secs using 1588% CPU
-Optimizing NNI: done in 1.05029 secs using 1595% CPU
-Optimizing NNI: done in 1.19989 secs using 1594% CPU
-Optimizing NNI: done in 1.07728 secs using 1592% CPU
-Optimizing NNI: done in 0.933955 secs using 1594% CPU
-Optimizing NNI: done in 1.04017 secs using 1595% CPU
-Optimizing NNI: done in 1.14782 secs using 1594% CPU
-Optimizing NNI: done in 0.926302 secs using 1595% CPU
-Optimizing NNI: done in 1.01721 secs using 1594% CPU
-Iteration 100 / LogL: -9181.291 / Time: 0h:1m:47s (0h:1m:5s left)
-Optimizing NNI: done in 1.05948 secs using 1594% CPU
-Optimizing NNI: done in 0.995108 secs using 1595% CPU
-Optimizing NNI: done in 1.09408 secs using 1595% CPU
-Optimizing NNI: done in 0.892945 secs using 1594% CPU
-Optimizing NNI: done in 1.30995 secs using 1594% CPU
-Optimizing NNI: done in 1.06784 secs using 1594% CPU
-Optimizing NNI: done in 1.03276 secs using 1594% CPU
-Optimizing NNI: done in 0.946932 secs using 1594% CPU
-Optimizing NNI: done in 0.853162 secs using 1594% CPU
-Optimizing NNI: done in 1.18096 secs using 1594% CPU
-Iteration 110 / LogL: -9182.822 / Time: 0h:1m:57s (0h:0m:54s left)
-Optimizing NNI: done in 1.07073 secs using 1595% CPU
-Optimizing NNI: done in 0.992456 secs using 1595% CPU
-Optimizing NNI: done in 0.927887 secs using 1594% CPU
-Optimizing NNI: done in 1.07986 secs using 1595% CPU
-Optimizing NNI: done in 0.85866 secs using 1594% CPU
-Optimizing NNI: done in 1.25619 secs using 1595% CPU
-Optimizing NNI: done in 1.27412 secs using 1594% CPU
-Optimizing NNI: done in 0.849002 secs using 1594% CPU
-Optimizing NNI: done in 0.98514 secs using 1595% CPU
-Optimizing NNI: done in 1.37286 secs using 1584% CPU
-Iteration 120 / LogL: -9205.369 / Time: 0h:2m:8s (0h:0m:43s left)
-Optimizing NNI: done in 0.989603 secs using 1593% CPU
-Optimizing NNI: done in 1.06555 secs using 1595% CPU
-Optimizing NNI: done in 0.967411 secs using 1595% CPU
-Optimizing NNI: done in 1.09236 secs using 1593% CPU
-Optimizing NNI: done in 1.30157 secs using 1594% CPU
-Optimizing NNI: done in 1.05812 secs using 1595% CPU
-Optimizing NNI: done in 1.00071 secs using 1594% CPU
-Optimizing NNI: done in 1.10699 secs using 1595% CPU
-Optimizing NNI: done in 0.883886 secs using 1595% CPU
-Optimizing NNI: done in 0.964151 secs using 1595% CPU
-Iteration 130 / LogL: -9185.744 / Time: 0h:2m:19s (0h:0m:32s left)
-Optimizing NNI: done in 1.01879 secs using 1596% CPU
-Optimizing NNI: done in 1.01759 secs using 1595% CPU
-Optimizing NNI: done in 1.11921 secs using 1595% CPU
-Optimizing NNI: done in 1.16098 secs using 1594% CPU
-Optimizing NNI: done in 1.03527 secs using 1595% CPU
-Optimizing NNI: done in 1.0214 secs using 1593% CPU
-Optimizing NNI: done in 0.894259 secs using 1594% CPU
-Optimizing NNI: done in 1.12898 secs using 1594% CPU
-Optimizing NNI: done in 0.999692 secs using 1594% CPU
-Optimizing NNI: done in 1.09876 secs using 1594% CPU
-Iteration 140 / LogL: -9198.178 / Time: 0h:2m:29s (0h:0m:21s left)
-Optimizing NNI: done in 1.08331 secs using 1595% CPU
-Optimizing NNI: done in 1.14162 secs using 1596% CPU
-Optimizing NNI: done in 1.28115 secs using 1594% CPU
-Optimizing NNI: done in 1.10468 secs using 1594% CPU
-Optimizing NNI: done in 1.20517 secs using 1595% CPU
-Optimizing NNI: done in 1.08642 secs using 1594% CPU
-Optimizing NNI: done in 1.29569 secs using 1595% CPU
-Optimizing NNI: done in 1.09866 secs using 1585% CPU
-Optimizing NNI: done in 1.18593 secs using 1594% CPU
-Optimizing NNI: done in 1.22812 secs using 1595% CPU
-Iteration 150 / LogL: -9182.224 / Time: 0h:2m:41s (0h:0m:10s left)
-Optimizing NNI: done in 1.16706 secs using 1595% CPU
-Optimizing NNI: done in 1.13336 secs using 1592% CPU
-Optimizing NNI: done in 1.05955 secs using 1593% CPU
-Optimizing NNI: done in 1.04788 secs using 1595% CPU
-Optimizing NNI: done in 1.05615 secs using 1593% CPU
-Optimizing NNI: done in 1.17277 secs using 1595% CPU
-Optimizing NNI: done in 1.06208 secs using 1593% CPU
-Optimizing NNI: done in 0.945105 secs using 1595% CPU
-Optimizing NNI: done in 1.21682 secs using 1594% CPU
-Optimizing NNI: done in 0.927291 secs using 1594% CPU
-Iteration 160 / LogL: -9181.292 / Time: 0h:2m:52s (0h:0m:0s left)
-Optimizing NNI: done in 0.966214 secs using 1594% CPU
-TREE SEARCH COMPLETED AFTER 161 ITERATIONS / Time: 0h:2m:53s
+BETTER TREE FOUND at iteration 114: -1876.502
+Optimizing NNI: done in 0.0976992 secs using 188.7% CPU
+Optimizing NNI: done in 0.104513 secs using 192.3% CPU
+Optimizing NNI: done in 0.091964 secs using 185.9% CPU
+Optimizing NNI: done in 0.0945858 secs using 188.4% CPU
+Optimizing NNI: done in 0.130419 secs using 191.5% CPU
+Optimizing NNI: done in 0.105557 secs using 192.4% CPU
+Iteration 120 / LogL: -1900.536 / Time: 0h:0m:38s (0h:0m:30s left)
+Optimizing NNI: done in 0.121373 secs using 187.6% CPU
+Optimizing NNI: done in 0.076498 secs using 186.9% CPU
+Optimizing NNI: done in 0.102912 secs using 189.3% CPU
+Optimizing NNI: done in 0.0755243 secs using 190.8% CPU
+Optimizing NNI: done in 0.124039 secs using 189.5% CPU
+Optimizing NNI: done in 0.154124 secs using 189.6% CPU
+Optimizing NNI: done in 0.0803909 secs using 183.9% CPU
+Optimizing NNI: done in 0.104207 secs using 189.4% CPU
+Optimizing NNI: done in 0.12068 secs using 193.4% CPU
+Optimizing NNI: done in 0.109576 secs using 186.3% CPU
+Iteration 130 / LogL: -1882.159 / Time: 0h:0m:39s (0h:0m:25s left)
+Optimizing NNI: done in 0.103103 secs using 190.3% CPU
+Optimizing NNI: done in 0.112159 secs using 188.4% CPU
+Optimizing NNI: done in 0.115514 secs using 182.7% CPU
+Optimizing NNI: done in 0.135243 secs using 193.3% CPU
+Optimizing NNI: done in 0.163963 secs using 193.3% CPU
+Optimizing NNI: done in 0.0759129 secs using 184.2% CPU
+Optimizing NNI: done in 0.142855 secs using 189.5% CPU
+Optimizing NNI: done in 0.0997432 secs using 189% CPU
+Optimizing NNI: done in 0.120625 secs using 183.4% CPU
+Optimizing NNI: done in 0.116412 secs using 188.9% CPU
+Iteration 140 / LogL: -1901.245 / Time: 0h:0m:41s (0h:0m:21s left)
+Optimizing NNI: done in 0.0926409 secs using 193.5% CPU
+Optimizing NNI: done in 0.0916666 secs using 189.1% CPU
+Optimizing NNI: done in 0.115682 secs using 195.7% CPU
+Optimizing NNI: done in 0.0926264 secs using 192.5% CPU
+Optimizing NNI: done in 0.105987 secs using 188.7% CPU
+Optimizing NNI: done in 0.117599 secs using 190.6% CPU
+Optimizing NNI: done in 0.108853 secs using 194.5% CPU
+Optimizing NNI: done in 0.10249 secs using 189.3% CPU
+Optimizing NNI: done in 0.104241 secs using 190.4% CPU
+Optimizing NNI: done in 0.0911694 secs using 193.4% CPU
+Iteration 150 / LogL: -1876.503 / Time: 0h:0m:42s (0h:0m:18s left)
+Optimizing NNI: done in 0.0988543 secs using 187.9% CPU
+Optimizing NNI: done in 0.0903938 secs using 191.1% CPU
+Optimizing NNI: done in 0.093037 secs using 192.5% CPU
+Optimizing NNI: done in 0.09827 secs using 188.8% CPU
+Optimizing NNI: done in 0.110689 secs using 191.9% CPU
+Optimizing NNI: done in 0.0928446 secs using 184.9% CPU
+Optimizing NNI: done in 0.108536 secs using 195.4% CPU
+Optimizing NNI: done in 0.117579 secs using 192.4% CPU
+Optimizing NNI: done in 0.0952835 secs using 193.7% CPU
+Optimizing NNI: done in 0.11997 secs using 190% CPU
+Iteration 160 / LogL: -1880.238 / Time: 0h:0m:43s (0h:0m:14s left)
+Optimizing NNI: done in 0.0946118 secs using 193.7% CPU
+Optimizing NNI: done in 0.0793799 secs using 188.6% CPU
+Optimizing NNI: done in 0.0932812 secs using 196.8% CPU
+Optimizing NNI: done in 0.113724 secs using 190.3% CPU
+Optimizing NNI: done in 0.0959022 secs using 188.5% CPU
+Optimizing NNI: done in 0.115169 secs using 189.6% CPU
+Optimizing NNI: done in 0.0867337 secs using 190.8% CPU
+Optimizing NNI: done in 0.0808156 secs using 190.1% CPU
+Optimizing NNI: done in 0.127372 secs using 183.5% CPU
+Optimizing NNI: done in 0.111603 secs using 184.8% CPU
+Iteration 170 / LogL: -1883.693 / Time: 0h:0m:44s (0h:0m:11s left)
+Optimizing NNI: done in 0.110207 secs using 190.9% CPU
+Optimizing NNI: done in 0.119298 secs using 191.6% CPU
+Optimizing NNI: done in 0.0954461 secs using 190.6% CPU
+BETTER TREE FOUND at iteration 173: -1876.502
+Optimizing NNI: done in 0.116531 secs using 194.9% CPU
+Optimizing NNI: done in 0.105628 secs using 192.4% CPU
+Optimizing NNI: done in 0.124026 secs using 192% CPU
+Optimizing NNI: done in 0.105089 secs using 188.6% CPU
+Optimizing NNI: done in 0.0986538 secs using 189.8% CPU
+Optimizing NNI: done in 0.110821 secs using 189.2% CPU
+Optimizing NNI: done in 0.116113 secs using 191.4% CPU
+Iteration 180 / LogL: -1877.871 / Time: 0h:0m:45s (0h:0m:23s left)
+Optimizing NNI: done in 0.0930609 secs using 191.4% CPU
+Optimizing NNI: done in 0.0921527 secs using 191.4% CPU
+Optimizing NNI: done in 0.0969202 secs using 186.6% CPU
+Optimizing NNI: done in 0.0921752 secs using 191.4% CPU
+Optimizing NNI: done in 0.0894764 secs using 189.9% CPU
+Optimizing NNI: done in 0.0786088 secs using 191.1% CPU
+Optimizing NNI: done in 0.128698 secs using 191.4% CPU
+Optimizing NNI: done in 0.0899987 secs using 188.9% CPU
+Optimizing NNI: done in 0.1018 secs using 189.2% CPU
+Optimizing NNI: done in 0.129941 secs using 193.1% CPU
+Iteration 190 / LogL: -1892.886 / Time: 0h:0m:46s (0h:0m:20s left)
+Optimizing NNI: done in 0.115644 secs using 193.1% CPU
+Optimizing NNI: done in 0.117712 secs using 193.2% CPU
+Optimizing NNI: done in 0.106677 secs using 193.5% CPU
+Optimizing NNI: done in 0.0993811 secs using 187.9% CPU
+Optimizing NNI: done in 0.135109 secs using 186.7% CPU
+Optimizing NNI: done in 0.117028 secs using 192.3% CPU
+Optimizing NNI: done in 0.124969 secs using 188.8% CPU
+Optimizing NNI: done in 0.118446 secs using 190.7% CPU
+Optimizing NNI: done in 0.099946 secs using 186% CPU
+Optimizing NNI: done in 0.093497 secs using 188.2% CPU
+Iteration 200 / LogL: -1876.504 / Time: 0h:0m:47s (0h:0m:17s left)
+Optimizing NNI: done in 0.0902775 secs using 191.2% CPU
+Optimizing NNI: done in 0.13554 secs using 186% CPU
+Optimizing NNI: done in 0.08949 secs using 195.5% CPU
+Optimizing NNI: done in 0.102713 secs using 190.3% CPU
+Optimizing NNI: done in 0.117543 secs using 184.7% CPU
+Optimizing NNI: done in 0.0904436 secs using 184.5% CPU
+Optimizing NNI: done in 0.0895868 secs using 192.2% CPU
+Optimizing NNI: done in 0.107315 secs using 187.9% CPU
+Optimizing NNI: done in 0.0767134 secs using 192.2% CPU
+Optimizing NNI: done in 0.122573 secs using 187.8% CPU
+Iteration 210 / LogL: -1876.504 / Time: 0h:0m:48s (0h:0m:14s left)
+Optimizing NNI: done in 0.111632 secs using 187.5% CPU
+Optimizing NNI: done in 0.0936035 secs using 189.3% CPU
+Optimizing NNI: done in 0.103034 secs using 184.5% CPU
+Optimizing NNI: done in 0.157307 secs using 188.6% CPU
+Optimizing NNI: done in 0.106001 secs using 191.5% CPU
+Optimizing NNI: done in 0.116652 secs using 188.9% CPU
+Optimizing NNI: done in 0.108688 secs using 191.7% CPU
+Optimizing NNI: done in 0.110769 secs using 189.2% CPU
+Optimizing NNI: done in 0.102131 secs using 190.2% CPU
+Optimizing NNI: done in 0.0916087 secs using 183.6% CPU
+Iteration 220 / LogL: -1882.130 / Time: 0h:0m:49s (0h:0m:12s left)
+Optimizing NNI: done in 0.146966 secs using 189.1% CPU
+Optimizing NNI: done in 0.108255 secs using 188% CPU
+Optimizing NNI: done in 0.102807 secs using 193.2% CPU
+Optimizing NNI: done in 0.0895488 secs using 187.7% CPU
+Optimizing NNI: done in 0.0914623 secs using 187.9% CPU
+Optimizing NNI: done in 0.0944997 secs using 188.4% CPU
+Optimizing NNI: done in 0.0965759 secs using 193.8% CPU
+Optimizing NNI: done in 0.10421 secs using 190.4% CPU
+Optimizing NNI: done in 0.105356 secs using 189.6% CPU
+Optimizing NNI: done in 0.101403 secs using 195.1% CPU
+Iteration 230 / LogL: -1876.504 / Time: 0h:0m:50s (0h:0m:9s left)
+Optimizing NNI: done in 0.0833503 secs using 191.6% CPU
+Optimizing NNI: done in 0.0891313 secs using 192.2% CPU
+Optimizing NNI: done in 0.0937927 secs using 190.4% CPU
+Optimizing NNI: done in 0.149287 secs using 192.6% CPU
+Optimizing NNI: done in 0.0895886 secs using 195.5% CPU
+Optimizing NNI: done in 0.113438 secs using 192.1% CPU
+Optimizing NNI: done in 0.0865438 secs using 194.2% CPU
+Optimizing NNI: done in 0.101627 secs using 184.2% CPU
+Optimizing NNI: done in 0.104301 secs using 193.3% CPU
+Optimizing NNI: done in 0.103775 secs using 190.4% CPU
+Iteration 240 / LogL: -1878.708 / Time: 0h:0m:51s (0h:0m:7s left)
+Optimizing NNI: done in 0.0932744 secs using 195.7% CPU
+Optimizing NNI: done in 0.103897 secs using 188.5% CPU
+Optimizing NNI: done in 0.0774976 secs using 187.1% CPU
+Optimizing NNI: done in 0.114541 secs using 186.9% CPU
+Optimizing NNI: done in 0.120605 secs using 191.7% CPU
+Optimizing NNI: done in 0.0956807 secs using 187.4% CPU
+Optimizing NNI: done in 0.112527 secs using 188.4% CPU
+Optimizing NNI: done in 0.132102 secs using 189.4% CPU
+Optimizing NNI: done in 0.0736721 secs using 191.9% CPU
+Optimizing NNI: done in 0.114435 secs using 194.8% CPU
+Iteration 250 / LogL: -1917.652 / Time: 0h:0m:52s (0h:0m:4s left)
+Optimizing NNI: done in 0.102356 secs using 188.3% CPU
+Optimizing NNI: done in 0.108658 secs using 193.6% CPU
+Optimizing NNI: done in 0.0870268 secs using 190.9% CPU
+Optimizing NNI: done in 0.0929091 secs using 183.9% CPU
+Optimizing NNI: done in 0.146629 secs using 189.8% CPU
+Optimizing NNI: done in 0.105428 secs using 194.3% CPU
+Optimizing NNI: done in 0.106717 secs using 187.8% CPU
+Optimizing NNI: done in 0.0942338 secs using 186.2% CPU
+Optimizing NNI: done in 0.0896647 secs using 185.5% CPU
+Optimizing NNI: done in 0.106551 secs using 190.6% CPU
+Iteration 260 / LogL: -1876.965 / Time: 0h:0m:54s (0h:0m:2s left)
+Optimizing NNI: done in 0.0772436 secs using 189.7% CPU
+Optimizing NNI: done in 0.120793 secs using 188.4% CPU
+Optimizing NNI: done in 0.131851 secs using 190.1% CPU
+Optimizing NNI: done in 0.10362 secs using 190.3% CPU
+Optimizing NNI: done in 0.106567 secs using 189.6% CPU
+Optimizing NNI: done in 0.0947824 secs using 189.5% CPU
+Optimizing NNI: done in 0.108652 secs using 188% CPU
+Optimizing NNI: done in 0.137306 secs using 191.3% CPU
+Optimizing NNI: done in 0.0827168 secs using 191.6% CPU
+Optimizing NNI: done in 0.0914009 secs using 188% CPU
+Iteration 270 / LogL: -1876.504 / Time: 0h:0m:55s (0h:0m:0s left)
+Optimizing NNI: done in 0.0989434 secs using 190.9% CPU
+Optimizing NNI: done in 0.0926592 secs using 189.2% CPU
+Optimizing NNI: done in 0.117521 secs using 190.6% CPU
+Optimizing NNI: done in 0.107381 secs using 190.6% CPU
+TREE SEARCH COMPLETED AFTER 274 ITERATIONS / Time: 0h:0m:55s
 
 --------------------------------------------------------------------
 |                    FINALIZING TREE SEARCH                        |
 --------------------------------------------------------------------
 Performs final model parameters optimization
 Estimate model parameters (epsilon = 0.010)
-1. Initial log-likelihood: -9181.257
-2. Current log-likelihood: -9181.243
-3. Current log-likelihood: -9181.232
-4. Current log-likelihood: -9181.219
-5. Current log-likelihood: -9181.208
-6. Current log-likelihood: -9181.197
-7. Current log-likelihood: -9181.187
-Optimal log-likelihood: -9181.170
-Rate parameters:  A-C: 1.69633  A-G: 6.40420  A-T: 1.00000  C-G: 1.69633  C-T: 6.40420  G-T: 1.00000
-Base frequencies:  A: 0.339  C: 0.179  G: 0.215  T: 0.267
-Site proportion and rates:  (0.543,0.081) (0.354,1.356) (0.099,3.936) (0.005,19.049)
-Parameters optimization took 7 rounds (0.759 sec)
-BEST SCORE FOUND : -9181.170
-Total tree length: 2.513
+1. Initial log-likelihood: -1876.502
+Optimal log-likelihood: -1876.502
+Rate parameters:  A-C: 1.00000  A-G: 9.03530  A-T: 1.00000  C-G: 1.00000  C-T: 9.03530  G-T: 1.00000
+Base frequencies:  A: 0.318  C: 0.193  G: 0.186  T: 0.304
+Gamma shape alpha: 0.295
+Parameters optimization took 1 rounds (0.007 sec)
+BEST SCORE FOUND : -1876.502
+Total tree length: 0.999
 
-Total number of iterations: 161
-CPU time used for tree search: 2725.287 sec (0h:45m:25s)
-Wall-clock time used for tree search: 172.826 sec (0h:2m:52s)
-Total CPU time used: 2742.574 sec (0h:45m:42s)
-Total wall-clock time used: 174.095 sec (0h:2m:54s)
+Total number of iterations: 274
+CPU time used for tree search: 57.360 sec (0h:0m:57s)
+Wall-clock time used for tree search: 30.407 sec (0h:0m:30s)
+Total CPU time used: 108.614 sec (0h:1m:48s)
+Total wall-clock time used: 55.600 sec (0h:0m:55s)
 
 Analysis results written to: 
-  IQ-TREE report:                /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.iqtree
-  Maximum-likelihood tree:       /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.treefile
-  Likelihood distances:          /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.mldist
-  Screen log file:               /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.log
+  IQ-TREE report:                /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.iqtree
+  Maximum-likelihood tree:       /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.treefile
+  Likelihood distances:          /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.mldist
+  Screen log file:               /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.log
 
 ALISIM COMMAND
 --------------
---alisim simulated_MSA -t /gpfs/work/tuk13147/AOC-patch-GARD-3/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.treefile -m "TPM3u{1.69633,6.4042}+F{0.338727,0.178602,0.215449,0.267221}+R4{0.542746,0.0811545,0.353519,1.35562,0.0992053,3.93551,0.00453006,19.0492}" --length 711
+--alisim simulated_MSA -t /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.2.codon.fas.treefile -m "HKY{9.0353}+F{0.317642,0.192685,0.185676,0.303998}+G4{0.295033}" --length 276
 
-Date and Time: Sun Aug  7 10:02:14 2022
+Date and Time: Mon Sep 12 21:05:07 2022
