@@ -26,14 +26,14 @@
        "original name":"NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1"
       },
      "NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
-       "Baseline MG94xREV":0.01554009023535763,
+       "Baseline MG94xREV":0.01557795532206691,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01545947668255407,
+       "Full adaptive model":0.01553661590464377,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01545947668255407,
+       "Full adaptive model (synonymous subs/site)":0.01553661590464377,
        "LRT":0,
-       "Nucleotide GTR":0.0154560040321935,
+       "Nucleotide GTR":0.01543692965928275,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -41,75 +41,90 @@
        "Uncorrected P-value":1,
        "original name":"NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1"
       },
-     "Node100":{
-       "Baseline MG94xREV":0,
-       "Baseline MG94xREV omega ratio":1,
-       "Corrected P-value":1,
-       "Full adaptive model":0,
-       "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0,
-       "Nucleotide GTR":4.25919079315027e-06,
-       "Rate Distributions":        [
-[1, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
-      },
-     "Node102":{
-       "Baseline MG94xREV":0.01595295235089096,
+     "Node104":{
+       "Baseline MG94xREV":0.0169702913185684,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01598634772205658,
-       "Full adaptive model (non-synonymous subs/site)":0.01598634772205658,
+       "Full adaptive model":0.0168616837122761,
+       "Full adaptive model (non-synonymous subs/site)":0.0168616837122761,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5516041720566136,
-       "Nucleotide GTR":0.01650244591943888,
+       "LRT":0.5619849203949343,
+       "Nucleotide GTR":0.01762386611887428,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3192215316292443
+       "Uncorrected P-value":0.3172025268371819
       },
-     "Node104":{
-       "Baseline MG94xREV":0.01701377489026397,
+     "Node110":{
+       "Baseline MG94xREV":0.01622746643238804,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01638078138595114,
+       "Full adaptive model (non-synonymous subs/site)":0.01638078138595114,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.5593238516148631,
+       "Nucleotide GTR":0.01635107517146153,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3177183489644829
+      },
+     "Node113":{
+       "Baseline MG94xREV":0.01582723413193285,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01583769068462608,
+       "Full adaptive model (non-synonymous subs/site)":0.01583769068462608,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.5406267879752704,
+       "Nucleotide GTR":0.01612555723761967,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3213767042358164
+      },
+     "Node116":{
+       "Baseline MG94xREV":0.01593096350846396,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01595450483498251,
+       "Full adaptive model (non-synonymous subs/site)":0.01595450483498251,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.4354884118442897,
+       "Nucleotide GTR":0.01623154194462502,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3431609643005043
+      },
+     "Node117":{
+       "Baseline MG94xREV":0.01847406962079031,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01712497776662828,
+       "Full adaptive model":0.01858952110080643,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01712497776662828,
+       "Full adaptive model (synonymous subs/site)":0.01858952110080643,
        "LRT":0,
-       "Nucleotide GTR":0.01633466925553176,
+       "Nucleotide GTR":0.01670818988989144,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node112":{
-       "Baseline MG94xREV":0.03908189133819562,
+     "Node118":{
+       "Baseline MG94xREV":0.01876724703171175,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.03937442937996927,
+       "Full adaptive model":0.01881813418231376,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.03937442937996927,
+       "Full adaptive model (synonymous subs/site)":0.01881813418231376,
        "LRT":0,
-       "Nucleotide GTR":0.0327258132075787,
-       "Rate Distributions":        [
-[0, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
-      },
-     "Node119":{
-       "Baseline MG94xREV":0.01770515070963478,
-       "Baseline MG94xREV omega ratio":0,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01777235098635864,
-       "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01777235098635864,
-       "LRT":0,
-       "Nucleotide GTR":0.01612780362406621,
+       "Nucleotide GTR":0.01649030375692493,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -117,59 +132,74 @@
        "Uncorrected P-value":1
       },
      "Node12":{
-       "Baseline MG94xREV":0.0335382329895693,
-       "Baseline MG94xREV omega ratio":0.2988935227274609,
+       "Baseline MG94xREV":0.03374799572952993,
+       "Baseline MG94xREV omega ratio":0.2942397205955654,
        "Corrected P-value":1,
-       "Full adaptive model":0.03377315136167088,
-       "Full adaptive model (non-synonymous subs/site)":0.01525177877220408,
-       "Full adaptive model (synonymous subs/site)":0.01852137258946673,
+       "Full adaptive model":0.03393666436560425,
+       "Full adaptive model (non-synonymous subs/site)":0.01526071666872225,
+       "Full adaptive model (synonymous subs/site)":0.01867594769688195,
        "LRT":0,
-       "Nucleotide GTR":0.03335797893291358,
+       "Nucleotide GTR":0.03347483662465515,
        "Rate Distributions":        [
-[0.288787179809917, 1] 
+[0.2857141993301292, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node122":{
-       "Baseline MG94xREV":0.0329395397588234,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.03299221834393996,
-       "Full adaptive model (non-synonymous subs/site)":0.03299221834393996,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":1.117279555068762,
-       "Nucleotide GTR":0.0328936715693469,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.2296969673939402
-      },
      "Node13":{
-       "Baseline MG94xREV":0.03311490499419317,
+       "Baseline MG94xREV":0.0330157119856624,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.03291064979689554,
-       "Full adaptive model (non-synonymous subs/site)":0.03291064979689554,
+       "Full adaptive model":0.03288470700269495,
+       "Full adaptive model (non-synonymous subs/site)":0.03288470700269495,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":1.048446138694544,
-       "Nucleotide GTR":0.0320419501931633,
+       "LRT":1.040043666100246,
+       "Nucleotide GTR":0.03198966016154735,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2387775874681339
+       "Uncorrected P-value":0.2399145336889792
       },
-     "Node139":{
-       "Baseline MG94xREV":0.017690051584868,
+     "Node131":{
+       "Baseline MG94xREV":0.01595598828394828,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01597707455903279,
+       "Full adaptive model (non-synonymous subs/site)":0.01597707455903279,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.5521445311146636,
+       "Nucleotide GTR":0.0164653260590996,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3191159813139772
+      },
+     "Node133":{
+       "Baseline MG94xREV":0.01702663854397639,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01769481861197605,
+       "Full adaptive model":0.01711172936322878,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01769481861197605,
+       "Full adaptive model (synonymous subs/site)":0.01711172936322878,
        "LRT":0,
-       "Nucleotide GTR":0.01597542492730626,
+       "Nucleotide GTR":0.01631783225289166,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node137":{
+       "Baseline MG94xREV":0.03920189707643409,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03945241614695146,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.03945241614695146,
+       "LRT":0,
+       "Nucleotide GTR":0.03273565948178364,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -177,224 +207,224 @@
        "Uncorrected P-value":1
       },
      "Node14":{
-       "Baseline MG94xREV":0.03033182731589078,
+       "Baseline MG94xREV":0.03034311836239631,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.03023910990630442,
-       "Full adaptive model (non-synonymous subs/site)":0.03023910990630442,
+       "Full adaptive model":0.03027250212533365,
+       "Full adaptive model (non-synonymous subs/site)":0.03027250212533365,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.7777918516908358,
-       "Nucleotide GTR":0.03232967048170259,
+       "LRT":0.7698103177899611,
+       "Nucleotide GTR":0.03232173037156786,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2789049068759519
-      },
-     "Node140":{
-       "Baseline MG94xREV":0.04824141714509859,
-       "Baseline MG94xREV omega ratio":0.6828175356617311,
-       "Corrected P-value":1,
-       "Full adaptive model":0.04813299056936266,
-       "Full adaptive model (non-synonymous subs/site)":0.03158634906987924,
-       "Full adaptive model (synonymous subs/site)":0.01654664149948352,
-       "LRT":0,
-       "Nucleotide GTR":0.04863247657201928,
-       "Rate Distributions":        [
-[0.6694530951993785, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
-      },
-     "Node144":{
-       "Baseline MG94xREV":0.01575527894817869,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01471889916435645,
-       "Full adaptive model (non-synonymous subs/site)":0.01471889916435645,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.4924642941382444,
-       "Nucleotide GTR":0.01347474688228235,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.3310882362861713
-      },
-     "Node148":{
-       "Baseline MG94xREV":0.01562288392004129,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01562579401746779,
-       "Full adaptive model (non-synonymous subs/site)":0.01562579401746779,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5340313056426567,
-       "Nucleotide GTR":0.01639903464676824,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.3226817116767028
-      },
-     "Node149":{
-       "Baseline MG94xREV":0.01793510252842441,
-       "Baseline MG94xREV omega ratio":0,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01800471639322542,
-       "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01800471639322542,
-       "LRT":0,
-       "Nucleotide GTR":0.0160409954822602,
-       "Rate Distributions":        [
-[0, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
+       "Uncorrected P-value":0.2802096998772435
       },
      "Node15":{
-       "Baseline MG94xREV":0.01967457009457043,
+       "Baseline MG94xREV":0.01975623575732916,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01966215334216053,
+       "Full adaptive model":0.01977908662609837,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01966215334216053,
+       "Full adaptive model (synonymous subs/site)":0.01977908662609837,
        "LRT":0,
-       "Nucleotide GTR":0.01575226420036089,
+       "Nucleotide GTR":0.01575767680971942,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node150":{
-       "Baseline MG94xREV":0.01550389227869411,
+     "Node159":{
+       "Baseline MG94xREV":0.01774166140494713,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01781102675380853,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01781102675380853,
+       "LRT":0,
+       "Nucleotide GTR":0.01612549772299756,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node16":{
+       "Baseline MG94xREV":0.03344276501818842,
+       "Baseline MG94xREV omega ratio":0.281628387381255,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03342503844011914,
+       "Full adaptive model (non-synonymous subs/site)":0.01472578875411176,
+       "Full adaptive model (synonymous subs/site)":0.01869924968600736,
+       "LRT":0,
+       "Nucleotide GTR":0.03177199492137325,
+       "Rate Distributions":        [
+[0.2753556102563486, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node163":{
+       "Baseline MG94xREV":0.03287625751104343,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01550672464302726,
-       "Full adaptive model (non-synonymous subs/site)":0.01550672464302726,
+       "Full adaptive model":0.03288264610689059,
+       "Full adaptive model (non-synonymous subs/site)":0.03288264610689059,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5341627763059478,
-       "Nucleotide GTR":0.01618338753812286,
+       "LRT":1.109854693621855,
+       "Nucleotide GTR":0.03286026284747373,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3226556232963961
+       "Uncorrected P-value":0.2306568986911694
       },
-     "Node162":{
-       "Baseline MG94xREV":0.03351324678010658,
-       "Baseline MG94xREV omega ratio":0.3126915761791402,
-       "Corrected P-value":1,
-       "Full adaptive model":0.03357291095545074,
-       "Full adaptive model (non-synonymous subs/site)":0.01557876938005729,
-       "Full adaptive model (synonymous subs/site)":0.01799414157539343,
-       "LRT":0,
-       "Nucleotide GTR":0.03296767590446066,
-       "Rate Distributions":        [
-[0.3036215520755162, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
-      },
-     "Node164":{
-       "Baseline MG94xREV":0.01892461721417312,
+     "Node166":{
+       "Baseline MG94xREV":0.01771095941912654,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01891371569228325,
+       "Full adaptive model":0.01773391721384883,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01891371569228325,
+       "Full adaptive model (synonymous subs/site)":0.01773391721384883,
        "LRT":0,
-       "Nucleotide GTR":0.01658400432294011,
+       "Nucleotide GTR":0.01597431873119821,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node172":{
-       "Baseline MG94xREV":0.01908007697071677,
+     "Node167":{
+       "Baseline MG94xREV":0.03117787713706215,
+       "Baseline MG94xREV omega ratio":0.3091607999163302,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03103753797084333,
+       "Full adaptive model (non-synonymous subs/site)":0.01440080514117898,
+       "Full adaptive model (synonymous subs/site)":0.01663673282966433,
+       "LRT":0,
+       "Nucleotide GTR":0.03558557800775738,
+       "Rate Distributions":        [
+[0.3026622635011055, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node168":{
+       "Baseline MG94xREV":0.01685366773138945,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01690316600506222,
+       "Full adaptive model (non-synonymous subs/site)":0.01690316600506222,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.4666638870899078,
+       "Nucleotide GTR":0.01298064916450429,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3364723907381742
+      },
+     "Node17":{
+       "Baseline MG94xREV":0.01888616606818403,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01921331268411829,
+       "Full adaptive model":0.01891433737109768,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01921331268411829,
+       "Full adaptive model (synonymous subs/site)":0.01891433737109768,
        "LRT":0,
-       "Nucleotide GTR":0.01604154336069832,
+       "Nucleotide GTR":0.01564428391307053,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node174":{
-       "Baseline MG94xREV":0.02074811864042664,
+     "Node171":{
+       "Baseline MG94xREV":0.2961720311371339,
+       "Baseline MG94xREV omega ratio":0.4774105148087814,
+       "Corrected P-value":1,
+       "Full adaptive model":0.2925905721937914,
+       "Full adaptive model (non-synonymous subs/site)":0.1679141970256045,
+       "Full adaptive model (synonymous subs/site)":0.1246763751681869,
+       "LRT":0,
+       "Nucleotide GTR":0.3265499857757089,
+       "Rate Distributions":        [
+[0.4709152924277144, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node177":{
+       "Baseline MG94xREV":0.01563057327105278,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01564093500776902,
+       "Full adaptive model (non-synonymous subs/site)":0.01564093500776902,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.531429545068022,
+       "Nucleotide GTR":0.01640441651379873,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3231986241393185
+      },
+     "Node178":{
+       "Baseline MG94xREV":0.01800346269115207,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.02111096012932197,
+       "Full adaptive model":0.01806626171088554,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.02111096012932197,
+       "Full adaptive model (synonymous subs/site)":0.01806626171088554,
        "LRT":0,
-       "Nucleotide GTR":0.01612575714866511,
+       "Nucleotide GTR":0.01610318509451725,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node176":{
-       "Baseline MG94xREV":0.07611519789431481,
-       "Baseline MG94xREV omega ratio":0.2531392577303107,
+     "Node179":{
+       "Baseline MG94xREV":0.01551304503816744,
+       "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.07683243043605752,
-       "Full adaptive model (non-synonymous subs/site)":0.03144140197994264,
-       "Full adaptive model (synonymous subs/site)":0.04539102845611487,
-       "LRT":0,
-       "Nucleotide GTR":0.0665601015414207,
+       "Full adaptive model":0.01551133008790426,
+       "Full adaptive model (non-synonymous subs/site)":0.01551133008790426,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.5319014450710711,
+       "Nucleotide GTR":0.01618769760616696,
        "Rate Distributions":        [
-[0.2429195460969999, 1] 
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3231047785388014
+      },
+     "Node191":{
+       "Baseline MG94xREV":0.03357849291570562,
+       "Baseline MG94xREV omega ratio":0.308075480836466,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03364804462691334,
+       "Full adaptive model (non-synonymous subs/site)":0.01557553905873676,
+       "Full adaptive model (synonymous subs/site)":0.01807250556817659,
+       "LRT":0,
+       "Nucleotide GTR":0.03289443220173565,
+       "Rate Distributions":        [
+[0.3013451895071255, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node18":{
-       "Baseline MG94xREV":0.03339127925876292,
-       "Baseline MG94xREV omega ratio":0.2854925411814408,
-       "Corrected P-value":1,
-       "Full adaptive model":0.033317994689044,
-       "Full adaptive model (non-synonymous subs/site)":0.01471811836793042,
-       "Full adaptive model (synonymous subs/site)":0.01859987632111365,
-       "LRT":0,
-       "Nucleotide GTR":0.03180677018634102,
-       "Rate Distributions":        [
-[0.2775062800345206, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
-      },
-     "Node183":{
-       "Baseline MG94xREV":0.02119141925531602,
+     "Node193":{
+       "Baseline MG94xREV":0.01881165881210135,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.02163066044890921,
+       "Full adaptive model":0.01881612108784862,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.02163066044890921,
+       "Full adaptive model (synonymous subs/site)":0.01881612108784862,
        "LRT":0,
-       "Nucleotide GTR":0.0161934004131307,
-       "Rate Distributions":        [
-[0, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
-      },
-     "Node19":{
-       "Baseline MG94xREV":0.01884980369980183,
-       "Baseline MG94xREV omega ratio":0,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01880964461045772,
-       "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01880964461045772,
-       "LRT":0,
-       "Nucleotide GTR":0.01565410715320781,
+       "Nucleotide GTR":0.01656051985774167,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -402,599 +432,569 @@
        "Uncorrected P-value":1
       },
      "Node201":{
-       "Baseline MG94xREV":0.04101803183668026,
-       "Baseline MG94xREV omega ratio":0.3694428393706934,
+       "Baseline MG94xREV":0.01523494129577981,
+       "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.04100887394825119,
-       "Full adaptive model (non-synonymous subs/site)":0.02072396111066739,
-       "Full adaptive model (synonymous subs/site)":0.02028491283758382,
-       "LRT":0,
-       "Nucleotide GTR":0.03874042636022675,
+       "Full adaptive model":0.01472829978632699,
+       "Full adaptive model (non-synonymous subs/site)":0.01472829978632699,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.4909549801218418,
+       "Nucleotide GTR":0.01374789904371612,
        "Rate Distributions":        [
-[0.3582863011846365, 1] 
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3313995918925767
+      },
+     "Node204":{
+       "Baseline MG94xREV":0.01918464822610279,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01930750733638871,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.01930750733638871,
+       "LRT":0,
+       "Nucleotide GTR":0.01606212461211225,
+       "Rate Distributions":        [
+[0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node204":{
-       "Baseline MG94xREV":0.05021758824257565,
-       "Baseline MG94xREV omega ratio":0.5846031489264941,
+     "Node205":{
+       "Baseline MG94xREV":0.02096775595121176,
+       "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.05029366213882611,
-       "Full adaptive model (non-synonymous subs/site)":0.03108720445071117,
-       "Full adaptive model (synonymous subs/site)":0.01920645768811494,
+       "Full adaptive model":0.02124652227807207,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02124652227807207,
        "LRT":0,
-       "Nucleotide GTR":0.0489147266739046,
+       "Nucleotide GTR":0.01614348675775992,
        "Rate Distributions":        [
-[0.5676295241939819, 1] 
+[0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
      "Node207":{
-       "Baseline MG94xREV":0.01567991561468202,
+       "Baseline MG94xREV":0.01621326383590102,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.015682866286528,
-       "Full adaptive model (non-synonymous subs/site)":0.015682866286528,
+       "Full adaptive model":0.01620466450370581,
+       "Full adaptive model (non-synonymous subs/site)":0.01620466450370581,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5380549492588216,
-       "Nucleotide GTR":0.0162227014975685,
+       "LRT":0.3672021462321027,
+       "Nucleotide GTR":0.0158270939858865,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3218846660616581
+       "Uncorrected P-value":0.3585869858684658
       },
      "Node208":{
-       "Baseline MG94xREV":0.0181753049623935,
+       "Baseline MG94xREV":0.05970142246361691,
+       "Baseline MG94xREV omega ratio":0.1212341577251208,
+       "Corrected P-value":1,
+       "Full adaptive model":0.06027372127950457,
+       "Full adaptive model (non-synonymous subs/site)":0.01516183789318919,
+       "Full adaptive model (synonymous subs/site)":0.04511188338631533,
+       "LRT":0,
+       "Nucleotide GTR":0.05050964960389519,
+       "Rate Distributions":        [
+[0.1175169290788167, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node215":{
+       "Baseline MG94xREV":0.05335446716254568,
+       "Baseline MG94xREV omega ratio":0.5492040880389017,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0534905793613395,
+       "Full adaptive model (non-synonymous subs/site)":0.03229381550604192,
+       "Full adaptive model (synonymous subs/site)":0.02119676385529747,
+       "LRT":0,
+       "Nucleotide GTR":0.05076831216299631,
+       "Rate Distributions":        [
+[0.5327081514096815, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node219":{
+       "Baseline MG94xREV":0.03683221482717924,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01829254048697353,
+       "Full adaptive model":0.03717611425744619,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01829254048697353,
+       "Full adaptive model (synonymous subs/site)":0.03717611425744619,
        "LRT":0,
-       "Nucleotide GTR":0.01609107469435839,
+       "Nucleotide GTR":0.03203951107563751,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node210":{
-       "Baseline MG94xREV":0.04223084556730441,
+     "Node227":{
+       "Baseline MG94xREV":0.01960565055344369,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.04283214770531401,
+       "Full adaptive model":0.02006857327983453,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.04283214770531401,
+       "Full adaptive model (synonymous subs/site)":0.02006857327983453,
        "LRT":0,
-       "Nucleotide GTR":0.01674584053986044,
+       "Nucleotide GTR":0.01617445504135558,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node211":{
-       "Baseline MG94xREV":0.05086276310841287,
-       "Baseline MG94xREV omega ratio":10000000000,
+     "Node239":{
+       "Baseline MG94xREV":0.07091204191636012,
+       "Baseline MG94xREV omega ratio":0.2833899846310541,
        "Corrected P-value":1,
-       "Full adaptive model":0.05121201617273016,
-       "Full adaptive model (non-synonymous subs/site)":0.05121201617273016,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5798944547500469,
-       "Nucleotide GTR":0.06911181646258062,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.313761655795402
-      },
-     "Node213":{
-       "Baseline MG94xREV":0.03659602899618589,
-       "Baseline MG94xREV omega ratio":0,
-       "Corrected P-value":1,
-       "Full adaptive model":0.03710920463318905,
-       "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.03710920463318905,
+       "Full adaptive model":0.07110996554143775,
+       "Full adaptive model (non-synonymous subs/site)":0.03131920596945294,
+       "Full adaptive model (synonymous subs/site)":0.0397907595719847,
        "LRT":0,
-       "Nucleotide GTR":0.03207799518545938,
+       "Nucleotide GTR":0.06577384547133104,
        "Rate Distributions":        [
-[0, 1] 
+[0.2752124379020771, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
-      },
-     "Node222":{
-       "Baseline MG94xREV":0.01930313385084349,
-       "Baseline MG94xREV omega ratio":0,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01988362844302015,
-       "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01988362844302015,
-       "LRT":0,
-       "Nucleotide GTR":0.01612963100060504,
-       "Rate Distributions":        [
-[0, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
-      },
-     "Node23":{
-       "Baseline MG94xREV":0.01826750855603225,
-       "Baseline MG94xREV omega ratio":0,
-       "Corrected P-value":1,
-       "Full adaptive model":0.0182252753266161,
-       "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.0182252753266161,
-       "LRT":0,
-       "Nucleotide GTR":0.01577212610337085,
-       "Rate Distributions":        [
-[0, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
-      },
-     "Node235":{
-       "Baseline MG94xREV":0.07080244273097897,
-       "Baseline MG94xREV omega ratio":0.2877802214442719,
-       "Corrected P-value":1,
-       "Full adaptive model":0.07121209969115543,
-       "Full adaptive model (non-synonymous subs/site)":0.03132613601183529,
-       "Full adaptive model (synonymous subs/site)":0.03988596367932022,
-       "LRT":0,
-       "Nucleotide GTR":0.0658038898137138,
-       "Rate Distributions":        [
-[0.2754338550113539, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
-      },
-     "Node237":{
-       "Baseline MG94xREV":0.01541171325581358,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01533602502297933,
-       "Full adaptive model (non-synonymous subs/site)":0.01533602502297933,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5320522056003938,
-       "Nucleotide GTR":0.01588032625287315,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.3230748055282919
       },
      "Node24":{
-       "Baseline MG94xREV":0.01481524723329327,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01475440963083056,
-       "Full adaptive model (non-synonymous subs/site)":0.01475440963083056,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.3743947084303727,
-       "Nucleotide GTR":0.01554007608216916,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.3569077108228911
-      },
-     "Node240":{
-       "Baseline MG94xREV":0.01800948057528301,
+       "Baseline MG94xREV":0.01833145634092491,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01824062583081381,
+       "Full adaptive model":0.01834308375487663,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01824062583081381,
+       "Full adaptive model (synonymous subs/site)":0.01834308375487663,
        "LRT":0,
-       "Nucleotide GTR":0.01596371976937844,
+       "Nucleotide GTR":0.01578508341466311,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node243":{
-       "Baseline MG94xREV":0.1499442381604737,
-       "Baseline MG94xREV omega ratio":0.8772705370953152,
+     "Node241":{
+       "Baseline MG94xREV":0.01539705124679466,
+       "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.1511876324427155,
-       "Full adaptive model (non-synonymous subs/site)":0.107343080945937,
-       "Full adaptive model (synonymous subs/site)":0.04384455149677837,
-       "LRT":0,
-       "Nucleotide GTR":0.1455685226635223,
+       "Full adaptive model":0.01533742796706676,
+       "Full adaptive model (non-synonymous subs/site)":0.01533742796706676,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.5324393118412445,
+       "Nucleotide GTR":0.01588003665448769,
        "Rate Distributions":        [
-[0.8585962852368594, 1] 
+[10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":1
+       "Uncorrected P-value":0.3229978626885723
       },
-     "Node245":{
-       "Baseline MG94xREV":0.01992792664572797,
+     "Node244":{
+       "Baseline MG94xREV":0.02139658884376701,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.02008976330522458,
+       "Full adaptive model":0.02173298340645088,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.02008976330522458,
+       "Full adaptive model (synonymous subs/site)":0.02173298340645088,
        "LRT":0,
-       "Nucleotide GTR":0.01668245934469336,
+       "Nucleotide GTR":0.01620920245972183,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node252":{
-       "Baseline MG94xREV":0.0323032110944902,
+     "Node25":{
+       "Baseline MG94xREV":0.01479275918350723,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.03262338433606358,
-       "Full adaptive model (non-synonymous subs/site)":0.03262338433606358,
+       "Full adaptive model":0.01475749992599722,
+       "Full adaptive model (non-synonymous subs/site)":0.01475749992599722,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":1.030073808849465,
-       "Nucleotide GTR":0.03149924297308013,
+       "LRT":7.759347677442747,
+       "Nucleotide GTR":0.01551748862857143,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2412718299331113
-      },
-     "Node253":{
-       "Baseline MG94xREV":0.06363128656782255,
-       "Baseline MG94xREV omega ratio":0.9550306758230198,
-       "Corrected P-value":1,
-       "Full adaptive model":0.06474420487047411,
-       "Full adaptive model (non-synonymous subs/site)":0.04736403549085332,
-       "Full adaptive model (synonymous subs/site)":0.01738016937962078,
-       "LRT":0,
-       "Nucleotide GTR":0.06287782917120387,
-       "Rate Distributions":        [
-[0.9557081160114078, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
-      },
-     "Node257":{
-       "Baseline MG94xREV":0.01561832892474919,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01563413514722177,
-       "Full adaptive model (non-synonymous subs/site)":0.01563413514722177,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5670461412846635,
-       "Nucleotide GTR":0.0160391781375483,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.3162247429430304
-      },
-     "Node260":{
-       "Baseline MG94xREV":0.03564857384356656,
-       "Baseline MG94xREV omega ratio":0.410703730035949,
-       "Corrected P-value":1,
-       "Full adaptive model":0.0341444431366236,
-       "Full adaptive model (non-synonymous subs/site)":0.01759751043182453,
-       "Full adaptive model (synonymous subs/site)":0.01654693270479903,
-       "LRT":0,
-       "Nucleotide GTR":0.03839706228292965,
-       "Rate Distributions":        [
-[0.3729617650525506, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":1
+       "Uncorrected P-value":0.007265973656865821
       },
      "Node262":{
-       "Baseline MG94xREV":0.2786268464111427,
-       "Baseline MG94xREV omega ratio":0.2363101573430512,
+       "Baseline MG94xREV":0.05036670536976282,
+       "Baseline MG94xREV omega ratio":0.5752418282406221,
        "Corrected P-value":1,
-       "Full adaptive model":0.2900382921189122,
-       "Full adaptive model (non-synonymous subs/site)":0.1096434722222109,
-       "Full adaptive model (synonymous subs/site)":0.180394819896701,
+       "Full adaptive model":0.0504546436099145,
+       "Full adaptive model (non-synonymous subs/site)":0.03110950591554812,
+       "Full adaptive model (synonymous subs/site)":0.01934513769436634,
        "LRT":0,
-       "Nucleotide GTR":0.2624459514581761,
+       "Nucleotide GTR":0.0489464370874638,
        "Rate Distributions":        [
-[0.2131519444621278, 1] 
+[0.5622906117738525, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
-      },
-     "Node279":{
-       "Baseline MG94xREV":0.01560399638934104,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01560689432615652,
-       "Full adaptive model (non-synonymous subs/site)":0.01560689432615652,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.643044387692953,
-       "Nucleotide GTR":0.01605838218623993,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.3020354666244516
-      },
-     "Node281":{
-       "Baseline MG94xREV":0.01635407862144918,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01634359259485435,
-       "Full adaptive model (non-synonymous subs/site)":0.01634359259485435,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.3152276293044451,
-       "Nucleotide GTR":0.02898845448141795,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.3711518529841179
       },
      "Node282":{
-       "Baseline MG94xREV":0.1863419766675027,
-       "Baseline MG94xREV omega ratio":0.1279717149248658,
+       "Baseline MG94xREV":0.01645184617948981,
+       "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.1865877693565849,
-       "Full adaptive model (non-synonymous subs/site)":0.04850802045449949,
-       "Full adaptive model (synonymous subs/site)":0.1380797489020855,
-       "LRT":0,
-       "Nucleotide GTR":0.1515273207318246,
+       "Full adaptive model":0.01647351840815122,
+       "Full adaptive model (non-synonymous subs/site)":0.01647351840815122,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.5583935941758682,
+       "Nucleotide GTR":0.01635979652253657,
        "Rate Distributions":        [
-[0.1232009748418166, 1] 
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3178989524892271
+      },
+     "Node283":{
+       "Baseline MG94xREV":0.01554545086859507,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01557241332443192,
+       "Full adaptive model (non-synonymous subs/site)":0.01557241332443192,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.5282470123211169,
+       "Nucleotide GTR":0.01635689704562744,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3238325659492492
+      },
+     "Node285":{
+       "Baseline MG94xREV":0.1885775810989693,
+       "Baseline MG94xREV omega ratio":0.1260092761488847,
+       "Corrected P-value":1,
+       "Full adaptive model":0.188725175836627,
+       "Full adaptive model (non-synonymous subs/site)":0.04896301264308689,
+       "Full adaptive model (synonymous subs/site)":0.1397621631935399,
+       "LRT":0,
+       "Nucleotide GTR":0.1630936024032175,
+       "Rate Distributions":        [
+[0.1224949153159448, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node285":{
-       "Baseline MG94xREV":0.01551118554383111,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01551402318229956,
-       "Full adaptive model (non-synonymous subs/site)":0.01551402318229956,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.1858456587060573,
-       "Nucleotide GTR":0.01881442765954425,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.4066585398909204
-      },
      "Node288":{
-       "Baseline MG94xREV":0.01546414584639543,
-       "Baseline MG94xREV omega ratio":10000000000,
+       "Baseline MG94xREV":0.06646807294830268,
+       "Baseline MG94xREV omega ratio":0.2895778248235689,
        "Corrected P-value":1,
-       "Full adaptive model":0.01546714349856054,
-       "Full adaptive model (non-synonymous subs/site)":0.01546714349856054,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5382368966129434,
-       "Nucleotide GTR":0.01602170388748666,
+       "Full adaptive model":0.06667675501542043,
+       "Full adaptive model (non-synonymous subs/site)":0.03007696604179465,
+       "Full adaptive model (synonymous subs/site)":0.03659978897362579,
+       "LRT":0,
+       "Nucleotide GTR":0.0663171900174839,
        "Rate Distributions":        [
-[10000000000, 1] 
+[0.2873392727041961, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3218486915636004
+       "Uncorrected P-value":1
       },
      "Node293":{
-       "Baseline MG94xREV":0.03949174224010625,
+       "Baseline MG94xREV":0.03969580520394467,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.03954923532355072,
+       "Full adaptive model":0.03987859028879686,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.03954923532355072,
+       "Full adaptive model (synonymous subs/site)":0.03987859028879686,
        "LRT":0,
-       "Nucleotide GTR":0.03293222865767518,
+       "Nucleotide GTR":0.03423017621914596,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
+     "Node295":{
+       "Baseline MG94xREV":0.01582344055859823,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01582741828403494,
+       "Full adaptive model (non-synonymous subs/site)":0.01582741828403494,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.6019308039421958,
+       "Nucleotide GTR":0.01583785871132901,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3095994702823806
+      },
      "Node37":{
-       "Baseline MG94xREV":0.05090872174407016,
-       "Baseline MG94xREV omega ratio":0.6147183862206901,
+       "Baseline MG94xREV":0.05091444027301401,
+       "Baseline MG94xREV omega ratio":0.6000081294556061,
        "Corrected P-value":1,
-       "Full adaptive model":0.05086620217200583,
-       "Full adaptive model (non-synonymous subs/site)":0.03196801967476472,
-       "Full adaptive model (synonymous subs/site)":0.01889818249724108,
+       "Full adaptive model":0.05099428538814581,
+       "Full adaptive model (non-synonymous subs/site)":0.03184238990989847,
+       "Full adaptive model (synonymous subs/site)":0.01915189547824738,
        "LRT":0,
-       "Nucleotide GTR":0.05108676434165434,
+       "Nucleotide GTR":0.0510137260739213,
        "Rate Distributions":        [
-[0.5932343309575723, 1] 
+[0.5813443247609996, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node43":{
-       "Baseline MG94xREV":0.03499534374341092,
-       "Baseline MG94xREV omega ratio":0.2971919343961401,
+     "Node44":{
+       "Baseline MG94xREV":0.03508162338257435,
+       "Baseline MG94xREV omega ratio":0.2931049211895345,
        "Corrected P-value":1,
-       "Full adaptive model":0.03515372302519581,
-       "Full adaptive model (non-synonymous subs/site)":0.01585239966137765,
-       "Full adaptive model (synonymous subs/site)":0.01930132336381815,
+       "Full adaptive model":0.03520580323556045,
+       "Full adaptive model (non-synonymous subs/site)":0.01584728771320522,
+       "Full adaptive model (synonymous subs/site)":0.01935851552235528,
        "LRT":0,
-       "Nucleotide GTR":0.03270753676755602,
+       "Nucleotide GTR":0.03273134998348886,
        "Rate Distributions":        [
-[0.2880305190772557, 1] 
+[0.2862348014842431, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node45":{
-       "Baseline MG94xREV":0.03398083749076055,
-       "Baseline MG94xREV omega ratio":0.3217451611371854,
+     "Node47":{
+       "Baseline MG94xREV":0.01588719120111372,
+       "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.03406690339461336,
-       "Full adaptive model (non-synonymous subs/site)":0.01606409993922553,
-       "Full adaptive model (synonymous subs/site)":0.01800280345538781,
-       "LRT":0,
-       "Nucleotide GTR":0.03284767282743213,
+       "Full adaptive model":0.01589767575445281,
+       "Full adaptive model (non-synonymous subs/site)":0.01589767575445281,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.5099724034953397,
+       "Nucleotide GTR":0.01612933336206562,
        "Rate Distributions":        [
-[0.3129297391027267, 1] 
+[10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":1
+       "Uncorrected P-value":0.3275083176919619
       },
-     "Node46":{
-       "Baseline MG94xREV":0.2986691639286538,
-       "Baseline MG94xREV omega ratio":0.284756486624953,
+     "Node48":{
+       "Baseline MG94xREV":0.03627601875025013,
+       "Baseline MG94xREV omega ratio":0.2826561722018305,
        "Corrected P-value":1,
-       "Full adaptive model":0.2961750473283728,
-       "Full adaptive model (non-synonymous subs/site)":0.1308117771831779,
-       "Full adaptive model (synonymous subs/site)":0.1653632701451954,
+       "Full adaptive model":0.03642888206563746,
+       "Full adaptive model (non-synonymous subs/site)":0.01610892030465819,
+       "Full adaptive model (synonymous subs/site)":0.02031996176097926,
        "LRT":0,
-       "Nucleotide GTR":0.317734517913047,
+       "Nucleotide GTR":0.03472292805442767,
        "Rate Distributions":        [
-[0.2774203879124005, 1] 
+[0.2771935309570253, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
      "Node5":{
-       "Baseline MG94xREV":0.0156103113254814,
+       "Baseline MG94xREV":0.01563823730538769,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01563887167284268,
-       "Full adaptive model (non-synonymous subs/site)":0.01563887167284268,
+       "Full adaptive model":0.01564463843167932,
+       "Full adaptive model (non-synonymous subs/site)":0.01564463843167932,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.536539801705203,
-       "Nucleotide GTR":0.01612041533216688,
+       "LRT":0.5348940465746637,
+       "Nucleotide GTR":0.01612163998816583,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3221844665408001
+       "Uncorrected P-value":0.3225105696386076
       },
-     "Node55":{
-       "Baseline MG94xREV":0.01569092191907864,
+     "Node53":{
+       "Baseline MG94xREV":0.01568207232696199,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01570683815667336,
-       "Full adaptive model (non-synonymous subs/site)":0.01570683815667336,
+       "Full adaptive model":0.01568604363864086,
+       "Full adaptive model (non-synonymous subs/site)":0.01568604363864086,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5373902501373777,
-       "Nucleotide GTR":0.01618769913236158,
+       "LRT":0.5388578861739006,
+       "Nucleotide GTR":0.01618457217663506,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3220161394554573
+       "Uncorrected P-value":0.3217259538374704
       },
-     "Node70":{
-       "Baseline MG94xREV":0.01689063758189861,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.0168038302328818,
-       "Full adaptive model (non-synonymous subs/site)":0.0168038302328818,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.562364451142912,
-       "Nucleotide GTR":0.01758903647136273,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.317129055766773
-      },
-     "Node74":{
-       "Baseline MG94xREV":0.01943125527067691,
+     "Node54":{
+       "Baseline MG94xREV":0.01823914805947374,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01985554595127619,
+       "Full adaptive model":0.01830691686349604,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01985554595127619,
+       "Full adaptive model (synonymous subs/site)":0.01830691686349604,
        "LRT":0,
-       "Nucleotide GTR":0.01643977545914168,
+       "Nucleotide GTR":0.0160675205679586,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node82":{
-       "Baseline MG94xREV":0.01612333163115373,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01630459820259865,
-       "Full adaptive model (non-synonymous subs/site)":0.01630459820259865,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5593214681016434,
-       "Nucleotide GTR":0.01628849095353607,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.3177188115211723
-      },
-     "Node86":{
-       "Baseline MG94xREV":0.01580893005731376,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01582503080806162,
-       "Full adaptive model (non-synonymous subs/site)":0.01582503080806162,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5428093681662176,
-       "Nucleotide GTR":0.01612785837894064,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.3209465339616003
-      },
-     "Node87":{
-       "Baseline MG94xREV":0.01590456761620816,
-       "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":1,
-       "Full adaptive model":0.01594173684192734,
-       "Full adaptive model (non-synonymous subs/site)":0.01594173684192734,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.436439096900358,
-       "Nucleotide GTR":0.01623452688960745,
-       "Rate Distributions":        [
-[10000000000, 1] 
-        ],
-       "Rate classes":1,
-       "Uncorrected P-value":0.3429539105793116
-      },
-     "Node88":{
-       "Baseline MG94xREV":0.01844416918089653,
+     "Node56":{
+       "Baseline MG94xREV":0.04000540830668305,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01858981947753554,
+       "Full adaptive model":0.04044371762815895,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01858981947753554,
+       "Full adaptive model (synonymous subs/site)":0.04044371762815895,
        "LRT":0,
-       "Nucleotide GTR":0.01663926324451619,
+       "Nucleotide GTR":0.03261674106087153,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node89":{
-       "Baseline MG94xREV":0.01893153949605701,
+     "Node59":{
+       "Baseline MG94xREV":0.1497731704298943,
+       "Baseline MG94xREV omega ratio":0.8770675840779307,
+       "Corrected P-value":1,
+       "Full adaptive model":0.1508338852522345,
+       "Full adaptive model (non-synonymous subs/site)":0.1074886050538382,
+       "Full adaptive model (synonymous subs/site)":0.04334528019839624,
+       "LRT":0,
+       "Nucleotide GTR":0.1453945250823062,
+       "Rate Distributions":        [
+[0.8670819709738672, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node61":{
+       "Baseline MG94xREV":0.01997499884836169,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01899164053373635,
+       "Full adaptive model":0.02010037225531512,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01899164053373635,
+       "Full adaptive model (synonymous subs/site)":0.02010037225531512,
        "LRT":0,
-       "Nucleotide GTR":0.01650505252109218,
+       "Nucleotide GTR":0.01673426370873037,
        "Rate Distributions":        [
 [0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1
       },
-     "Node9":{
-       "Baseline MG94xREV":0.01898583532580333,
+     "Node68":{
+       "Baseline MG94xREV":0.03247136924146746,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03269351107852388,
+       "Full adaptive model (non-synonymous subs/site)":0.03269351107852388,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":1.027996082844766,
+       "Nucleotide GTR":0.03171849702326175,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.2415558287107369
+      },
+     "Node69":{
+       "Baseline MG94xREV":0.06418481852950718,
+       "Baseline MG94xREV omega ratio":0.9541156564978907,
+       "Corrected P-value":1,
+       "Full adaptive model":0.06492229464461842,
+       "Full adaptive model (non-synonymous subs/site)":0.04748913758193674,
+       "Full adaptive model (synonymous subs/site)":0.01743315706268175,
+       "LRT":0,
+       "Nucleotide GTR":0.06341032202899398,
+       "Rate Distributions":        [
+[0.9524842079138577, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node73":{
+       "Baseline MG94xREV":0.01560806101482637,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01561841078338785,
+       "Full adaptive model (non-synonymous subs/site)":0.01561841078338785,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.5620696044047691,
+       "Nucleotide GTR":0.01602998811643312,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3171861312694423
+      },
+     "Node76":{
+       "Baseline MG94xREV":0.03496192858380737,
+       "Baseline MG94xREV omega ratio":0.3920195692019452,
+       "Corrected P-value":1,
+       "Full adaptive model":0.03397068710210598,
+       "Full adaptive model (non-synonymous subs/site)":0.01738134763640348,
+       "Full adaptive model (synonymous subs/site)":0.01658933946570248,
+       "LRT":0,
+       "Nucleotide GTR":0.03760743448913292,
+       "Rate Distributions":        [
+[0.3663480596630672, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node78":{
+       "Baseline MG94xREV":0.2800102899004333,
+       "Baseline MG94xREV omega ratio":0.2317900429217064,
+       "Corrected P-value":1,
+       "Full adaptive model":0.2872722100763918,
+       "Full adaptive model (non-synonymous subs/site)":0.1096336614077794,
+       "Full adaptive model (synonymous subs/site)":0.1776385486686128,
+       "LRT":0,
+       "Nucleotide GTR":0.2635445326267847,
+       "Rate Distributions":        [
+[0.2157974190291306, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node8":{
+       "Baseline MG94xREV":0.01906828360552999,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01906698512181751,
+       "Full adaptive model":0.01914215432740729,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01906698512181751,
+       "Full adaptive model (synonymous subs/site)":0.01914215432740729,
        "LRT":0,
-       "Nucleotide GTR":0.01612313252049644,
+       "Nucleotide GTR":0.01612167342679849,
+       "Rate Distributions":        [
+[0, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":1
+      },
+     "Node85":{
+       "Baseline MG94xREV":0.01570259846940376,
+       "Baseline MG94xREV omega ratio":10000000000,
+       "Corrected P-value":1,
+       "Full adaptive model":0.01570901375547724,
+       "Full adaptive model (non-synonymous subs/site)":0.01570901375547724,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.5352247468554197,
+       "Nucleotide GTR":0.01618437520394943,
+       "Rate Distributions":        [
+[10000000000, 1] 
+        ],
+       "Rate classes":1,
+       "Uncorrected P-value":0.3224450035569953
+      },
+     "Node99":{
+       "Baseline MG94xREV":0.01965936526891518,
+       "Baseline MG94xREV omega ratio":0,
+       "Corrected P-value":1,
+       "Full adaptive model":0.02004013979689971,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.02004013979689971,
+       "LRT":0,
+       "Nucleotide GTR":0.01650259720288768,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -1002,19 +1002,19 @@
        "Uncorrected P-value":1
       },
      "XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.015564120084132,
+       "Baseline MG94xREV":0.01559876891325878,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01560028258946959,
-       "Full adaptive model (non-synonymous subs/site)":0.01560028258946959,
+       "Full adaptive model":0.01561942997934931,
+       "Full adaptive model (non-synonymous subs/site)":0.01561942997934931,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5353320251738296,
-       "Nucleotide GTR":0.01612366291071029,
+       "LRT":7.917359332082015,
+       "Nucleotide GTR":0.01612101303839964,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3224237382498754,
+       "Uncorrected P-value":0.006705743888420213,
        "original name":"XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1"
       },
      "XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
@@ -1050,48 +1050,48 @@
        "original name":"XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.04446181686051292,
-       "Baseline MG94xREV omega ratio":0,
+       "Baseline MG94xREV":0.06544203967332783,
+       "Baseline MG94xREV omega ratio":0.1196018262433797,
        "Corrected P-value":1,
-       "Full adaptive model":0.04541243576282804,
-       "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.04541243576282804,
+       "Full adaptive model":0.06738812796951019,
+       "Full adaptive model (non-synonymous subs/site)":0.01648495857715617,
+       "Full adaptive model (synonymous subs/site)":0.05090316939235407,
        "LRT":0,
-       "Nucleotide GTR":0.0237576235983139,
+       "Nucleotide GTR":0.05354905591271009,
        "Rate Distributions":        [
-[0, 1] 
+[0.1132354943748307, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.07135716998431552,
-       "Baseline MG94xREV omega ratio":0.9874973651983435,
+       "Baseline MG94xREV":0.07114217958086309,
+       "Baseline MG94xREV omega ratio":0.9705848850264569,
        "Corrected P-value":1,
-       "Full adaptive model":0.07109632421831659,
-       "Full adaptive model (non-synonymous subs/site)":0.05208938141720753,
-       "Full adaptive model (synonymous subs/site)":0.01900694280110917,
+       "Full adaptive model":0.07097026715490672,
+       "Full adaptive model (non-synonymous subs/site)":0.05185461169915396,
+       "Full adaptive model (synonymous subs/site)":0.01911565545575273,
        "LRT":0,
-       "Nucleotide GTR":0.07008325723367641,
+       "Nucleotide GTR":0.06979698730672407,
        "Rate Distributions":        [
-[0.9610976450180373, 1] 
+[0.9485008762384317, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.1334357764139304,
-       "Baseline MG94xREV omega ratio":0.2179747241384778,
+       "Baseline MG94xREV":0.05683349232868409,
+       "Baseline MG94xREV omega ratio":0.2177994673271395,
        "Corrected P-value":1,
-       "Full adaptive model":0.1344153146625252,
-       "Full adaptive model (non-synonymous subs/site)":0.05068328621456138,
-       "Full adaptive model (synonymous subs/site)":0.08373202844796394,
+       "Full adaptive model":0.05617368682141451,
+       "Full adaptive model (non-synonymous subs/site)":0.02097002496442986,
+       "Full adaptive model (synonymous subs/site)":0.03520366185698449,
        "LRT":0,
-       "Nucleotide GTR":0.124205766363979,
+       "Nucleotide GTR":0.06058469353460793,
        "Rate Distributions":        [
-[0.2122773876895556, 1] 
+[0.2082814779490457, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
@@ -1130,19 +1130,19 @@
        "original name":"XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01627163757847765,
+       "Baseline MG94xREV":0.01633684732028615,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01618793396399148,
-       "Full adaptive model (non-synonymous subs/site)":0.01618793396399148,
+       "Full adaptive model":0.01624602263101672,
+       "Full adaptive model (non-synonymous subs/site)":0.01624602263101672,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5237613918880015,
-       "Nucleotide GTR":0.01659190201074289,
+       "LRT":7.904111633961293,
+       "Nucleotide GTR":0.01664924906576868,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3247291654435263,
+       "Uncorrected P-value":0.006750998649546869,
        "original name":"XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -1194,51 +1194,51 @@
        "original name":"XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1"
       },
      "XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.03047966476086952,
+       "Baseline MG94xREV":0.03045460825458484,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.03042893230612644,
-       "Full adaptive model (non-synonymous subs/site)":0.03042893230612644,
+       "Full adaptive model":0.03040498423375626,
+       "Full adaptive model (non-synonymous subs/site)":0.03040498423375626,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.8330889642743387,
-       "Nucleotide GTR":0.03180152955487706,
+       "LRT":0.8223056614324378,
+       "Nucleotide GTR":0.03181998233546923,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2700725234318634,
+       "Uncorrected P-value":0.271767065572377,
        "original name":"XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.01549074163334821,
+       "Baseline MG94xREV":0.01546150296118622,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01543979465679147,
-       "Full adaptive model (non-synonymous subs/site)":0.01543979465679147,
+       "Full adaptive model":0.0154243986823947,
+       "Full adaptive model (non-synonymous subs/site)":0.0154243986823947,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5222210489005192,
-       "Nucleotide GTR":0.01603815514264486,
+       "LRT":0.5195938944989393,
+       "Nucleotide GTR":0.01602406277337866,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3250378929400787,
+       "Uncorrected P-value":0.3255654430485854,
        "original name":"XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.07860440797309293,
-       "Baseline MG94xREV omega ratio":0.09215971789660556,
+       "Baseline MG94xREV":0.06488490658000964,
+       "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.07819382926885636,
-       "Full adaptive model (non-synonymous subs/site)":0.01622237326905944,
-       "Full adaptive model (synonymous subs/site)":0.06197145599979689,
-       "LRT":0,
-       "Nucleotide GTR":0.06627677551131879,
+       "Full adaptive model":0.06552643174747276,
+       "Full adaptive model (non-synonymous subs/site)":0.06552643174747276,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.6137549415902868,
+       "Nucleotide GTR":0.06452779850965948,
        "Rate Distributions":        [
-[0.09180223847757012, 1] 
+[10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":1,
+       "Uncorrected P-value":0.3073977237534501,
        "original name":"XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -1274,35 +1274,35 @@
        "original name":"XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.03393559012807882,
-       "Baseline MG94xREV omega ratio":0.3184756830335333,
+       "Baseline MG94xREV":0.03396645580708234,
+       "Baseline MG94xREV omega ratio":0.3155791685189581,
        "Corrected P-value":1,
-       "Full adaptive model":0.03402080643086247,
-       "Full adaptive model (non-synonymous subs/site)":0.0159771722148268,
-       "Full adaptive model (synonymous subs/site)":0.01804363421603565,
+       "Full adaptive model":0.03404045469501763,
+       "Full adaptive model (non-synonymous subs/site)":0.01598833922777613,
+       "Full adaptive model (synonymous subs/site)":0.01805211546724153,
        "LRT":0,
-       "Nucleotide GTR":0.03287422474386816,
+       "Nucleotide GTR":0.03290705146358212,
        "Rate Distributions":        [
-[0.3105320875132639, 1] 
+[0.3096811674207906, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01547050677213803,
+       "Baseline MG94xREV":0.01549861973369637,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01552960359825617,
-       "Full adaptive model (non-synonymous subs/site)":0.01552960359825617,
+       "Full adaptive model":0.01555104603225666,
+       "Full adaptive model (non-synonymous subs/site)":0.01555104603225666,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.4899173009903279,
-       "Nucleotide GTR":0.01629546948737227,
+       "LRT":0.4908355232009853,
+       "Nucleotide GTR":0.01629096100625098,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3316139103909721,
+       "Uncorrected P-value":0.3314242534477655,
        "original name":"XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
@@ -1338,80 +1338,80 @@
        "original name":"XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01566674267446993,
+       "Baseline MG94xREV":0.01566255603909024,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01568262084047195,
-       "Full adaptive model (non-synonymous subs/site)":0.01568262084047195,
+       "Full adaptive model":0.0156729319647969,
+       "Full adaptive model (non-synonymous subs/site)":0.0156729319647969,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":8.378828308803804,
-       "Nucleotide GTR":0.01625594482720532,
+       "LRT":0.5276558504874629,
+       "Nucleotide GTR":0.01626023496183153,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.005305782410615412,
+       "Uncorrected P-value":0.3239505218212555,
        "original name":"XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.03218388433933182,
-       "Baseline MG94xREV omega ratio":0.343904742145088,
+       "Baseline MG94xREV":0.0321949037398831,
+       "Baseline MG94xREV omega ratio":0.3395792999007303,
        "Corrected P-value":1,
-       "Full adaptive model":0.03215096827799795,
-       "Full adaptive model (non-synonymous subs/site)":0.01572370013490751,
-       "Full adaptive model (synonymous subs/site)":0.01642726814309041,
+       "Full adaptive model":0.03215768921138343,
+       "Full adaptive model (non-synonymous subs/site)":0.01570249700665671,
+       "Full adaptive model (synonymous subs/site)":0.01645519220472671,
        "LRT":0,
-       "Nucleotide GTR":0.03225809531668164,
+       "Nucleotide GTR":0.03221056299224622,
        "Rate Distributions":        [
-[0.3356757650911557, 1] 
+[0.3336608900066505, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.09036512327637786,
-       "Baseline MG94xREV omega ratio":0,
+       "Baseline MG94xREV":0.1038717255192189,
+       "Baseline MG94xREV omega ratio":0.3329096455407738,
        "Corrected P-value":1,
-       "Full adaptive model":0.09239857193985261,
-       "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.09239857193985261,
+       "Full adaptive model":0.1054868153485966,
+       "Full adaptive model (non-synonymous subs/site)":0.0503400672243819,
+       "Full adaptive model (synonymous subs/site)":0.05514674812421484,
        "LRT":0,
-       "Nucleotide GTR":0.05801129766175284,
+       "Nucleotide GTR":0.09158078482638476,
        "Rate Distributions":        [
-[0, 1] 
+[0.3191783512641573, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.04551407916037917,
-       "Baseline MG94xREV omega ratio":10000000000,
+       "Baseline MG94xREV":0.07054246880287977,
+       "Baseline MG94xREV omega ratio":0.8953192490556287,
        "Corrected P-value":1,
-       "Full adaptive model":0.04676011122854179,
-       "Full adaptive model (non-synonymous subs/site)":0.04676011122854179,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.9107210914080497,
-       "Nucleotide GTR":0.05718874318959292,
+       "Full adaptive model":0.07109396016939053,
+       "Full adaptive model (non-synonymous subs/site)":0.05104152172649635,
+       "Full adaptive model (synonymous subs/site)":0.02005243844289419,
+       "LRT":0,
+       "Nucleotide GTR":0.06874923688830524,
        "Rate Distributions":        [
-[10000000000, 1] 
+[0.890012212544484, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2582504113783279,
+       "Uncorrected P-value":1,
        "original name":"XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.1308464399708885,
-       "Baseline MG94xREV omega ratio":0.7405839355700433,
+       "Baseline MG94xREV":0.1559395207100503,
+       "Baseline MG94xREV omega ratio":0.4604023631111563,
        "Corrected P-value":1,
-       "Full adaptive model":0.1294133321986825,
-       "Full adaptive model (non-synonymous subs/site)":0.08704432886814427,
-       "Full adaptive model (synonymous subs/site)":0.04236900333053825,
+       "Full adaptive model":0.1548591896971564,
+       "Full adaptive model (non-synonymous subs/site)":0.08712405439251902,
+       "Full adaptive model (synonymous subs/site)":0.06773513530463721,
        "LRT":0,
-       "Nucleotide GTR":0.1488149952757678,
+       "Nucleotide GTR":0.149007822745421,
        "Rate Distributions":        [
-[0.7204814671214858, 1] 
+[0.4497421781108711, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
@@ -1434,48 +1434,48 @@
        "original name":"XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01546512569054538,
+       "Baseline MG94xREV":0.01550257227365685,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01556362530479471,
-       "Full adaptive model (non-synonymous subs/site)":0.01556362530479471,
+       "Full adaptive model":0.01556524064772287,
+       "Full adaptive model (non-synonymous subs/site)":0.01556524064772287,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5178128499028389,
-       "Nucleotide GTR":0.01596033369957029,
+       "LRT":0.5157857658127796,
+       "Nucleotide GTR":0.01596681690880111,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3259238053492924,
+       "Uncorrected P-value":0.3263323807411231,
        "original name":"XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0,
-       "Baseline MG94xREV omega ratio":1,
+       "Baseline MG94xREV":0.03392930440896642,
+       "Baseline MG94xREV omega ratio":0.3194211950218186,
        "Corrected P-value":1,
-       "Full adaptive model":0,
-       "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":1e-10,
+       "Full adaptive model":0.03398145018031521,
+       "Full adaptive model (non-synonymous subs/site)":0.01605204347964123,
+       "Full adaptive model (synonymous subs/site)":0.017929406700674,
        "LRT":0,
-       "Nucleotide GTR":0,
+       "Nucleotide GTR":0.03282646696469413,
        "Rate Distributions":        [
-[1, 1] 
+[0.3130429682362857, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.07500692771578447,
-       "Baseline MG94xREV omega ratio":0.2677330523396264,
+       "Baseline MG94xREV":0.02475501879428093,
+       "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.07555212136713581,
-       "Full adaptive model (non-synonymous subs/site)":0.03213777642178518,
-       "Full adaptive model (synonymous subs/site)":0.04341434494535062,
+       "Full adaptive model":0.0249638430883071,
+       "Full adaptive model (non-synonymous subs/site)":1e-10,
+       "Full adaptive model (synonymous subs/site)":0.0249638430883071,
        "LRT":0,
-       "Nucleotide GTR":0.06716559356035115,
+       "Nucleotide GTR":0.01587247877246187,
        "Rate Distributions":        [
-[0.2596050601399595, 1] 
+[0, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
@@ -1594,35 +1594,35 @@
        "original name":"XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.03185012544116888,
+       "Baseline MG94xREV":0.01584665818705224,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.03187218277011272,
-       "Full adaptive model (non-synonymous subs/site)":0.03187218277011272,
+       "Full adaptive model":0.01586761600318687,
+       "Full adaptive model (non-synonymous subs/site)":0.01586761600318687,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":1.196815468840668,
-       "Nucleotide GTR":0.03239171880701494,
+       "LRT":0.5977383752538117,
+       "Nucleotide GTR":0.01636405917622773,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2196976745568275,
+       "Uncorrected P-value":0.3103853746309136,
        "original name":"XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01599041274654511,
+       "Baseline MG94xREV":0.01597517484449628,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01598049431782137,
-       "Full adaptive model (non-synonymous subs/site)":0.01598049431782137,
+       "Full adaptive model":0.01596024734386698,
+       "Full adaptive model (non-synonymous subs/site)":0.01596024734386698,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5041490566595712,
-       "Nucleotide GTR":0.01641504795230911,
+       "LRT":0.5017700826979308,
+       "Nucleotide GTR":0.01645319958058689,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3286925867863681,
+       "Uncorrected P-value":0.3291782239494813,
        "original name":"XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -1642,19 +1642,19 @@
        "original name":"XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1":{
-       "Baseline MG94xREV":0.03526193632478917,
-       "Baseline MG94xREV omega ratio":0.2821242152650809,
+       "Baseline MG94xREV":0.01550613293776374,
+       "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.03545469114440995,
-       "Full adaptive model (non-synonymous subs/site)":0.01555249390394563,
-       "Full adaptive model (synonymous subs/site)":0.01990219724046435,
-       "LRT":0,
-       "Nucleotide GTR":0.03288619732474521,
+       "Full adaptive model":0.01554190842579121,
+       "Full adaptive model (non-synonymous subs/site)":0.01554190842579121,
+       "Full adaptive model (synonymous subs/site)":1e-10,
+       "LRT":0.4873836899628259,
+       "Nucleotide GTR":0.01653441609481783,
        "Rate Distributions":        [
-[0.2740498663555173, 1] 
+[10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":1,
+       "Uncorrected P-value":0.3321380736197817,
        "original name":"XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1"
       },
      "XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
@@ -1802,35 +1802,35 @@
        "original name":"XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.03099467768642726,
+       "Baseline MG94xREV":0.03102339363163252,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.0309434249912355,
-       "Full adaptive model (non-synonymous subs/site)":0.0309434249912355,
+       "Full adaptive model":0.03098597161448838,
+       "Full adaptive model (non-synonymous subs/site)":0.03098597161448838,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":1.050065988073584,
-       "Nucleotide GTR":0.03209315497487326,
+       "LRT":1.046554870813452,
+       "Nucleotide GTR":0.03210707687416785,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2385591320131206,
+       "Uncorrected P-value":0.2390329439302633,
        "original name":"XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1":{
-       "Baseline MG94xREV":0.03161572199453824,
+       "Baseline MG94xREV":0.03160839000507035,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.03163739172433522,
-       "Full adaptive model (non-synonymous subs/site)":0.03163739172433522,
+       "Full adaptive model":0.03162357377083314,
+       "Full adaptive model (non-synonymous subs/site)":0.03162357377083314,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":1.136757625026348,
-       "Nucleotide GTR":0.03296725243202852,
+       "LRT":1.129813902036858,
+       "Nucleotide GTR":0.03289601044266519,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2272006018407318,
+       "Uncorrected P-value":0.2280869178486131,
        "original name":"XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1"
       },
      "XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -1866,16 +1866,16 @@
        "original name":"XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.03282302916007751,
-       "Baseline MG94xREV omega ratio":0.339662667581439,
+       "Baseline MG94xREV":0.0328541206027605,
+       "Baseline MG94xREV omega ratio":0.3348034749561732,
        "Corrected P-value":1,
-       "Full adaptive model":0.03296047828807538,
-       "Full adaptive model (non-synonymous subs/site)":0.01594785971523399,
-       "Full adaptive model (synonymous subs/site)":0.01701261857284133,
+       "Full adaptive model":0.03294587901855194,
+       "Full adaptive model (non-synonymous subs/site)":0.0159143109029492,
+       "Full adaptive model (synonymous subs/site)":0.01703156811560266,
        "LRT":0,
-       "Nucleotide GTR":0.03284811775034135,
+       "Nucleotide GTR":0.03280706443035142,
        "Rate Distributions":        [
-[0.3287470182564176, 1] 
+[0.3267177627144126, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
@@ -1898,19 +1898,19 @@
        "original name":"XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.03132512003890992,
+       "Baseline MG94xREV":0.02916707686177257,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.0266183823280575,
-       "Full adaptive model (non-synonymous subs/site)":0.0266183823280575,
+       "Full adaptive model":0.02590296925992708,
+       "Full adaptive model (non-synonymous subs/site)":0.02590296925992708,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.8557706360384145,
-       "Nucleotide GTR":0.02355165544795196,
+       "LRT":0.8308259047366846,
+       "Nucleotide GTR":0.02266418014414241,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2665508434250672,
+       "Uncorrected P-value":0.2704270581270327,
        "original name":"XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -1946,30 +1946,30 @@
        "original name":"XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
-       "Baseline MG94xREV":0.05616406616260627,
-       "Baseline MG94xREV omega ratio":0.1488379963012735,
+       "Baseline MG94xREV":0.05623046787871499,
+       "Baseline MG94xREV omega ratio":0.1468785491858699,
        "Corrected P-value":1,
-       "Full adaptive model":0.05644086290978841,
-       "Full adaptive model (non-synonymous subs/site)":0.01645995004353731,
-       "Full adaptive model (synonymous subs/site)":0.03998091286625111,
+       "Full adaptive model":0.05649577605304703,
+       "Full adaptive model (non-synonymous subs/site)":0.01642964026141759,
+       "Full adaptive model (synonymous subs/site)":0.04006613579162944,
        "LRT":0,
-       "Nucleotide GTR":0.05091107849291776,
+       "Nucleotide GTR":0.05084646106032716,
        "Rate Distributions":        [
-[0.1443797839704993, 1] 
+[0.1433805162652658, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1"
       },
      "XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01717808847941989,
+       "Baseline MG94xREV":0.01713699284313011,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01719047398382976,
+       "Full adaptive model":0.01714957612458751,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01719047398382976,
+       "Full adaptive model (synonymous subs/site)":0.01714957612458751,
        "LRT":0,
-       "Nucleotide GTR":0.01643184272272373,
+       "Nucleotide GTR":0.01638522356634778,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -1978,16 +1978,16 @@
        "original name":"XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.0558497017911214,
-       "Baseline MG94xREV omega ratio":0.1438373130993853,
+       "Baseline MG94xREV":0.05592555948437896,
+       "Baseline MG94xREV omega ratio":0.1423823462605076,
        "Corrected P-value":1,
-       "Full adaptive model":0.05638244388609257,
-       "Full adaptive model (non-synonymous subs/site)":0.01600635448208608,
-       "Full adaptive model (synonymous subs/site)":0.04037608940400648,
+       "Full adaptive model":0.05627719628656006,
+       "Full adaptive model (non-synonymous subs/site)":0.01601368457603634,
+       "Full adaptive model (synonymous subs/site)":0.04026351171052368,
        "LRT":0,
-       "Nucleotide GTR":0.05142433873805661,
+       "Nucleotide GTR":0.05143764697912095,
        "Rate Distributions":        [
-[0.1390268741037654, 1] 
+[0.1390654237080344, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
@@ -2058,19 +2058,19 @@
        "original name":"XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.04726507911467315,
+       "Baseline MG94xREV":0.04730134806413971,
        "Baseline MG94xREV omega ratio":10000000000,
-       "Corrected P-value":0.621960294475346,
-       "Full adaptive model":0.04727621536924575,
-       "Full adaptive model (non-synonymous subs/site)":0.04727621536924575,
+       "Corrected P-value":1,
+       "Full adaptive model":0.0472717901048639,
+       "Full adaptive model (non-synonymous subs/site)":0.0472717901048639,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":9.585282519645261,
-       "Nucleotide GTR":0.04880911143904412,
+       "LRT":1.885185364292738,
+       "Nucleotide GTR":0.04871820282660388,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.002879445807756231,
+       "Uncorrected P-value":0.15083410515199,
        "original name":"XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
@@ -2106,14 +2106,14 @@
        "original name":"XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01910542750716401,
+       "Baseline MG94xREV":0.01910669401810735,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01895279126424428,
+       "Full adaptive model":0.01904014224570718,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01895279126424428,
+       "Full adaptive model (synonymous subs/site)":0.01904014224570718,
        "LRT":0,
-       "Nucleotide GTR":0.01619726781915438,
+       "Nucleotide GTR":0.01619092742853206,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -2138,19 +2138,19 @@
        "original name":"XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01604625871949159,
+       "Baseline MG94xREV":0.0160569391424173,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01606272991167914,
-       "Full adaptive model (non-synonymous subs/site)":0.01606272991167914,
+       "Full adaptive model":0.01606750436256228,
+       "Full adaptive model (non-synonymous subs/site)":0.01606750436256228,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5555222088796654,
-       "Nucleotide GTR":0.01619490017750108,
+       "LRT":0.5524599896789368,
+       "Nucleotide GTR":0.01619563569595682,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3184573394160287,
+       "Uncorrected P-value":0.3190543847796606,
        "original name":"XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -2234,19 +2234,19 @@
        "original name":"XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01602309955267909,
+       "Baseline MG94xREV":0.0161276395356224,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.016212205581854,
-       "Full adaptive model (non-synonymous subs/site)":0.016212205581854,
+       "Full adaptive model":0.01629330225466681,
+       "Full adaptive model (non-synonymous subs/site)":0.01629330225466681,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":8.397965888104864,
-       "Nucleotide GTR":0.01637820343644202,
+       "LRT":0.5480542035138569,
+       "Nucleotide GTR":0.01643520683980956,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.005254533001836426,
+       "Uncorrected P-value":0.3199162082070138,
        "original name":"XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -2442,16 +2442,16 @@
        "original name":"XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.05134370491300271,
-       "Baseline MG94xREV omega ratio":0.5647566494353512,
+       "Baseline MG94xREV":0.05142663786383231,
+       "Baseline MG94xREV omega ratio":0.5594058361872107,
        "Corrected P-value":1,
-       "Full adaptive model":0.05152694328985868,
-       "Full adaptive model (non-synonymous subs/site)":0.03141131126116344,
-       "Full adaptive model (synonymous subs/site)":0.02011563202869526,
+       "Full adaptive model":0.05151603327511595,
+       "Full adaptive model (non-synonymous subs/site)":0.03144155869464615,
+       "Full adaptive model (synonymous subs/site)":0.02007447458046979,
        "LRT":0,
-       "Nucleotide GTR":0.04910821396118428,
+       "Nucleotide GTR":0.04912394797278938,
        "Rate Distributions":        [
-[0.5476246197303161, 1] 
+[0.5476453755362927, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
@@ -2506,30 +2506,30 @@
        "original name":"XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.09664383261675541,
-       "Baseline MG94xREV omega ratio":0.1731532676936088,
+       "Baseline MG94xREV":0.09690736204196614,
+       "Baseline MG94xREV omega ratio":0.1710383585355778,
        "Corrected P-value":1,
-       "Full adaptive model":0.09751926955670069,
-       "Full adaptive model (non-synonymous subs/site)":0.03146234434609734,
-       "Full adaptive model (synonymous subs/site)":0.06605692521060325,
+       "Full adaptive model":0.09763852700749202,
+       "Full adaptive model (non-synonymous subs/site)":0.03146339448640498,
+       "Full adaptive model (synonymous subs/site)":0.06617513252108731,
        "LRT":0,
-       "Nucleotide GTR":0.08501125194134673,
+       "Nucleotide GTR":0.08520671566280853,
        "Rate Distributions":        [
-[0.1670333942184349, 1] 
+[0.1662456536385495, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
-       "Baseline MG94xREV":0.01706036350787569,
+       "Baseline MG94xREV":0.01710666751439281,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01700252194538312,
+       "Full adaptive model":0.01708470565690935,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01700252194538312,
+       "Full adaptive model (synonymous subs/site)":0.01708470565690935,
        "LRT":0,
-       "Nucleotide GTR":0.01636812394232535,
+       "Nucleotide GTR":0.01639115069718653,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -2554,16 +2554,16 @@
        "original name":"XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.07320895738270995,
-       "Baseline MG94xREV omega ratio":0.2689730878611044,
+       "Baseline MG94xREV":0.07284874249616859,
+       "Baseline MG94xREV omega ratio":0.2663395342835194,
        "Corrected P-value":1,
-       "Full adaptive model":0.07525549588426335,
-       "Full adaptive model (non-synonymous subs/site)":0.0310832394880466,
-       "Full adaptive model (synonymous subs/site)":0.04417225639621672,
+       "Full adaptive model":0.0735335637502323,
+       "Full adaptive model (non-synonymous subs/site)":0.03097897662652189,
+       "Full adaptive model (synonymous subs/site)":0.04255458712371044,
        "LRT":0,
-       "Nucleotide GTR":0.07045950102093558,
+       "Nucleotide GTR":0.06997646906583453,
        "Rate Distributions":        [
-[0.2467784721109467, 1] 
+[0.2545424557844647, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
@@ -2586,14 +2586,14 @@
        "original name":"XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
-       "Baseline MG94xREV":0.0189443823919597,
+       "Baseline MG94xREV":0.01899829132875508,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01896296618192829,
+       "Full adaptive model":0.01905059141201034,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01896296618192829,
+       "Full adaptive model (synonymous subs/site)":0.01905059141201034,
        "LRT":0,
-       "Nucleotide GTR":0.01566436215075159,
+       "Nucleotide GTR":0.01564217052262485,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -2618,19 +2618,19 @@
        "original name":"XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01584812220356286,
+       "Baseline MG94xREV":0.01586862121640212,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.0158642833335461,
-       "Full adaptive model (non-synonymous subs/site)":0.0158642833335461,
+       "Full adaptive model":0.01587909656218666,
+       "Full adaptive model (non-synonymous subs/site)":0.01587909656218666,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.4962528677419868,
-       "Nucleotide GTR":0.01627533180933273,
+       "LRT":0.4944559196901537,
+       "Nucleotide GTR":0.01628486793495335,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3303086302871261,
+       "Uncorrected P-value":0.3306780585985167,
        "original name":"XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1":{
@@ -2698,19 +2698,19 @@
        "original name":"XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1"
       },
      "XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.03080950786792087,
+       "Baseline MG94xREV":0.03075332413332955,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.03071555993848675,
-       "Full adaptive model (non-synonymous subs/site)":0.03071555993848675,
+       "Full adaptive model":0.03067321190241079,
+       "Full adaptive model (non-synonymous subs/site)":0.03067321190241079,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":1.140099015253782,
-       "Nucleotide GTR":0.0323203536873941,
+       "LRT":1.284332660588007,
+       "Nucleotide GTR":0.03224733387393174,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2267755136901574,
+       "Uncorrected P-value":0.2092644116669561,
        "original name":"XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -2762,14 +2762,14 @@
        "original name":"XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01991847324741469,
+       "Baseline MG94xREV":0.01995868106782761,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.02004901229055654,
+       "Full adaptive model":0.02001706430151104,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.02004901229055654,
+       "Full adaptive model (synonymous subs/site)":0.02001706430151104,
        "LRT":0,
-       "Nucleotide GTR":0.01611192976443662,
+       "Nucleotide GTR":0.01612876125768401,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -2874,16 +2874,16 @@
        "original name":"XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.03108691410379896,
-       "Baseline MG94xREV omega ratio":0.3580296102535524,
+       "Baseline MG94xREV":0.0310548524281354,
+       "Baseline MG94xREV omega ratio":0.3524810874991919,
        "Corrected P-value":1,
-       "Full adaptive model":0.03103435673521052,
-       "Full adaptive model (non-synonymous subs/site)":0.01539689912545499,
-       "Full adaptive model (synonymous subs/site)":0.01563745760975548,
+       "Full adaptive model":0.03101443804998844,
+       "Full adaptive model (non-synonymous subs/site)":0.01536221683650607,
+       "Full adaptive model (synonymous subs/site)":0.01565222121348231,
        "LRT":0,
-       "Nucleotide GTR":0.0317609551326845,
+       "Nucleotide GTR":0.03171310919167547,
        "Rate Distributions":        [
-[0.3453008917011812, 1] 
+[0.3431764344878644, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
@@ -2906,16 +2906,16 @@
        "original name":"XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1"
       },
      "XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01992642368673584,
-       "Baseline MG94xREV omega ratio":0.01807098445885,
+       "Baseline MG94xREV":0.02235587323572278,
+       "Baseline MG94xREV omega ratio":0.06693492858501839,
        "Corrected P-value":1,
-       "Full adaptive model":0.02508439550868135,
-       "Full adaptive model (non-synonymous subs/site)":0.006416068767157889,
-       "Full adaptive model (synonymous subs/site)":0.01866832674152348,
+       "Full adaptive model":0.0257946230074977,
+       "Full adaptive model (non-synonymous subs/site)":0.00715834343096958,
+       "Full adaptive model (synonymous subs/site)":0.01863627957652815,
        "LRT":0,
-       "Nucleotide GTR":0.02793995780022745,
+       "Nucleotide GTR":0.02848687786923875,
        "Rate Distributions":        [
-[0.1205297337978528, 1] 
+[0.134305209134587, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
@@ -2954,16 +2954,16 @@
        "original name":"XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
-       "Baseline MG94xREV":0.09981795849975228,
-       "Baseline MG94xREV omega ratio":0.1610979829267337,
+       "Baseline MG94xREV":0.09933241423100125,
+       "Baseline MG94xREV omega ratio":0.1602361353506448,
        "Corrected P-value":1,
-       "Full adaptive model":0.09827988997660175,
-       "Full adaptive model (non-synonymous subs/site)":0.03076474131842407,
-       "Full adaptive model (synonymous subs/site)":0.06751514865817775,
+       "Full adaptive model":0.09837719571718447,
+       "Full adaptive model (non-synonymous subs/site)":0.03074577738311307,
+       "Full adaptive model (synonymous subs/site)":0.06763141833407148,
        "LRT":0,
-       "Nucleotide GTR":0.1015532672848242,
+       "Nucleotide GTR":0.1013448890116879,
        "Rate Distributions":        [
-[0.1598021508215627, 1] 
+[0.1589558541290838, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
@@ -3002,30 +3002,30 @@
        "original name":"XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.03383527574488708,
-       "Baseline MG94xREV omega ratio":0.3188495522715658,
+       "Baseline MG94xREV":0.03383690545628457,
+       "Baseline MG94xREV omega ratio":0.3147834870862232,
        "Corrected P-value":1,
-       "Full adaptive model":0.03387192671042441,
-       "Full adaptive model (non-synonymous subs/site)":0.0159057676568104,
-       "Full adaptive model (synonymous subs/site)":0.01796615905361404,
+       "Full adaptive model":0.03388115315890759,
+       "Full adaptive model (non-synonymous subs/site)":0.01587671108888509,
+       "Full adaptive model (synonymous subs/site)":0.01800444207002251,
        "LRT":0,
-       "Nucleotide GTR":0.03286931374895751,
+       "Nucleotide GTR":0.03282839317836912,
        "Rate Distributions":        [
-[0.3104773871398664, 1] 
+[0.308333290845238, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.05833589806332304,
+       "Baseline MG94xREV":0.05773384079988148,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.0568321746313003,
+       "Full adaptive model":0.05681919580245214,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.0568321746313003,
+       "Full adaptive model (synonymous subs/site)":0.05681919580245214,
        "LRT":0,
-       "Nucleotide GTR":0.04981954515945799,
+       "Nucleotide GTR":0.04971092865931624,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -3034,36 +3034,36 @@
        "original name":"XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.03416959300778772,
-       "Baseline MG94xREV omega ratio":0.276773727069385,
+       "Baseline MG94xREV":0.03401620860586266,
+       "Baseline MG94xREV omega ratio":0.2752540627621357,
        "Corrected P-value":1,
-       "Full adaptive model":1.083495880026832,
-       "Full adaptive model (non-synonymous subs/site)":1.083418381153088,
-       "Full adaptive model (synonymous subs/site)":7.749887374370797e-05,
-       "LRT":7.855638696285496,
-       "Nucleotide GTR":0.03228787740980069,
+       "Full adaptive model":0.8802214985855412,
+       "Full adaptive model (non-synonymous subs/site)":0.8801585719813898,
+       "Full adaptive model (synonymous subs/site)":6.29266041512761e-05,
+       "LRT":7.402230410666562,
+       "Nucleotide GTR":0.03219757754724648,
        "Rate Distributions":        [
-[0, 0.950973443657813],
-        [100000, 0.049026556342187] 
+[0, 0.951093546412033],
+        [100000, 0.04890645358796697] 
         ],
        "Rate classes":2,
-       "Uncorrected P-value":0.006919215631563891,
+       "Uncorrected P-value":0.008711652166424722,
        "original name":"XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01543387079162491,
+       "Baseline MG94xREV":0.01544003245962173,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01544939258782465,
-       "Full adaptive model (non-synonymous subs/site)":0.01544939258782465,
+       "Full adaptive model":0.01546291199439473,
+       "Full adaptive model (non-synonymous subs/site)":0.01546291199439473,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5265665077836275,
-       "Nucleotide GTR":0.01640285089994015,
+       "LRT":0.5234769967291868,
+       "Nucleotide GTR":0.01640457983971357,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3241680454357473,
+       "Uncorrected P-value":0.3247861337382881,
        "original name":"XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -3083,14 +3083,14 @@
        "original name":"XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.0186995233458551,
+       "Baseline MG94xREV":0.01888884823515357,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01890354096901647,
+       "Full adaptive model":0.01907051350778368,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01890354096901647,
+       "Full adaptive model (synonymous subs/site)":0.01907051350778368,
        "LRT":0,
-       "Nucleotide GTR":0.01630097190357553,
+       "Nucleotide GTR":0.01637242800363635,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -3131,62 +3131,62 @@
        "original name":"XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01605922321123403,
-       "Baseline MG94xREV omega ratio":10000000000,
+       "Baseline MG94xREV":0.02608040331773926,
+       "Baseline MG94xREV omega ratio":0.5585991141117437,
        "Corrected P-value":1,
-       "Full adaptive model":0.01585477337880869,
-       "Full adaptive model (non-synonymous subs/site)":0.01585477337880869,
-       "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.3509721410923703,
-       "Nucleotide GTR":0.0209085389226672,
+       "Full adaptive model":0.02574845476887815,
+       "Full adaptive model (non-synonymous subs/site)":0.01575555508199697,
+       "Full adaptive model (synonymous subs/site)":0.009992899686881201,
+       "LRT":0,
+       "Nucleotide GTR":0.03026093716107892,
        "Rate Distributions":        [
-[10000000000, 1] 
+[0.5512920435224895, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3624273933444433,
+       "Uncorrected P-value":1,
        "original name":"XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.01029781686659333,
-       "Baseline MG94xREV omega ratio":0,
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
        "Corrected P-value":1,
-       "Full adaptive model":0.01008162721472758,
+       "Full adaptive model":0,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01008162721472758,
+       "Full adaptive model (synonymous subs/site)":1e-10,
        "LRT":0,
-       "Nucleotide GTR":0.00961244809460079,
+       "Nucleotide GTR":0,
        "Rate Distributions":        [
-[0, 1] 
+[1, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01535629804801946,
+       "Baseline MG94xREV":0.01533501573122873,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01534650865015123,
-       "Full adaptive model (non-synonymous subs/site)":0.01534650865015123,
+       "Full adaptive model":0.01532710193549739,
+       "Full adaptive model (non-synonymous subs/site)":0.01532710193549739,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.5329543549169102,
-       "Nucleotide GTR":0.01583701675906858,
+       "LRT":0.5304537011897992,
+       "Nucleotide GTR":0.01582923719368654,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3228955319550728,
+       "Uncorrected P-value":0.3233928138901768,
        "original name":"XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01716713135305694,
+       "Baseline MG94xREV":0.01706762892832802,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.01695325344534204,
+       "Full adaptive model":0.01693473037172915,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01695325344534204,
+       "Full adaptive model (synonymous subs/site)":0.01693473037172915,
        "LRT":0,
-       "Nucleotide GTR":0.01645779586395555,
+       "Nucleotide GTR":0.01644219893538743,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -3195,62 +3195,62 @@
        "original name":"XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1":{
-       "Baseline MG94xREV":0.01949273685240796,
-       "Baseline MG94xREV omega ratio":0,
+       "Baseline MG94xREV":0,
+       "Baseline MG94xREV omega ratio":1,
        "Corrected P-value":1,
-       "Full adaptive model":0.01980647927370733,
+       "Full adaptive model":0,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.01980647927370733,
+       "Full adaptive model (synonymous subs/site)":1e-10,
        "LRT":0,
        "Nucleotide GTR":0,
        "Rate Distributions":        [
-[0, 1] 
+[1, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1"
       },
      "XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.08806451437520495,
-       "Baseline MG94xREV omega ratio":0.4331030852115358,
+       "Baseline MG94xREV":0.07338571093584247,
+       "Baseline MG94xREV omega ratio":0.2910432031796902,
        "Corrected P-value":1,
-       "Full adaptive model":0.08852057543167345,
-       "Full adaptive model (non-synonymous subs/site)":0.04831009788308181,
-       "Full adaptive model (synonymous subs/site)":0.04021047754859157,
+       "Full adaptive model":0.07384804401703789,
+       "Full adaptive model (non-synonymous subs/site)":0.0331110546370764,
+       "Full adaptive model (synonymous subs/site)":0.04073698937996134,
        "LRT":0,
-       "Nucleotide GTR":0.08491071664560298,
+       "Nucleotide GTR":0.06994494964918428,
        "Rate Distributions":        [
-[0.4213366785579965, 1] 
+[0.2841997084940933, 1] 
         ],
        "Rate classes":1,
        "Uncorrected P-value":1,
        "original name":"XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.02524342207282281,
-       "Baseline MG94xREV omega ratio":0.6609469774889112,
+       "Baseline MG94xREV":0.02523824978824979,
+       "Baseline MG94xREV omega ratio":0.656267647737988,
        "Corrected P-value":1,
-       "Full adaptive model":0.02147067337450873,
-       "Full adaptive model (non-synonymous subs/site)":0.0163389659644782,
-       "Full adaptive model (synonymous subs/site)":0.005131707410030532,
-       "LRT":0.0003415187484279159,
-       "Nucleotide GTR":0.03181248420522509,
+       "Full adaptive model":0.02305595098231648,
+       "Full adaptive model (non-synonymous subs/site)":0.01634851529681403,
+       "Full adaptive model (synonymous subs/site)":0.006707435685502435,
+       "LRT":0,
+       "Nucleotide GTR":0.03214084761902474,
        "Rate Distributions":        [
-[1.116588787078188, 1] 
+[0.8522388832451099, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.4969999270290728,
+       "Uncorrected P-value":1,
        "original name":"XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.01984352352866297,
+       "Baseline MG94xREV":0.0199700758521743,
        "Baseline MG94xREV omega ratio":0,
        "Corrected P-value":1,
-       "Full adaptive model":0.02017305140335405,
+       "Full adaptive model":0.02020628330122446,
        "Full adaptive model (non-synonymous subs/site)":1e-10,
-       "Full adaptive model (synonymous subs/site)":0.02017305140335405,
+       "Full adaptive model (synonymous subs/site)":0.02020628330122446,
        "LRT":0,
-       "Nucleotide GTR":0.01619384654471227,
+       "Nucleotide GTR":0.01619665958813618,
        "Rate Distributions":        [
 [0, 1] 
         ],
@@ -3259,19 +3259,19 @@
        "original name":"XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "Baseline MG94xREV":0.01594799423471546,
+       "Baseline MG94xREV":0.01600946450151103,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01585740417525273,
-       "Full adaptive model (non-synonymous subs/site)":0.01585740417525273,
+       "Full adaptive model":0.01594175693356781,
+       "Full adaptive model (non-synonymous subs/site)":0.01594175693356781,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":8.401396714966722,
-       "Nucleotide GTR":0.01658145400682672,
+       "LRT":0.5481921413579585,
+       "Nucleotide GTR":0.01663094387196112,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.00524539811082414,
+       "Uncorrected P-value":0.3198891752429951,
        "original name":"XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -3339,19 +3339,19 @@
        "original name":"XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "Baseline MG94xREV":0.01501445357126317,
+       "Baseline MG94xREV":0.01510917344830494,
        "Baseline MG94xREV omega ratio":10000000000,
        "Corrected P-value":1,
-       "Full adaptive model":0.01514578318283242,
-       "Full adaptive model (non-synonymous subs/site)":0.01514578318283242,
+       "Full adaptive model":0.01523762931850128,
+       "Full adaptive model (non-synonymous subs/site)":0.01523762931850128,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":0.4820929830743808,
-       "Nucleotide GTR":0.01598912390648891,
+       "LRT":0.4813766383244911,
+       "Nucleotide GTR":0.01604674008109903,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.3332366892273951,
+       "Uncorrected P-value":0.3333858622829785,
        "original name":"XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -3464,7 +3464,7 @@
   },
  "fits":{
    "Baseline MG94xREV":{
-     "AIC-c":3514.607677898045,
+     "AIC-c":3518.287531908939,
      "Equilibrium frequencies":      [
 [0.04824399315186059],
       [0.01121656846661716],
@@ -3528,42 +3528,42 @@
       [0.004822878635693908],
       [0.01450751373798593] 
       ],
-     "Log Likelihood":-1242.48713201081,
+     "Log Likelihood":-1244.327059016257,
      "Rate Distributions":{
        "Per-branch omega":{
-         "2.5%":0.01807098445885,
+         "2.5%":0.06693492858501839,
          "97.5%":10000000000,
-         "Mean":243902439.3979782,
-         "Median":0.3126915761791402
+         "Mean":227272727.6480359,
+         "Median":0.3119721435012767
         }
       },
      "display order":1,
      "estimated parameters":446
     },
    "Full adaptive model":{
-     "AIC-c":3510.401573667753,
-     "Log Likelihood":-1237.718230702616,
+     "AIC-c":3515.209442348118,
+     "Log Likelihood":-1240.122165042798,
      "Rate Distributions":{
       },
      "display order":2,
      "estimated parameters":448
     },
    "Nucleotide GTR":{
-     "AIC-c":3311.219925009565,
+     "AIC-c":3302.613309845835,
      "Equilibrium frequencies":      [
 [0.36563185951709],
       [0.2156370858158252],
       [0.1766488972509669],
       [0.2420821574161179] 
       ],
-     "Log Likelihood":-1336.757051581104,
+     "Log Likelihood":-1332.453743999239,
      "Rate Distributions":{
-       "Substitution rate from nucleotide A to nucleotide C":0.2008884037918341,
+       "Substitution rate from nucleotide A to nucleotide C":0.223703586078035,
        "Substitution rate from nucleotide A to nucleotide G":1,
-       "Substitution rate from nucleotide A to nucleotide T":0.173404434625723,
-       "Substitution rate from nucleotide C to nucleotide G":0.1119520859599577,
-       "Substitution rate from nucleotide C to nucleotide T":1.109990283636213,
-       "Substitution rate from nucleotide G to nucleotide T":0.2830928512954032
+       "Substitution rate from nucleotide A to nucleotide T":0.1508652779845329,
+       "Substitution rate from nucleotide C to nucleotide G":0.1099938740267627,
+       "Substitution rate from nucleotide C to nucleotide T":1.092152841019841,
+       "Substitution rate from nucleotide G to nucleotide T":0.2907521090427409
       },
      "display order":0,
      "estimated parameters":309
@@ -3575,7 +3575,7 @@
    "number of sites":22,
    "partition count":1,
    "trees":{
-     "0":"(NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1,XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1,XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(((XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node293,((XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node282,(XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1)Node285)Node281,(XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node288)Node279,XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node74,(XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node70,XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1)Node55,(XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,((((XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,((NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node19,XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node18,((XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node24,XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node23)Node15,XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1,XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node14,(XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node37)Node13,XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node12,XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,(XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,((XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node46,XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node45)Node43,XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node9,XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1,XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(((XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node204,(XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node176,(XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1,XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node183)Node174,XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,(XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1)Node201)Node172,(((XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node150,(XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node164,XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node162,XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1)Node149,XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node148,XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node144,((((XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node89,(XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node104)Node102)Node100)Node88,XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node87,(XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node122,(XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node112,(XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node119,XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node86,((XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node140,XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1)Node139)Node82,((XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(((XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node237)Node235,(XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1)Node213,(XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node222,XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1)Node211,(XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1)Node240)Node210,(XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node245,XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node243)Node208,(((XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node257,XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node253,(XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,(XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node262)Node260)Node252,XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node207)Node5,XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1)"
+     "0":"(NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1,XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1,XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(((XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,(XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node285,(XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1)Node288)Node283,XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node282,(XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,(XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node295)Node293,(XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,((((((NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node17,XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node16,XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,((XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node25,XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node24,XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node15,XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1,XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node14,(XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node37)Node13,XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node12,XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,(XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node44,((XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node48,XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1)Node47)Node8,((XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1)Node56,(XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node61,XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node59)Node54,(((XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node73,XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node69,(XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,(XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node78)Node76)Node68,XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node53,XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1,XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(((XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,((XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node208,((XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node241)Node239,(XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node227,(XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1)Node219,XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1)Node215)Node207,(XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1,XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node244)Node205,XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,(XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node262,XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1)Node204,((XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node163,(((XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node118,XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node133)Node131)Node117,XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node116,(XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node137,XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node159)Node113,(((XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node168,(XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node171)Node167,XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1)Node166,(XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node201,(((XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node179,(XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node193,XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node191,XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1)Node178,XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node177,XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node110,XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,(XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node104,(XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node99,XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node85,XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node5,XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1)"
     }
   },
  "runtime":"2.5.40",
@@ -3588,70 +3588,70 @@
    "0":{
      "NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1":"test",
      "NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
-     "Node100":"test",
-     "Node102":"test",
      "Node104":"test",
-     "Node112":"test",
-     "Node119":"test",
+     "Node110":"test",
+     "Node113":"test",
+     "Node116":"test",
+     "Node117":"test",
+     "Node118":"test",
      "Node12":"test",
-     "Node122":"test",
      "Node13":"test",
-     "Node139":"test",
+     "Node131":"test",
+     "Node133":"test",
+     "Node137":"test",
      "Node14":"test",
-     "Node140":"test",
-     "Node144":"test",
-     "Node148":"test",
-     "Node149":"test",
      "Node15":"test",
-     "Node150":"test",
-     "Node162":"test",
-     "Node164":"test",
-     "Node172":"test",
-     "Node174":"test",
-     "Node176":"test",
-     "Node18":"test",
-     "Node183":"test",
-     "Node19":"test",
+     "Node159":"test",
+     "Node16":"test",
+     "Node163":"test",
+     "Node166":"test",
+     "Node167":"test",
+     "Node168":"test",
+     "Node17":"test",
+     "Node171":"test",
+     "Node177":"test",
+     "Node178":"test",
+     "Node179":"test",
+     "Node191":"test",
+     "Node193":"test",
      "Node201":"test",
      "Node204":"test",
+     "Node205":"test",
      "Node207":"test",
      "Node208":"test",
-     "Node210":"test",
-     "Node211":"test",
-     "Node213":"test",
-     "Node222":"test",
-     "Node23":"test",
-     "Node235":"test",
-     "Node237":"test",
+     "Node215":"test",
+     "Node219":"test",
+     "Node227":"test",
+     "Node239":"test",
      "Node24":"test",
-     "Node240":"test",
-     "Node243":"test",
-     "Node245":"test",
-     "Node252":"test",
-     "Node253":"test",
-     "Node257":"test",
-     "Node260":"test",
+     "Node241":"test",
+     "Node244":"test",
+     "Node25":"test",
      "Node262":"test",
-     "Node279":"test",
-     "Node281":"test",
      "Node282":"test",
+     "Node283":"test",
      "Node285":"test",
      "Node288":"test",
      "Node293":"test",
+     "Node295":"test",
      "Node37":"test",
-     "Node43":"test",
-     "Node45":"test",
-     "Node46":"test",
+     "Node44":"test",
+     "Node47":"test",
+     "Node48":"test",
      "Node5":"test",
-     "Node55":"test",
-     "Node70":"test",
-     "Node74":"test",
-     "Node82":"test",
-     "Node86":"test",
-     "Node87":"test",
-     "Node88":"test",
-     "Node89":"test",
-     "Node9":"test",
+     "Node53":"test",
+     "Node54":"test",
+     "Node56":"test",
+     "Node59":"test",
+     "Node61":"test",
+     "Node68":"test",
+     "Node69":"test",
+     "Node73":"test",
+     "Node76":"test",
+     "Node78":"test",
+     "Node8":"test",
+     "Node85":"test",
+     "Node99":"test",
      "XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1":"test",
      "XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
      "XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
@@ -3807,19 +3807,19 @@
  "timers":{
    "Baseline model fitting":{
      "order":2,
-     "timer":6
+     "timer":19
     },
    "Complexity analysis":{
      "order":3,
-     "timer":126
+     "timer":265
     },
    "Full adaptive model fitting":{
      "order":4,
-     "timer":11
+     "timer":22
     },
    "Overall":{
      "order":0,
-     "timer":709
+     "timer":1231
     },
    "Preliminary model fitting":{
      "order":1,
@@ -3827,7 +3827,7 @@
     },
    "Testing for selection":{
      "order":5,
-     "timer":564
+     "timer":923
     }
   }
 }

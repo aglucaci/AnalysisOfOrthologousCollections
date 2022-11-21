@@ -2,7 +2,7 @@ IQ-TREE 2.2.0.3 COVID-edition built May 11 2022
 
 Input file name: /home/aglucaci/AOC-REV3L/results/mammalian_REV3L/mammalian_REV3L.13.codon.fas
 Type of analysis: ModelFinder + tree reconstruction
-Random seed number: 455694
+Random seed number: 519041
 
 REFERENCES
 ----------
@@ -39,77 +39,140 @@ Best-fit model according to BIC: K2P+R2
 List of models sorted by BIC scores: 
 
 Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
-K2P+R2            -2242.393    4912.785 +    0.217    5178.739 +    0.675    5839.346 +    0.777
-K3P+R2            -2241.661    4913.322 +    0.166    5182.540 +    0.101    5844.212 +   0.0682
-TNe+R2            -2242.356    4914.713 +   0.0829    5183.930 +   0.0504    5845.603 -    0.034
-TPM2+R2           -2242.357    4914.715 +   0.0828    5183.932 +   0.0503    5845.605 -    0.034
-TPM3+R2           -2242.391    4914.783 +     0.08    5184.000 -   0.0486    5845.673 -   0.0329
-K2P+I+I+R2        -2242.713    4915.426 +    0.058    5184.644 -   0.0353    5846.316 -   0.0238
-K2P+G4            -2249.511    4925.022 - 0.000478    5187.742 -  0.00749    5847.252 -   0.0149
-TIMe+R2           -2241.623    4915.247 +   0.0634    5187.759 -  0.00743    5850.467 -  0.00299
-K3P+I+I+R2        -2242.007    4916.014 -   0.0432    5188.525 -  0.00506    5851.233 -  0.00204
-TIM2e+R2          -2242.325    4916.651 -   0.0314    5189.163 -  0.00368    5851.871 -  0.00148
-TIM3e+R2          -2242.369    4916.738 -   0.0301    5189.249 -  0.00353    5851.957 -  0.00142
-K3P+G4            -2248.825    4925.649 - 0.000349    5191.603 -  0.00109    5852.210 -  0.00125
-TNe+I+I+R2        -2242.695    4917.390 -   0.0217    5189.902 -  0.00254    5852.610 -  0.00102
-TPM2+I+I+R2       -2242.696    4917.392 -   0.0217    5189.903 -  0.00254    5852.612 -  0.00102
-TPM3+I+I+R2       -2242.716    4917.433 -   0.0213    5189.944 -  0.00249    5852.652 -    0.001
-TPM3+G4           -2249.468    4926.936 - 0.000184    5192.890 - 0.000571    5853.497 - 0.000657
-TPM2+G4           -2249.479    4926.957 - 0.000182    5192.911 - 0.000565    5853.518 - 0.000651
-TNe+G4            -2249.480    4926.959 - 0.000182    5192.913 - 0.000565    5853.519 -  0.00065
-TVMe+R2           -2241.485    4916.970 -   0.0268    5192.806 - 0.000595    5856.519 - 0.000145
-TIMe+I+I+R2       -2241.990    4917.980 -   0.0162    5193.817 - 0.000359    5857.529 - 8.75e-05
-TIMe+G4           -2248.797    4927.593 - 0.000132    5196.811 - 8.04e-05    5858.483 - 5.43e-05
-TIM2e+I+I+R2      -2242.677    4919.354 -  0.00814    5195.191 - 0.000181    5858.904 -  4.4e-05
-TIM3e+I+I+R2      -2242.700    4919.399 -  0.00795    5195.236 - 0.000177    5858.949 -  4.3e-05
-TIM3e+G4          -2249.445    4928.889 - 6.92e-05    5198.107 - 4.21e-05    5859.779 - 2.84e-05
-TIM2e+G4          -2249.446    4928.893 - 6.91e-05    5198.110 -  4.2e-05    5859.783 - 2.84e-05
-SYM+R2            -2241.498    4918.996 -  0.00973    5198.189 - 4.04e-05    5862.875 - 6.04e-06
-TVMe+I+I+R2       -2241.814    4919.628 -   0.0071    5198.821 - 2.94e-05    5863.507 - 4.41e-06
-TVMe+G4           -2248.431    4928.863 - 7.01e-05    5201.374 - 8.21e-06    5864.082 -  3.3e-06
-SYM+I+I+R2        -2241.796    4921.593 -  0.00266    5204.174 - 2.03e-06    5869.802 - 1.89e-07
-SYM+G4            -2248.409    4930.818 - 2.64e-05    5206.654 - 5.86e-07    5870.367 - 1.43e-07
-HKY+F+R2          -2271.595    4977.191 - 2.25e-15    5253.027 - 4.99e-17    5916.740 - 1.22e-17
-TN+F+R2           -2269.349    4974.697 - 7.81e-15    5253.890 - 3.24e-17    5918.576 - 4.85e-18
-K3Pu+F+R2         -2270.433    4976.866 - 2.64e-15    5256.059 -  1.1e-17    5920.745 - 1.64e-18
-TPM3u+F+R2        -2270.696    4977.393 - 2.03e-15    5256.586 - 8.42e-18    5921.272 - 1.26e-18
-HKY+F+G4          -2277.316    4986.632 -    2e-17    5259.144 - 2.34e-18    5921.852 - 9.43e-19
-TIM+F+R2          -2268.175    4974.349 -  9.3e-15    5256.930 - 7.09e-18    5922.558 - 6.63e-19
-HKY+F+I+I+R2      -2271.409    4978.818 - 9.95e-16    5258.011 - 4.13e-18    5922.698 - 6.18e-19
-TPM2u+F+R2        -2271.470    4978.940 - 9.37e-16    5258.133 - 3.88e-18    5922.819 - 5.82e-19
-TIM3+F+R2         -2268.583    4975.167 - 6.18e-15    5257.747 - 4.71e-18    5923.375 -  4.4e-19
-TN+F+G4           -2275.013    4984.026 - 7.36e-17    5259.863 - 1.64e-18    5923.576 - 3.98e-19
-TN+F+I+I+R2       -2268.896    4975.791 - 4.52e-15    5258.372 - 3.45e-18    5924.000 - 3.22e-19
-TIM2+F+R2         -2269.107    4976.214 - 3.66e-15    5258.795 - 2.79e-18    5924.423 - 2.61e-19
-K3Pu+F+G4         -2276.309    4986.619 - 2.01e-17    5262.455 - 4.47e-19    5926.168 - 1.09e-19
-K3Pu+F+I+I+R2     -2270.262    4978.524 - 1.15e-15    5261.105 - 8.79e-19    5926.733 - 8.22e-20
-TPM3u+F+I+I+R2    -2270.411    4978.822 - 9.93e-16    5261.403 - 7.57e-19    5927.031 - 7.08e-20
-TPM3u+F+G4        -2276.744    4987.488 -  1.3e-17    5263.324 -  2.9e-19    5927.037 - 7.06e-20
-TPM2u+F+G4        -2276.975    4987.950 - 1.03e-17    5263.787 -  2.3e-19    5927.500 -  5.6e-20
-TIM+F+G4          -2273.977    4983.954 - 7.63e-17    5263.147 - 3.17e-19    5927.833 - 4.74e-20
-TIM+F+I+I+R2      -2267.736    4975.472 -  5.3e-15    5261.472 - 7.32e-19    5928.010 - 4.34e-20
-TIM3+F+I+I+R2     -2267.963    4975.925 - 4.23e-15    5261.925 - 5.83e-19    5928.464 - 3.46e-20
-TPM2u+F+I+I+R2    -2271.218    4980.436 - 4.43e-16    5263.017 - 3.38e-19    5928.645 - 3.16e-20
-TIM3+F+G4         -2274.536    4985.072 - 4.37e-17    5264.265 - 1.81e-19    5928.951 - 2.71e-20
-TIM2+F+G4         -2274.629    4985.259 - 3.98e-17    5264.452 - 1.65e-19    5929.138 - 2.47e-20
-TIM2+F+I+I+R2     -2268.612    4977.225 - 2.21e-15    5263.225 - 3.05e-19    5929.764 - 1.81e-20
-TVM+F+R2          -2270.214    4980.429 - 4.45e-16    5266.429 - 6.14e-20    5932.968 - 3.64e-21
-GTR+F+R2          -2268.033    4978.066 - 1.45e-15    5267.517 - 3.56e-20    5934.934 - 1.36e-21
-TVM+F+I+I+R2      -2269.862    4981.725 - 2.33e-16    5271.176 - 5.72e-21    5938.593 - 2.18e-22
-TVM+F+G4          -2276.206    4990.412 - 3.02e-18    5272.993 -  2.3e-21    5938.621 - 2.15e-22
-GTR+F+I+I+R2      -2267.428    4978.857 - 9.76e-16    5271.791 -  4.2e-21    5940.055 - 1.05e-22
-GTR+F+G4          -2273.844    4987.688 - 1.18e-17    5273.688 - 1.63e-21    5940.227 - 9.65e-23
-GTR+F+I+G4        -2274.228    4990.456 - 2.96e-18    5279.908 - 7.26e-23    5947.325 - 2.78e-24
-GTR+F+R3          -2268.040    4982.080 - 1.95e-16    5278.531 - 1.45e-22    5947.608 - 2.41e-24
-JC+R2             -2301.405    5028.809 - 1.39e-26    5291.530 - 2.17e-25    5951.040 - 4.33e-25
-GTR+F+I+I+R3      -2267.296    4982.592 - 1.51e-16    5282.592 -  1.9e-23    5952.449 - 2.14e-25
-JC+I+I+R2         -2301.806    5031.613 - 3.42e-27    5297.567 - 1.06e-26    5958.173 - 1.22e-26
-JC+G4             -2310.475    5044.950 - 4.34e-30    5304.467 - 3.37e-28    5962.850 - 1.18e-27
-F81+F+R2          -2329.088    5090.176 - 6.56e-40    5362.688 - 7.68e-41    6025.396 - 3.09e-41
-F81+F+G4          -2335.434    5100.867 - 3.13e-42    5370.085 -  1.9e-42    6031.757 - 1.29e-42
-F81+F+I+I+R2      -2329.311    5092.621 - 1.93e-40    5368.458 - 4.29e-42    6032.171 - 1.05e-42
-GTR+F+I           -2341.315    5122.631 - 5.88e-47    5408.631 - 8.11e-51    6075.169 - 4.81e-52
-GTR+F             -2347.958    5133.916 - 2.08e-49    5416.497 - 1.59e-52    6082.125 - 1.49e-53
+K2P+R2            -2250.695    4929.390 -   0.0225    5195.344 +    0.425    5855.951 +    0.518
+K2P+G4            -2254.972    4935.943 - 0.000848    5198.664 +   0.0808    5858.174 +     0.17
+K3P+R2            -2249.276    4928.551 -   0.0342    5197.769 +    0.126    5859.441 +   0.0904
+K2P+R3            -2246.843    4925.687 +    0.143    5198.198 +    0.102    5860.906 -   0.0435
+K3P+G4            -2253.548    4935.097 -   0.0013    5201.050 -   0.0245    5861.657 -   0.0299
+TPM3+R2           -2250.504    4931.008 -     0.01    5200.225 -    0.037    5861.898 -   0.0265
+TPM2+R2           -2250.652    4931.305 -  0.00863    5200.522 -   0.0319    5862.195 -   0.0228
+TNe+R2            -2250.677    4931.353 -  0.00842    5200.571 -   0.0311    5862.243 -   0.0223
+K2P+I+I+R2        -2250.919    4931.838 -  0.00661    5201.055 -   0.0244    5862.728 -   0.0175
+K3P+R3            -2245.254    4924.508 +    0.258    5200.345 -   0.0349    5864.058 -  0.00899
+TPM3+G4           -2254.809    4937.617 - 0.000367    5203.571 -  0.00695    5864.177 -  0.00847
+TPM2+G4           -2254.930    4937.860 - 0.000325    5203.814 -  0.00615    5864.420 -   0.0075
+TNe+G4            -2254.934    4937.867 - 0.000324    5203.821 -  0.00613    5864.427 -  0.00748
+K2P+I+G4          -2255.382    4938.765 - 0.000207    5204.719 -  0.00391    5865.325 -  0.00477
+TIMe+R2           -2249.259    4930.518 -   0.0128    5203.030 -   0.0091    5865.738 -  0.00388
+K3P+I+I+R2        -2249.552    4931.104 -  0.00954    5203.616 -  0.00679    5866.324 -   0.0029
+TPM2+R3           -2246.627    4927.255 +   0.0654    5203.091 -  0.00883    5866.804 -  0.00228
+TNe+R3            -2246.760    4927.520 +   0.0572    5203.356 -  0.00773    5867.069 -    0.002
+TIMe+G4           -2253.514    4937.028 - 0.000493    5206.246 -  0.00182    5867.918 -   0.0013
+TIM3e+R2          -2250.492    4932.984 -  0.00373    5205.495 -  0.00265    5868.203 -  0.00113
+TIM2e+R2          -2250.646    4933.292 -  0.00319    5205.804 -  0.00227    5868.512 -  0.00097
+TPM3+I+I+R2       -2250.697    4933.395 -  0.00303    5205.907 -  0.00216    5868.615 - 0.000921
+K3P+I+G4          -2253.976    4937.951 - 0.000311    5207.169 -  0.00115    5868.841 - 0.000823
+TPM2+I+I+R2       -2250.858    4933.715 -  0.00258    5206.227 -  0.00184    5868.935 - 0.000785
+TNe+I+I+R2        -2250.918    4933.835 -  0.00243    5206.347 -  0.00173    5869.055 - 0.000739
+K2P+I+I+R3        -2247.907    4929.814 -   0.0182    5205.650 -  0.00246    5869.363 - 0.000634
+TIMe+R3           -2245.153    4926.307 +    0.105    5205.500 -  0.00265    5870.186 -  0.00042
+TIM3e+G4          -2254.755    4939.511 - 0.000143    5208.728 - 0.000527    5870.401 - 0.000377
+TIM2e+G4          -2254.894    4939.789 - 0.000124    5209.006 - 0.000459    5870.679 - 0.000328
+TPM3+R3           -2248.668    4931.335 -   0.0085    5207.172 -  0.00115    5870.885 - 0.000296
+TPM3+I+G4         -2255.212    4940.425 - 9.02e-05    5209.642 - 0.000334    5871.315 - 0.000239
+TPM2+I+G4         -2255.338    4940.676 - 7.96e-05    5209.893 - 0.000294    5871.566 - 0.000211
+TNe+I+G4          -2255.353    4940.707 - 7.84e-05    5209.924 -  0.00029    5871.597 - 0.000207
+TVMe+R2           -2249.239    4932.478 -   0.0048    5208.315 - 0.000648    5872.027 - 0.000167
+TIMe+I+I+R2       -2249.480    4932.960 -  0.00377    5208.797 - 0.000509    5872.510 - 0.000131
+K3P+I+I+R3        -2246.373    4928.747 -    0.031    5207.940 - 0.000782    5872.626 - 0.000124
+TIM2e+R3          -2246.469    4928.939 -   0.0282    5208.132 -  0.00071    5872.818 - 0.000113
+TIM3e+R3          -2246.626    4929.252 -   0.0241    5208.445 - 0.000607    5873.131 - 9.63e-05
+TVMe+G4           -2253.497    4938.993 - 0.000185    5211.505 - 0.000132    5874.213 - 5.61e-05
+TIM3e+I+I+R2      -2250.696    4935.391 -  0.00112    5211.228 - 0.000151    5874.941 -  3.9e-05
+TPM3+I+I+R3       -2247.609    4931.218 -  0.00901    5210.411 - 0.000227    5875.098 -  3.6e-05
+TIMe+I+G4         -2253.952    4939.903 - 0.000117    5212.415 - 8.34e-05    5875.123 - 3.56e-05
+TPM2+I+I+R3       -2247.647    4931.295 -  0.00867    5210.488 - 0.000219    5875.174 - 3.47e-05
+TIM2e+I+I+R2      -2250.860    4935.719 - 0.000949    5211.556 - 0.000128    5875.269 - 3.31e-05
+TNe+I+I+R3        -2247.893    4931.786 -  0.00678    5210.979 - 0.000171    5875.665 - 2.71e-05
+TVMe+R3           -2245.013    4928.025 -   0.0445    5210.606 - 0.000206    5876.234 - 2.04e-05
+TIM3e+I+G4        -2255.180    4942.359 - 3.43e-05    5214.871 - 2.44e-05    5877.579 - 1.04e-05
+TIM2e+I+G4        -2255.313    4942.626 -    3e-05    5215.138 - 2.14e-05    5877.846 - 9.12e-06
+SYM+R2            -2249.297    4934.595 -  0.00167    5213.788 -  4.2e-05    5878.474 - 6.66e-06
+TVMe+I+I+R2       -2249.439    4934.878 -  0.00145    5214.071 - 3.65e-05    5878.757 - 5.78e-06
+TIMe+I+I+R3       -2246.413    4930.825 -    0.011    5213.406 - 5.08e-05    5879.034 - 5.03e-06
+SYM+G4            -2253.456    4940.912 - 7.07e-05    5216.749 - 9.55e-06    5880.462 - 2.47e-06
+TIM3e+I+I+R3      -2247.498    4932.996 -   0.0037    5215.577 - 1.72e-05    5881.205 -  1.7e-06
+TIM2e+I+I+R3      -2247.578    4933.157 -  0.00342    5215.737 - 1.58e-05    5881.366 - 1.57e-06
+TVMe+I+G4         -2253.918    4941.835 - 4.46e-05    5217.672 - 6.02e-06    5881.385 - 1.55e-06
+SYM+R3            -2244.919    4929.837 -    0.018    5215.837 - 1.51e-05    5882.376 - 9.47e-07
+TVMe+I+I+R3       -2245.988    4931.975 -  0.00617    5217.975 - 5.17e-06    5884.514 - 3.25e-07
+SYM+I+I+R2        -2249.438    4936.876 - 0.000532    5219.457 - 2.47e-06    5885.085 - 2.44e-07
+SYM+I+G4          -2253.893    4943.785 - 1.68e-05    5222.978 - 4.24e-07    5887.664 - 6.73e-08
+SYM+I+I+R3        -2245.668    4933.336 -  0.00312    5222.787 - 4.67e-07    5890.204 - 1.89e-08
+HKY+F+G4          -2284.694    5001.389 - 5.22e-18    5273.900 - 3.72e-18    5936.608 - 1.58e-18
+HKY+F+R2          -2282.145    4998.290 - 2.46e-17    5274.127 - 3.32e-18    5937.839 - 8.56e-19
+K3Pu+F+G4         -2282.490    4998.979 - 1.74e-17    5274.816 - 2.35e-18    5938.529 - 6.06e-19
+TN+F+G4           -2282.590    4999.180 - 1.57e-17    5275.017 - 2.13e-18    5938.730 - 5.48e-19
+K3Pu+F+R2         -2279.882    4995.763 - 8.69e-17    5274.956 - 2.19e-18    5939.643 - 3.47e-19
+TPM3u+F+G4        -2283.212    5000.425 - 8.44e-18    5276.262 - 1.14e-18    5939.974 - 2.94e-19
+TN+F+R2           -2280.110    4996.220 - 6.91e-17    5275.413 - 1.74e-18    5940.099 - 2.77e-19
+HKY+F+R3          -2276.975    4991.951 - 5.84e-16    5274.531 - 2.71e-18    5940.159 - 2.68e-19
+TIM+F+G4          -2280.362    4996.724 - 5.37e-17    5275.917 - 1.36e-18    5940.603 - 2.15e-19
+TPM3u+F+R2        -2280.542    4997.083 - 4.49e-17    5276.276 - 1.13e-18    5940.962 -  1.8e-19
+K3Pu+F+R3         -2274.384    4988.767 - 2.87e-15    5274.767 - 2.41e-18    5941.306 - 1.51e-19
+TPM2u+F+G4        -2283.931    5001.863 - 4.11e-18    5277.700 - 5.56e-19    5941.412 - 1.43e-19
+TIM+F+R2          -2277.802    4993.603 - 2.56e-16    5276.184 - 1.19e-18    5941.812 - 1.17e-19
+TIM3+F+G4         -2281.211    4998.422 -  2.3e-17    5277.615 -  5.8e-19    5942.301 -  9.2e-20
+HKY+F+I+I+R2      -2281.620    4999.240 - 1.53e-17    5278.433 - 3.85e-19    5943.119 - 6.11e-20
+TPM2u+F+R2        -2281.622    4999.243 - 1.52e-17    5278.436 - 3.85e-19    5943.122 -  6.1e-20
+TN+F+R3           -2275.313    4990.625 - 1.13e-15    5276.625 - 9.51e-19    5943.164 - 5.97e-20
+TPM3u+F+R3        -2275.461    4990.921 - 9.78e-16    5276.921 -  8.2e-19    5943.460 - 5.15e-20
+TIM3+F+R2         -2278.635    4995.270 - 1.11e-16    5277.850 - 5.15e-19    5943.478 -  5.1e-20
+TIM2+F+G4         -2281.803    4999.607 - 1.27e-17    5278.800 - 3.21e-19    5943.486 - 5.09e-20
+HKY+F+I+G4        -2285.088    5004.175 - 1.29e-18    5280.012 - 1.75e-19    5943.725 - 4.51e-20
+TIM+F+R3          -2272.729    4987.458 - 5.52e-15    5276.910 - 8.25e-19    5944.327 - 3.34e-20
+TPM2u+F+R3        -2275.958    4991.917 - 5.94e-16    5277.917 - 4.99e-19    5944.455 - 3.13e-20
+TN+F+I+I+R2       -2279.173    4996.347 - 6.49e-17    5278.927 - 3.01e-19    5944.556 - 2.98e-20
+K3Pu+F+I+I+R2     -2279.387    4996.775 - 5.24e-17    5279.355 - 2.43e-19    5944.984 -  2.4e-20
+TIM2+F+R2         -2279.524    4997.047 - 4.57e-17    5279.628 - 2.12e-19    5945.256 -  2.1e-20
+K3Pu+F+I+G4       -2282.888    5001.776 -  4.3e-18    5280.969 - 1.08e-19    5945.655 - 1.72e-20
+TPM3u+F+I+I+R2    -2279.779    4997.557 - 3.54e-17    5280.138 - 1.64e-19    5945.766 - 1.63e-20
+TN+F+I+G4         -2282.960    5001.919 -    4e-18    5281.112 - 1.01e-19    5945.798 -  1.6e-20
+TIM+F+I+I+R2      -2276.902    4993.804 - 2.31e-16    5279.804 - 1.94e-19    5946.342 - 1.22e-20
+TIM3+F+R3         -2273.911    4989.823 - 1.69e-15    5279.274 - 2.53e-19    5946.691 - 1.02e-20
+TIM2+F+R3         -2274.130    4990.260 - 1.36e-15    5279.712 - 2.03e-19    5947.129 - 8.23e-21
+TPM3u+F+I+G4      -2283.658    5003.317 - 1.99e-18    5282.510 - 5.02e-20    5947.196 - 7.96e-21
+TIM3+F+I+I+R2     -2277.454    4994.908 - 1.33e-16    5280.908 - 1.12e-19    5947.446 - 7.02e-21
+TIM+F+I+G4        -2280.734    4999.469 - 1.36e-17    5282.050 - 6.31e-20    5947.678 - 6.25e-21
+HKY+F+I+I+R3      -2277.572    4995.144 - 1.18e-16    5281.144 - 9.93e-20    5947.682 - 6.24e-21
+TPM2u+F+I+I+R2    -2281.082    5000.164 - 9.62e-18    5282.745 - 4.46e-20    5948.373 - 4.42e-21
+TPM2u+F+I+G4      -2284.333    5004.665 - 1.01e-18    5283.858 - 2.56e-20    5948.544 - 4.05e-21
+TVM+F+G4          -2281.222    5000.443 - 8.37e-18    5283.024 - 3.88e-20    5948.652 - 3.84e-21
+K3Pu+F+I+I+R3     -2275.075    4992.150 - 5.29e-16    5281.602 -  7.9e-20    5949.019 -  3.2e-21
+TIM3+F+I+G4       -2281.585    5001.170 - 5.82e-18    5283.751 -  2.7e-20    5949.379 - 2.67e-21
+TIM2+F+I+I+R2     -2278.594    4997.188 - 4.26e-17    5283.188 - 3.57e-20    5949.727 - 2.24e-21
+TN+F+I+I+R3       -2275.440    4992.880 - 3.67e-16    5282.331 - 5.49e-20    5949.748 - 2.22e-21
+TVM+F+R2          -2278.632    4997.264 -  4.1e-17    5283.264 - 3.44e-20    5949.803 - 2.16e-21
+TPM3u+F+I+I+R3    -2275.645    4993.289 - 2.99e-16    5282.741 - 4.47e-20    5950.158 - 1.81e-21
+TIM2+F+I+G4       -2282.192    5002.384 - 3.17e-18    5284.965 - 1.47e-20    5950.593 - 1.46e-21
+TIM+F+I+I+R3      -2272.810    4989.619 - 1.87e-15    5282.554 - 4.91e-20    5950.817 -  1.3e-21
+TVM+F+R3          -2272.956    4989.912 - 1.62e-15    5282.846 - 4.24e-20    5951.110 - 1.12e-21
+GTR+F+G4          -2279.551    4999.102 - 1.64e-17    5285.102 - 1.37e-20    5951.641 - 8.62e-22
+TIM3+F+I+I+R3     -2273.400    4990.799 - 1.04e-15    5283.734 - 2.72e-20    5951.998 - 7.21e-22
+TPM2u+F+I+I+R3    -2276.575    4995.149 - 1.18e-16    5284.600 - 1.76e-20    5952.017 - 7.14e-22
+GTR+F+R2          -2277.151    4996.301 - 6.64e-17    5285.753 - 9.91e-21    5953.170 - 4.01e-22
+TIM2+F+I+I+R3     -2274.147    4992.294 - 4.92e-16    5285.229 - 1.29e-20    5953.492 - 3.42e-22
+GTR+F+R3          -2271.300    4988.599 - 3.12e-15    5285.050 - 1.41e-20    5954.127 - 2.49e-22
+TVM+F+I+I+R2      -2277.936    4997.872 - 3.03e-17    5287.323 - 4.52e-21    5954.740 - 1.83e-22
+TVM+F+I+G4        -2281.598    5003.195 - 2.11e-18    5289.195 - 1.77e-21    5955.734 - 1.11e-22
+GTR+F+I+I+R2      -2275.861    4995.722 - 8.87e-17    5288.657 - 2.32e-21    5956.920 - 6.15e-23
+TVM+F+I+I+R3      -2273.043    4992.086 - 5.46e-16    5288.537 - 2.46e-21    5957.614 - 4.35e-23
+GTR+F+I+G4        -2279.880    5001.761 - 4.33e-18    5291.212 - 6.47e-22    5958.629 - 2.62e-23
+GTR+F+I+I+R3      -2270.765    4989.530 - 1.96e-15    5289.530 -  1.5e-21    5959.387 - 1.79e-23
+JC+R2             -2311.553    5049.106 - 2.27e-28    5311.826 - 2.16e-26    5971.337 - 4.56e-26
+JC+I+I+R2         -2311.921    5051.841 - 5.78e-29    5317.795 - 1.09e-27    5978.402 - 1.33e-27
+JC+G4             -2318.495    5060.989 - 5.96e-31    5320.506 - 2.82e-28    5978.890 - 1.04e-27
+JC+R3             -2311.586    5053.172 - 2.97e-29    5322.389 -  1.1e-28    5984.062 - 7.86e-29
+JC+I+G4           -2319.070    5064.140 - 1.23e-31    5326.861 - 1.17e-29    5986.371 - 2.48e-29
+JC+I+I+R3         -2311.756    5055.512 - 9.22e-30    5328.023 - 6.57e-30    5990.732 -  2.8e-30
+F81+F+R2          -2340.804    5113.607 - 2.24e-42    5386.119 - 1.59e-42    6048.827 - 6.79e-43
+F81+F+G4          -2345.063    5120.127 - 8.58e-44    5389.344 - 3.17e-43    6051.017 - 2.27e-43
+F81+F+I+I+R2      -2340.665    5115.330 - 9.44e-43    5391.167 - 1.28e-43    6054.880 - 3.29e-44
+F81+F+R3          -2338.980    5113.960 - 1.87e-42    5393.153 - 4.73e-44    6057.840 - 7.49e-45
+F81+F+I+G4        -2345.472    5122.944 -  2.1e-44    5395.456 - 1.49e-44    6058.164 - 6.37e-45
+F81+F+I+I+R3      -2339.286    5116.573 - 5.07e-43    5399.153 - 2.35e-45    6064.782 - 2.33e-46
+GTR+F+I           -2344.826    5129.651 - 7.34e-46    5415.651 - 6.15e-49    6082.190 - 3.86e-50
+GTR+F             -2351.203    5140.407 - 3.39e-48    5422.987 - 1.57e-50    6088.615 - 1.56e-51
 
 AIC, w-AIC   : Akaike information criterion scores and weights.
 AICc, w-AICc : Corrected AIC scores and weights.
@@ -126,42 +189,42 @@ Model of substitution: K2P+R2
 Rate parameter R:
 
   A-C: 1.0000
-  A-G: 4.4214
+  A-G: 4.8482
   A-T: 1.0000
   C-G: 1.0000
-  C-T: 4.4214
+  C-T: 4.8482
   G-T: 1.0000
 
 State frequencies: (equal frequencies)
 
 Rate matrix Q:
 
-  A        -1    0.1557    0.6885    0.1557
-  C    0.1557        -1    0.1557    0.6885
-  G    0.6885    0.1557        -1    0.1557
-  T    0.1557    0.6885    0.1557        -1
+  A        -1     0.146     0.708     0.146
+  C     0.146        -1     0.146     0.708
+  G     0.708     0.146        -1     0.146
+  T     0.146     0.708     0.146        -1
 
 Model of rate heterogeneity: FreeRate with 2 categories
-Site proportion and rates:  (0.758,0.3071) (0.242,3.171)
+Site proportion and rates:  (0.7491,0.2896) (0.2509,3.121)
 
  Category  Relative_rate  Proportion
-  1         0.3071         0.758
-  2         3.171          0.242
+  1         0.2896         0.7491
+  2         3.121          0.2509
 
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -2212.2308 (s.e. 178.7984)
+Log-likelihood of the tree: -2210.3166 (s.e. 179.0015)
 Unconstrained log-likelihood (without tree): -1383.7914
 Number of free parameters (#branches + #model parameters): 214
-Akaike information criterion (AIC) score: 4852.4616
-Corrected Akaike information criterion (AICc) score: 5118.4154
-Bayesian information criterion (BIC) score: 5779.0219
+Akaike information criterion (AIC) score: 4848.6332
+Corrected Akaike information criterion (AICc) score: 5114.5870
+Bayesian information criterion (BIC) score: 5775.1935
 
-Total tree length (sum of branch lengths): 15.4388
-Sum of internal branch lengths: 10.0199 (64.9006% of tree length)
+Total tree length (sum of branch lengths): 17.3959
+Sum of internal branch lengths: 11.8013 (67.8399% of tree length)
 
-WARNING: 49 near-zero internal branches (<0.0018) should be treated with caution
+WARNING: 48 near-zero internal branches (<0.0018) should be treated with caution
          Such branches are denoted by '**' in the figure below
 
 NOTE: Tree is UNROOTED although outgroup taxon 'NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1' is drawn at root
@@ -172,222 +235,222 @@ NOTE: Tree is UNROOTED although outgroup taxon 'NM_001372078_1_Homo_sapiens_REV3
 |                 +--|
 |                 |  +**XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
 |              +**|
-|              |  +--XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1
+|              |  |  +--XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|              |  +--|
+|              |     +--XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
 |           +**|
 |           |  +--XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1
 |        +--|
-|        |  |     +**XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-|        |  |  +--|
-|        |  |  |  +----------------------------XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-|        |  +--|
-|        |     +--XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|        |  +--XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1
 |     +**|
-|     |  +--XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|     |  |                                 +**XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|     |  |                              +**|
+|     |  |                              |  |  +**XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|     |  |                              |  +--|
+|     |  |                              |     +--XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|     |  |                           +--|
+|     |  |                           |  +--XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|     |  |                        +--|
+|     |  |                        |  +--XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1
+|     |  |              +---------|
+|     |  |              |         +--XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|     |  |           +--|
+|     |  |           |  +**XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|     |  |        +--|
+|     |  |        |  +--XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|     |  |     +--|
+|     |  |     |  +--XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|     |  |  +**|
+|     |  |  |  +**XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|     |  +--|
+|     |     |  +--XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|     |     +--|
+|     |        |     +**XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|     |        |  +**|
+|     |        |  |  +**XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|     |        +**|
+|     |           +--XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
 |  +**|
-|  |  |        +**XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-|  |  |     +--|
-|  |  |     |  +--XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1
+|  |  |                                         +**XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                                      +--|
+|  |  |                                      |  +**XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                                   +**|
+|  |  |                                   |  |  +--XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                                   |  +--|
+|  |  |                                   |     +**XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                                +--|
+|  |  |                                |  |  +**XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                                |  +**|
+|  |  |                                |     +**XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             +--|
+|  |  |                             |  |                          +--XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             |  |                       +--|
+|  |  |                             |  |                       |  +--XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             |  |                    +--|
+|  |  |                             |  |                    |  |  +--XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             |  |                    |  +**|
+|  |  |                             |  |                    |     |  +**XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             |  |                    |     +--|
+|  |  |                             |  |                    |        |                                                         +--XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|  |  |                             |  |                    |        +---------------------------------------------------------|
+|  |  |                             |  |                    |                                                                  +**XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             |  |                 +--|
+|  |  |                             |  |                 |  |     +------------------------XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                             |  |                 |  |  +--|
+|  |  |                             |  |                 |  |  |  +**XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                             |  |                 |  +--|
+|  |  |                             |  |                 |     +--XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             |  |              +**|
+|  |  |                             |  |              |  |  +--XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                             |  |              |  +**|
+|  |  |                             |  |              |     +--XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             |  |           +--|
+|  |  |                             |  |           |  +--XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                             |  |        +**|
+|  |  |                             |  |        |  +--XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                             |  |     +**|
+|  |  |                             |  |     |  |  +--XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             |  |     |  +--|
+|  |  |                             |  |     |     +**XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1
+|  |  |                             |  |  +**|
+|  |  |                             |  |  |  |  +--XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             |  |  |  +--|
+|  |  |                             |  |  |     +**XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1
+|  |  |                             |  +--|
+|  |  |                             |     |  +--XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                             |     +--|
+|  |  |                             |        +--XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                          +**|
+|  |  |                          |  |     +--XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                          |  |  +**|
+|  |  |                          |  |  |  |  +**XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                          |  |  |  +**|
+|  |  |                          |  |  |     +**XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                          |  +--|
+|  |  |                          |     +--XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                       +**|
+|  |  |                       |  |        +**XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |  |     +**|
+|  |  |                       |  |     |  +**XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |  |  +**|
+|  |  |                       |  |  |  |     +**XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |  |  |  |  +**|
+|  |  |                       |  |  |  |  |  +**XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |  |  |  +--|
+|  |  |                       |  |  |     |  +--XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                       |  |  |     +--|
+|  |  |                       |  |  |        +**XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |  +--|
+|  |  |                       |     |              +**XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |     |           +--|
+|  |  |                       |     |           |  +**XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |     |        +**|
+|  |  |                       |     |        |  +--XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |     |     +--|
+|  |  |                       |     |     |  +**XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1
+|  |  |                       |     |  +**|
+|  |  |                       |     |  |  +--XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                       |     +--|
+|  |  |                       |        |     +--XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |        |  +**|
+|  |  |                       |        |  |  |  +**XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                       |        |  |  +--|
+|  |  |                       |        |  |     +**XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |        +**|
+|  |  |                       |           |  +**XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                       |           +**|
+|  |  |                       |              +**XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |                    +**|
+|  |  |                    |  +**XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |                 +**|
+|  |  |                 |  +**XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |              +**|
+|  |  |              |  |        +--XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|  |  |              |  |     +--|
+|  |  |              |  |     |  +--XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|  |  |              |  |  +--|
+|  |  |              |  |  |  +--XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |              |  +--|
+|  |  |              |     |     +**XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |              |     |  +**|
+|  |  |              |     |  |  +**XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |              |     +**|
+|  |  |              |        |  +**XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |              |        +--|
+|  |  |              |           +**XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |           +--|
+|  |  |           |  +--XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1
+|  |  |        +**|
+|  |  |        |  |           +**XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |        |  |        +**|
+|  |  |        |  |        |  +**XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |        |  |     +--|
+|  |  |        |  |     |  +--XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |        |  |  +--|
+|  |  |        |  |  |  +--XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |        |  +**|
+|  |  |        |     +--XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  |     +**|
+|  |  |     |  |     +--XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |     |  |  +--|
+|  |  |     |  |  |  +**XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |     |  +**|
+|  |  |     |     +--XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |  +**|
+|  |  |  |  +**XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  +--|
+|  |     |        +--XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1
+|  |     |     +--|
+|  |     |     |  |     +**XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |     |     |  |  +**|
+|  |     |     |  |  |  +**XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |     |     |  +--|
+|  |     |     |     +--XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |     |  +--|
+|  |     |  |  |           +**XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |     |  |  |        +--|
+|  |     |  |  |        |  +--XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |     |  |  |     +--|
+|  |     |  |  |     |  +**XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |     |  |  |  +--|
+|  |     |  |  |  |  |  +**XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |     |  |  |  |  +**|
+|  |     |  |  |  |     |  +--XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1
+|  |     |  |  |  |     +**|
+|  |     |  |  |  |        +--XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1
+|  |     |  |  +**|
+|  |     |  |     |  +**XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1
+|  |     |  |     +--|
+|  |     |  |        +**XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|  |     +**|
+|  |        +--XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1
++**|
+|  |              +**XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|  |           +--|
+|  |           |  +--XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1
+|  |        +--|
+|  |        |  +--XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |     +--|
+|  |     |  +--XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
+|  |  +**|
+|  |  |  |     +**XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|  |  |  |  +**|
+|  |  |  |  |  +**XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
 |  |  |  +--|
-|  |  |  |  +--XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-|  |  +--|
-|  |     +--XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-+**|
-|  +**XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-|
-|           +**XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-|        +**|
-|        |  +**XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-|     +--|
-|     |  +--XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
+|  |  |     +--XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
 |  +**|
-|  |  |  +--XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-|  |  +--|
-|  |     +--XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
-+**|
-   |                                +**XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                             +--|
-   |                             |  +**XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                          +**|
-   |                          |  |  +--XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                          |  +--|
-   |                          |     +**XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                       +**|
-   |                       |  +**XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                    +--|
-   |                    |  +**XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 +--|
-   |                 |  |     +--XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1
-   |                 |  |  +--|
-   |                 |  |  |  |        +--XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-   |                 |  |  |  |     +--|
-   |                 |  |  |  |     |  +--XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-   |                 |  |  |  |  +**|
-   |                 |  |  |  |  |  |  +**XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1
-   |                 |  |  |  |  |  +--|
-   |                 |  |  |  |  |     +**XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-   |                 |  |  |  +**|
-   |                 |  |  |     |           +--XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |  |  |     |        +--|
-   |                 |  |  |     |        |  +**XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |                 |  |  |     |     +**|
-   |                 |  |  |     |     |  +--XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1
-   |                 |  |  |     |  +**|
-   |                 |  |  |     |  |  +**XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |  |  |     +--|
-   |                 |  |  |        |  +**XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1
-   |                 |  |  |        +--|
-   |                 |  |  |           |     +**XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
-   |                 |  |  |           |  +--|
-   |                 |  |  |           |  |  +**XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |                 |  |  |           +--|
-   |                 |  |  |              |  +--XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |  |  |              +**|
-   |                 |  |  |                 +--XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |                 |  +--|
-   |                 |     |                    +--XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-   |                 |     |                 +--|
-   |                 |     |                 |  +--XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-   |                 |     |              +--|
-   |                 |     |              |  +--XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-   |                 |     |           +--|
-   |                 |     |           |  |  +**XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |     |           |  +**|
-   |                 |     |           |     |  +--XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |                 |     |           |     +--|
-   |                 |     |           |        |     +**XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |                 |     |           |        |  +**|
-   |                 |     |           |        |  |  +**XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |     |           |        +**|
-   |                 |     |           |           +--XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |     |        +**|
-   |                 |     |        |  +--XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |     |     +--|
-   |                 |     |     |  +**XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1
-   |                 |     |  +**|
-   |                 |     |  |  |        +--XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |     |  |  |     +--|
-   |                 |     |  |  |     |  +--XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |     |  |  |  +--|
-   |                 |     |  |  |  |  |  +--XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |     |  |  |  |  +**|
-   |                 |     |  |  |  |     +--XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |     |  |  +--|
-   |                 |     |  |     |  +--XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |     |  |     +--|
-   |                 |     |  |        +--XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |                 |     +**|
-   |                 |        |  +--XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |                 |        +**|
-   |                 |           |  +--XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
-   |                 |           +**|
-   |                 |              |  +--XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |                 |              +--|
-   |                 |                 +**XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1
-   |              +--|
-   |              |  |                 +**XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |              +**|
-   |              |  |              |  |              +**XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |              |  |           +--|
-   |              |  |              |  |           |  +**XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |              |  |        +--|
-   |              |  |              |  |        |  |  +--XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |              |  |        |  +**|
-   |              |  |              |  |        |     +**XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1
-   |              |  |              |  |     +**|
-   |              |  |              |  |     |  +--XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |              |  |              |  |  +**|
-   |              |  |              |  |  |  |  +**XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |              |  |  |  +**|
-   |              |  |              |  |  |     +**XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |              |  |              |  +--|
-   |              |  |              |     |  +--XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |              |     +**|
-   |              |  |              |        |  +**XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
-   |              |  |              |        +--|
-   |              |  |              |           +**XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |           +--|
-   |              |  |           |  |        +**XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |           |  |     +**|
-   |              |  |           |  |     |  +**XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |           |  |  +--|
-   |              |  |           |  |  |  |     +**XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |              |  |           |  |  |  |  +--|
-   |              |  |           |  |  |  |  |  +--XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |           |  |  |  +--|
-   |              |  |           |  |  |     +**XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |           |  +**|
-   |              |  |           |     +**XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |        +--|
-   |              |  |        |  +--XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |     +**|
-   |              |  |     |  |     +**XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |              |  |     |  |  +**|
-   |              |  |     |  |  |  +**XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |     |  +--|
-   |              |  |     |     |     +**XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |     |     |  +--|
-   |              |  |     |     |  |  +**XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |     |     +**|
-   |              |  |     |        +--XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
-   |              |  |  +**|
-   |              |  |  |  |  +**XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  |  |  +**|
-   |              |  |  |     +**XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |  +**|
-   |              |     |        +--XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |     |     +**|
-   |              |     |     |  |  +**XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |              |     |     |  +**|
-   |              |     |     |     +**XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1
-   |              |     |  +--|
-   |              |     |  |  +--XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |              |     +**|
-   |              |        +--XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1
-   |           +**|
-   |           |  |     +--XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |           |  |  +**|
-   |           |  |  |  |                                                         +--XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-   |           |  |  |  +---------------------------------------------------------|
-   |           |  |  |                                                            +**XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |           |  +--|
-   |           |     +**XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |        +**|
-   |        |  |                          +**XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-   |        |  |                       +**|
-   |        |  |                       |  |  +**XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |        |  |                       |  +--|
-   |        |  |                       |     +--XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |        |  |                    +--|
-   |        |  |                    |  +--XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-   |        |  |                 +--|
-   |        |  |                 |  +--XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1
-   |        |  |     +-----------|
-   |        |  |     |           +--XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1
-   |        |  |  +--|
-   |        |  |  |  +--XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1
-   |        |  +**|
-   |        |     +--XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1
-   |     +**|
-   |     |  +**XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |  +**|
-   |  |  |        +**XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |  |  |     +**|
-   |  |  |     |  +**XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |  |  |  +--|
-   |  |  |  |  +--XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   |  |  +--|
-   |  |     +--XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
-   +--|
-      +--XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|     +--XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
+|
++**XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1
 
 Tree in newick format:
 
-(NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1:0.0000009998,(((((((NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0416997309,XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0000021828):0.0097946130,XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0202795569):0.0000022945,XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0099986589):0.0000021548,((XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0000026038,XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:3.9351235473):0.0100929807,XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0096299169):0.0101938020):0.0097990749,XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0202686477):0.0000021854,(((XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0000024607,XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0202787444):0.0424973132,XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0105048073):0.0095764197,XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0103589963):0.0097732464):0.0000028642,XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0000021316,((((XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998,XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0000021198,XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0426413692):0.0097943612,(XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0649459573,XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0205808234):0.0099719353):0.0000022794,(((((((((((XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998,XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0202785553,(XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0198566259,XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000022039):0.0097960960):0.0000020664,XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0000022071,XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0093949250,((XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1:0.0198588278,(((XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0322810244,XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0217130536):0.0090843157,(XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0000021981,XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0000021983):0.0097959807):0.0000027145,((((XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0097964273,XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000022680):0.0198616189,XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0540662341):0.0000027533,XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000027175):0.0000021449,(XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0000022218,((XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000009998,XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000009998):0.0097874067,(XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0308927764,XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0198863176):0.0000020512):0.0100482475):0.0097898316):0.0100019208):0.0000026783):0.0097976885,(((((((XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0093423684,XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0209038260):0.0109292234,XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0198815487):0.0204513680,(XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000021848,(XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0436269797,((XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000009998,XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0000022674,XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0097975505):0.0000027000):0.0097972538):0.0000021618):0.0198634788,XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0097972642):0.0000021772,XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1:0.0000022299):0.0097970067,(((XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0439871311,XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0090952224):0.0110429723,(XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0427207561,XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0097925823):0.0000024768):0.0222235723,(XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0102710428,XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0306840746):0.0726740629):0.0310810749):0.0000024961,(XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0198577056,(XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0417103218,(XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0198549026,XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1:0.0000022517):0.0207228983):0.0000021643):0.0000026273):0.0000022638):0.0050586379):0.0052487869,((((((XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998,(((((XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000021364,XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000022570):0.0198579437,(XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0097954786,XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1:0.0000020682):0.0000022397):0.0097955430,XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0097902249):0.0000023446,(XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998,XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000009998):0.0000021957):0.0000021132,(XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0097956418,(XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000022112,XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000022112):0.0198939570):0.0000027479):0.0099995689):0.0000024270,(((XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000028861,XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000021774):0.0000027194,((XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000023340,XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0540837070):0.0097956021,XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000022408):0.0097958136):0.0099997991,XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0000020358):0.0032351683,XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0415531164):0.0068193059,((XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000009998,XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0000028762,((XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998,XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0097959728,XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0199164371):0.0000023133):0.0097954665):0.0000021019,(XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998,XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000022189):0.0000021728):0.0000020532,(((XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0099999895,(XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998,XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000009998):0.0000009998):0.0000022295,XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0301970750):0.0198611370,XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1:0.0097961785):0.0000023736):0.0000020901):0.0097955438,((XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0089860748,(XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.1920433498,XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000023219):7.6629806959):0.0008093740,XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000026485):0.0098191383):0.0000021019,((((((XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0000029079,(XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000022172,XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0101363462):0.0101306626):0.0000022445,XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0205596007):0.0157916856,XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1:0.0159186579):0.0530156194,XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0594251756):1.6718705345,XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1:0.0117023355):0.0185018504,XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0303148149):0.0000020602):0.0000024966,XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0000021160,(((XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998,XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000009998):0.0000021999,XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0097951567):0.0098216465,XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0098211638):0.0102003241):0.0000021536,XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0097951353):0.0097996243):0.0000027802);
+(NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1:0.0000026901,(((((((NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0419149940,XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0000021771):0.0098267904,(XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0102671388,XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0096930102):0.0102800509):0.0000021743,XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0100368573):0.0000023883,XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0203659981):0.0098270474,(((((((((XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0000021139,(XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000022476,XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0101498465):0.0101456899):0.0000029397,XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0205955660):0.0157776222,XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1:0.0165228184):0.0592442172,XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0548378853):1.7252596786,XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0000022276):0.0210000349,XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0093411102):0.0109184813,XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0198182351):0.0206479091,XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000026901):0.0000022232,(XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0438993309,((XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000010010,XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000010010):0.0000024224,XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0098262659):0.0000022108):0.0098262315):0.0199394278):0.0000022082,((((((((((((((XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000022711,XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000022710):0.0203708239,(XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0199350989,XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000023563):0.0098304357):0.0000026923,(XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000023820,XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000010010):0.0000021710):0.0094908055,(((((((((XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0442731946,XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0090926311):0.0111223339,(XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0429630479,(XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000028302,(XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.1947335281,XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000025561):9.3253164698):0.0098285677):0.0000029609):0.0111337064,((XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:4.1384067096,XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000022378):0.0310658206,XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0099955507):0.0879347140):0.0308104577,(XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0304277172,XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0411181323):0.0000021499):0.0000026689,XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0409482978):0.0100477717,XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0199389232):0.0000022510,(XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0098313116,XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1:0.0000026901):0.0098314115):0.0000029779,(XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0199360400,XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1:0.0000022968):0.0208285198):0.0000028763,(XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0775977268,XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0081859787):0.0117376412):0.0051887787):0.0051286724,((XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0100402750,(XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000026901,XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000026901):0.0000024296):0.0000021450,XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0303329728):0.0199388294):0.0000027944,(((XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000023514,XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000026298):0.0000021653,((XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000010010,XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000021815):0.0000022508,(XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0098302086,XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000028118):0.0098302093):0.0100402307):0.0000028465,(((((XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000010010,XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000027978):0.0199360663,XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0098298107):0.0000022181,XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1:0.0000027982):0.0098299158,XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0098259431):0.0000028366,((XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0098300591,(XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000010010,XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000010010):0.0199748274):0.0000020649,(XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000022249,XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000022270):0.0000021911):0.0000028120):0.0100400905):0.0098302782):0.0000021814,XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000026388):0.0000021659,XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000010010):0.0000022530,(((XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0326457236,XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0220091130):0.0089629692,XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0103115977):0.0098183975,((XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000010010,XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000026646):0.0000023798,(XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000010010,XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000010010):0.0098294625):0.0000021759):0.0098271747):0.0000022089,XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1:0.0098294216):0.0098335474,((((XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000026901,XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000023274):0.0000022453,XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0098290932):0.0098566093,XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0098540650):0.0102446085,XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0304121216):0.0000022352):0.0000026787,((XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0098289136,XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000025702):0.0098568662,XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0098290017):0.0000023369):0.0000020070,XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000027087):0.0000022044,(((XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1:0.0101456125,((XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000025476,XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000020394):0.0000023459,XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0419236723):0.0099533881):0.0099135842,((((XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000027278,XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0544571158):0.0098279625,XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0000023228):0.0199344327,(XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000026901,(XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0098273325,XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0544040604):0.0000022212):0.0000023793):0.0100532339,(XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0000021458,XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0000022933):0.0098336354):0.0000023927):0.0098338682,XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1:0.0303264692):0.0000021967):0.0098320096):0.0000027803,(((((XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0000023500,XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1:0.0203657135):0.0426721349,XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0104615220):0.0097095275,XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1:0.0103962968):0.0097828671,((XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000010010,XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000010010):0.0000022280,XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1:0.0428920465):0.0098274647):0.0000026617,XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0203586461):0.0000021272):0.0000020540,XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1:0.0000026901);
 
 TIME STAMP
 ----------
 
-Date and time: Mon Sep 12 14:42:08 2022
-Total CPU time used: 176.134 seconds (0h:2m:56s)
-Total wall-clock time used: 91.7074 seconds (0h:1m:31s)
+Date and time: Tue Oct 11 20:46:16 2022
+Total CPU time used: 186.583 seconds (0h:3m:6s)
+Total wall-clock time used: 97.0848 seconds (0h:1m:37s)
 

@@ -1,30 +1,30 @@
 {
  "Evidence Ratios":{
    "Double-hit vs Single-hit":    [
-[0.9998061256245593, 1.000756746499214, 1.000224511295003, 1.001635454728622, 0.9965052728150622, 1.000392918683258, 1.000995811844567, 0.9996584058412042, 1.001174397924363, 0.9998542491604843, 0.9989733815228361, 0.9990207567028585, 1.000324766506534, 1.000851673254294, 0.9999999999999999] 
+[1.001761364193437, 1.003349751341955, 0.9763548420968323, 1.003549349395275, 1.004850009958036, 1.002181259361127, 1.002244273276135, 0.9989742086029477, 1.001049921574158, 1.000783548008518, 1.000550457194391, 1.002770410070042, 1.002212537161717, 1.001525966737057, 1] 
     ],
    "Triple-hit islands vs Double-hit":    [
-[1.000603242108939, 0.9998752632203014, 1.000458889769881, 0.9987884298565246, 1.002926977507112, 1.000151758945708, 0.999859877532865, 0.9985922944798309, 0.99939286955178, 1.000582960470027, 1.000499446808277, 1.000433313515851, 0.9998347250937111, 0.9992112136577527, 1] 
+[1.000146821356489, 0.9995693019624868, 0.9990103091538849, 1.002026196262667, 0.9994549833328044, 0.9993671861487963, 1.000160919315487, 1.00233555334471, 1.000325452451321, 0.9994240475467768, 1.000327442321113, 0.9973432700773855, 1.000021640193025, 1.001176190816807, 1] 
     ],
    "Triple-hit vs Double-hit":    [
-[0.9993867455659705, 1.000934295102101, 1.001286442419485, 1.002836409855644, 0.997246645567151, 0.9997132256334502, 1.000370568888033, 1.000513368941305, 0.9994489462504436, 1.001032995764872, 0.9988571785998057, 0.9999789563130811, 1.00019739643576, 0.9993820575587372, 1] 
+[1.000123866948055, 0.9995489016131793, 0.998989903592198, 1.001880983420776, 0.9994288054296279, 0.9993316712038397, 1.000148479111644, 1.002873964757155, 1.000251408527498, 0.9993808217797957, 1.000343594063647, 0.9972958107063501, 1.000012188454605, 1.0010793933305, 1] 
     ],
    "Triple-hit vs Triple-hit islands":    [
-[0.9987842368565543, 1.001059163998505, 1.000827173068345, 1.004052890360074, 0.99433624574136, 0.9995615332289968, 1.000510762924529, 1.001923782580832, 1.000056110765218, 1.00044977309491, 0.9983585516076892, 0.9995458395910735, 1.000362731292429, 1.000170978766701, 0.9999999999999998] 
+[0.9999770489612687, 0.9999795908605161, 0.9999795742231087, 0.9998550807928649, 0.9999738078216497, 0.9999644625664632, 0.9999875617977044, 1.000537156853959, 0.9999259801661137, 0.9999567493226852, 1.000016146455501, 0.9999524142063626, 0.9999905484661133, 0.9999033162322518, 1] 
     ]
   },
  "Site Log Likelihood":{
    "MG94 with double and triple instantaneous substitutions":    [
-[-7.753396409720906, -9.372115632920329, -12.77415510942947, -22.9416633660315, -22.80635351241675, -21.58248911342462, -14.05272129622646, -18.16471244391948, -13.6554678551934, -15.43067368566466, -8.183865720940021, -24.22475625104353, -8.75945815274795, -17.41672551059627, -7.771561172376099e-16] 
+[-7.820836047048812, -15.00951046314299, -12.76705643368532, -22.93607132049698, -22.77395187879077, -22.81881480853638, -10.71368459198038, -18.13664450098695, -13.66293897846233, -13.15495893084285, -8.169602648791056, -22.14632355929104, -8.752392710554419, -17.39296331290251, -6.661338147750941e-16] 
     ],
    "MG94 with double and triple instantaneous substitutions [only synonymous islands]":    [
-[-7.752179906937905, -9.373174236400398, -12.77498194057871, -22.94570806555502, -22.80067365828269, -21.58205055049895, -14.05323192875601, -18.16663437840046, -13.65552396438447, -15.43112335764197, -8.182222923895267, -24.22430198747253, -8.759820818269288, -17.41689647474777, -5.551115123125785e-16] 
+[-7.820813095746701, -15.00949005379524, -12.76703600769982, -22.93592639078804, -22.7739256862694, -22.81877927047137, -10.71367215370073, -18.13718151362381, -13.66286495588884, -13.1549156792302, -8.169618795116204, -22.14627597236516, -8.752383258975867, -17.39286662446059, -6.661338147750941e-16] 
     ],
    "MG94 with double instantaneous substitutions":    [
-[-7.752782967169463, -9.373049491840421, -12.77544072509088, -22.94449576086708, -22.80359636053149, -21.58220229793044, -14.0530917964708, -18.16522568113204, -13.65491664955793, -15.43170614825656, -8.1827222460215, -24.22473520713519, -8.759655529703597, -17.41610737714989, -8.881784197001256e-16] 
+[-7.82095990632599, -15.00905926298068, -12.76604582678635, -22.93795053708369, -22.77338052102663, -22.81814625630897, -10.71383306007009, -18.13951434380305, -13.663190355392, -13.15433956085265, -8.16994618383978, -22.14361570707254, -8.752404898934746, -17.39404212410689, -6.661338147750941e-16] 
     ],
    "Standard MG94":    [
-[-7.752589073997957, -9.373805952151375, -12.775665211187, -22.94612987969596, -22.80009551252294, -21.58259513944136, -14.05408711282367, -18.16488402861667, -13.65609035841648, -15.43156038679435, -8.181695100210643, -24.22375548406609, -8.759980243484904, -17.4169586879363, -7.771561172376099e-16] 
+[-7.8227197211366, -15.01240341640322, -12.74211663586474, -22.94149360240359, -22.77821880757685, -22.82032514017765, -10.71607481872658, -18.13848802592193, -13.66423972618399, -13.15512280204769, -8.170496489588183, -22.1463822866297, -8.754614992040496, -17.39556692773979, -6.661338147750941e-16] 
     ]
   },
  "Site substitutions":{
@@ -54,145 +54,152 @@
        "Standard MG94":0,
        "original name":"NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1"
       },
-     "Node19":{
-       "MG94 with double and triple instantaneous substitutions":0.03300068703853497,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03298673452480889,
-       "MG94 with double instantaneous substitutions":0.03315710122695785,
-       "Nucleotide GTR":0.02465059296390912,
-       "Standard MG94":0.03320241675329922
+     "Node124":{
+       "MG94 with double and triple instantaneous substitutions":0.0354596395260363,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03545995777031667,
+       "MG94 with double instantaneous substitutions":0.03584321857904731,
+       "Nucleotide GTR":0.02466840270796297,
+       "Standard MG94":0.03592883180216268
       },
-     "Node23":{
-       "MG94 with double and triple instantaneous substitutions":0.03192573281383809,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03191223096362313,
-       "MG94 with double instantaneous substitutions":0.03207780597820691,
-       "Nucleotide GTR":0.02425404590087112,
-       "Standard MG94":0.03212197472472933
+     "Node127":{
+       "MG94 with double and triple instantaneous substitutions":0.03545990876900571,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03546022369387614,
+       "MG94 with double instantaneous substitutions":0.03584349962563508,
+       "Nucleotide GTR":0.02465803430648136,
+       "Standard MG94":0.0359291163541156
       },
-     "Node244":{
-       "MG94 with double and triple instantaneous substitutions":0.036290901650141,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0362754263092788,
-       "MG94 with double instantaneous substitutions":0.03646032265121541,
-       "Nucleotide GTR":0.02505258566342789,
-       "Standard MG94":0.03650902830471441
+     "Node145":{
+       "MG94 with double and triple instantaneous substitutions":0.03372990526286674,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03372991472696288,
+       "MG94 with double instantaneous substitutions":0.03408537130739176,
+       "Nucleotide GTR":0.02465080441181618,
+       "Standard MG94":0.03416885009212566
       },
-     "Node255":{
-       "MG94 with double and triple instantaneous substitutions":0.03187161241200518,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03190129193167963,
-       "MG94 with double instantaneous substitutions":0.03205019797713698,
-       "Nucleotide GTR":0.02425606285330131,
-       "Standard MG94":0.03206749526932524
+     "Node152":{
+       "MG94 with double and triple instantaneous substitutions":0.03216977053397586,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03216993334298019,
+       "MG94 with double instantaneous substitutions":0.03251671230584974,
+       "Nucleotide GTR":0.02426918419383723,
+       "Standard MG94":0.03259788970687447
       },
-     "Node256":{
-       "MG94 with double and triple instantaneous substitutions":0.02861923543743115,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0286448426803926,
-       "MG94 with double instantaneous substitutions":0.02877203209877568,
-       "Nucleotide GTR":0.02352160205450565,
-       "Standard MG94":0.02878338758375554
+     "Node18":{
+       "MG94 with double and triple instantaneous substitutions":0.03373415139013026,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03373414244307122,
+       "MG94 with double instantaneous substitutions":0.03407186978758846,
+       "Nucleotide GTR":0.02464218067929738,
+       "Standard MG94":0.03415512622994393
       },
-     "Node264":{
-       "MG94 with double and triple instantaneous substitutions":0.02946030100369454,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0294869955509468,
-       "MG94 with double instantaneous substitutions":0.02962640823607355,
-       "Nucleotide GTR":0.02388742966960663,
-       "Standard MG94":0.0296435788804368
+     "Node20":{
+       "MG94 with double and triple instantaneous substitutions":0.03267379125883575,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03267380406565219,
+       "MG94 with double instantaneous substitutions":0.03300206963933857,
+       "Nucleotide GTR":0.02425447180329581,
+       "Standard MG94":0.03308380749776969
+      },
+     "Node259":{
+       "MG94 with double and triple instantaneous substitutions":0.03707773112642853,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03705757171068477,
+       "MG94 with double instantaneous substitutions":0.03744474559107067,
+       "Nucleotide GTR":0.02504542471957005,
+       "Standard MG94":0.03753251022885138
+      },
+     "Node270":{
+       "MG94 with double and triple instantaneous substitutions":0.03261685691081038,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03261683558409451,
+       "MG94 with double instantaneous substitutions":0.03295116851580259,
+       "Nucleotide GTR":0.02426006735759119,
+       "Standard MG94":0.03303295091057048
       },
      "Node272":{
-       "MG94 with double and triple instantaneous substitutions":0.03300028789973961,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03298634044850354,
-       "MG94 with double instantaneous substitutions":0.03315670864551679,
-       "Nucleotide GTR":0.02465115259153447,
-       "Standard MG94":0.03320201863318396
+       "MG94 with double and triple instantaneous substitutions":0.0293225831175258,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02932263911314765,
+       "MG94 with double instantaneous substitutions":0.02962618204716447,
+       "Nucleotide GTR":0.02353326342641527,
+       "Standard MG94":0.02970268192056229
       },
-     "Node49":{
-       "MG94 with double and triple instantaneous substitutions":0.02938726426190282,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02941389579381935,
-       "MG94 with double instantaneous substitutions":0.02955303020303679,
-       "Nucleotide GTR":0.02388198929183388,
-       "Standard MG94":0.02957018855254212
+     "Node279":{
+       "MG94 with double and triple instantaneous substitutions":0.03016295445808422,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03016293690875308,
+       "MG94 with double instantaneous substitutions":0.0304744603287612,
+       "Nucleotide GTR":0.02387166856981392,
+       "Standard MG94":0.03055248004698913
+      },
+     "Node46":{
+       "MG94 with double and triple instantaneous substitutions":0.03010314327826146,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03010315087106304,
+       "MG94 with double instantaneous substitutions":0.03041412767456023,
+       "Nucleotide GTR":0.02388025021040027,
+       "Standard MG94":0.03049204452257644
+      },
+     "Node51":{
+       "MG94 with double and triple instantaneous substitutions":0.08124713761413914,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.08124714281518859,
+       "MG94 with double instantaneous substitutions":0.08204405687509729,
+       "Nucleotide GTR":0.05135116650278326,
+       "Standard MG94":0.08227349291461079
+      },
+     "Node53":{
+       "MG94 with double and triple instantaneous substitutions":0.064001648427622,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.06400273741656308,
+       "MG94 with double instantaneous substitutions":0.06465753733096608,
+       "Nucleotide GTR":0.04950242807407634,
+       "Standard MG94":0.06486102649187034
       },
      "Node54":{
-       "MG94 with double and triple instantaneous substitutions":0.07919841203557039,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0791659361760277,
-       "MG94 with double instantaneous substitutions":0.07964166926315731,
-       "Nucleotide GTR":0.05132790773301401,
-       "Standard MG94":0.07971112196399442
+       "MG94 with double and triple instantaneous substitutions":0.02896826207322742,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02896835709830707,
+       "MG94 with double instantaneous substitutions":0.02925391890935276,
+       "Nucleotide GTR":0.02498255277908585,
+       "Standard MG94":0.02934450017015447
       },
      "Node56":{
-       "MG94 with double and triple instantaneous substitutions":0.06263148546934665,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.06271188502507537,
-       "MG94 with double instantaneous substitutions":0.06299284671144664,
-       "Nucleotide GTR":0.04958303549366159,
-       "Standard MG94":0.06305840983551002
+       "MG94 with double and triple instantaneous substitutions":0.02958836698055281,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02958853940139559,
+       "MG94 with double instantaneous substitutions":0.02990407119058305,
+       "Nucleotide GTR":0.0231036467082025,
+       "Standard MG94":0.0299807604429969
       },
-     "Node57":{
-       "MG94 with double and triple instantaneous substitutions":0.02835652457150413,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02838186816234728,
-       "MG94 with double instantaneous substitutions":0.02850266071651735,
-       "Nucleotide GTR":0.02496147315805431,
-       "Standard MG94":0.02851403119716076
+     "Node58":{
+       "MG94 with double and triple instantaneous substitutions":0.1438047269812559,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.1438144466281401,
+       "MG94 with double instantaneous substitutions":0.1451926616316486,
+       "Nucleotide GTR":0.07605029431241207,
+       "Standard MG94":0.1456715894200508
       },
-     "Node59":{
-       "MG94 with double and triple instantaneous substitutions":0.02888420441247606,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0288719376904068,
-       "MG94 with double instantaneous substitutions":0.02902381276632096,
-       "Nucleotide GTR":0.02311267772255379,
-       "Standard MG94":0.02906429000661013
+     "Node65":{
+       "MG94 with double and triple instantaneous substitutions":0.02888708984129947,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02888718322133276,
+       "MG94 with double instantaneous substitutions":0.02918662309558769,
+       "Nucleotide GTR":0.02350142956021779,
+       "Standard MG94":0.02926242298635367
       },
-     "Node61":{
-       "MG94 with double and triple instantaneous substitutions":0.140847312111839,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.1407883337069249,
-       "MG94 with double instantaneous substitutions":0.1415332713208527,
-       "Nucleotide GTR":0.07609260200295681,
-       "Standard MG94":0.1415403348645071
+     "Node68":{
+       "MG94 with double and triple instantaneous substitutions":0.03021009341575523,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03021018444851287,
+       "MG94 with double instantaneous substitutions":0.03051254071513663,
+       "Nucleotide GTR":0.02453188830118154,
+       "Standard MG94":0.03059033712661766
       },
-     "Node67":{
-       "MG94 with double and triple instantaneous substitutions":0.02951554422571533,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02954226823353806,
-       "MG94 with double instantaneous substitutions":0.02968197909292082,
-       "Nucleotide GTR":0.02450687767287883,
-       "Standard MG94":0.02969910302015495
-      },
-     "Node71":{
-       "MG94 with double and triple instantaneous substitutions":0.02931112119396109,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02933756843597797,
-       "MG94 with double instantaneous substitutions":0.02945237627593497,
-       "Nucleotide GTR":0.02435892962028903,
-       "Standard MG94":0.02949392618383158
+     "Node72":{
+       "MG94 with double and triple instantaneous substitutions":0.0300207966699071,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03002084526541086,
+       "MG94 with double instantaneous substitutions":0.03032505309584989,
+       "Nucleotide GTR":0.02435640845942908,
+       "Standard MG94":0.03040301038106179
       },
      "Node75":{
-       "MG94 with double and triple instantaneous substitutions":0.02820828273250663,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02819620070966512,
-       "MG94 with double instantaneous substitutions":0.02834492434590785,
-       "Nucleotide GTR":0.0235193045341619,
-       "Standard MG94":0.02835639868166839
+       "MG94 with double and triple instantaneous substitutions":0.0326707204941036,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03267073344956997,
+       "MG94 with double instantaneous substitutions":0.03299894799249687,
+       "Nucleotide GTR":0.02425033361381712,
+       "Standard MG94":0.03308060220931933
       },
-     "Node78":{
-       "MG94 with double and triple instantaneous substitutions":0.03471268687157219,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03469790083012665,
-       "MG94 with double instantaneous substitutions":0.03487593653098799,
-       "Nucleotide GTR":0.02467086873587765,
-       "Standard MG94":0.03492305973444871
-      },
-     "Node89":{
-       "MG94 with double and triple instantaneous substitutions":0.03298828130614298,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03301947868115571,
-       "MG94 with double instantaneous substitutions":0.03317259370079204,
-       "Nucleotide GTR":0.02464849129464257,
-       "Standard MG94":0.03318982654968495
-      },
-     "Node97":{
-       "MG94 with double and triple instantaneous substitutions":0.03192291045364829,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03190940727834627,
-       "MG94 with double instantaneous substitutions":0.03207494931684676,
-       "Nucleotide GTR":0.02425533186369254,
-       "Standard MG94":0.03211904201372876
-      },
-     "Node98":{
-       "MG94 with double and triple instantaneous substitutions":0.0294051836546784,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02943181968506339,
-       "MG94 with double instantaneous substitutions":0.02957100226827386,
-       "Nucleotide GTR":0.02388678346606426,
-       "Standard MG94":0.02958777071291245
+     "Node76":{
+       "MG94 with double and triple instantaneous substitutions":0.0301167258263024,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03011676677735506,
+       "MG94 with double instantaneous substitutions":0.03042185317787722,
+       "Nucleotide GTR":0.02387385788307647,
+       "Standard MG94":0.03049924804846429
       },
      "XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1":{
        "MG94 with double and triple instantaneous substitutions":0,
@@ -235,11 +242,11 @@
        "original name":"XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.1115604224326312,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.111512233162852,
-       "MG94 with double instantaneous substitutions":0.1121416241194389,
-       "Nucleotide GTR":0.07593130170041952,
-       "Standard MG94":0.1121908806092927,
+       "MG94 with double and triple instantaneous substitutions":0.1138852192083594,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.1138874946037294,
+       "MG94 with double instantaneous substitutions":0.1150950086978152,
+       "Nucleotide GTR":0.07590839827740413,
+       "Standard MG94":0.1153242128307165,
        "original name":"XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -259,11 +266,11 @@
        "original name":"XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.0593059387853254,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.05928072295122554,
-       "MG94 with double instantaneous substitutions":0.05961254768088659,
-       "Nucleotide GTR":0.04921739225438358,
-       "Standard MG94":0.059614162934875,
+       "MG94 with double and triple instantaneous substitutions":0.0606570711605414,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.06065715971734673,
+       "MG94 with double instantaneous substitutions":0.06122114870194174,
+       "Nucleotide GTR":0.04921832915033571,
+       "Standard MG94":0.06141780222771145,
        "original name":"XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -283,11 +290,11 @@
        "original name":"XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.03007921941659198,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03006650484009052,
-       "MG94 with double instantaneous substitutions":0.03022368211036641,
-       "Nucleotide GTR":0.02423287393148584,
-       "Standard MG94":0.03026590510793776,
+       "MG94 with double and triple instantaneous substitutions":0.03076847723247969,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03076850503103114,
+       "MG94 with double instantaneous substitutions":0.03107956274780656,
+       "Nucleotide GTR":0.02424093219351921,
+       "Standard MG94":0.0311584449055862,
        "original name":"XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1"
       },
      "XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
@@ -339,11 +346,11 @@
        "original name":"XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.03208351515441318,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03211345884554926,
-       "MG94 with double instantaneous substitutions":0.03226323915182871,
-       "Nucleotide GTR":0.0250817315268488,
-       "Standard MG94":0.0322804186034612,
+       "MG94 with double and triple instantaneous substitutions":0.0328113604120303,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03281143373491351,
+       "MG94 with double instantaneous substitutions":0.03314088798898725,
+       "Nucleotide GTR":0.02508473264662457,
+       "Standard MG94":0.03322267716167246,
        "original name":"XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
@@ -395,11 +402,11 @@
        "original name":"XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.02921975176573141,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02920735488822714,
-       "MG94 with double instantaneous substitutions":0.02936063566812387,
-       "Nucleotide GTR":0.02351912534158026,
-       "Standard MG94":0.02940148864179671,
+       "MG94 with double and triple instantaneous substitutions":0.02991844260097883,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02991850292986199,
+       "MG94 with double instantaneous substitutions":0.03023704351289114,
+       "Nucleotide GTR":0.02351026769799311,
+       "Standard MG94":0.03031428919563934,
        "original name":"XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -499,11 +506,11 @@
        "original name":"XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.02240644540638223,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02239688669658011,
-       "MG94 with double instantaneous substitutions":0.02251772496003349,
-       "Nucleotide GTR":0.02409039144409816,
-       "Standard MG94":0.02252302860840974,
+       "MG94 with double and triple instantaneous substitutions":0.02287948669568914,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02287954251587598,
+       "MG94 with double instantaneous substitutions":0.02311428483910455,
+       "Nucleotide GTR":0.02408558755109692,
+       "Standard MG94":0.02317899305257799,
        "original name":"XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -515,11 +522,11 @@
        "original name":"XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.03250055723652387,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03248674153661747,
-       "MG94 with double instantaneous substitutions":0.03265494624586263,
-       "Nucleotide GTR":0.02490904145061681,
-       "Standard MG94":0.0326999725648877,
+       "MG94 with double and triple instantaneous substitutions":0.03323538440906768,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03323536085452627,
+       "MG94 with double instantaneous substitutions":0.03357539058758193,
+       "Nucleotide GTR":0.02491055408557313,
+       "Standard MG94":0.03365823191815104,
        "original name":"XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1"
       },
      "XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1":{
@@ -667,11 +674,11 @@
        "original name":"XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.03005876786065391,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03008624280697368,
-       "MG94 with double instantaneous substitutions":0.03022799499097814,
-       "Nucleotide GTR":0.02423739725777568,
-       "Standard MG94":0.03024518730411945,
+       "MG94 with double and triple instantaneous substitutions":0.02939388383576398,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02939393362531967,
+       "MG94 with double instantaneous substitutions":0.02969815688257925,
+       "Nucleotide GTR":0.02387329756112606,
+       "Standard MG94":0.02977484090211264,
        "original name":"XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1"
       },
      "XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -683,11 +690,11 @@
        "original name":"XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.03145857698577607,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03144524918550556,
-       "MG94 with double instantaneous substitutions":0.0316087152510521,
-       "Nucleotide GTR":0.02425475891002063,
-       "Standard MG94":0.03165240933956326,
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
        "original name":"XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
@@ -723,11 +730,11 @@
        "original name":"XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.06695635655682873,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.06704568765699497,
-       "MG94 with double instantaneous substitutions":0.0673395828681614,
-       "Nucleotide GTR":0.04954926515454807,
-       "Standard MG94":0.06740510955377133,
+       "MG94 with double and triple instantaneous substitutions":0.06287848305897561,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.06287968953282169,
+       "MG94 with double instantaneous substitutions":0.06352465972789072,
+       "Nucleotide GTR":0.04871873449043139,
+       "Standard MG94":0.06372658810315023,
        "original name":"XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1"
       },
      "XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
@@ -971,11 +978,11 @@
        "original name":"XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.02743442209416432,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02742282817748917,
-       "MG94 with double instantaneous substitutions":0.02756770911251599,
-       "Nucleotide GTR":0.0232951719131359,
-       "Standard MG94":0.02760660854916787,
+       "MG94 with double and triple instantaneous substitutions":0.02801263337029816,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0280129014164186,
+       "MG94 with double instantaneous substitutions":0.02832119115724522,
+       "Nucleotide GTR":0.02330666693367545,
+       "Standard MG94":0.02839519906072696,
        "original name":"XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -1003,11 +1010,11 @@
        "original name":"XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1"
       },
      "XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.03049576523980761,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03048284797614055,
-       "MG94 with double instantaneous substitutions":0.03064194536778561,
-       "Nucleotide GTR":0.02423758593997356,
-       "Standard MG94":0.03068456922174389,
+       "MG94 with double and triple instantaneous substitutions":0.03119960821232576,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0311995954760418,
+       "MG94 with double instantaneous substitutions":0.03151459424215339,
+       "Nucleotide GTR":0.02425538171135656,
+       "Standard MG94":0.03159408308510502,
        "original name":"XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1":{
@@ -1259,11 +1266,11 @@
        "original name":"XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.03470918058932226,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03469440205226038,
-       "MG94 with double instantaneous substitutions":0.03487242558951924,
-       "Nucleotide GTR":0.02467104609557372,
-       "Standard MG94":0.03491953802667831,
+       "MG94 with double and triple instantaneous substitutions":0.03545700256152578,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03545731527864778,
+       "MG94 with double instantaneous substitutions":0.03584056537138344,
+       "Nucleotide GTR":0.0246542841046208,
+       "Standard MG94":0.03592618086548741,
        "original name":"XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":{
@@ -1291,11 +1298,11 @@
        "original name":"XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1"
       },
      "XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1":{
-       "MG94 with double and triple instantaneous substitutions":0.06921412546765891,
-       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.06913672297984133,
-       "MG94 with double instantaneous substitutions":0.06948589107769952,
-       "Nucleotide GTR":0.05163798874405757,
-       "Standard MG94":0.06955417131503137,
+       "MG94 with double and triple instantaneous substitutions":0.07072480016598894,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.07072473535207953,
+       "MG94 with double instantaneous substitutions":0.07135931851409399,
+       "Nucleotide GTR":0.05161963680993448,
+       "Standard MG94":0.07157451666718552,
        "original name":"XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1"
       },
      "XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1":{
@@ -1432,139 +1439,139 @@
   },
  "fits":{
    "MG94 with double and triple instantaneous substitutions":{
-     "AIC-c":860.9165706925276,
-     "Log Likelihood":-217.1185540602753,
+     "AIC-c":861.584952123306,
+     "Log Likelihood":-216.2557501855128,
      "Rate Distributions":{
        "distribution":        [
-[0.3060637672137437, 0.02216110420408743],
-        [0.3061449584648314, 0.977309471038583],
-        [1310.892458153926, 0.000529424757329556] 
+[0.2165205850398197, 0.9719400317482307],
+        [0.2167558481071104, 0.0273212006866791],
+        [1060.730035678369, 0.0007387675650901595] 
         ],
        "parameters":{
-         "GDD rate category 1":2.33539339219261,
-         "GDD rate category 2":2.334774033597763,
+         "GDD rate category 1":2.041241199522669,
+         "GDD rate category 2":2.043459134900922,
          "GDD rate category 3":9999.999999998339,
-         "Mixture auxiliary weight for GDD category 1":0.977309471038583,
-         "Mixture auxiliary weight for GDD category 2":0.9766675885683498,
+         "Mixture auxiliary weight for GDD category 1":0.9719400317482307,
+         "Mixture auxiliary weight for GDD category 2":0.9736718317547071,
          "Substitution rate from nucleotide A to nucleotide C":0,
          "Substitution rate from nucleotide A to nucleotide G":1,
-         "Substitution rate from nucleotide A to nucleotide T":0.2682760350062798,
-         "Substitution rate from nucleotide C to nucleotide G":0.3110807890963361,
-         "Substitution rate from nucleotide C to nucleotide T":1.06567634930729,
-         "Substitution rate from nucleotide G to nucleotide T":0.2874129794416145,
-         "non-synonymous/synonymous rate ratio":0.02068973105503883,
+         "Substitution rate from nucleotide A to nucleotide T":0.2687228947021553,
+         "Substitution rate from nucleotide C to nucleotide G":0.3045047375338021,
+         "Substitution rate from nucleotide C to nucleotide T":1.049656001128373,
+         "Substitution rate from nucleotide G to nucleotide T":0.289383436730711,
+         "non-synonymous/synonymous rate ratio":0.02921020271254104,
          "rate at which 2 nucleotides are changed instantly within a single codon":0,
          "rate at which 3 nucleotides are changed instantly within a single codon":0,
-         "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":0.00520791016651507
+         "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":0
         }
       },
      "display order":3,
-     "estimated parameters":195
+     "estimated parameters":196
     },
    "MG94 with double and triple instantaneous substitutions [only synonymous islands]":{
-     "AIC-c":858.5248181678155,
-     "Log Likelihood":-217.1185241918214,
+     "AIC-c":859.190961488241,
+     "Log Likelihood":-216.255749458132,
      "Rate Distributions":{
        "distribution":        [
-[0.3060684617984485, 0.02216080531801868],
-        [0.3061506521934551, 0.9773097841389367],
-        [1310.916939061359, 0.0005294105430446611] 
+[0.2165254947665221, 0.9719404114677562],
+        [0.2167607550270224, 0.02732084232001849],
+        [1060.754048069671, 0.000738746212225283] 
         ],
        "parameters":{
-         "GDD rate category 1":2.335393212727985,
-         "GDD rate category 2":2.334766243981472,
+         "GDD rate category 1":2.041241277000195,
+         "GDD rate category 2":2.043459135710499,
          "GDD rate category 3":9999.999999998339,
-         "Mixture auxiliary weight for GDD category 1":0.9773097841389367,
-         "Mixture auxiliary weight for GDD category 2":0.9766678930563576,
+         "Mixture auxiliary weight for GDD category 1":0.9719404114677562,
+         "Mixture auxiliary weight for GDD category 2":0.973672236448643,
          "Substitution rate from nucleotide A to nucleotide C":0,
          "Substitution rate from nucleotide A to nucleotide G":1,
-         "Substitution rate from nucleotide A to nucleotide T":0.2681460632208334,
-         "Substitution rate from nucleotide C to nucleotide G":0.3114887709574718,
-         "Substitution rate from nucleotide C to nucleotide T":1.064835137099841,
-         "Substitution rate from nucleotide G to nucleotide T":0.2874129742635648,
-         "non-synonymous/synonymous rate ratio":0.02068164026252552,
+         "Substitution rate from nucleotide A to nucleotide T":0.2687229070760137,
+         "Substitution rate from nucleotide C to nucleotide G":0.3045047380523068,
+         "Substitution rate from nucleotide C to nucleotide T":1.049656013915196,
+         "Substitution rate from nucleotide G to nucleotide T":0.2893834443739435,
+         "non-synonymous/synonymous rate ratio":0.02921021313627291,
          "rate at which 2 nucleotides are changed instantly within a single codon":0,
          "rate at which 3 nucleotides are changed instantly within a single codon":0,
-         "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":0.0005217766223134168
+         "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":0
         }
       },
      "display order":0,
-     "estimated parameters":194
+     "estimated parameters":195
     },
    "MG94 with double instantaneous substitutions":{
-     "AIC-c":856.1378265640042,
-     "Log Likelihood":-217.1197282388573,
+     "AIC-c":856.8006268733408,
+     "Log Likelihood":-216.2564285445841,
      "Rate Distributions":{
        "distribution":        [
-[0.2777678182888456, 0.02244656429959078],
-        [0.2782014579274387, 0.9769375841296415],
-        [1172.327295840801, 0.0006158515707677334] 
+[0.1904692262179218, 0.02578349079899959],
+        [0.1906336528515296, 0.9734296811617053],
+        [1028.840537088045, 0.0007868280392951568] 
         ],
        "parameters":{
-         "GDD rate category 1":2.373069866362402,
-         "GDD rate category 2":2.369370902428597,
+         "GDD rate category 1":1.852897956286341,
+         "GDD rate category 2":1.851299782150695,
          "GDD rate category 3":9999.999999998339,
-         "Mixture auxiliary weight for GDD category 1":0.9769375841296415,
-         "Mixture auxiliary weight for GDD category 2":0.9732963114432747,
+         "Mixture auxiliary weight for GDD category 1":0.9734296811617053,
+         "Mixture auxiliary weight for GDD category 2":0.9703869553058907,
          "Substitution rate from nucleotide A to nucleotide C":0,
          "Substitution rate from nucleotide A to nucleotide G":1,
-         "Substitution rate from nucleotide A to nucleotide T":0.2680197678201977,
-         "Substitution rate from nucleotide C to nucleotide G":0.31112006111437,
-         "Substitution rate from nucleotide C to nucleotide T":1.06484608476851,
-         "Substitution rate from nucleotide G to nucleotide T":0.2872228968796832,
-         "non-synonymous/synonymous rate ratio":0.02276063398303016,
+         "Substitution rate from nucleotide A to nucleotide T":0.2689114764579223,
+         "Substitution rate from nucleotide C to nucleotide G":0.3047196078232086,
+         "Substitution rate from nucleotide C to nucleotide T":1.050186063392064,
+         "Substitution rate from nucleotide G to nucleotide T":0.2896481643623205,
+         "non-synonymous/synonymous rate ratio":0.03319612792675585,
          "rate at which 2 nucleotides are changed instantly within a single codon":0
         }
       },
      "display order":2,
-     "estimated parameters":193
+     "estimated parameters":194
     },
    "Nucleotide GTR":{
-     "AIC-c":1191.518555870609,
+     "AIC-c":1189.669455757566,
      "Equilibrium frequencies":      [
 [0.2559523809523809],
       [0.1289160401002506],
       [0.2213345864661654],
       [0.3937969924812031] 
       ],
-     "Log Likelihood":-272.0900589460242,
+     "Log Likelihood":-271.1655088895029,
      "Rate Distributions":{
-       "Substitution rate from nucleotide A to nucleotide C":0.1090512277031802,
+       "Substitution rate from nucleotide A to nucleotide C":0.1087823608635292,
        "Substitution rate from nucleotide A to nucleotide G":1,
-       "Substitution rate from nucleotide A to nucleotide T":0.1650275321335554,
-       "Substitution rate from nucleotide C to nucleotide G":0.1332884584039064,
-       "Substitution rate from nucleotide C to nucleotide T":1.699146578443735,
-       "Substitution rate from nucleotide G to nucleotide T":0.08945717831211475
+       "Substitution rate from nucleotide A to nucleotide T":0.1654125982148106,
+       "Substitution rate from nucleotide C to nucleotide G":0.1331068920901659,
+       "Substitution rate from nucleotide C to nucleotide T":1.699406814419451,
+       "Substitution rate from nucleotide G to nucleotide T":0.0896897413322239
       },
      "display order":0,
      "estimated parameters":309
     },
    "Standard MG94":{
-     "AIC-c":853.751044524771,
-     "Log Likelihood":-217.1198921713457,
+     "AIC-c":854.4148968711715,
+     "Log Likelihood":-216.258263392441,
      "Rate Distributions":{
        "distribution":        [
-[0.2745674939503318, 0.9773110615353729],
-        [0.275250705145116, 0.02206100242432366],
-        [1155.515527027598, 0.0006279360403033866] 
+[0.1613485297824649, 0.02665642575059833],
+        [0.1886292358645405, 0.9724581618000823],
+        [917.385999654363, 0.0008854124493194051] 
         ],
        "parameters":{
-         "GDD rate category 1":2.376147161402258,
-         "GDD rate category 2":2.382059770785721,
+         "GDD rate category 1":2.056159958137334,
+         "GDD rate category 2":1.758785613070488,
          "GDD rate category 3":9999.999999998339,
-         "Mixture auxiliary weight for GDD category 1":0.9773110615353729,
-         "Mixture auxiliary weight for GDD category 2":0.972324133132876,
+         "Mixture auxiliary weight for GDD category 1":0.9724581618000823,
+         "Mixture auxiliary weight for GDD category 2":0.9678520931358151,
          "Substitution rate from nucleotide A to nucleotide C":0,
          "Substitution rate from nucleotide A to nucleotide G":1,
-         "Substitution rate from nucleotide A to nucleotide T":0.2677613442983206,
-         "Substitution rate from nucleotide C to nucleotide G":0.3108719988528806,
-         "Substitution rate from nucleotide C to nucleotide T":1.063491398436033,
-         "Substitution rate from nucleotide G to nucleotide T":0.28699524314865,
-         "non-synonymous/synonymous rate ratio":0.02304497972100033
+         "Substitution rate from nucleotide A to nucleotide T":0.2685733813834153,
+         "Substitution rate from nucleotide C to nucleotide G":0.3048145437068567,
+         "Substitution rate from nucleotide C to nucleotide T":1.049682434016566,
+         "Substitution rate from nucleotide G to nucleotide T":0.289737551953016,
+         "non-synonymous/synonymous rate ratio":0.03466176334407804
         }
       },
      "display order":1,
-     "estimated parameters":192
+     "estimated parameters":193
     }
   },
  "input":{
@@ -1573,55 +1580,56 @@
    "number of sites":15,
    "partition count":1,
    "trees":{
-     "0":"(NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1,XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1,XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(((XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node256,(XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node264,XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node255,(XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node244,((XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node75,XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,((XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1)Node71,XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node67,(XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1,XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1)Node49,(XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,((XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node61)Node59)Node57,XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node56,XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node54)Node23,(XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node78,XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1,XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1,XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1,XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node89,((XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node98,XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1,XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1,XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1,XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node97,XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node19,XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,(XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node272,XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)"
+     "0":"(NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1,XM_032275008_1_PREDICTED_Sapajus_apella_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031011917_1_PREDICTED_Gorilla_gorilla_gorilla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1,XM_010371650_2_PREDICTED_Rhinopithecus_roxellana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024248979_1_PREDICTED_Pongo_abelii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_035296530_1_PREDICTED_Callithrix_jacchus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_006839926_1_PREDICTED_Chrysochloris_asiatica_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_039464970_1_PREDICTED_Saimiri_boliviensis_boliviensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_012438367_2_PREDICTED_Aotus_nancymaae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_026456416_1_PREDICTED_Piliocolobus_tephrosceles_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011935019_1_PREDICTED_Colobus_angolensis_palliatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_033234306_1_PREDICTED_Trachypithecus_francoisi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_017509257_2_PREDICTED_Cebus_imitator_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_008975749_3_PREDICTED_Pan_paniscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_030809566_1_PREDICTED_Nomascus_leucogenys_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032156758_1_PREDICTED_Hylobates_moloch_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_016956167_2_PREDICTED_Pan_troglodytes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,((XM_021091238_1_PREDICTED_Sus_scrofa_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_020168699_1_PREDICTED_Castor_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node152,(XM_013032823_1_PREDICTED_Dipodomys_ordii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_mRNA_1,(XM_015448392_1_PREDICTED_Macaca_fascicularis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_031667490_1_PREDICTED_Papio_anubis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011970618_1_PREDICTED_Mandrillus_leucophaeus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_011758974_1_PREDICTED_Macaca_nemestrina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_025381340_1_PREDICTED_Theropithecus_gelada_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_028847034_1_PREDICTED_Macaca_mulatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_008007323_2_PREDICTED_Chlorocebus_sabaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node127,XM_036902980_1_PREDICTED_Manis_pentadactyla_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_020890382_1_PREDICTED_Odocoileus_virginianus_texanus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_028140115_1_PREDICTED_Eptesicus_fuscus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node124,(XM_037065055_1_PREDICTED_Sturnira_hondurensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037012273_1_PREDICTED_Manis_javanica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_010630829_3_PREDICTED_Fukomys_damarensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_037159015_1_PREDICTED_Artibeus_jamaicensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node145,XM_015600069_2_PREDICTED_Pteropus_alecto_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036414528_1_PREDICTED_Pipistrellus_kuhlii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_014866179_1_PREDICTED_Equus_asinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_026395080_1_PREDICTED_Urocitellus_parryii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_018053060_1_PREDICTED_Capra_hircus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_030882819_1_PREDICTED_Globicephala_melas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036871281_1_PREDICTED_Balaenoptera_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036318154_1_PREDICTED_Myotis_myotis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004660637_2_PREDICTED_Jaculus_jaculus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_023750109_1_PREDICTED_Myotis_lucifugus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_022554510_2_PREDICTED_Delphinapterus_leucas_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007190708_2_PREDICTED_Balaenoptera_acutorostrata_scammoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019646344_1_PREDICTED_Hipposideros_armiger_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_037843746_1_PREDICTED_Choloepus_didactylus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_010598962_2_PREDICTED_Loxodonta_africana_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_033102881_1_PREDICTED_Rhinolophus_ferrumequinum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_010965426_1_PREDICTED_Camelus_bactrianus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_014781164_1_PREDICTED_Ceratotherium_simum_simum_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101399622_transcript_variant_X1_mRNA_1,XM_033418640_1_PREDICTED_Orcinus_orca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007451747_1_PREDICTED_Lipotes_vexillifer_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032650682_1_PREDICTED_Phocoena_sinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_036024572_1_PREDICTED_Phyllostomus_discolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027928308_2_PREDICTED_Marmota_flaviventris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_031680135_1_PREDICTED_Vicugna_pacos_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007940793_1_PREDICTED_Orycteropus_afer_afer_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_005883745_2_PREDICTED_Myotis_brandtii_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_040983897_1_PREDICTED_Ochotona_curzoniae_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_012753062_2_PREDICTED_Microcebus_murinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024740937_1_PREDICTED_Neophocaena_asiaeorientalis_asiaeorientalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_015497401_1_PREDICTED_Marmota_marmota_marmota_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_036247698_1_PREDICTED_Molossus_molossus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027972360_2_PREDICTED_Ovis_aries_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019929582_1_PREDICTED_Tursiops_truncatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1,XM_011364805_2_PREDICTED_Pteropus_vampyrus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(((XM_012722936_1_PREDICTED_Condylura_cristata_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_037520237_1_PREDICTED_Talpa_occidentalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1)Node72,XM_028768990_1_PREDICTED_Grammomys_surdaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_034524021_1_PREDICTED_Arvicanthis_niloticus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1)Node68,(XM_016002785_1_PREDICTED_Peromyscus_maniculatus_bairdii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_036169236_1_PREDICTED_Onychomys_torridus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node65,XM_006256524_2_PREDICTED_Rattus_norvegicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_032888520_1_PREDICTED_Rattus_rattus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_005363542_3_PREDICTED_Microtus_ochrogaster_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_031347764_1_PREDICTED_Mastomys_coucha_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_041654071_1_PREDICTED_Microtus_oregoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_029482641_1_PREDICTED_Mus_caroli_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_008584529_1_PREDICTED_Galeopterus_variegatus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_023589592_1_PREDICTED_Dasypus_novemcinctus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_008058987_1_PREDICTED_Carlito_syrichta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1,XM_029542499_1_PREDICTED_Mus_pahari_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_008852401_2_PREDICTED_Nannospalax_galili_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,(XM_006157005_3_PREDICTED_Tupaia_chinensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X3_mRNA_1,XM_040758199_1_PREDICTED_Mesocricetus_auratus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_027402162_2_PREDICTED_Cricetulus_griseus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X5_mRNA_1)Node46,(XM_031964400_1_PREDICTED_Sarcophilus_harrisii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,((XM_007484437_2_PREDICTED_Monodelphis_domestica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_036766364_1_PREDICTED_Trichosurus_vulpecula_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_029047173_2_PREDICTED_Ornithorhynchus_anatinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_038761479_1_PREDICTED_Tachyglossus_aculeatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node58)Node56)Node54,XM_027848601_1_PREDICTED_Vombatus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node53,XM_004702008_2_PREDICTED_Echinops_telfairi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node51)Node20,((XM_023512479_1_PREDICTED_Otolemur_garnettii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_026511625_1_PREDICTED_Ursus_arctos_horribilis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_034668992_1_PREDICTED_Ailuropoda_melanoleuca_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_040627642_1_PREDICTED_Ursus_maritimus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1)Node76,XM_027057077_1_PREDICTED_Acinonyx_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_025925204_1_PREDICTED_Puma_concolor_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_027601333_2_PREDICTED_Zalophus_californianus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_040474393_1_PREDICTED_Puma_yagouaroundi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032858328_1_PREDICTED_Lontra_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_039252205_1_PREDICTED_Hyaena_hyaena_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_032337983_1_PREDICTED_Mustela_erminea_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_006735481_2_PREDICTED_Leptonychotes_weddellii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_034991838_1_PREDICTED_Mirounga_leonina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019443107_1_PREDICTED_Panthera_pardus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_030316171_1_PREDICTED_Lynx_canadensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X2_mRNA_1,XM_022520135_1_PREDICTED_Enhydra_lutris_kenyoni_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC111158218_transcript_variant_X1_mRNA_1,XM_025864219_1_PREDICTED_Callorhinus_ursinus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_032408054_1_PREDICTED_Phoca_vitulina_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1,XM_021693690_1_PREDICTED_Neomonachus_schauinslandi_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_023254263_1_PREDICTED_Felis_catus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_007078726_2_PREDICTED_Panthera_tigris_altaica_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_028104162_1_PREDICTED_Eumetopias_jubatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node75,XM_040283216_1_PREDICTED_Ictidomys_tridecemlineatus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_032484707_1_PREDICTED_Camelus_ferus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_008263376_2_PREDICTED_Oryctolagus_cuniculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_015561632_1_PREDICTED_Myotis_davidii_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_040238480_1_PREDICTED_Oryx_dammah_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004605780_2_PREDICTED_Sorex_araneus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_016217489_1_PREDICTED_Miniopterus_natalensis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X5_mRNA_1,XM_024115547_2_PREDICTED_Physeter_catodon_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024551816_1_PREDICTED_Desmodus_rotundus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,XM_031456165_1_PREDICTED_Camelus_dromedarius_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_023650934_1_PREDICTED_Equus_caballus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_012642842_1_PREDICTED_Propithecus_coquereli_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1,XM_016136994_2_PREDICTED_Rousettus_aegyptiacus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_029223581_1_PREDICTED_Monodon_monoceros_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_004753515_2_PREDICTED_Mustela_putorius_furo_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027088475_1_PREDICTED_Lagenorhynchus_obliquidens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,(XM_010856597_1_PREDICTED_Bison_bison_bison_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_019967201_1_PREDICTED_Bos_indicus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_025295021_1_PREDICTED_Bubalus_bubalis_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_027551194_1_PREDICTED_Bos_indicus_x_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_024996589_1_PREDICTED_Bos_taurus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_005890218_2_PREDICTED_Bos_mutus_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1)Node259,(XM_007528140_2_PREDICTED_Erinaceus_europaeus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1,(XM_025444797_2_PREDICTED_Canis_lupus_dingo_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_026005811_1_PREDICTED_Vulpes_vulpes_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_014118216_3_PREDICTED_Canis_lupus_familiaris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1,XM_041738555_1_PREDICTED_Vulpes_lagopus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)Node272,(XM_005377901_2_PREDICTED_Chinchilla_lanigera_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_013069186_2_PREDICTED_Heterocephalus_glaber_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1,XM_023722299_1_PREDICTED_Octodon_degus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_transcript_variant_X1_mRNA_1)Node279)Node270)Node18,XM_029945420_1_PREDICTED_Suricata_suricatta_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_X1_mRNA_1)"
     }
   },
  "test results":{
    "Double-hit vs single-hit":{
-     "LRT":0.000327864976895853,
-     "p-value":0.9855534600188061
+     "LRT":0.003669695713881538,
+     "p-value":0.9516952840859225
     },
    "Triple-hit vs Triple-hit-island":{
-     "LRT":-5.973690781502228e-05,
+     "LRT":-1.454761616059841e-06,
      "p-value":1
     },
    "Triple-hit vs double-hit":{
-     "LRT":0.002348357163896253,
-     "p-value":0.9988265104959354
+     "LRT":0.001356718142460522,
+     "p-value":0.9993218709622312
     },
    "Triple-hit vs single-hit":{
-     "LRT":0.002676222140792106,
-     "p-value":0.9999632080003905
+     "LRT":0.00502641385634206,
+     "p-value":0.9999053650877827
     },
    "Triple-hit-island vs double-hit":{
-     "LRT":0.002408094071711275,
-     "p-value":0.9608616502361114
+     "LRT":0.001358172904076582,
+     "p-value":0.9706018979270253
     }
   },
  "tested":{
    "0":{
      "NM_001372078_1_Homo_sapiens_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_transcript_variant_4_mRNA_1":"test",
      "NM_011264_3_Mus_musculus_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_Rev3l_mRNA_1":"test",
-     "Node19":"test",
-     "Node23":"test",
-     "Node244":"test",
-     "Node255":"test",
-     "Node256":"test",
-     "Node264":"test",
+     "Node124":"test",
+     "Node127":"test",
+     "Node145":"test",
+     "Node152":"test",
+     "Node18":"test",
+     "Node20":"test",
+     "Node259":"test",
+     "Node270":"test",
      "Node272":"test",
-     "Node49":"test",
+     "Node279":"test",
+     "Node46":"test",
+     "Node51":"test",
+     "Node53":"test",
      "Node54":"test",
      "Node56":"test",
-     "Node57":"test",
-     "Node59":"test",
-     "Node61":"test",
-     "Node67":"test",
-     "Node71":"test",
+     "Node58":"test",
+     "Node65":"test",
+     "Node68":"test",
+     "Node72":"test",
      "Node75":"test",
-     "Node78":"test",
-     "Node89":"test",
-     "Node97":"test",
-     "Node98":"test",
+     "Node76":"test",
      "XM_004372470_3_PREDICTED_Trichechus_manatus_latirostris_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_LOC101361167_transcript_variant_X1_mRNA_1":"test",
      "XM_004406717_2_PREDICTED_Odobenus_rosmarus_divergens_REV3_like_polymerase_DNA_directed_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
      "XM_004580498_1_PREDICTED_Ochotona_princeps_REV3_like_DNA_directed_polymerase_zeta_catalytic_subunit_REV3L_mRNA_1":"test",
@@ -1777,23 +1785,23 @@
  "timers":{
    "MG94 with double and triple instantaneous substitutions":{
      "order":null,
-     "timer":101
+     "timer":294
     },
    "MG94 with double and triple instantaneous substitutions [only synonymous islands]":{
      "order":null,
-     "timer":54
+     "timer":72
     },
    "MG94 with double instantaneous substitutions":{
      "order":null,
-     "timer":107
+     "timer":139
     },
    "Overall":{
      "order":0,
-     "timer":418
+     "timer":690
     },
    "Standard MG94":{
      "order":null,
-     "timer":154
+     "timer":181
     }
   }
 }
