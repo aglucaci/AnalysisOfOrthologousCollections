@@ -1,0 +1,387 @@
+IQ-TREE multicore version 2.1.2 COVID-edition for Linux 64-bit built Mar 30 2021
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    n7 (AVX2, FMA3, 125 GB RAM)
+Command: iqtree -s results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas -T AUTO
+Seed:    101440 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Fri Sep 17 19:07:13 2021
+Kernel:  AVX+FMA - auto-detect threads (8 CPU cores detected)
+
+Reading alignment file results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 126 sequences with 783 columns, 349 distinct patterns
+259 parsimony-informative, 69 singleton sites, 455 constant sites
+                                                    Gap/Ambiguity  Composition  p-value
+   1  NM_001709_5_Homo_sapiens_brain_derived_neurotrophi    5.36%    passed     47.31%
+   2  NM_001270630_1_Rattus_norvegicus_brain_derived_neu    4.60%    passed     99.29%
+   3  NM_001048142_1_Mus_musculus_brain_derived_neurotro    4.60%    passed     95.05%
+   4  XM_015114598_2_PREDICTED_Macaca_mulatta_brain_deri    5.36%    passed     54.68%
+   5  XM_005654684_3_PREDICTED_Sus_scrofa_brain_derived_    3.45%    passed     86.88%
+   6  NM_001009828_1_Felis_catus_brain_derived_neurotrop    5.36%    passed     99.92%
+   7  XM_005216334_4_PREDICTED_Bos_taurus_brain_derived_    4.21%    passed     55.47%
+   8  XM_038429434_1_PREDICTED_Canis_lupus_familiaris_br    5.36%    passed     82.50%
+   9  XM_007653166_4_PREDICTED_Cricetulus_griseus_brain_    4.98%    passed     69.76%
+  10  NM_001012441_1_Pan_troglodytes_brain_derived_neuro    5.36%    passed     59.90%
+  11  XM_011226480_3_PREDICTED_Ailuropoda_melanoleuca_br    5.36%    passed     94.16%
+  12  XM_007497196_2_PREDICTED_Monodelphis_domestica_bra    5.75%    passed     32.51%
+  13  NM_001081787_1_Equus_caballus_brain_derived_neurot    5.36%    passed     65.88%
+  14  XM_012096129_4_PREDICTED_Ovis_aries_brain_derived_    4.21%    passed     44.87%
+  15  XM_029555090_1_PREDICTED_Nannospalax_galili_brain_    4.98%    passed     75.93%
+  16  XM_009007854_3_PREDICTED_Callithrix_jacchus_brain_    4.98%    passed     50.00%
+  17  XM_031944159_1_PREDICTED_Sarcophilus_harrisii_brai    5.75%    passed     98.52%
+  18  XM_020977976_1_PREDICTED_Phascolarctos_cinereus_br    5.75%    passed     83.94%
+  19  XM_036763631_1_PREDICTED_Trichosurus_vulpecula_bra    5.75%    passed     47.08%
+  20  XM_027852578_1_PREDICTED_Vombatus_ursinus_brain_de    5.75%    passed     40.80%
+  21  XM_040980297_1_PREDICTED_Ochotona_curzoniae_brain_    5.36%    passed     47.85%
+  22  XM_004585440_1_PREDICTED_Ochotona_princeps_brain_d    5.36%    passed     31.94%
+  23  XM_013019592_1_PREDICTED_Dipodomys_ordii_brain_der    5.36%    passed     85.12%
+  24  XM_020177315_1_PREDICTED_Castor_canadensis_brain_d    5.36%    passed     93.33%
+  25  XM_021151236_2_PREDICTED_Mus_caroli_brain_derived_    4.60%    passed     95.58%
+  26  XM_021192829_2_PREDICTED_Mus_pahari_brain_derived_    4.60%    passed     94.95%
+  27  XM_004660846_2_PREDICTED_Jaculus_jaculus_brain_der    5.36%    passed     95.58%
+  28  XM_032903861_1_PREDICTED_Rattus_rattus_brain_deriv    4.60%    passed     98.43%
+  29  XM_031371313_1_PREDICTED_Mastomys_coucha_brain_der    4.60%    passed     87.45%
+  30  XM_037204438_1_PREDICTED_Peromyscus_leucopus_brain    4.98%    passed     78.59%
+  31  XM_013147262_2_PREDICTED_Cavia_porcellus_brain_der    2.30%    failed      0.22%
+  32  XM_005401751_2_PREDICTED_Chinchilla_lanigera_brain    4.60%    failed      1.55%
+  33  XM_004644113_2_PREDICTED_Octodon_degus_brain_deriv    4.60%    failed      1.79%
+  34  XM_004851581_3_PREDICTED_Heterocephalus_glaber_bra    3.07%    failed      1.32%
+  35  XM_033764060_1_PREDICTED_Fukomys_damarensis_brain_    6.77%    failed      0.00%
+  36  XM_015476449_1_PREDICTED_Marmota_marmota_marmota_b    5.36%    passed     88.49%
+  37  XM_040284582_1_PREDICTED_Ictidomys_tridecemlineatu    5.36%    passed     88.95%
+  38  XM_026412272_1_PREDICTED_Urocitellus_parryii_brain    5.49%    passed     88.24%
+  39  XM_027936596_1_PREDICTED_Marmota_flaviventris_brai    5.36%    passed     86.28%
+  40  XM_015544869_1_PREDICTED_Panthera_tigris_altaica_b    5.36%    passed     96.18%
+  41  XM_030333208_1_PREDICTED_Lynx_canadensis_brain_der    5.36%    passed     97.29%
+  42  XM_026512203_1_PREDICTED_Ursus_arctos_horribilis_b    5.36%    passed     96.26%
+  43  XM_004408653_1_PREDICTED_Odobenus_rosmarus_diverge    5.36%    passed     88.61%
+  44  XM_039217098_1_PREDICTED_Hyaena_hyaena_brain_deriv    5.36%    passed     76.52%
+  45  XM_029957152_1_PREDICTED_Suricata_suricatta_brain_    5.36%    passed     96.73%
+  46  XM_041730708_1_PREDICTED_Vulpes_lagopus_brain_deri    5.36%    passed     78.10%
+  47  XM_025879326_1_PREDICTED_Callorhinus_ursinus_brain    5.36%    passed     86.06%
+  48  XM_028117708_1_PREDICTED_Eumetopias_jubatus_brain_    5.36%    passed     84.06%
+  49  XM_027577807_1_PREDICTED_Zalophus_californianus_br    5.36%    passed     81.57%
+  50  XM_021685880_1_PREDICTED_Neomonachus_schauinslandi    5.36%    passed     86.47%
+  51  XM_036109493_1_PREDICTED_Halichoerus_grypus_brain_    5.36%    passed     82.21%
+  52  XM_031025064_1_PREDICTED_Leptonychotes_weddellii_b    5.36%    passed     81.84%
+  53  XM_035012477_1_PREDICTED_Mirounga_leonina_brain_de    5.36%    passed     95.27%
+  54  XM_020903256_1_PREDICTED_Odocoileus_virginianus_te    4.21%    passed     25.66%
+  55  XM_010831788_1_PREDICTED_Bison_bison_bison_brain_d    4.21%    passed     52.62%
+  56  XM_006068006_2_PREDICTED_Bubalus_bubalis_brain_der    4.21%    passed     65.05%
+  57  XM_040258919_1_PREDICTED_Oryx_dammah_brain_derived    4.21%    passed     39.22%
+  58  XM_005690025_2_PREDICTED_Capra_hircus_brain_derive    4.21%    passed     49.53%
+  59  XM_031681074_1_PREDICTED_Vicugna_pacos_brain_deriv    5.36%    passed     28.45%
+  60  XM_006195083_3_PREDICTED_Camelus_ferus_brain_deriv    5.36%    passed     30.90%
+  61  XM_010964743_1_PREDICTED_Camelus_bactrianus_brain_    5.36%    passed     28.12%
+  62  XM_031459858_1_PREDICTED_Camelus_dromedarius_brain    5.36%    passed     35.23%
+  63  XM_024764694_1_PREDICTED_Neophocaena_asiaeoriental    4.98%    passed     60.20%
+  64  XM_007180991_1_PREDICTED_Balaenoptera_acutorostrat    4.98%    passed     66.84%
+  65  XM_007461679_1_PREDICTED_Lipotes_vexillifer_brain_    4.98%    passed     77.72%
+  66  XM_027115138_1_PREDICTED_Lagenorhynchus_obliquiden    4.98%    passed     59.77%
+  67  XM_032641481_1_PREDICTED_Phocoena_sinus_brain_deri    7.66%    passed     44.66%
+  68  XM_029207934_1_PREDICTED_Monodon_monoceros_brain_d    4.98%    passed     62.44%
+  69  XM_022583733_1_PREDICTED_Delphinapterus_leucas_bra    4.98%    passed     68.00%
+  70  XM_028501134_1_PREDICTED_Physeter_catodon_brain_de    6.13%    passed     67.32%
+  71  XM_036862552_1_PREDICTED_Balaenoptera_musculus_bra    4.98%    passed     64.75%
+  72  XM_016194241_1_PREDICTED_Erinaceus_europaeus_brain    5.75%    passed     60.85%
+  73  XM_004682964_2_PREDICTED_Condylura_cristata_brain_    5.75%    passed     95.12%
+  74  XM_037522538_1_PREDICTED_Talpa_occidentalis_brain_    5.75%    passed     90.93%
+  75  XM_011362565_2_PREDICTED_Pteropus_vampyrus_brain_d    5.36%    passed     99.81%
+  76  XM_039866065_1_PREDICTED_Pteropus_giganteus_brain_    5.36%    passed     99.60%
+  77  XM_006907988_2_PREDICTED_Pteropus_alecto_brain_der    5.36%    passed     99.20%
+  78  XM_033118944_1_PREDICTED_Rhinolophus_ferrumequinum    4.98%    passed     79.72%
+  79  XM_037040421_1_PREDICTED_Sturnira_hondurensis_brai    5.36%    passed     96.70%
+  80  XM_037146035_1_PREDICTED_Artibeus_jamaicensis_brai    5.36%    passed     98.91%
+  81  XM_024558903_1_PREDICTED_Desmodus_rotundus_brain_d    5.36%    passed     89.93%
+  82  XM_028517638_2_PREDICTED_Phyllostomus_discolor_bra    5.36%    passed     92.56%
+  83  XM_016206154_1_PREDICTED_Miniopterus_natalensis_br    5.36%    failed      0.62%
+  84  XM_019650718_1_PREDICTED_Hipposideros_armiger_brai    4.98%    passed     98.37%
+  85  XM_036427676_1_PREDICTED_Pipistrellus_kuhlii_brain    4.98%    failed      3.16%
+  86  XM_008148947_2_PREDICTED_Eptesicus_fuscus_brain_de    5.36%    passed     25.31%
+  87  XM_014545223_1_PREDICTED_Myotis_brandtii_brain_der    5.36%    passed     71.56%
+  88  XM_006753948_2_PREDICTED_Myotis_davidii_brain_deri    5.36%    passed     67.73%
+  89  XM_036325692_1_PREDICTED_Myotis_myotis_brain_deriv    5.36%    passed     76.36%
+  90  XM_023756374_1_PREDICTED_Myotis_lucifugus_brain_de    5.36%    passed     67.02%
+  91  XM_036258707_1_PREDICTED_Molossus_molossus_brain_d    5.36%    passed     97.75%
+  92  XM_014831462_1_PREDICTED_Equus_asinus_brain_derive    5.36%    passed     61.61%
+  93  XM_036879079_1_PREDICTED_Manis_pentadactyla_brain_    5.36%    passed     88.24%
+  94  XM_017667612_2_PREDICTED_Manis_javanica_brain_deri    5.36%    passed     81.29%
+  95  XM_008584165_1_PREDICTED_Galeopterus_variegatus_br    5.36%    passed     33.28%
+  96  XM_014591303_2_PREDICTED_Tupaia_chinensis_brain_de    5.36%    passed     95.49%
+  97  XM_011936307_1_PREDICTED_Colobus_angolensis_pallia    5.36%    passed     54.68%
+  98  XM_008003703_2_PREDICTED_Chlorocebus_sabaeus_brain    5.36%    passed     51.08%
+  99  XM_012031697_1_PREDICTED_Cercocebus_atys_brain_der    5.36%    passed     47.78%
+ 100  XM_011964715_1_PREDICTED_Mandrillus_leucophaeus_br    5.36%    passed     52.96%
+ 101  XM_033205475_1_PREDICTED_Trachypithecus_francoisi_    5.36%    passed     58.59%
+ 102  XM_017858805_1_PREDICTED_Rhinopithecus_bieti_brain    5.36%    passed     61.11%
+ 103  XM_010374529_2_PREDICTED_Rhinopithecus_roxellana_b    5.36%    passed     58.04%
+ 104  XM_004050851_2_PREDICTED_Gorilla_gorilla_gorilla_b    5.36%    passed     59.35%
+ 105  XM_034932318_1_PREDICTED_Pan_paniscus_brain_derive    5.36%    passed     63.74%
+ 106  XM_002821931_2_PREDICTED_Pongo_abelii_brain_derive    5.36%    passed     51.52%
+ 107  XM_003254347_2_PREDICTED_Nomascus_leucogenys_brain    5.36%    passed     55.53%
+ 108  XM_032166370_1_PREDICTED_Hylobates_moloch_brain_de    5.36%    passed     51.52%
+ 109  XM_003919940_3_PREDICTED_Saimiri_boliviensis_boliv    4.98%    passed     77.63%
+ 110  XM_032283691_1_PREDICTED_Sapajus_apella_brain_deri    4.98%    passed     73.02%
+ 111  XM_017538722_1_PREDICTED_Cebus_imitator_brain_deri    4.98%    passed     70.10%
+ 112  XM_012452238_1_PREDICTED_Aotus_nancymaae_brain_der    4.98%    passed     66.84%
+ 113  XM_008050727_1_PREDICTED_Carlito_syrichta_brain_de    5.36%    passed     97.63%
+ 114  XM_012649556_1_PREDICTED_Propithecus_coquereli_bra    5.36%    passed     77.33%
+ 115  XM_020286534_1_PREDICTED_Microcebus_murinus_brain_    5.36%    passed     82.55%
+ 116  XM_012814047_1_PREDICTED_Otolemur_garnettii_brain_    4.98%    passed     74.32%
+ 117  XM_007951952_1_PREDICTED_Orycteropus_afer_afer_bra    5.36%    passed     58.27%
+ 118  XM_006883713_1_PREDICTED_Elephantulus_edwardii_bra    5.36%    passed     66.19%
+ 119  XM_004708253_2_PREDICTED_Echinops_telfairi_brain_d    4.98%    passed     88.62%
+ 120  XM_006864851_1_PREDICTED_Chrysochloris_asiatica_br    5.36%    passed     32.19%
+ 121  XM_037839114_1_PREDICTED_Choloepus_didactylus_brai    5.36%    passed     47.78%
+ 122  XM_012523604_2_PREDICTED_Dasypus_novemcinctus_brai    5.36%    passed     74.69%
+ 123  XM_029059317_2_PREDICTED_Ornithorhynchus_anatinus_    5.75%    passed     98.72%
+ 124  XM_038764545_1_PREDICTED_Tachyglossus_aculeatus_br    5.75%    passed     77.19%
+ 125  XM_004418542_2_PREDICTED_Ceratotherium_simum_simum    5.36%    passed     90.28%
+ 126  XM_004369733_1_PREDICTED_Trichechus_manatus_latiro    5.36%    passed     49.48%
+****  TOTAL                                                 5.20%  7 sequences failed composition chi2 test (p-value<5%; df=3)
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.023 seconds
+Measuring multi-threading efficiency up to 8 CPU cores
+Increase to 10 rounds for branch lengths
+67 trees examined
+Threads: 1 / Time: 8.078 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -17813
+Threads: 2 / Time: 4.726 sec / Speedup: 1.709 / Efficiency: 85% / LogL: -17813
+Threads: 3 / Time: 4.438 sec / Speedup: 1.820 / Efficiency: 61% / LogL: -17813
+Threads: 4 / Time: 5.171 sec / Speedup: 1.562 / Efficiency: 39% / LogL: -17813
+BEST NUMBER OF THREADS: 3
+
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -9387.568
+Optimal log-likelihood: -9386.877
+Rate parameters:  A-C: 1.40245  A-G: 4.11207  A-T: 0.36822  C-G: 1.26468  C-T: 6.41873  G-T: 1.00000
+Base frequencies:  A: 0.264  C: 0.246  G: 0.287  T: 0.204
+Proportion of invariable sites: 0.366
+Gamma shape alpha: 0.451
+Parameters optimization took 1 rounds (0.051 sec)
+Time for fast ML tree search: 0.446 seconds
+
+NOTE: ModelFinder requires 14 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 783) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         10830.259    257 22174.518    22427.112    23372.943
+  2  GTR+F+I       9833.682     258 20183.365    20438.411    21386.453
+  3  GTR+F+G4      9436.189     258 19388.379    19643.425    20591.467
+  4  GTR+F+I+G4    9385.654     259 19289.307    19546.821    20497.058
+  5  GTR+F+R2      9537.617     259 19593.234    19850.748    20800.985
+  6  GTR+F+R3      9388.836     261 19299.672    19562.175    20516.750
+  7  GTR+F+R4      9381.342     263 19288.684    19556.245    20515.088
+  8  GTR+F+R5      9359.832     265 19249.664    19522.352    20485.394
+  9  GTR+F+R6      9359.805     267 19253.610    19531.498    20498.667
+ 21  SYM+R5        9376.797     262 19277.595    19542.618    20499.336
+ 34  TVM+F+R5      9374.955     264 19277.909    19548.025    20508.976
+ 47  TVMe+R5       9379.235     261 19280.470    19542.973    20497.547
+ 60  TIM3+F+R5     9371.197     263 19268.395    19535.955    20494.799
+ 73  TIM3e+R5      9389.337     260 19298.674    19558.674    20511.088
+ 86  TIM2+F+R5     9387.761     263 19301.522    19569.083    20527.926
+ 99  TIM2e+R5      9416.658     260 19353.317    19613.317    20565.731
+112  TIM+F+R5      9382.140     263 19290.281    19557.841    20516.685
+125  TIMe+R5       9412.953     260 19345.905    19605.905    20558.320
+138  TPM3u+F+R5    9386.402     262 19296.805    19561.828    20518.545
+151  TPM3+F+R5     9386.402     262 19296.805    19561.828    20518.545
+164  TPM2u+F+R5    9404.378     262 19332.756    19597.779    20554.497
+177  TPM2+F+R5     9404.378     262 19332.756    19597.779    20554.497
+190  K3Pu+F+R5     9397.912     262 19319.823    19584.847    20541.564
+203  K3P+R5        9415.068     259 19348.137    19605.651    20555.888
+216  TN+F+R5       9389.228     262 19302.456    19567.479    20524.197
+229  TNe+R5        9419.540     259 19357.079    19614.593    20564.830
+242  HKY+F+R5      9405.351     261 19332.703    19595.206    20549.780
+255  K2P+R5        9421.831     258 19359.662    19614.708    20562.750
+268  F81+F+R5      9861.296     260 20242.593    20502.593    21455.007
+281  JC+R5         9876.336     257 20266.671    20519.265    21465.096
+Akaike Information Criterion:           GTR+F+R5
+Corrected Akaike Information Criterion: GTR+F+R5
+Bayesian Information Criterion:         GTR+F+R5
+Best-fit model: GTR+F+R5 chosen according to BIC
+
+All model information printed to results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas.model.gz
+CPU time for ModelFinder: 117.157 seconds (0h:1m:57s)
+Wall-clock time for ModelFinder: 46.677 seconds (0h:0m:46s)
+
+NOTE: 7 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -9359.832
+Optimal log-likelihood: -9359.722
+Rate parameters:  A-C: 1.43679  A-G: 4.05779  A-T: 0.37340  C-G: 1.22383  C-T: 6.70634  G-T: 1.00000
+Base frequencies:  A: 0.264  C: 0.246  G: 0.287  T: 0.204
+Site proportion and rates:  (0.676,0.070) (0.010,1.050) (0.186,1.241) (0.098,4.201) (0.031,9.782)
+Parameters optimization took 1 rounds (0.150 sec)
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.157620 sec (of wall-clock time) 0.393908 sec(of CPU time)
+Computing RapidNJ tree took 0.171642 sec (of wall-clock time) 0.089052 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -9407.043
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 2.029 second
+Computing log-likelihood of 98 initial trees ... 1.182 seconds
+Current best score: -9315.682
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -9296.971
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -9294.444
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -9288.804
+Iteration 10 / LogL: -9296.644 / Time: 0h:0m:7s
+Iteration 20 / LogL: -9321.363 / Time: 0h:0m:10s
+Finish initializing candidate tree set (20)
+Current best tree score: -9288.804 / CPU time: 9.974
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 21: -9284.406
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 29: -9284.214
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 30: -9281.698
+Iteration 30 / LogL: -9281.698 / Time: 0h:0m:14s (0h:0m:49s left)
+BETTER TREE FOUND at iteration 31: -9281.695
+BETTER TREE FOUND at iteration 32: -9281.689
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 39: -9281.318
+Iteration 40 / LogL: -9290.735 / Time: 0h:0m:17s (0h:0m:45s left)
+UPDATE BEST LOG-LIKELIHOOD: -9281.313
+Iteration 50 / LogL: -9285.411 / Time: 0h:0m:21s (0h:0m:38s left)
+Iteration 60 / LogL: -9284.548 / Time: 0h:0m:24s (0h:0m:32s left)
+Iteration 70 / LogL: -9287.247 / Time: 0h:0m:27s (0h:0m:27s left)
+UPDATE BEST LOG-LIKELIHOOD: -9281.313
+Iteration 80 / LogL: -9286.994 / Time: 0h:0m:30s (0h:0m:22s left)
+Iteration 90 / LogL: -9281.654 / Time: 0h:0m:33s (0h:0m:18s left)
+Iteration 100 / LogL: -9281.840 / Time: 0h:0m:37s (0h:0m:14s left)
+UPDATE BEST LOG-LIKELIHOOD: -9281.312
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 109: -9280.934
+Iteration 110 / LogL: -9281.622 / Time: 0h:0m:40s (0h:0m:36s left)
+Iteration 120 / LogL: -9320.344 / Time: 0h:0m:43s (0h:0m:32s left)
+Iteration 130 / LogL: -9284.373 / Time: 0h:0m:46s (0h:0m:28s left)
+Iteration 140 / LogL: -9283.919 / Time: 0h:0m:49s (0h:0m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 146: -9280.815
+Iteration 150 / LogL: -9280.902 / Time: 0h:0m:53s (0h:0m:34s left)
+Iteration 160 / LogL: -9281.265 / Time: 0h:0m:56s (0h:0m:30s left)
+BETTER TREE FOUND at iteration 170: -9280.811
+Iteration 170 / LogL: -9280.811 / Time: 0h:0m:59s (0h:0m:35s left)
+Iteration 180 / LogL: -9287.232 / Time: 0h:1m:3s (0h:0m:31s left)
+Iteration 190 / LogL: -9281.266 / Time: 0h:1m:6s (0h:0m:28s left)
+Iteration 200 / LogL: -9283.372 / Time: 0h:1m:9s (0h:0m:24s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 208: -9277.241
+Iteration 210 / LogL: -9292.013 / Time: 0h:1m:13s (0h:0m:34s left)
+Iteration 220 / LogL: -9283.594 / Time: 0h:1m:16s (0h:0m:30s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 226: -9276.284
+BETTER TREE FOUND at iteration 227: -9276.282
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 229: -9276.130
+Iteration 230 / LogL: -9279.607 / Time: 0h:1m:20s (0h:0m:34s left)
+Iteration 240 / LogL: -9276.167 / Time: 0h:1m:23s (0h:0m:31s left)
+Iteration 250 / LogL: -9288.801 / Time: 0h:1m:26s (0h:0m:27s left)
+BETTER TREE FOUND at iteration 257: -9276.129
+Iteration 260 / LogL: -9286.657 / Time: 0h:1m:30s (0h:0m:33s left)
+Iteration 270 / LogL: -9276.130 / Time: 0h:1m:33s (0h:0m:30s left)
+Iteration 280 / LogL: -9306.720 / Time: 0h:1m:36s (0h:0m:26s left)
+Iteration 290 / LogL: -9280.555 / Time: 0h:1m:40s (0h:0m:23s left)
+Iteration 300 / LogL: -9276.777 / Time: 0h:1m:43s (0h:0m:19s left)
+Iteration 310 / LogL: -9276.130 / Time: 0h:1m:46s (0h:0m:16s left)
+Iteration 320 / LogL: -9277.246 / Time: 0h:1m:50s (0h:0m:12s left)
+UPDATE BEST LOG-LIKELIHOOD: -9276.129
+Iteration 330 / LogL: -9276.166 / Time: 0h:1m:53s (0h:0m:9s left)
+Iteration 340 / LogL: -9276.167 / Time: 0h:1m:56s (0h:0m:5s left)
+Iteration 350 / LogL: -9276.131 / Time: 0h:1m:59s (0h:0m:2s left)
+TREE SEARCH COMPLETED AFTER 358 ITERATIONS / Time: 0h:2m:2s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -9276.129
+2. Current log-likelihood: -9276.097
+3. Current log-likelihood: -9276.067
+4. Current log-likelihood: -9276.036
+5. Current log-likelihood: -9276.002
+6. Current log-likelihood: -9275.967
+7. Current log-likelihood: -9275.930
+8. Current log-likelihood: -9275.891
+9. Current log-likelihood: -9275.850
+10. Current log-likelihood: -9275.808
+11. Current log-likelihood: -9275.765
+12. Current log-likelihood: -9275.721
+13. Current log-likelihood: -9275.675
+14. Current log-likelihood: -9275.628
+15. Current log-likelihood: -9275.580
+16. Current log-likelihood: -9275.532
+17. Current log-likelihood: -9275.484
+18. Current log-likelihood: -9275.435
+19. Current log-likelihood: -9275.386
+20. Current log-likelihood: -9275.338
+21. Current log-likelihood: -9275.291
+22. Current log-likelihood: -9275.244
+23. Current log-likelihood: -9275.198
+24. Current log-likelihood: -9275.153
+25. Current log-likelihood: -9275.109
+26. Current log-likelihood: -9275.066
+27. Current log-likelihood: -9275.025
+28. Current log-likelihood: -9274.985
+29. Current log-likelihood: -9274.947
+30. Current log-likelihood: -9274.910
+31. Current log-likelihood: -9274.874
+32. Current log-likelihood: -9274.841
+33. Current log-likelihood: -9274.808
+34. Current log-likelihood: -9274.777
+35. Current log-likelihood: -9274.748
+36. Current log-likelihood: -9274.720
+37. Current log-likelihood: -9274.694
+38. Current log-likelihood: -9274.668
+39. Current log-likelihood: -9274.644
+40. Current log-likelihood: -9274.622
+41. Current log-likelihood: -9274.600
+42. Current log-likelihood: -9274.579
+43. Current log-likelihood: -9274.560
+44. Current log-likelihood: -9274.542
+45. Current log-likelihood: -9274.524
+46. Current log-likelihood: -9274.508
+47. Current log-likelihood: -9274.492
+48. Current log-likelihood: -9274.477
+49. Current log-likelihood: -9274.463
+50. Current log-likelihood: -9274.450
+51. Current log-likelihood: -9274.437
+52. Current log-likelihood: -9274.425
+53. Current log-likelihood: -9274.414
+54. Current log-likelihood: -9274.403
+55. Current log-likelihood: -9274.393
+56. Current log-likelihood: -9274.383
+Optimal log-likelihood: -9274.368
+Rate parameters:  A-C: 1.41748  A-G: 3.79852  A-T: 0.35552  C-G: 1.16015  C-T: 6.77835  G-T: 1.00000
+Base frequencies:  A: 0.264  C: 0.246  G: 0.287  T: 0.204
+Site proportion and rates:  (0.631,0.050) (0.134,0.676) (0.125,1.720) (0.079,4.415) (0.031,9.999)
+Parameters optimization took 56 rounds (8.577 sec)
+BEST SCORE FOUND : -9274.368
+Total tree length: 3.022
+
+Total number of iterations: 358
+CPU time used for tree search: 350.996 sec (0h:5m:50s)
+Wall-clock time used for tree search: 121.997 sec (0h:2m:1s)
+Total CPU time used: 375.491 sec (0h:6m:15s)
+Total wall-clock time used: 131.209 sec (0h:2m:11s)
+
+Analysis results written to: 
+  IQ-TREE report:                results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas.iqtree
+  Maximum-likelihood tree:       results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas.treefile
+  Likelihood distances:          results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas.mldist
+  Screen log file:               results/BDNF/Recombinants/BDNF_codons_RDP_recombinationFree.fas.log
+
+Date and Time: Fri Sep 17 19:10:11 2021
