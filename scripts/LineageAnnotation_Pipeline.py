@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# In[1]:
 # Imports
 import sys, os
 from Bio import Entrez
@@ -9,10 +10,13 @@ from ete3 import NCBITaxa
 import pandas as pd
 from ete3 import Tree
 #from tqdm import tqdm
-#import urllib2
-import time
 
+# In[6]:
 # Declares
+#RESULTS_DIR = os.path.join("..", "results", "mammalian_REV3L")
+#CSV_FILE    = os.path.join("..", "data", "mammalian_REV3L", "REV3L_orthologs.csv")
+#TREE_FILE   = os.path.join("..", "results", "mammalian_REV3L", "mammalian_REV3L.1.codon.fas.treefile")
+
 RESULTS_DIR     = sys.argv[1]
 CSV_FILE        = sys.argv[2]
 TREE_FILE       = sys.argv[3]
@@ -26,7 +30,6 @@ Entrez.email = "alexander.lucaci@temple.edu"
 if os.stat(TREE_FILE).st_size == 0:
     print("# Empty tree file:", TREE_FILE)
     sys.exit(1)
-#end if
 
 with open(TREE_FILE, "r") as fh:
     TREE_NEWICK = fh.read()
@@ -59,7 +62,7 @@ def match_transcript_to_tree(TREE_NEWICK, accession):
     #end for
 #end match
 
-
+# In[10]:
 def main(transcript_accessions, DATA_DICT, TREE_NEWICK):
     count = 1
     for ACCESSION in transcript_accessions:
@@ -127,10 +130,11 @@ main(transcript_accessions, DATA_DICT, TREE_NEWICK)
 # ---------------------------------------------------------------------
 # ## Second phase
 # ---------------------------------------------------------------------
+# In[13]:
 df2 = pd.DataFrame.from_dict(DATA_DICT, orient="index")
+# In[14]:
 lineages = df2['LINEAGE'].tolist()
 num_taxa = 20 # User-Set
-
 for i in range(len(lineages[0])):
     to_add = []
     for species in lineages:
@@ -178,18 +182,16 @@ def optimize_lineages(df2, seed=5):
     print("# final seed =", seed)
     return df2
 #end method
-
 df2 = optimize_lineages(df2)
+# In[16]:
 threshold = 0.4
 total = len(df2["Annotation"].tolist())
-
 for item in df2.groupby('Annotation').Annotation.count():
     calc = item / total
     print(item / total)
     if calc > threshold:
         print(item / total, "exceeded threshold") 
-
-
+# In[17]:
 json_data = {}
 for item in set(df2["Annotation"].to_list()):
     json_data[item] = {}
@@ -218,6 +220,7 @@ with open(out_clade_file_json, 'w') as outfile:
     json.dump(json_data, outfile)
 
 
+# In[ ]:
 
 
 
