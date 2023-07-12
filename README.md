@@ -82,24 +82,29 @@ We will ammend our cluster.json file to correspond to the number of available co
 
 Most important, if you are running locally, modify the `ppn` variable, otherwise for HPC deployment check with your system administration for requirements or use your best judgement.
 
-We can now execute our program with `bash run_AOC.sh`
+We can now execute our program with `bash run_AOC_Local.sh`
+
+This command performs the entire analysis.
 
 ### Results
 The following are JSON files produced by HyPhy analyses. These can be visualized by the appropriate module from HyPhy Vision (http://vision.hyphy.org/). Analysis file names contain the method used (SLAC, FEL, PRIME, FADE, MEME, CFEL, etc), and if appropriate -- the set of branches to which the analysis was applied.
 
 ```
-── results/BDNF/Recombinants
-│   ├── BDNF.FEL.json
-│   ├── BDNF.FUBAR.json
-│   ├── BDNF.BUSTEDS.json
-│   ├── BDNF.MEME.json
-│   ├── BDNF.ABSREL.json
-│   ├── BDNF.SLAC.json
-│   ├── BDNF.BGM.json
-│   ├── BDNF.PRIME.json
-│   ├── BDNF.FMM.json
-│   ├── BDNF.ABSREL-MH.json
-│   ├── BDNF.BUSTEDS-MH.json
+── results/PrimateACE2
+│   ├── PrimateACE2_codons.SA.fasta.FEL.json
+│   ├── PrimateACE2_codons.SA.fasta.FUBAR.json
+│   ├── PrimateACE2_codons.SA.fasta.MEME.json
+│   ├── PrimateACE2_codons.SA.fasta.ABSREL.json
+│   ├── PrimateACE2_codons.SA.fasta.SLAC.json
+│   ├── PrimateACE2_codons.SA.fasta.BGM.json
+│   ├── PrimateACE2_codons.SA.fasta.PRIME.json
+│   ├── PrimateACE2_codons.SA.fasta.FMM.json
+│   ├── PrimateACE2_codons.SA.fasta.ABSREL.json
+|   ├── PrimateACE2_codons.SA.fasta.ABSRELS.json
+│   ├── PrimateACE2_codons.SA.fasta.BUSTEDSMH.json
+│   ├── PrimateACE2_codons.SA.fasta.BUSTED.json
+│   ├── PrimateACE2_codons.SA.fasta.BUSTEDMH.json
+│   ├── PrimateACE2_codons.SA.fasta.BUSTEDS.json
 ```
 
 ## Removing the AOC environment from conda
