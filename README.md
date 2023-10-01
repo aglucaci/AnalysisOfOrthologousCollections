@@ -28,12 +28,12 @@ This is typically done as one gene per species, but all transcripts per species 
 
 ## Pipeline
 
-Step 1. Codon-aware alignment from protein and gene transcript files
-Step 2. Recombination detection (via RDP)
-Step 3. Tree inference (ML Tree inference, preferably IQ-TREE or RAxML).
-Step 4. Selection analyses: this includes (MEME, FEL, FUBAR, BUSTEDS MEME, aBSREL, SLAC, BGM, RPIME, FMM)
-Step 4. Lineage assignment and tree annotation (Custom script)
-Step 5. Selection analyses on lineages (RELAX, CFEL)
+Step 1. Codon-aware alignment from protein and gene transcript files \\
+Step 2. Recombination detection (via GARD) \\
+Step 3. Tree inference (ML Tree inference, preferably IQ-TREE or RAxML). \\ 
+Step 4. Selection analyses: this includes (MEME, FEL, FUBAR, BUSTED Model testing, MEME, aBSREL, SLAC, BGM, FMM, etc) \\
+Step 4. Lineage assignment and tree annotation (Custom script) \\
+Step 5. Selection analyses on lineages (RELAX, CFEL) \\
 
 ## Example dataset and results
 
