@@ -48,13 +48,13 @@
        "Full adaptive model":0.001060853878825402,
        "Full adaptive model (non-synonymous subs/site)":0.001060853878825402,
        "Full adaptive model (synonymous subs/site)":1e-10,
-       "LRT":1.362094234158576,
+       "LRT":1.362094254520343,
        "Nucleotide GTR":0.001059999147495708,
        "Rate Distributions":        [
 [10000000000, 1] 
         ],
        "Rate classes":1,
-       "Uncorrected P-value":0.2004610072297532,
+       "Uncorrected P-value":0.2004610049795366,
        "original name":"NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA_1"
       },
      "Node13":{
@@ -1024,7 +1024,7 @@
     }
   },
  "input":{
-   "file name":"/Users/alex/Documents/AOC-develop/results/PrimateACE2/PrimateACE2.1.codon.fas",
+   "file name":"/mnt/e/AOC/results/PrimateACE2/PrimateACE2.1.codon.fas",
    "number of sequences":31,
    "number of sites":805,
    "partition count":1,
@@ -1099,27 +1099,27 @@
  "timers":{
    "Baseline model fitting":{
      "order":2,
-     "timer":29
+     "timer":43
     },
    "Complexity analysis":{
      "order":3,
-     "timer":339
+     "timer":715
     },
    "Full adaptive model fitting":{
      "order":4,
-     "timer":24
+     "timer":60
     },
    "Overall":{
      "order":0,
-     "timer":530
+     "timer":1200
     },
    "Preliminary model fitting":{
      "order":1,
-     "timer":0
+     "timer":1
     },
    "Testing for selection":{
      "order":5,
-     "timer":137
+     "timer":381
     }
   }
 }

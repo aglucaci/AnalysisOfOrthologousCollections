@@ -245,6 +245,6 @@ DataSetFilter gard.filter.part_0 = CreateFilter(gard.sequences,1,"0-2414","0,25,
 DataSetFilter gard.filter.part_1 = CreateFilter(gard.sequences,1,"2415-3002","0,25,5,19,10,7,29,20,21,27,14,1,2,8,11,6,26,4,30,15,22,23,13,17,18,24,9,3,16,12,28");
 ASSUME_REVERSIBLE_MODELS=0;
 USE_LAST_RESULTS=1;
-LikelihoodFunction tcqIGGup.likelihoodFunction = (gard.filter.part_0,gard.tree.part_0,gard.filter.part_1,gard.tree.part_1);PRESERVE_SLAVE_NODE_STATE = TRUE; MPI_NEXUS_FILE_RETURN = "None";
+LikelihoodFunction WQxENlLR.likelihoodFunction = (gard.filter.part_0,gard.tree.part_0,gard.filter.part_1,gard.tree.part_1);PRESERVE_SLAVE_NODE_STATE = TRUE; MPI_NEXUS_FILE_RETURN = "None";
 
 END;

@@ -1022,7 +1022,7 @@
     }
   },
  "input":{
-   "file name":"/Users/alex/Documents/AOC-develop/results/PrimateACE2/PrimateACE2.2.codon.fas",
+   "file name":"/mnt/e/AOC/results/PrimateACE2/PrimateACE2.2.codon.fas",
    "number of sequences":31,
    "number of sites":196,
    "partition count":1,
@@ -1097,19 +1097,19 @@
  "timers":{
    "Baseline model fitting":{
      "order":2,
-     "timer":7
+     "timer":10
     },
    "Complexity analysis":{
      "order":3,
-     "timer":186
+     "timer":291
     },
    "Full adaptive model fitting":{
      "order":4,
-     "timer":24
+     "timer":34
     },
    "Overall":{
      "order":0,
-     "timer":412
+     "timer":595
     },
    "Preliminary model fitting":{
      "order":1,
@@ -1117,7 +1117,7 @@
     },
    "Testing for selection":{
      "order":5,
-     "timer":194
+     "timer":259
     }
   }
 }
