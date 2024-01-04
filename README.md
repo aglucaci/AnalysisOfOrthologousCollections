@@ -1,6 +1,6 @@
 # Analysis Of Orthologous Collections (AOC)
 
-`Alpha version 0.03 (2023)`
+`Alpha version 0.04 (2024)`
 
 # About this repository
 
