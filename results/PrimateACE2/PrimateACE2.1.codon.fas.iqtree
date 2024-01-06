@@ -1,8 +1,8 @@
 IQ-TREE 2.2.2.3 COVID-edition built May 16 2023
 
-Input file name: /mnt/e/AOC/results/PrimateACE2/PrimateACE2.1.codon.fas
+Input file name: /Users/user/Documents/AOC/results/PrimateACE2/PrimateACE2.1.codon.fas
 Type of analysis: ModelFinder + tree reconstruction
-Random seed number: 449002
+Random seed number: 396412
 
 REFERENCES
 ----------
@@ -71,9 +71,9 @@ GTR+F+R3          -7750.313   15642.625 -   0.0285   15646.989 -   0.0241   1605
 TPM3+G4           -7786.420   15696.840 - 4.81e-14   15700.161 - 6.86e-14   16055.786 - 4.02e-08
 TIM2+F+R2         -7767.492   15668.983 - 5.38e-08   15672.866 -  5.8e-08   16056.877 - 2.33e-08
 TIM2+F+I+G4       -7767.587   15669.174 - 4.89e-08   15673.056 - 5.27e-08   16057.068 - 2.12e-08
-TPM2u+F+I+G4      -7771.794   15675.589 - 1.98e-09   15679.355 - 2.26e-09   16057.693 - 1.55e-08
+TPM2u+F+I+G4      -7771.794   15675.588 - 1.98e-09   15679.355 - 2.26e-09   16057.692 - 1.55e-08
 TPM2u+F+R2        -7771.840   15675.681 - 1.89e-09   15679.447 - 2.16e-09   16057.785 - 1.48e-08
-GTR+F+I+R3        -7749.914   15643.828 -   0.0156   15648.317 -   0.0124   16060.669 -  3.5e-09
+GTR+F+I+R3        -7749.914   15643.827 -   0.0156   15648.316 -   0.0124   16060.668 -  3.5e-09
 K3P+G4            -7788.863   15701.727 - 4.18e-15   15705.048 - 5.96e-15   16060.673 - 3.49e-09
 TIM3e+G4          -7785.561   15697.121 - 4.18e-14   15700.551 - 5.65e-14   16061.857 - 1.93e-09
 TVMe+G4           -7781.756   15691.512 -  6.9e-13   15695.052 - 8.83e-13   16062.037 - 1.77e-09
@@ -96,7 +96,7 @@ TIMe+R2           -7787.516   15703.031 - 2.18e-15   15706.572 - 2.78e-15   1607
 TIMe+I+G4         -7787.674   15703.348 - 1.86e-15   15706.889 - 2.37e-15   16073.873 - 4.75e-12
 SYM+R2            -7780.470   15692.940 - 3.38e-13   15696.707 - 3.86e-13   16075.044 - 2.64e-12
 SYM+I+G4          -7780.622   15693.243 -  2.9e-13   15697.010 - 3.32e-13   16075.347 - 2.27e-12
-TIM2e+G4          -7792.611   15711.222 - 3.62e-17   15714.653 - 4.89e-17   16075.958 - 1.67e-12
+TIM2e+G4          -7792.611   15711.222 - 3.62e-17   15714.652 - 4.89e-17   16075.958 - 1.67e-12
 TPM2+R2           -7793.090   15712.180 - 2.24e-17   15715.610 - 3.03e-17   16076.915 - 1.04e-12
 TPM2+I+G4         -7793.125   15712.250 - 2.17e-17   15715.680 - 2.93e-17   16076.986 -    1e-12
 TNe+R2            -7793.140   15712.280 - 2.13e-17   15715.710 - 2.88e-17   16077.016 - 9.86e-13
@@ -159,7 +159,7 @@ Relative rates are computed as MEAN of the portion of the Gamma distribution fal
 MAXIMUM LIKELIHOOD TREE
 -----------------------
 
-Log-likelihood of the tree: -7754.3306 (s.e. 168.5682)
+Log-likelihood of the tree: -7754.3306 (s.e. 168.5677)
 Unconstrained log-likelihood (without tree): -8721.4224
 Number of free parameters (#branches + #model parameters): 66
 Akaike information criterion (AIC) score: 15640.6613
@@ -167,7 +167,7 @@ Corrected Akaike information criterion (AICc) score: 15644.4279
 Bayesian information criterion (BIC) score: 16022.7653
 
 Total tree length (sum of branch lengths): 0.4616
-Sum of internal branch lengths: 0.1977 (42.8282% of tree length)
+Sum of internal branch lengths: 0.1977 (42.8284% of tree length)
 
 WARNING: 4 near-zero internal branches (<0.0004) should be treated with caution
          Such branches are denoted by '**' in the figure below
@@ -238,28 +238,28 @@ NOTE: Tree is UNROOTED although outgroup taxon 'XM_017512376_2_PREDICTED_Cebus_i
 
 Tree in newick format:
 
-(XM_017512376_2_PREDICTED_Cebus_imitator_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0037412070,XM_032285963_1_PREDICTED_Sapajus_apella_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0022320182,(((XM_008988993_4_PREDICTED_Callithrix_jacchus_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0109669911,XM_012434682_2_PREDICTED_Aotus_nancymaae_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0084590676):0.0009834587,((((XM_003791864_2_PREDICTED_Otolemur_garnettii_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0365900729,XM_053580366_1_PREDICTED_Nycticebus_coucang_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0175591915):0.0416258242,((XM_012638731_1_PREDICTED_Propithecus_coquereli_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0168694655,XM_045538336_1_PREDICTED_Lemur_catta_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0163348152):0.0018110417,XM_020285237_1_PREDICTED_Microcebus_murinus_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0250835150):0.0149166339):0.0328370773,XM_008064619_1_PREDICTED_Carlito_syrichta_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0847404503):0.0312156540,(((((NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA_1:0.0010674464,(XM_016942979_2_PREDICTED_Pan_troglodytes_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0005311875,XM_008974180_2_PREDICTED_Pan_paniscus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0010712120):0.0016071684):0.0000010000,XM_019019204_1_PREDICTED_Gorilla_gorilla_gorilla_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0032169103):0.0048435080,(NM_001131132_2_Pongo_abelii_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0005315080,XM_054471966_1_PREDICTED_Pongo_pygmaeus_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0005340842):0.0048368768):0.0005677602,(XM_003261084_3_PREDICTED_Nomascus_leucogenys_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0032157057,XM_032756617_1_PREDICTED_Hylobates_moloch_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0021558901):0.0042749848):0.0054547426,(((XM_010366065_2_PREDICTED_Rhinopithecus_roxellana_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0013929729,XM_017888580_1_PREDICTED_Rhinopithecus_bieti_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0010605301):0.0025531587,XM_023199053_2_PREDICTED_Piliocolobus_tephrosceles_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0047093599):0.0012240815,(XM_007991113_2_PREDICTED_Chlorocebus_sabaeus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0021512549,((((XM_011995533_1_PREDICTED_Mandrillus_leucophaeus_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0021451495,XM_012035808_1_PREDICTED_Cercocebus_atys_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0016073764):0.0000010000,XM_025372062_1_PREDICTED_Theropithecus_gelada_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0000010000):0.0000010000,XM_021933040_1_PREDICTED_Papio_anubis_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0005345684):0.0005354027,(((NM_001135696_1_Macaca_mulatta_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0032395678,XM_005593037_3_PREDICTED_Macaca_fascicularis_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0010799117):0.0005292108,XM_011735203_2_PREDICTED_Macaca_nemestrina_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0000010000):0.0000010000,XM_050777627_1_PREDICTED_Macaca_thibetana_thibetana_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0010732071):0.0005348507):0.0010738048):0.0018296610):0.0064572861):0.0095713204):0.0223836864):0.0017679130,XM_010336623_2_PREDICTED_Saimiri_boliviensis_boliviensis_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0099803988):0.0042352005);
+(XM_017512376_2_PREDICTED_Cebus_imitator_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0037414315,XM_032285963_1_PREDICTED_Sapajus_apella_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0022318607,(((XM_008988993_4_PREDICTED_Callithrix_jacchus_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0109665641,XM_012434682_2_PREDICTED_Aotus_nancymaae_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0084586834):0.0009827980,((((XM_003791864_2_PREDICTED_Otolemur_garnettii_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0365903012,XM_053580366_1_PREDICTED_Nycticebus_coucang_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0175595578):0.0416268139,((XM_012638731_1_PREDICTED_Propithecus_coquereli_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0168701650,XM_045538336_1_PREDICTED_Lemur_catta_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0163347422):0.0018105392,XM_020285237_1_PREDICTED_Microcebus_murinus_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0250838730):0.0149179841):0.0328374454,XM_008064619_1_PREDICTED_Carlito_syrichta_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0847415220):0.0312153588,(((((NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA_1:0.0010675337,(XM_016942979_2_PREDICTED_Pan_troglodytes_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0005319243,XM_008974180_2_PREDICTED_Pan_paniscus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0010713182):0.0016072975):0.0000010000,XM_019019204_1_PREDICTED_Gorilla_gorilla_gorilla_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0032171762):0.0048439537,(NM_001131132_2_Pongo_abelii_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0005315842,XM_054471966_1_PREDICTED_Pongo_pygmaeus_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0005341636):0.0048365280):0.0005680885,(XM_003261084_3_PREDICTED_Nomascus_leucogenys_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0032161909,XM_032756617_1_PREDICTED_Hylobates_moloch_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0021562432):0.0042755601):0.0054542543,(((XM_010366065_2_PREDICTED_Rhinopithecus_roxellana_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0013929089,XM_017888580_1_PREDICTED_Rhinopithecus_bieti_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0010600273):0.0025532899,XM_023199053_2_PREDICTED_Piliocolobus_tephrosceles_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0047096712):0.0012238385,(XM_007991113_2_PREDICTED_Chlorocebus_sabaeus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0021511826,((((XM_011995533_1_PREDICTED_Mandrillus_leucophaeus_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0021451211,XM_012035808_1_PREDICTED_Cercocebus_atys_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0016073696):0.0000010000,XM_025372062_1_PREDICTED_Theropithecus_gelada_angiotensin_I_converting_enzyme_2_ACE2_mRNA_1:0.0000010000):0.0000010000,XM_021933040_1_PREDICTED_Papio_anubis_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0005346469):0.0005357594,(((NM_001135696_1_Macaca_mulatta_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0032397354,XM_005593037_3_PREDICTED_Macaca_fascicularis_angiotensin_converting_enzyme_2_ACE2_mRNA_1:0.0010804513):0.0005293625,XM_011735203_2_PREDICTED_Macaca_nemestrina_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0000010000):0.0000010000,XM_050777627_1_PREDICTED_Macaca_thibetana_thibetana_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0010730245):0.0005350403):0.0010742701):0.0018298532):0.0064578643):0.0095711477):0.0223846274):0.0017679030,XM_010336623_2_PREDICTED_Saimiri_boliviensis_boliviensis_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA_1:0.0099806155):0.0042355415);
 
 ALISIM COMMAND
 --------------
 To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
 
---alisim simulated_MSA -t /mnt/e/AOC/results/PrimateACE2/PrimateACE2.1.codon.fas.treefile -m "TIM3{2.22313,6.98842,9.53718}+F{0.308588,0.203123,0.231076,0.257213}+G4{0.404952}" --length 2415
+--alisim simulated_MSA -t /Users/user/Documents/AOC/results/PrimateACE2/PrimateACE2.1.codon.fas.treefile -m "TIM3{2.22313,6.98842,9.53719}+F{0.308588,0.203123,0.231076,0.257213}+G4{0.404952}" --length 2415
 
 To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
 
-iqtree -s /mnt/e/AOC/results/PrimateACE2/PrimateACE2.1.codon.fas --alisim mimicked_MSA
+iqtree -s /Users/user/Documents/AOC/results/PrimateACE2/PrimateACE2.1.codon.fas --alisim mimicked_MSA
 
 To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
 
-iqtree -s /mnt/e/AOC/results/PrimateACE2/PrimateACE2.1.codon.fas --alisim mimicked_MSA --num-alignments 100
+iqtree -s /Users/user/Documents/AOC/results/PrimateACE2/PrimateACE2.1.codon.fas --alisim mimicked_MSA --num-alignments 100
 
 For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
 
 TIME STAMP
 ----------
 
-Date and time: Sun Oct  1 19:01:31 2023
-Total CPU time used: 10.9844 seconds (0h:0m:10s)
-Total wall-clock time used: 47.0847 seconds (0h:0m:47s)
+Date and time: Thu Jan  4 23:56:37 2024
+Total CPU time used: 8.75718 seconds (0h:0m:8s)
+Total wall-clock time used: 10.8615 seconds (0h:0m:10s)
 

@@ -1,10 +1,14 @@
-"""``snakemake`` file that runs the AOC Part I Selection analysis.
-Written by Alexander G Lucaci.
+"""
 
-For this, I don't need the alignment stuff, since we have an alignment, and its recombination free (tested via RDP).
-Jump back in ad the TN93 and IQTREE step, then selection analyes
+Snakemakefile that runs the AOC application - Selection analysis.
+
+Written by Alexander G Lucaci (2024)
 
 """
+
+# =============================================================================
+# Imports
+# =============================================================================
 
 import itertools
 import os
@@ -14,15 +18,15 @@ import json
 from pathlib import Path
 from snakemake.utils import min_version
 import glob
-#print("# Snakefile for Recombinants")
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Configuration
-#----------------------------------------------------------------------------
+# =============================================================================
+
 configfile: 'config.yml'
 
-with open("cluster.json", "r") as in_c:
-  cluster = json.load(in_c)
+with open("cluster.json", "r") as fh:
+  cluster = json.load(fh)
 #end with
 
 Label = config["Label"]
@@ -53,9 +57,6 @@ CladeLabels = sorted([x for x in glob.glob(os.path.join(OUTDIR, '*.clade'))])
 
 ReferenceClade = os.path.basename(CladeLabels[0]).split(".")[0] #CladeLabels[0].split(".")[0]
 
-#print(Recombinants)
-#print(Recombinants_Trees)
-
 print("# We will process selection analyses in", len(Recombinants), "files")
 print("# We will use the following clade labels:", CladeLabels)
 
@@ -66,43 +67,41 @@ PPN = cluster["__default__"]["ppn"]
 HYPHY = "hyphy"
 HYPHYMPI = "HYPHYMPI"
 
-#----------------------------------------------------------------------------
+FITMG94 = os.path.join(BASEDIR, "hyphy-analyses", "FitMG94", "FitMG94.bf")
+
+# =============================================================================
 # Rule all
-#----------------------------------------------------------------------------
+# =============================================================================
+
 rule all:
     input:
         expand(os.path.join(OUTDIR, "{sample}.dst"), sample=Recombinants, tree = Recombinants_Trees),
         expand(os.path.join(OUTDIR, "{sample}.treefile"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.MG94.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.FEL.json"), sample=Recombinants, tree = Recombinants_Trees),
-        expand(os.path.join(OUTDIR, "{sample}.FUBAR.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.BUSTEDS.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.MEME.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.ABSREL.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.SLAC.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.BGM.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.PRIME.json"), sample=Recombinants),
-        #expand(os.path.join(OUTDIR, "{sample}.ABSREL-MH.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.BUSTEDS-MH.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.FMM.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{tree}.labelled"), tree = Recombinants_Trees),
-        expand(os.path.join(OUTDIR, "{sample}.RELAX.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.CFEL.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.FEL.png"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.FUBAR.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.BUSTEDS.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.MEME.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.ABSREL.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.SLAC.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.BGM.json"), sample=Recombinants),
+        ##expand(os.path.join(OUTDIR, "{sample}.PRIME.json"), sample=Recombinants),
+        ##expand(os.path.join(OUTDIR, "{sample}.ABSREL-MH.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.BUSTEDS-MH.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.FMM.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{tree}.labelled"), tree = Recombinants_Trees),
+        #expand(os.path.join(OUTDIR, "{sample}.RELAX.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.CFEL.json"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.FEL.png"), sample=Recombinants), # Start summary of results
         expand(os.path.join(OUTDIR, "{sample}.FEL.csv"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.FEL.txt"), sample=Recombinants)
-        
+        expand(os.path.join(OUTDIR, "{sample}.FEL.FigureLegend.txt"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.cumulativeResults.csv"), sample=Recombinants)
+    #end input
 #end rule all
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Rules
-#----------------------------------------------------------------------------
-
-OUTDIR = BASEDIR
-
-#----------------------------------------------------------------------------
-# TN93, on codon alignment, can be modified for distance calcs on protein aln
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule tn93:
     input:
@@ -113,9 +112,9 @@ rule tn93:
        "tn93 -t 1 -o {output.output} {input.input}"
 #end rule tn93
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # IQ-TREE for ML tree inference
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule iqtree: # Unrooted
     input:
@@ -126,9 +125,9 @@ rule iqtree: # Unrooted
         "iqtree -s {input.codons_fas} -T AUTO"
 #end rule iqtree
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Selection Analyses
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule FITMG94:
     input: 
@@ -137,7 +136,7 @@ rule FITMG94:
     output: 
         results = os.path.join(OUTDIR, "{sample}.MG94.json")
     shell: 
-        "{HYPHY} LIBPATH={RES} {FITMG94} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --rooted No --lrt Yes --type global --frequencies CF3x4"
+        "{HYPHY} {FITMG94} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --rooted No --lrt Yes --type global --frequencies CF3x4"
 #end rule 
 
 rule FEL:
@@ -207,7 +206,7 @@ rule BGM:
     output: 
         results = os.path.join(OUTDIR, "{sample}.BGM.json")
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} BGM --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
+        "{HYPHY} BGM --alignment {input.codon_aln} --tree {input.tree} --output {output.results}"
 #end rule 
 
 """
@@ -254,9 +253,10 @@ rule FMM:
         "mpirun -np {PPN} {HYPHYMPI} FMM --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --triple-islands Yes"
 #end rule
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Lineages
-#----------------------------------------------------------------------------
+# =============================================================================
+
 rule AssignLineages:
     input:
         tree   = os.path.join(OUTDIR, "{tree}")
@@ -290,9 +290,9 @@ rule AssignLineages:
     #end run
 #end rule
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Group level Selection analyses
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule RELAX:
     input:
@@ -318,10 +318,25 @@ rule CFEL:
         "{HYPHY} contrast-fel --alignment {input.codon_aln} --tree {input.tree} --output {output.output} --branch-set {params.RefClade}"
 #end rule
 
-#----------------------------------------------------------------------------
-# Summary Tables/Figures
-#----------------------------------------------------------------------------
+# =============================================================================
+# Summarize results 
+# =============================================================================
 
+rule executiveSummaryFEL:
+    input:
+        FEL_JSON = rules.FEL.output.results
+    params:
+        METHOD = "FEL"
+    output:
+        output_png    = os.path.join(OUTDIR, "{sample}.FEL.png"),
+        output_csv    = os.path.join(OUTDIR, "{sample}.FEL.csv"),
+        figure_legend = os.path.join(OUTDIR, "{sample}.FEL.FigureLegend.txt"),
+        cumulative_results = os.path.join(OUTDIR, "{sample}.cumulativeResults.csv")
+    notebook:
+        "notebooks/executiveSummary.ipynb"
+#end rule
+
+"""
 rule FEL_figures:
     input:
         input = rules.FEL.output.results
@@ -331,7 +346,8 @@ rule FEL_figures:
         figure_legend = os.path.join(OUTDIR, "{sample}.FEL.txt")
     notebook:
         "notebooks/PipelineSummarizeFEL.ipynb"
+"""
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # End of file
-#----------------------------------------------------------------------------
+# =============================================================================

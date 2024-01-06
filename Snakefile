@@ -1,9 +1,14 @@
-"""``Snakemake`` file that runs the AOC alignment step.
-Written by Alexander G Lucaci, 2023
 """
-#----------------------------------------------------------------------------
+
+Snakemake file that runs the AOC application
+
+Written by Alexander G Lucaci, 2024
+
+"""
+
+# =============================================================================
 # Imports
-#----------------------------------------------------------------------------
+# =============================================================================
 
 import itertools
 import os
@@ -20,9 +25,10 @@ from ete3 import NCBITaxa
 import pandas as pd
 pd.options.mode.chained_assignment = None
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Configuration
-#----------------------------------------------------------------------------
+# =============================================================================
+
 configfile: 'config.yml'
 
 print("# Loaded config yaml file")
@@ -45,16 +51,17 @@ Nucleotide_file = os.path.join(BASEDIR,
                                Label,
                                config["Nucleotide"])
                                
-Protein_file = os.path.join(BASEDIR,
-                            "data",
-                            Label,
-                            config["Protein"])
+Protein_file    = os.path.join(BASEDIR,
+                               "data",
+                               Label,
+                               config["Protein"])
                             
-CSV = os.path.join(BASEDIR,
-                   "data",
-                   Label,
-                   config["CSV"])
-
+CSV             = os.path.join(BASEDIR,
+                               "data",
+                               Label,
+                               config["CSV"])
+                               
+# Print to user
 print("# Using nucleotide data from:", Nucleotide_file)
 print("# Using protein data from:", Protein_file)
 print("# Using the analysis label:", Label)
@@ -101,15 +108,14 @@ PPN = cluster["__default__"]["ppn"]
 HYPHY = "hyphy"
 HYPHYMPI = "HYPHYMPI"
 
-CODON_OUTPUT = os.path.join(OUTDIR, Label)
+CODON_OUTPUT   = os.path.join(OUTDIR, Label)
 
-CODONS_PY = os.path.join("scripts", "codons.py")
+CODONS_PY      = os.path.join("scripts", "codons.py")
 
-GARD_PARASE_NB = os.path.join("notebooks", "GARD_parse.ipynb")
+# =============================================================================
+# Helper functions
+# =============================================================================
 
-#----------------------------------------------------------------------------
-# Rule all
-#----------------------------------------------------------------------------
 def match_transcript_to_tree(TREE_NEWICK, accession):
     t = Tree(TREE_NEWICK, format=1)
     for leafname in t.get_leaf_names():
@@ -149,15 +155,22 @@ def ProcessLineages(transcript_accessions, DATA_DICT, TREE_NEWICK):
         try:
             for record in records:
                 TAXON_ID = record["TaxId"]
-                print("#", count, "Processing transcript accession:", str(ACCESSION), "with NCBI Taxon ID:", str(TAXON_ID))
+                print("#", count, "Processing transcript accession:", 
+                                   str(ACCESSION), 
+                                   "with NCBI Taxon ID:", 
+                                   str(TAXON_ID))
                 ncbi = NCBITaxa()
                 lineage = ncbi.get_lineage(TAXON_ID)
                 names = ncbi.get_taxid_translator(lineage)
                 leafname = ""
-                leafname = match_transcript_to_tree(TREE_NEWICK, ACCESSION.replace(".", "_"))
-                DATA_DICT[str(count)] = {"ACCESSION": ACCESSION, "TAXON_ID": TAXON_ID,
+                leafname = match_transcript_to_tree(TREE_NEWICK, 
+                                                    ACCESSION.replace(".", "_"))
+                                                    
+                DATA_DICT[str(count)] = {"ACCESSION": ACCESSION, 
+                                         "TAXON_ID": TAXON_ID,
                                          "LINEAGE": [names[taxid] for taxid in lineage],
-                                         "TITLE": record["Title"], "LEAFNAME": leafname}
+                                         "TITLE": record["Title"], 
+                                         "LEAFNAME": leafname}
                 count += 1
             #end inner for
             handle.close
@@ -176,9 +189,10 @@ def get_LineageColumn(lineages, loc):
     return result
 #end method
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Rule all
-#----------------------------------------------------------------------------
+# =============================================================================
+
 rule all:
     input:
         CODON_OUTPUT,
@@ -188,7 +202,7 @@ rule all:
         os.path.join(OUTDIR, Label + "_codons.fasta"),
         os.path.join(OUTDIR, Label + "_codons_duplicates.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta"),
-        #os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile"),
+        os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json"),
         os.path.join(OUTDIR, Label + "_codons.SA.fasta.best-gard"),
         os.path.join(OUTDIR, Label + ".1.codon.fas"),
@@ -198,9 +212,9 @@ rule all:
 
 print("# Moving on to processing rules")
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Rules
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule get_codons:
     output:
@@ -253,9 +267,9 @@ rule strike_ambigs:
        "{HYPHY} scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
 #end rule
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # IQ-TREE for ML tree inference
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule iqtree: # Unrooted
     input:
@@ -266,9 +280,9 @@ rule iqtree: # Unrooted
         "iqtree -s {input.codons_fas} -T AUTO"
 #end rule iqtree
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Recombination detection
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule recombination:
     input: 
@@ -277,12 +291,13 @@ rule recombination:
         output   = os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json"),
         bestgard = os.path.join(OUTDIR, Label + "_codons.SA.fasta.best-gard")
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI}  GARD --alignment {input.input} --rv GDD --output {output.output}"
+        "mpirun -np {PPN} {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output}"
 #end rule
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Split out GARD partitions
-#----------------------------------------------------------------------------
+# Based on code originally written by Jordan Zehr, Ph.D.
+# =============================================================================
 
 rule ParseNexus:
     input:
@@ -295,19 +310,20 @@ rule ParseNexus:
     params:
         output = os.path.join(OUTDIR, Label)
     run:
-        # Load Partition coordinates
         """
+        Example: 
         CHARSET span_1 = 1-2415;
         CHARSET span_2 = 2416-3003;
         """
-        
         data = [line.strip() for line in open(input.input, "r").readlines() if "CHARSET" in line]
+        
         coords = []
         for pos, i in enumerate(data):
             start = int(i.split(" ")[-1].split(";")[0].split("-")[0]) - 1
             stop  = int(i.split(" ")[-1].split(";")[0].split("-")[1]) - 1
-            coords.append((start,stop))
+            coords.append((start, stop))
         #end for
+        
         print("# Number of partitions:", len(coords))
         print("# These are our coordinates:", coords)
         
@@ -319,6 +335,7 @@ rule ParseNexus:
             # TREE tree_1 =
             newick = tree.split(" = ")[1]
             trees.append(newick)
+            
             # Save tree to file
             t = Tree(newick, format=1)
             output_tree = params.output + ".".join(["." + str(n+1), "codon", "fas", "tree", "nwk"])
@@ -327,36 +344,35 @@ rule ParseNexus:
         
         # Report to user
         print("# Number of tree files (newick format):", len(trees))
-        #print(trees)
         
-        # Load records
-        #records = SeqIO.parse(input.input, "nexus")
-        
-        #output_partitions
         for n, partition in enumerate(coords):
             print("# Working on partition", str(n+1), "with coordinates:", partition)
+            
             # Load records
             records = SeqIO.parse(input.input, "nexus")
+            
             output_records = []
             for record in records:
-                output_record = record # Make a copy
-                #print(len(output_record.seq))
+                output_record = record
                 output_record.seq = output_record.seq[partition[0]: partition[1] + 1]
                 output_records.append(output_record)
             #end for
+            
             # Output records
             output_fasta = params.output + ".".join(["." + str(n + 1),
                                                      "codon",
                                                      "fas"])
+                                                     
             print("# Saving to FASTA file:", output_fasta)
             SeqIO.write(output_records, output_fasta, "fasta")
         #end for
-                
+    #end run    
 #end rule
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # Selection analyses
-#----------------------------------------------------------------------------
+# =============================================================================
+"""
 
 rule FEL:
     input:
@@ -466,9 +482,11 @@ rule BUSTEDSMH:
         "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.input} --output {output.output} --srv Yes --starting-points 10 --multiple-hits Double+Triple"
 #end rule
 
-#----------------------------------------------------------------------------
+"""
+
+# =============================================================================
 # Lineages
-#----------------------------------------------------------------------------
+# =============================================================================
 
 rule GatherLineages:
     input:
@@ -479,22 +497,25 @@ rule GatherLineages:
         OUTDIR = OUTDIR
     output:
         output = os.path.join(OUTDIR, Label + "_Annotated.csv")
+        # Also outputs .clade files
     run:
         Entrez.email = params.email
         df = pd.read_csv(input.input_csv)
         df.index += 1
         DATA_DICT = {}
         transcript_accessions = df['RefSeq Transcript accessions'].tolist()
+        
         with open(input.tree, "r") as fh:
             TREE_NEWICK = fh.read()
         #end with
+        
         DATA_DICT = ProcessLineages(transcript_accessions, DATA_DICT, TREE_NEWICK)
         df2 = pd.DataFrame.from_dict(DATA_DICT, orient="index")
         lineages = df2['LINEAGE'].tolist()
-        #print(lineages)
-        num_taxa = 5 # User-Set
+        
+        num_taxa = 5 # Default parameter, this is a cutoff for how many taxa to include in a clade-file, meaning if a clade has less than this integer it is not included in the final annotated tree.
+        
         print("# Optimizing clade labels")
-
         count = 0
         BreakOut = False
 
@@ -516,6 +537,7 @@ rule GatherLineages:
         #end while
 
         df2["CladeLabel"] = ""
+        
         for index, row in df2.iterrows():
             #print(row['c1'], row['c2'])
             lineage = row['LINEAGE']
@@ -539,9 +561,10 @@ rule GatherLineages:
                 fh.close()
             #end with
         #end for
-        
+    #end run
 #end rule
 
-#----------------------------------------------------------------------------
+# =============================================================================
 # End of file
-#----------------------------------------------------------------------------
+# =============================================================================
+

@@ -25,24 +25,21 @@ snakemake \
       -s Snakefile \
       --cluster-config cluster.json \
       --jobs 2 all \
-      --rerun-incomplete \
       --cores all \
       --keep-going \
       --reason \
-      --latency-wait 120
+      --latency-wait 300
       
-exit 0
 
 # Run Selection Analyses on recombination-free files
-#snakemake \
-#      -s Snakefile_Recombinants \
-#      --cluster-config cluster.json \
-#      --jobs 1 all \
-#      --rerun-incomplete \
-#      --cores all \
-#      --keep-going \
-#      --reason \
-#      --latency-wait 120
+snakemake \
+      -s Snakefile_Recombinants \
+      --cluster-config cluster.json \
+      --jobs 2 all \
+      --cores all \
+      --keep-going \
+      --reason \
+      --latency-wait 300
 
 exit 0
 # End of file
