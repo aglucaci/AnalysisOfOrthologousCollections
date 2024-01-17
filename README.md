@@ -6,6 +6,7 @@
 
 This repository expands on work oringally done for https://github.com/aglucaci/GeneInvestigator. A simple application to interrogate the molecular evolution of a single gene. AOC allows for the inclusion of recombination detection, a powerful force in shaping gene evolution and interpreting analytic results. As well, it allows for lineage assignment and annotation. This feature (lineage assignment) allows between group comparison of selective pressures.
 
+
 ## Installation and dependencies
 This application is currently designed to run in an HPC environment due to the computational cost of selection analyse.
 
@@ -16,7 +17,8 @@ You will also need to download the standalone hyphy-analyses repository (https:/
 ### To install -- Steps necessary to complete before running
 1. `git clone https://github.com/aglucaci/AnalysisOfOrthologousCollections.git AOC`
 2. `cd AOC`
-3. `conda env create -f environment.yml`. This will create a virtual environment called (GeneInvestigator) with the necessary dependencies.
+3. `conda env create -f environment.yml`. This will create a virtual environment called (AOC) with the necessary dependencies.
+    *NOTE* For those with arm64 CPU architecures (Apple M1/M2), compatibility errors may arise during installation with conda, in order to circumvent this issue try this command before creating the conda environment `conda config --env --set subdir osx-64`
 4. At this point, run `conda activate AOC` and your environment will be ready to go.
 
 ## Data retrieval via NCBI Orthologs

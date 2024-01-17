@@ -17,7 +17,6 @@ import csv
 import json
 from pathlib import Path
 from snakemake.utils import min_version
-min_version("7.2")
 from Bio import SeqIO
 from ete3 import Tree
 from Bio import Entrez
