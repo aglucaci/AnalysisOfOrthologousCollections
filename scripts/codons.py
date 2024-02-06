@@ -207,7 +207,7 @@ prot_seq_lengths = []
 
 with open(PROTEIN_FASTA, "r") as prot_handle:
     for n, record in enumerate(SeqIO.parse(prot_handle, "fasta")):
-        prot_seq_lengths.append(len(record.seq.ungap("-")))
+        prot_seq_lengths.append(len(record.seq))
     #end for
 #end with
 prot_handle.close()
@@ -283,7 +283,7 @@ with open(PROTEIN_FASTA, "r") as prot_handle:
         ##end if 
 
         # Heavy lifting here.
-        tx_record = Process (protein_desc, protein_seq.ungap("-"), TRANSCRIPTS_FASTA, species, int(avg_sequence_length_nt))
+        tx_record = Process (protein_desc, protein_seq, TRANSCRIPTS_FASTA, species, int(avg_sequence_length_nt))
 
         if type(tx_record) != str:
             with open(logfile, "a") as fh2:

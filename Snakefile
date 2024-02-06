@@ -226,6 +226,10 @@ rule get_codons:
         "scripts/codons.py"
 #end rule
 
+# =============================================================================
+# Codon-aware alignment
+# =============================================================================
+
 rule pre_msa:
     input: 
         codons = rules.get_codons.output.codons
@@ -255,6 +259,10 @@ rule post_msa:
     shell:
         "mpirun -np {PPN} {HYPHYMPI} {POSTMSA} --protein-msa {input.protein_aln} --nucleotide-sequences {input.nucleotide_seqs} --output {output.codons_fas} --duplicates {output.duplicates_json}"
 #end rule 
+
+# =============================================================================
+# Strike problematic codons
+# =============================================================================
 
 rule strike_ambigs:
    input:
@@ -369,121 +377,6 @@ rule ParseNexus:
 #end rule
 
 # =============================================================================
-# Selection analyses
-# =============================================================================
-"""
-
-rule FEL:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.FEL.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} FEL --alignment {input.input} --output {output.output} --ci Yes"
-#end rule
-
-rule MEME:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.MEME.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} MEME --alignment {input.input} --output {output.output}"
-#end rule
-
-rule FUBAR:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.FUBAR.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} FUBAR --alignment {input.input} --output {output.output} "
-#end rule
-
-rule SLAC:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.SLAC.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} SLAC --alignment {input.input} --output {output.output}"
-#end rule
-
-rule FMM:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.FMM.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} FMM --alignment {input.input} --output {output.output}"
-#end rule
-
-rule BGM:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.BGM.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} BGM --alignment {input.input} --output {output.output}"
-#end rule
-
-rule aBSREL:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.aBSREL.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} ABSREL --alignment {input.input} --output {output.output}"
-#end rule
-
-rule aBSRELS:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.aBSRELS.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} ABSREL --alignment {input.input} --output {output.output} --srv Yes"
-#end rule
-
-rule BUSTED:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.BUSTED.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.input} --output {output.output} --srv No --starting-points 10"
-#end rule
-
-rule BUSTEDS:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.BUSTEDS.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.input} --output {output.output} --srv Yes --starting-points 10"
-#end rule
-
-rule BUSTEDMH:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.BUSTEDMH.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.input} --output {output.output} --srv No --starting-points 10 --multiple-hits Double+Triple"
-#end rule
-
-rule BUSTEDSMH:
-    input:
-        input = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR, Label + "_codons.SA.fasta.BUSTEDSMH.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.input} --output {output.output} --srv Yes --starting-points 10 --multiple-hits Double+Triple"
-#end rule
-
-"""
-
-# =============================================================================
 # Lineages
 # =============================================================================
 
@@ -512,7 +405,9 @@ rule GatherLineages:
         df2 = pd.DataFrame.from_dict(DATA_DICT, orient="index")
         lineages = df2['LINEAGE'].tolist()
         
-        num_taxa = 5 # Default parameter, this is a cutoff for how many taxa to include in a clade-file, meaning if a clade has less than this integer it is not included in the final annotated tree.
+        # Default parameter, this is a cutoff for how many taxa to include in a clade-file,
+        # meaning if a clade has less than this integer it is not included in the final annotated tree.
+        num_taxa = 5
         
         print("# Optimizing clade labels")
         count = 0

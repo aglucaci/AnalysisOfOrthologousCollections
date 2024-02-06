@@ -75,27 +75,32 @@ FITMG94 = os.path.join(BASEDIR, "hyphy-analyses", "FitMG94", "FitMG94.bf")
 
 rule all:
     input:
-        expand(os.path.join(OUTDIR, "{sample}.dst"), sample=Recombinants, tree = Recombinants_Trees),
-        expand(os.path.join(OUTDIR, "{sample}.treefile"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.MG94.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.FEL.json"), sample=Recombinants, tree = Recombinants_Trees),
-        #expand(os.path.join(OUTDIR, "{sample}.FUBAR.json"), sample=Recombinants),
-        #expand(os.path.join(OUTDIR, "{sample}.BUSTEDS.json"), sample=Recombinants),
-        #expand(os.path.join(OUTDIR, "{sample}.MEME.json"), sample=Recombinants),
-        #expand(os.path.join(OUTDIR, "{sample}.ABSREL.json"), sample=Recombinants),
-        #expand(os.path.join(OUTDIR, "{sample}.SLAC.json"), sample=Recombinants),
-        #expand(os.path.join(OUTDIR, "{sample}.BGM.json"), sample=Recombinants),
-        ##expand(os.path.join(OUTDIR, "{sample}.PRIME.json"), sample=Recombinants),
-        ##expand(os.path.join(OUTDIR, "{sample}.ABSREL-MH.json"), sample=Recombinants),
-        #expand(os.path.join(OUTDIR, "{sample}.BUSTEDS-MH.json"), sample=Recombinants),
+        # Calculate genetic distances
+        expand(os.path.join(OUTDIR, "{sample}.dst"), sample = Recombinants, tree = Recombinants_Trees),
+        # Selection analysis repertoire
+        #expand(os.path.join(OUTDIR, "{sample}.MG94.json"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.FEL.json"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.FUBAR.json"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.BUSTEDS.json"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.MEME.json"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.ABSREL.json"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.SLAC.json"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.BGM.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.PRIME.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.ABSREL-MH.json"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.BUSTEDS-MH.json"), sample=Recombinants),
         #expand(os.path.join(OUTDIR, "{sample}.FMM.json"), sample=Recombinants),
-        #expand(os.path.join(OUTDIR, "{tree}.labelled"), tree = Recombinants_Trees),
-        #expand(os.path.join(OUTDIR, "{sample}.RELAX.json"), sample=Recombinants),
-        #expand(os.path.join(OUTDIR, "{sample}.CFEL.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.FEL.png"), sample=Recombinants), # Start summary of results
-        expand(os.path.join(OUTDIR, "{sample}.FEL.csv"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.FEL.FigureLegend.txt"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.cumulativeResults.csv"), sample=Recombinants)
+        # Labelling taxonomy
+        expand(os.path.join(OUTDIR, "{tree}.labelled"), tree = Recombinants_Trees),
+        expand(os.path.join(OUTDIR, "{sample}.RELAX.json"), sample=Recombinants),
+        expand(os.path.join(OUTDIR, "{sample}.CFEL.json"), sample=Recombinants),
+        # Executive Summary
+        #expand(os.path.join(OUTDIR, "{sample}.FEL.png"), sample=Recombinants), # Start summary of results
+        #expand(os.path.join(OUTDIR, "{sample}.FEL.csv"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.FEL.FigureLegend.txt"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.cumulativeResults.csv"), sample=Recombinants)
+        # Executive Summary
+        expand(os.path.join(OUTDIR, "{sample}.executiveSummary.csv"), sample=Recombinants)
     #end input
 #end rule all
 
@@ -116,13 +121,13 @@ rule tn93:
 # IQ-TREE for ML tree inference
 # =============================================================================
 
-rule iqtree: # Unrooted
-    input:
-        codons_fas = os.path.join(OUTDIR, "{sample}")
-    output:
-        tree = os.path.join(OUTDIR, "{sample}.treefile")
-    shell:
-        "iqtree -s {input.codons_fas} -T AUTO"
+#rule iqtree: # Unrooted
+#    input:
+#        codons_fas = os.path.join(OUTDIR, "{sample}")
+#    output:
+#        tree = os.path.join(OUTDIR, "{sample}.treefile")
+#    shell:
+#        "iqtree -s {input.codons_fas} -T AUTO"
 #end rule iqtree
 
 # =============================================================================
@@ -132,8 +137,8 @@ rule iqtree: # Unrooted
 rule FITMG94:
     input: 
         codon_aln = os.path.join(OUTDIR, "{sample}"),
-        tree = os.path.join(OUTDIR, "{sample}.treefile")
-    output: 
+        tree = os.path.join(OUTDIR, "{sample}.tree.nwk")
+    output:
         results = os.path.join(OUTDIR, "{sample}.MG94.json")
     shell: 
         "{HYPHY} {FITMG94} --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --rooted No --lrt Yes --type global --frequencies CF3x4"
@@ -243,15 +248,17 @@ rule BUSTEDSMH:
         "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --multiple-hits Double+Triple --starting-points 10"
 #end rule
 
+"""
 rule FMM:
     input: 
         codon_aln = os.path.join(OUTDIR, "{sample}"),
         tree      = os.path.join(OUTDIR, "{sample}.tree.nwk")
     output: 
         results = os.path.join(OUTDIR, "{sample}.FMM.json")
-    shell: 
+    shell:
         "mpirun -np {PPN} {HYPHYMPI} FMM --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --triple-islands Yes"
 #end rule
+"""
 
 # =============================================================================
 # Lineages
@@ -322,6 +329,51 @@ rule CFEL:
 # Summarize results 
 # =============================================================================
 
+rule executiveSummary:
+    input:
+        inputFEL   = rules.FEL.output.results,
+        inputFUBAR = rules.FUBAR.output.results,
+        inputMEME = rules.MEME.output.results,
+        inputBUSTEDS = rules.BUSTEDS.output.results,
+        inputBUSTEDSMH = rules.BUSTEDSMH.output.results,
+        inputBGM = rules.BGM.output.results,
+        inputABSREL = rules.ABSREL.output.results,
+        inputSLAC = rules.SLAC.output.results,
+        inputRELAX = rules.RELAX.output.output,
+        inputCFEL = rules.CFEL.output.output
+    output:
+        output = os.path.join(OUTDIR, "{sample}.executiveSummary.csv")
+    script:
+        "scripts/executiveSummary.py"
+#end rule
+
+"""
+rule executiveSummaryFEL:
+    input:
+        input = rules.FEL.output.results
+    params:
+        method = "FEL"
+    output:
+        output = os.path.join(OUTDIR, "{sample}.executiveSummary.csv")
+    script:
+        "scripts/executiveSummary.py"
+#end rule
+
+
+
+rule executiveSummaryFUBAR:
+    input:
+        input = rules.FUBAR.output.results
+    params:
+        method = "FUBAR"
+    output:
+        output = os.path.join(OUTDIR, "{sample}.executiveSummary.csv")
+    script:
+        "scripts/executiveSummary.py"
+#end rule
+"""
+
+"""
 rule executiveSummaryFEL:
     input:
         FEL_JSON = rules.FEL.output.results
@@ -335,6 +387,8 @@ rule executiveSummaryFEL:
     notebook:
         "notebooks/executiveSummary.ipynb"
 #end rule
+
+"""
 
 """
 rule FEL_figures:
