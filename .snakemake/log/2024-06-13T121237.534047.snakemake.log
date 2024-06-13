@@ -1,0 +1,412 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+ABSREL                  2
+AssignLineages          2
+BGM                     2
+BUSTEDS                 2
+BUSTEDSMH               2
+CFEL                    2
+FEL                     2
+FUBAR                   2
+MEME                    2
+RELAX                   2
+SLAC                    2
+all                     1
+executiveSummary        2
+tn93                    2
+total                  27
+
+Select jobs to execute...
+
+[Thu Jun 13 12:12:38 2024]
+rule BUSTEDSMH:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BUSTEDS-MH.json
+    jobid: 18
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BUSTEDS-MH.json
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+
+[Thu Jun 13 12:12:38 2024]
+rule BUSTEDS:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BUSTEDS.json
+    jobid: 7
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BUSTEDS.json
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+
+[Thu Jun 13 12:12:38 2024]
+rule FEL:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FEL.json
+    jobid: 3
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FEL.json
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+
+[Thu Jun 13 12:12:38 2024]
+rule BGM:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BGM.json
+    jobid: 15
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BGM.json
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+
+[Thu Jun 13 12:12:38 2024]
+rule FUBAR:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FUBAR.json
+    jobid: 6
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FUBAR.json
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+
+[Thu Jun 13 12:12:38 2024]
+rule tn93:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.dst
+    jobid: 2
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.dst
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+
+[Thu Jun 13 12:12:38 2024]
+rule SLAC:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.SLAC.json
+    jobid: 13
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.SLAC.json
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+
+[Thu Jun 13 12:12:38 2024]
+rule BGM:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BGM.json
+    jobid: 16
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BGM.json
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+
+[Thu Jun 13 12:12:38 2024]
+rule ABSREL:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.ABSREL.json
+    jobid: 12
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.ABSREL.json
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+
+[Thu Jun 13 12:12:38 2024]
+rule tn93:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.dst
+    jobid: 1
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.dst
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:12:38 2024]
+Error in rule tn93:
+    jobid: 2
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.dst
+    shell:
+        tn93 -t 1 -o /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.dst /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Select jobs to execute...
+[Thu Jun 13 12:12:38 2024]
+Error in rule tn93:
+    jobid: 1
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.dst
+    shell:
+        tn93 -t 1 -o /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.dst /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+
+[Thu Jun 13 12:12:38 2024]
+rule MEME:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.MEME.json
+    jobid: 10
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.MEME.json
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+Select jobs to execute...
+
+[Thu Jun 13 12:12:38 2024]
+rule FUBAR:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FUBAR.json
+    jobid: 5
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FUBAR.json
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:12:52 2024]
+Finished job 6.
+1 of 27 steps (4%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:12:52 2024]
+rule BUSTEDS:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BUSTEDS.json
+    jobid: 8
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BUSTEDS.json
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:12:57 2024]
+Finished job 5.
+2 of 27 steps (7%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:12:57 2024]
+rule AssignLineages:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk.labelled
+    jobid: 19
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk.labelled
+    wildcards: tree=PrimateACE2.1.codon.fas.tree.nwk
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:12:58 2024]
+Finished job 19.
+3 of 27 steps (11%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:12:58 2024]
+rule CFEL:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk.labelled
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.CFEL.json
+    jobid: 23
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.CFEL.json; Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk.labelled
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:13:40 2024]
+Error in rule BUSTEDS:
+    jobid: 7
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BUSTEDS.json
+    shell:
+        mpirun -np 4 HYPHYMPI BUSTED --alignment /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas --tree /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk --output /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BUSTEDS.json --srv Yes --starting-points 10
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job BUSTEDS since they might be corrupted:
+/Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BUSTEDS.json
+Select jobs to execute...
+
+[Thu Jun 13 12:13:41 2024]
+rule RELAX:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk.labelled
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.RELAX.json
+    jobid: 21
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.RELAX.json; Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk.labelled
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:13:46 2024]
+Error in rule BUSTEDS:
+    jobid: 8
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BUSTEDS.json
+    shell:
+        mpirun -np 4 HYPHYMPI BUSTED --alignment /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas --tree /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk --output /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BUSTEDS.json --srv Yes --starting-points 10
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job BUSTEDS since they might be corrupted:
+/Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BUSTEDS.json
+Select jobs to execute...
+
+[Thu Jun 13 12:13:46 2024]
+rule ABSREL:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.ABSREL.json
+    jobid: 11
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.ABSREL.json
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:14:21 2024]
+Finished job 16.
+4 of 27 steps (15%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:14:21 2024]
+rule BUSTEDSMH:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BUSTEDS-MH.json
+    jobid: 17
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BUSTEDS-MH.json
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:14:36 2024]
+Finished job 13.
+5 of 27 steps (19%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:14:36 2024]
+rule MEME:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.MEME.json
+    jobid: 9
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.MEME.json
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:14:51 2024]
+Error in rule BUSTEDSMH:
+    jobid: 18
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BUSTEDS-MH.json
+    shell:
+        mpirun -np 4 HYPHYMPI BUSTED --alignment /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas --tree /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk --output /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BUSTEDS-MH.json --srv Yes --multiple-hits Double+Triple --starting-points 10
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job BUSTEDSMH since they might be corrupted:
+/Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BUSTEDS-MH.json
+Select jobs to execute...
+
+[Thu Jun 13 12:14:51 2024]
+rule FEL:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FEL.json
+    jobid: 4
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FEL.json
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:16:40 2024]
+Error in rule BUSTEDSMH:
+    jobid: 17
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BUSTEDS-MH.json
+    shell:
+        mpirun -np 4 HYPHYMPI BUSTED --alignment /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas --tree /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk --output /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BUSTEDS-MH.json --srv Yes --multiple-hits Double+Triple --starting-points 10
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job BUSTEDSMH since they might be corrupted:
+/Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BUSTEDS-MH.json
+Select jobs to execute...
+
+[Thu Jun 13 12:16:40 2024]
+rule SLAC:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.SLAC.json
+    jobid: 14
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.SLAC.json
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:17:04 2024]
+Finished job 10.
+6 of 27 steps (22%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:17:04 2024]
+rule AssignLineages:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk.labelled
+    jobid: 20
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk.labelled
+    wildcards: tree=PrimateACE2.2.codon.fas.tree.nwk
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:17:06 2024]
+Finished job 20.
+7 of 27 steps (26%) done
+Select jobs to execute...
+
+[Thu Jun 13 12:17:06 2024]
+rule RELAX:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk.labelled
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.RELAX.json
+    jobid: 22
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.RELAX.json; Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk.labelled
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:17:26 2024]
+Error in rule FEL:
+    jobid: 4
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FEL.json
+    shell:
+        mpirun -np 4 HYPHYMPI FEL --alignment /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas --tree /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk --output /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FEL.json --ci Yes
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job FEL since they might be corrupted:
+/Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FEL.json
+Select jobs to execute...
+
+[Thu Jun 13 12:17:26 2024]
+rule CFEL:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk.labelled
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.CFEL.json
+    jobid: 24
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.CFEL.json; Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk.labelled
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 12:17:29 2024]
+Finished job 14.
+8 of 27 steps (30%) done
+[Thu Jun 13 12:18:09 2024]
+Finished job 3.
+9 of 27 steps (33%) done
+[Thu Jun 13 12:18:21 2024]
+Error in rule ABSREL:
+    jobid: 12
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.ABSREL.json
+    shell:
+        mpirun -np 4 HYPHYMPI ABSREL --alignment /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas --tree /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk --output /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.ABSREL.json
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+
+Removing output files of failed job ABSREL since they might be corrupted:
+/Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.ABSREL.json
+[Thu Jun 13 12:19:19 2024]
+Finished job 15.
+10 of 27 steps (37%) done
+[Thu Jun 13 12:20:01 2024]
+Finished job 24.
+11 of 27 steps (41%) done
+[Thu Jun 13 12:20:38 2024]
+Finished job 9.
+12 of 27 steps (44%) done
+[Thu Jun 13 12:21:13 2024]
+Finished job 11.
+13 of 27 steps (48%) done
+[Thu Jun 13 12:21:17 2024]
+Finished job 23.
+14 of 27 steps (52%) done
+[Thu Jun 13 12:29:31 2024]
+Finished job 22.
+15 of 27 steps (56%) done
+[Thu Jun 13 12:45:08 2024]
+Finished job 21.
+16 of 27 steps (59%) done
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-06-13T121237.534047.snakemake.log

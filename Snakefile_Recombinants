@@ -76,19 +76,19 @@ FITMG94 = os.path.join(BASEDIR, "hyphy-analyses", "FitMG94", "FitMG94.bf")
 rule all:
     input:
         # Calculate genetic distances
-        expand(os.path.join(OUTDIR, "{sample}.dst"), sample = Recombinants, tree = Recombinants_Trees),
+        #expand(os.path.join(OUTDIR, "{sample}.dst"), sample = Recombinants, tree = Recombinants_Trees),
         # Selection analysis repertoire
         #expand(os.path.join(OUTDIR, "{sample}.MG94.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.FEL.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.FUBAR.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.BUSTEDS.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.BUSTEDS.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.MEME.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.ABSREL.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.SLAC.json"), sample=Recombinants),
         expand(os.path.join(OUTDIR, "{sample}.BGM.json"), sample=Recombinants),
         #expand(os.path.join(OUTDIR, "{sample}.PRIME.json"), sample=Recombinants),
         #expand(os.path.join(OUTDIR, "{sample}.ABSREL-MH.json"), sample=Recombinants),
-        expand(os.path.join(OUTDIR, "{sample}.BUSTEDS-MH.json"), sample=Recombinants),
+        #expand(os.path.join(OUTDIR, "{sample}.BUSTEDS-MH.json"), sample=Recombinants),
         #expand(os.path.join(OUTDIR, "{sample}.FMM.json"), sample=Recombinants),
         # Labelling taxonomy
         expand(os.path.join(OUTDIR, "{tree}.labelled"), tree = Recombinants_Trees),
@@ -171,7 +171,7 @@ rule BUSTEDS:
     output: 
         results = os.path.join(OUTDIR, "{sample}.BUSTEDS.json")
     shell: 
-        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 10"
+        "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --starting-points 25"
 #end rule
 
 rule MEME:
@@ -238,6 +238,7 @@ rule ABSRELMH:
 #end rule ABSRELMH
 """
 
+"""
 rule BUSTEDSMH:
     input: 
         codon_aln = os.path.join(OUTDIR, "{sample}"),
@@ -247,6 +248,7 @@ rule BUSTEDSMH:
     shell: 
         "mpirun -np {PPN} {HYPHYMPI} BUSTED --alignment {input.codon_aln} --tree {input.tree} --output {output.results} --srv Yes --multiple-hits Double+Triple --starting-points 10"
 #end rule
+"""
 
 """
 rule FMM:
@@ -334,8 +336,8 @@ rule executiveSummary:
         inputFEL   = rules.FEL.output.results,
         inputFUBAR = rules.FUBAR.output.results,
         inputMEME = rules.MEME.output.results,
-        inputBUSTEDS = rules.BUSTEDS.output.results,
-        inputBUSTEDSMH = rules.BUSTEDSMH.output.results,
+        #inputBUSTEDS = rules.BUSTEDS.output.results,
+        #inputBUSTEDSMH = rules.BUSTEDSMH.output.results,
         inputBGM = rules.BGM.output.results,
         inputABSREL = rules.ABSREL.output.results,
         inputSLAC = rules.SLAC.output.results,
@@ -347,60 +349,6 @@ rule executiveSummary:
         "scripts/executiveSummary.py"
 #end rule
 
-"""
-rule executiveSummaryFEL:
-    input:
-        input = rules.FEL.output.results
-    params:
-        method = "FEL"
-    output:
-        output = os.path.join(OUTDIR, "{sample}.executiveSummary.csv")
-    script:
-        "scripts/executiveSummary.py"
-#end rule
-
-
-
-rule executiveSummaryFUBAR:
-    input:
-        input = rules.FUBAR.output.results
-    params:
-        method = "FUBAR"
-    output:
-        output = os.path.join(OUTDIR, "{sample}.executiveSummary.csv")
-    script:
-        "scripts/executiveSummary.py"
-#end rule
-"""
-
-"""
-rule executiveSummaryFEL:
-    input:
-        FEL_JSON = rules.FEL.output.results
-    params:
-        METHOD = "FEL"
-    output:
-        output_png    = os.path.join(OUTDIR, "{sample}.FEL.png"),
-        output_csv    = os.path.join(OUTDIR, "{sample}.FEL.csv"),
-        figure_legend = os.path.join(OUTDIR, "{sample}.FEL.FigureLegend.txt"),
-        cumulative_results = os.path.join(OUTDIR, "{sample}.cumulativeResults.csv")
-    notebook:
-        "notebooks/executiveSummary.ipynb"
-#end rule
-
-"""
-
-"""
-rule FEL_figures:
-    input:
-        input = rules.FEL.output.results
-    output:
-        output_png    = os.path.join(OUTDIR, "{sample}.FEL.png"),
-        output_csv    = os.path.join(OUTDIR, "{sample}.FEL.csv"),
-        figure_legend = os.path.join(OUTDIR, "{sample}.FEL.txt")
-    notebook:
-        "notebooks/PipelineSummarizeFEL.ipynb"
-"""
 
 # =============================================================================
 # End of file

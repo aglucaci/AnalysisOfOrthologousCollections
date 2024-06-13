@@ -233,7 +233,7 @@ rule get_codons:
 rule pre_msa:
     input: 
         codons = rules.get_codons.output.codons
-    output: 
+    output:
         protein_fas = os.path.join(OUTDIR, Label + "_protein.fas"),
         nucleotide_fas = os.path.join(OUTDIR, Label + "_nuc.fas")
     shell:
@@ -437,7 +437,12 @@ rule GatherLineages:
             lineage = row['LINEAGE']
             for item in lineage:
                 if item in lineageSet:
-                    df2["CladeLabel"][index] = item
+                    ##df2["CladeLabel"][index] = item
+                    # df["col"][row_indexer] = value
+                    # df.loc[row_indexer, "col"] = values
+                    
+                    df2.loc[index, "CladeLabel"] = item
+                    
                 #end if
             #end for
         #end for

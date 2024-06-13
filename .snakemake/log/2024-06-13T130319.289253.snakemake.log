@@ -1,0 +1,50 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+executiveSummary        2
+total                   3
+
+Select jobs to execute...
+
+[Thu Jun 13 13:03:20 2024]
+rule executiveSummary:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FEL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FUBAR.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.MEME.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BGM.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.ABSREL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.SLAC.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.RELAX.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.CFEL.json
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.executiveSummary.csv
+    jobid: 20
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.executiveSummary.csv
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 13:03:20 2024]
+rule executiveSummary:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FEL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FUBAR.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.MEME.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BGM.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.ABSREL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.SLAC.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.RELAX.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.CFEL.json
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.executiveSummary.csv
+    jobid: 19
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.executiveSummary.csv
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 13:03:21 2024]
+Finished job 20.
+1 of 3 steps (33%) done
+[Thu Jun 13 13:03:21 2024]
+Finished job 19.
+2 of 3 steps (67%) done
+Select jobs to execute...
+
+[Thu Jun 13 13:03:21 2024]
+localrule all:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FEL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FEL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FUBAR.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FUBAR.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.MEME.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.MEME.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.ABSREL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.ABSREL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.SLAC.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.SLAC.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BGM.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BGM.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.tree.nwk.labelled, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.tree.nwk.labelled, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.RELAX.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.RELAX.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.CFEL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.CFEL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.executiveSummary.csv, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.executiveSummary.csv
+    jobid: 0
+    reason: Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.executiveSummary.csv, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.executiveSummary.csv
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 13:03:21 2024]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: .snakemake/log/2024-06-13T130319.289253.snakemake.log

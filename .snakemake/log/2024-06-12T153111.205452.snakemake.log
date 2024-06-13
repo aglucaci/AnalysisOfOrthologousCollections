@@ -1,0 +1,111 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+GatherLineages        1
+ParseNexus            1
+all                   1
+get_codons            1
+iqtree                1
+mafft                 1
+post_msa              1
+pre_msa               1
+recombination         1
+strike_ambigs         1
+total                10
+
+Select jobs to execute...
+
+[Wed Jun 12 15:31:46 2024]
+rule get_codons:
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2
+    jobid: 1
+    reason: Code has changed since last execution
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Wed Jun 12 15:31:49 2024]
+Finished job 1.
+1 of 10 steps (10%) done
+Select jobs to execute...
+
+[Wed Jun 12 15:31:49 2024]
+rule pre_msa:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_protein.fas, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_nuc.fas
+    jobid: 2
+    reason: Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Wed Jun 12 15:32:06 2024]
+Finished job 2.
+2 of 10 steps (20%) done
+Select jobs to execute...
+
+[Wed Jun 12 15:32:06 2024]
+rule mafft:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_protein.fas
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_protein.aln
+    jobid: 3
+    reason: Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_protein.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Wed Jun 12 15:32:18 2024]
+Finished job 3.
+3 of 10 steps (30%) done
+Select jobs to execute...
+
+[Wed Jun 12 15:32:18 2024]
+rule post_msa:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_protein.aln, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_nuc.fas
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.fasta, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons_duplicates.json
+    jobid: 4
+    reason: Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_protein.aln, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_nuc.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Wed Jun 12 15:32:19 2024]
+Finished job 4.
+4 of 10 steps (40%) done
+Select jobs to execute...
+
+[Wed Jun 12 15:32:19 2024]
+rule strike_ambigs:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.fasta
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta
+    jobid: 5
+    reason: Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.fasta
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Wed Jun 12 15:32:20 2024]
+Finished job 5.
+5 of 10 steps (50%) done
+Select jobs to execute...
+
+[Wed Jun 12 15:32:21 2024]
+rule iqtree:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta.treefile
+    jobid: 6
+    reason: Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+
+[Wed Jun 12 15:32:21 2024]
+rule recombination:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta.GARD.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta.best-gard
+    jobid: 7
+    reason: Input files updated by another job: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Wed Jun 12 15:32:22 2024]
+Error in rule iqtree:
+    jobid: 6
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta.treefile
+    shell:
+        iqtree -s /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2_codons.SA.fasta -T AUTO
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+

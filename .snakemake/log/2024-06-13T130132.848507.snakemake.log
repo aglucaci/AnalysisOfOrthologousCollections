@@ -1,0 +1,55 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 10
+Rules claiming more threads will be scaled down.
+Job stats:
+job                 count
+----------------  -------
+all                     1
+executiveSummary        2
+total                   3
+
+Select jobs to execute...
+
+[Thu Jun 13 13:01:33 2024]
+rule executiveSummary:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FEL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FUBAR.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.MEME.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BGM.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.ABSREL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.SLAC.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.RELAX.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.CFEL.json
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.executiveSummary.csv
+    jobid: 20
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.executiveSummary.csv
+    wildcards: sample=PrimateACE2.2.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 13:01:33 2024]
+rule executiveSummary:
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FEL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FUBAR.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.MEME.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BGM.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.ABSREL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.SLAC.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.RELAX.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.CFEL.json
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.executiveSummary.csv
+    jobid: 19
+    reason: Missing output files: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.executiveSummary.csv
+    wildcards: sample=PrimateACE2.1.codon.fas
+    resources: tmpdir=/var/folders/3l/76gtv9qd0v3_8hn3cb7hfbs40000gn/T
+
+[Thu Jun 13 13:01:34 2024]
+Error in rule executiveSummary:
+    jobid: 19
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FEL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.FUBAR.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.MEME.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.BGM.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.ABSREL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.SLAC.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.RELAX.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.CFEL.json
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.1.codon.fas.executiveSummary.csv
+
+[Thu Jun 13 13:01:34 2024]
+Error in rule executiveSummary:
+    jobid: 20
+    input: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FEL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.FUBAR.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.MEME.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.BGM.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.ABSREL.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.SLAC.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.RELAX.json, /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.CFEL.json
+    output: /Users/alex/Documents/AnalysisOfOrthologousCollections/results/PrimateACE2/PrimateACE2.2.codon.fas.executiveSummary.csv
+
+RuleException:
+CalledProcessError in file /Users/alex/Documents/AnalysisOfOrthologousCollections/Snakefile_Recombinants, line 349:
+Command 'set -euo pipefail;  /Users/Shared/anaconda3/envs/AOC/bin/python3.11 /Users/alex/Documents/AnalysisOfOrthologousCollections/.snakemake/scripts/tmpxr34652f.executiveSummary.py' returned non-zero exit status 1.
+  File "/Users/alex/Documents/AnalysisOfOrthologousCollections/Snakefile_Recombinants", line 349, in __rule_executiveSummary
+  File "/Users/Shared/anaconda3/envs/AOC/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+RuleException:
+CalledProcessError in file /Users/alex/Documents/AnalysisOfOrthologousCollections/Snakefile_Recombinants, line 349:
+Command 'set -euo pipefail;  /Users/Shared/anaconda3/envs/AOC/bin/python3.11 /Users/alex/Documents/AnalysisOfOrthologousCollections/.snakemake/scripts/tmpq4s0iu63.executiveSummary.py' returned non-zero exit status 1.
+  File "/Users/alex/Documents/AnalysisOfOrthologousCollections/Snakefile_Recombinants", line 349, in __rule_executiveSummary
+  File "/Users/Shared/anaconda3/envs/AOC/lib/python3.11/concurrent/futures/thread.py", line 58, in run
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-06-13T130132.848507.snakemake.log

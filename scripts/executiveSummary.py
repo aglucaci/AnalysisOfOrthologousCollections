@@ -21,8 +21,8 @@ import statsmodels.api
 jsonFileFEL   = snakemake.input.inputFEL
 jsonFileFUBAR = snakemake.input.inputFUBAR
 jsonFileMEME  = snakemake.input.inputMEME
-jsonFileBUSTEDS  = snakemake.input.inputBUSTEDS
-jsonFileBUSTEDSMH  = snakemake.input.inputBUSTEDSMH
+#jsonFileBUSTEDS  = snakemake.input.inputBUSTEDS
+#jsonFileBUSTEDSMH  = snakemake.input.inputBUSTEDSMH
 jsonFileBGM  = snakemake.input.inputBGM
 jsonFileABSREL  = snakemake.input.inputABSREL
 jsonFileSLAC  = snakemake.input.inputSLAC
@@ -33,8 +33,8 @@ jsons = {
          "FEL": jsonFileFEL,
          "FUBAR": jsonFileFUBAR,
          "MEME": jsonFileMEME,
-         "BUSTEDS": jsonFileBUSTEDS,
-         "BUSTEDSMH": jsonFileBUSTEDSMH,
+         #"BUSTEDS": jsonFileBUSTEDS,
+         #"BUSTEDSMH": jsonFileBUSTEDSMH,
          "BGM": jsonFileBGM,
          "ABSREL": jsonFileABSREL,
          "SLAC": jsonFileSLAC,
@@ -222,7 +222,7 @@ def process(method, jsonFile, first=False):
 results_dict = {}
 
 for _ in jsons.keys():
-    print("# Process", _, jsons[_])
+    print("# Processing...", _, jsons[_])
     if results_dict == {}:
         results_dict = process(_, jsons[_], True)
     else:

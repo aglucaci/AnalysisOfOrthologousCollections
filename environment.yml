@@ -4,15 +4,18 @@ channels:
   - bioconda
   - defaults
   
-
 dependencies:
-  - snakemake
-  - hyphy
-  - iqtree
-  - tn93
-  - altair
-  - altair_saver
-  - biopython
-  - mafft
-  - python
-  - ete3
+  - snakemake=7.32.4
+  - hyphy=2.5.61
+  - iqtree=2.1.2
+  - tn93=1.0.9
+  - altair=5.2.0
+  - altair_saver=0.5.0
+  - biopython=1.83
+  - mafft=7.520
+  - python=3.11.0
+  - ete3=3.1.2
+  - macse=2.07
+  - statsmodels=0.14.2
+
+
