@@ -2,7 +2,7 @@
 
 Snakemake file that runs the AOC application
 
-Written by Alexander G Lucaci, 2024
+Written by Alexander G Lucaci, 2024.8.13
 
 """
 
@@ -23,6 +23,7 @@ from Bio import Entrez
 from ete3 import NCBITaxa
 import pandas as pd
 pd.options.mode.chained_assignment = None
+import time
 
 # =============================================================================
 # Configuration
@@ -30,7 +31,7 @@ pd.options.mode.chained_assignment = None
 
 configfile: 'config.yml'
 
-print("# Loaded config yaml file")
+print("# Loaded config YAML file")
 
 with open("cluster.json", "r") as fh:
   cluster = json.load(fh)
@@ -44,6 +45,7 @@ print("# Loaded cluster json file")
 Email = config["Email"]
 
 Label = config["Label"]
+#GENE = config["Label"]
 
 Nucleotide_file = os.path.join(BASEDIR,
                                "data",
@@ -108,8 +110,9 @@ HYPHY = "hyphy"
 HYPHYMPI = "HYPHYMPI"
 
 CODON_OUTPUT   = os.path.join(OUTDIR, Label)
-
+REMOVE_DUPS_BF = os.path.join("hyphy-analyses", "remove-duplicates", "remove-duplicates.bf")
 CODONS_PY      = os.path.join("scripts", "codons.py")
+STRIKE_AMBIGS_BF = os.path.join("scripts", "strike-ambigs.bf")
 
 # =============================================================================
 # Helper functions
@@ -135,12 +138,10 @@ def ProcessLineages(transcript_accessions, DATA_DICT, TREE_NEWICK):
                 break
             #end if
         #end for
-        
         if skip == True:
             count += 1
             continue
         #end if
-        
         try:
             handle = Entrez.esummary(db="nucleotide", id=ACCESSION, rettype="gb", retmode="text", retmax=1)
             records = Entrez.parse(handle)
@@ -188,6 +189,71 @@ def get_LineageColumn(lineages, loc):
     return result
 #end method
 
+# Helper functions
+def GardParser(label, best_gard, codon_MSA_in):    
+    global BASEDIR
+    data = [d.strip() for d in open(best_gard).readlines() if "CHARSET" in d]
+    coords = []
+    if len(data) >= 1:
+        for pos, i in enumerate(data):
+            ## hyphy coordinates are 1 indexed and INCLUSIVE ##
+            ## so to get to "true" python coords you need to -1 to start and -1 to stop ##
+            ## then you need to +1 to python "stop" coord to get the actual length ## 
+            start = int(i.split(" ")[-1].split(";")[0].split("-")[0])-1
+            stop = int(i.split(" ")[-1].split(";")[0].split("-")[1])-1
+            coords.append((start,stop))        
+        #end for
+    ## print out fasta file
+    #else:
+    #    print(data)
+    #end if
+    ## now use the coords to pull out seqs in the codon aware MSA ##
+    ## write a json for partition and indices associated ## 
+    index_data = {}
+    for pos, c in enumerate(coords):
+        temp_dict = {}
+        ## want list of 3 ##
+        n = 3
+        recs = list(rec for rec in SeqIO.parse(codon_MSA_in, "fasta"))      
+        ## actual codons ##
+        index_map = [list(range(len(recs[0].seq)))[i*n:(i+1) *n] for i in range((len(list(recs[0].seq)) + n - 1) // n )]
+        old_start = c[0]
+        old_stop = c[1]
+        new_start = ''
+        new_stop = ''
+        ## getting new start ##
+        for imap in index_map:
+            if old_start in imap:
+                for p, j in enumerate(imap):
+                    if old_start == j:
+                        if p !=0:
+                            new_start = imap[2]+1
+                        else:
+                            new_start = imap[0]
+                        #end if
+                    #end if
+                #end for
+            elif old_stop in imap:
+                new_stop = imap[0]
+            else:
+                continue 
+            #end if
+        #end for
+        ## sanity check 
+        print(f"# Sanity check: OLD {old_start}, {old_stop} | NEW {new_start}, {new_stop} | NEW div by 3 {(int(new_stop)-int(new_start))/3}")
+        temp_dict[pos+1] = [i+1 for i in list(range(int(new_start),int(new_stop)))]
+        index_data.update(temp_dict)
+        ### ~ CHANGE TO PLACE YOU WANT OUTPUT ~ ###
+        codon_out = os.path.join(BASEDIR, "results", label, "%s.%s.codon.fas" % (label, str(pos+1)))
+        print("# Saving partition to:", codon_out)
+        with open(codon_out, "w") as out_f:
+            for record in recs:
+                partition = record[int(new_start): int(new_stop)]
+                out_f.write(">{}\n{}\n".format(partition.id, partition.seq))
+            #end for
+        #end with
+#end method
+
 # =============================================================================
 # Rule all
 # =============================================================================
@@ -195,29 +261,36 @@ def get_LineageColumn(lineages, loc):
 rule all:
     input:
         CODON_OUTPUT,
-        os.path.join(OUTDIR, Label + "_protein.fas"),
-        os.path.join(OUTDIR, Label + "_nuc.fas"),
-        os.path.join(OUTDIR, Label + "_protein.aln"),
-        os.path.join(OUTDIR, Label + "_codons.fasta"),
-        os.path.join(OUTDIR, Label + "_codons_duplicates.json"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json"),
-        os.path.join(OUTDIR, Label + "_codons.SA.fasta.best-gard"),
-        os.path.join(OUTDIR, Label + ".1.codon.fas"),
-        os.path.join(OUTDIR, Label + ".1.codon.fas.tree.nwk"),
-        os.path.join(OUTDIR, Label + "_Annotated.csv")
+        expand(os.path.join(OUTDIR, "{GENE}.codons.fa"), GENE = Label),
+        expand(os.path.join(OUTDIR, "{GENE}.aa.fa"), GENE = Label),
+        expand(os.path.join(OUTDIR, "{GENE}.codons.cln.fa"), GENE = Label),
+        expand(os.path.join(OUTDIR, "{GENE}.SA.codons.cln.fa"), GENE = Label),
+        expand(os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa"), GENE = Label),
+        expand(os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa.treefile"), GENE = Label),
+        expand(os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa.cluster.json"), GENE = Label),
+        expand(os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa.cluster.fasta"), GENE = Label),
+        expand(os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa.cluster.fasta.GARD.json"), GENE = Label),
+        expand(os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa.cluster.fasta.best-gard"), GENE = Label),
+        expand(os.path.join(OUTDIR, "{GENE}.1.codon.fas"), GENE=Label),
+        expand(os.path.join(OUTDIR, "{GENE}_Annotated.csv"), GENE=Label)
 #end rule all
 
-print("# Moving on to processing rules")
+#print("# Moving on to processing rules")
+
+ruleorder: get_codons > macse > cln > strike_ambigs_msa > remove_duplicates_msa
+
+wildcard_constraints:
+    GENE=Label,
 
 # =============================================================================
 # Rules
 # =============================================================================
 
 rule get_codons:
+    input:
+        input = Nucleotide_file
     output:
-        codons = CODON_OUTPUT
+        output = CODON_OUTPUT
     params:
         Nuc = Nucleotide_file,
         Prot = Protein_file,
@@ -227,51 +300,48 @@ rule get_codons:
 #end rule
 
 # =============================================================================
-# Codon-aware alignment
+# Quality Control (QC) and Codon-aware alignment
 # =============================================================================
 
-rule pre_msa:
-    input: 
-        codons = rules.get_codons.output.codons
-    output:
-        protein_fas = os.path.join(OUTDIR, Label + "_protein.fas"),
-        nucleotide_fas = os.path.join(OUTDIR, Label + "_nuc.fas")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} {PREMSA} --input {input.codons}"
-#end rule 
-
-rule mafft:
+rule macse:
     input:
-        protein = rules.pre_msa.output.protein_fas
+        #input = rules.macse_trim.output.codons
+        input = rules.get_codons.output.output
     output:
-        protein_aln = os.path.join(OUTDIR, Label + "_protein.aln")
+        codons = os.path.join(OUTDIR, "{GENE}.codons.fa"),
+        aa     = os.path.join(OUTDIR, "{GENE}.aa.fa")
     shell:
-        "mafft --auto {input.protein} > {output.protein_aln}"
+        """
+        macse -prog alignSequences -seq {input.input} -out_NT {output.codons} -out_AA {output.aa} -max_refine_iter 3 -local_realign_init 0.3 -local_realign_dec 0.2
+        """
 #end rule
 
-rule post_msa:
-    input: 
-        protein_aln = rules.mafft.output.protein_aln,
-        nucleotide_seqs = rules.pre_msa.output.nucleotide_fas  
-    output: 
-        codons_fas = os.path.join(OUTDIR, Label + "_codons.fasta"),
-        duplicates_json = os.path.join(OUTDIR, Label + "_codons_duplicates.json")
-    shell:
-        "mpirun -np {PPN} {HYPHYMPI} {POSTMSA} --protein-msa {input.protein_aln} --nucleotide-sequences {input.nucleotide_seqs} --output {output.codons_fas} --duplicates {output.duplicates_json}"
-#end rule 
-
-# =============================================================================
-# Strike problematic codons
-# =============================================================================
-
-rule strike_ambigs:
+# Get rid of internal stop codons
+rule cln:
    input:
-       in_msa = rules.post_msa.output.codons_fas
+       input = rules.macse.output.codons
    output:
-       out_strike_ambigs = os.path.join(OUTDIR,
-                                        Label + "_codons.SA.fasta")
+       output = os.path.join(OUTDIR, "{GENE}.codons.cln.fa")
    shell:
-       "{HYPHY} scripts/strike-ambigs.bf --alignment {input.in_msa} --output {output.out_strike_ambigs}"
+       "{HYPHY} CLN Universal {input.input} 'No/No' {output.output}"
+#end rule
+
+rule strike_ambigs_msa:
+   input:
+       input_msa = rules.cln.output.output
+   output:
+       output = os.path.join(OUTDIR, "{GENE}.SA.codons.cln.fa")
+   shell:
+      "{HYPHY} {STRIKE_AMBIGS_BF} --alignment {input.input_msa} --output {output.output}"
+#end rule
+
+rule remove_duplicates_msa:
+   input:
+       input_msa = rules.strike_ambigs_msa.output.output
+   output:
+       output = os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa")
+   shell:
+      "{HYPHY} {REMOVE_DUPS_BF} --msa {input.input_msa} --output {output.output} ENV='DATA_FILE_PRINT_FORMAT=9'"
 #end rule
 
 # =============================================================================
@@ -280,25 +350,42 @@ rule strike_ambigs:
 
 rule iqtree: # Unrooted
     input:
-        codons_fas = rules.strike_ambigs.output.out_strike_ambigs
+        codons_fas = rules.remove_duplicates_msa.output.output
     output:
-        tree = os.path.join(OUTDIR, Label + "_codons.SA.fasta.treefile")
+        tree = os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa.treefile")
     shell:
-        "iqtree -s {input.codons_fas} -T AUTO"
+        "iqtree -s {input.codons_fas} -T AUTO -B 1000 --redo-tree"
 #end rule iqtree
+
+# =============================================================================
+# Downsample for GARD
+# =============================================================================
+
+rule tn93_cluster:
+    params:
+        threshold = 0.01,
+        max_seqs = 20
+    input:
+        input = rules.remove_duplicates_msa.output.output
+    output:
+        output_json  = os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa.cluster.json"),
+        output_fasta = os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa.cluster.fasta")
+    shell:
+        "python3 scripts/tn93_cluster.py --input {input.input} --output_fasta {output.output_fasta} --output_json {output.output_json} --threshold {params.threshold} --max_retain {params.max_seqs}"
+#end rule
 
 # =============================================================================
 # Recombination detection
 # =============================================================================
 
 rule recombination:
-    input: 
-        input = rules.strike_ambigs.output.out_strike_ambigs
-    output: 
-        output   = os.path.join(OUTDIR, Label + "_codons.SA.fasta.GARD.json"),
-        bestgard = os.path.join(OUTDIR, Label + "_codons.SA.fasta.best-gard")
-    shell: 
-        "mpirun -np {PPN} {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output}"
+    input:
+        input = rules.tn93_cluster.output.output_fasta
+    output:
+        output   = os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa.cluster.fasta.GARD.json"),
+        bestgard = os.path.join(OUTDIR, "{GENE}.RD.SA.codons.cln.fa.cluster.fasta.best-gard")
+    shell:
+        "mpirun --use-hwthread-cpus {HYPHYMPI} GARD --alignment {input.input} --rv GDD --output {output.output} --mode Faster"
 #end rule
 
 # =============================================================================
@@ -306,74 +393,17 @@ rule recombination:
 # Based on code originally written by Jordan Zehr, Ph.D.
 # =============================================================================
 
-rule ParseNexus:
+rule ParseGARD:
     input:
-        input  = rules.recombination.output.bestgard
-    output:
-        output = os.path.join(OUTDIR,
-                              Label + ".1.codon.fas"),
-        newick = os.path.join(OUTDIR,
-                              Label + ".1.codon.fas.tree.nwk")
-    params:
-        output = os.path.join(OUTDIR, Label)
+        input  = rules.recombination.output.bestgard,
+        msa    = rules.remove_duplicates_msa.output.output
+    output:    
+        output = os.path.join(OUTDIR, "{GENE}.1.codon.fas")
+        #outputTree = os.path.join(OUTDIR, "{GENE}.1.codon.nwk")
     run:
-        """
-        Example: 
-        CHARSET span_1 = 1-2415;
-        CHARSET span_2 = 2416-3003;
-        """
-        data = [line.strip() for line in open(input.input, "r").readlines() if "CHARSET" in line]
-        
-        coords = []
-        for pos, i in enumerate(data):
-            start = int(i.split(" ")[-1].split(";")[0].split("-")[0]) - 1
-            stop  = int(i.split(" ")[-1].split(";")[0].split("-")[1]) - 1
-            coords.append((start, stop))
-        #end for
-        
-        print("# Number of partitions:", len(coords))
-        print("# These are our coordinates:", coords)
-        
-        # Load Trees
-        data  = [line.strip() for line in open(input.input, "r").readlines() if "TREE tree" in line]
-        trees = []
-        
-        for n, tree in enumerate(data):
-            # TREE tree_1 =
-            newick = tree.split(" = ")[1]
-            trees.append(newick)
-            
-            # Save tree to file
-            t = Tree(newick, format=1)
-            output_tree = params.output + ".".join(["." + str(n+1), "codon", "fas", "tree", "nwk"])
-            t.write(format=1, outfile=output_tree)
-        #end for
-        
-        # Report to user
-        print("# Number of tree files (newick format):", len(trees))
-        
-        for n, partition in enumerate(coords):
-            print("# Working on partition", str(n+1), "with coordinates:", partition)
-            
-            # Load records
-            records = SeqIO.parse(input.input, "nexus")
-            
-            output_records = []
-            for record in records:
-                output_record = record
-                output_record.seq = output_record.seq[partition[0]: partition[1] + 1]
-                output_records.append(output_record)
-            #end for
-            
-            # Output records
-            output_fasta = params.output + ".".join(["." + str(n + 1),
-                                                     "codon",
-                                                     "fas"])
-                                                     
-            print("# Saving to FASTA file:", output_fasta)
-            SeqIO.write(output_records, output_fasta, "fasta")
-        #end for
-    #end run    
+        #label = {Label}
+        GardParser(Label, input.input, input.msa)
+    #end run
 #end rule
 
 # =============================================================================
@@ -388,7 +418,7 @@ rule GatherLineages:
         email = Email,
         OUTDIR = OUTDIR
     output:
-        output = os.path.join(OUTDIR, Label + "_Annotated.csv")
+        output = os.path.join(OUTDIR,"{GENE}_Annotated.csv")
         # Also outputs .clade files
     run:
         Entrez.email = params.email
@@ -437,12 +467,9 @@ rule GatherLineages:
             lineage = row['LINEAGE']
             for item in lineage:
                 if item in lineageSet:
-                    ##df2["CladeLabel"][index] = item
-                    # df["col"][row_indexer] = value
                     # df.loc[row_indexer, "col"] = values
-                    
                     df2.loc[index, "CladeLabel"] = item
-                    
+                    #df2["CladeLabel"][index] = item
                 #end if
             #end for
         #end for
