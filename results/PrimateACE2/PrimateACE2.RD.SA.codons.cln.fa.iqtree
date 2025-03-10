@@ -1,0 +1,333 @@
+IQ-TREE 2.1.2 COVID-edition built Mar 30 2021
+
+Input file name: /Users/alex/Documents/AutomatedOrthologCharacterization/results/PrimateACE2/PrimateACE2.RD.SA.codons.cln.fa
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 301045
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 31 sequences with 3003 nucleotide sites
+Number of constant sites: 2212 (= 73.6597% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 2212 (= 73.6597% of all sites)
+Number of parsimony informative sites: 462
+Number of distinct site patterns: 576
+
+ModelFinder
+-----------
+
+Best-fit model according to BIC: TPM3+F+G4
+
+List of models sorted by BIC scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TPM3+F+G4        -10976.505   22083.010 -   0.0306   22085.931 -   0.0334   22473.489 +    0.375
+TPM3u+F+G4       -10976.505   22083.010 -   0.0306   22085.931 -   0.0334   22473.489 +    0.375
+TIM3+F+G4        -10973.034   22078.069 +    0.362   22081.081 +    0.377   22474.555 +     0.22
+TPM3+F+R2        -10976.491   22084.982 -   0.0114   22087.994 -   0.0119   22481.468 -  0.00694
+TPM3u+F+R2       -10976.491   22084.982 -   0.0114   22087.994 -   0.0119   22481.468 -  0.00694
+TPM3+F+I+G4      -10976.968   22085.936 -  0.00708   22088.948 -  0.00738   22482.422 -  0.00431
+TPM3u+F+I+G4     -10976.968   22085.936 -  0.00708   22088.948 -  0.00738   22482.422 -  0.00431
+TIM3+F+R2        -10973.095   22080.190 +    0.125   22083.294 +    0.125   22482.683 -  0.00378
+TIM3+F+I+G4      -10973.495   22080.991 +   0.0839   22084.095 +   0.0835   22483.484 -  0.00253
+TVM+F+G4         -10975.151   22084.301 -    0.016   22087.406 -    0.016   22486.795 - 0.000484
+GTR+F+G4         -10971.691   22079.381 +    0.188   22082.580 +    0.178   22487.882 - 0.000281
+TVM+F+R2         -10975.126   22086.251 -  0.00605   22089.450 -  0.00574   22494.752 - 9.06e-06
+TVM+F+I+G4       -10975.627   22087.255 -  0.00366   22090.453 -  0.00348   22495.756 - 5.48e-06
+GTR+F+R2         -10971.736   22081.472 +   0.0659   22084.766 +   0.0597   22495.981 -  4.9e-06
+GTR+F+I+G4       -10972.169   22082.338 -   0.0428   22085.632 -   0.0387   22496.847 - 3.18e-06
+GTR+F+I          -10981.545   22099.090 - 9.85e-06   22102.288 - 9.36e-06   22507.591 - 1.48e-08
+GTR+F+R3         -10971.728   22085.456 -    0.009   22088.944 -   0.0074   22511.979 - 1.65e-09
+HKY+F+G4         -11001.351   22130.703 - 1.35e-12   22133.535 - 1.54e-12   22515.174 - 3.33e-10
+TN+F+G4          -10998.147   22126.294 - 1.22e-11   22129.215 - 1.33e-11   22516.773 -  1.5e-10
+K3Pu+F+G4        -10998.279   22126.559 - 1.07e-11   22129.480 - 1.17e-11   22517.038 - 1.31e-10
+TIM+F+G4         -10995.084   22122.167 -  9.6e-11   22125.180 -    1e-10   22518.654 - 5.84e-11
+TPM2u+F+G4       -11001.166   22132.332 - 5.96e-13   22135.253 -  6.5e-13   22522.811 - 7.31e-12
+TPM2+F+G4        -11001.166   22132.332 - 5.96e-13   22135.253 -  6.5e-13   22522.811 - 7.31e-12
+HKY+F+R2         -11001.392   22132.785 - 4.75e-13   22135.706 - 5.19e-13   22523.263 - 5.83e-12
+HKY+F+I+G4       -11001.689   22133.378 - 3.53e-13   22136.299 - 3.85e-13   22523.857 - 4.33e-12
+TIM2+F+G4        -10997.972   22127.944 - 5.35e-12   22130.956 - 5.58e-12   22524.430 - 3.25e-12
+TN+F+R2          -10998.210   22128.419 - 4.22e-12   22131.431 -  4.4e-12   22524.905 - 2.57e-12
+K3Pu+F+R2        -10998.304   22128.607 - 3.84e-12   22131.620 -    4e-12   22525.094 - 2.34e-12
+TN+F+I+G4        -10998.452   22128.905 - 3.31e-12   22131.917 - 3.45e-12   22525.391 - 2.01e-12
+K3Pu+F+I+G4      -10998.642   22129.285 - 2.73e-12   22132.297 - 2.85e-12   22525.771 - 1.66e-12
+TIM+F+R2         -10995.134   22124.268 - 3.36e-11   22127.373 - 3.34e-11   22526.762 - 1.01e-12
+TIM+F+I+G4       -10995.416   22124.832 - 2.53e-11   22127.937 - 2.52e-11   22527.326 - 7.65e-13
+TPM2u+F+R2       -11001.148   22134.295 - 2.23e-13   22137.307 - 2.33e-13   22530.781 - 1.36e-13
+TPM2+F+R2        -11001.148   22134.295 - 2.23e-13   22137.307 - 2.33e-13   22530.781 - 1.36e-13
+TPM2u+F+I+G4     -11001.511   22135.023 - 1.55e-13   22138.035 - 1.62e-13   22531.509 - 9.45e-14
+TPM2+F+I+G4      -11001.511   22135.023 - 1.55e-13   22138.035 - 1.62e-13   22531.509 - 9.45e-14
+TIM2+F+R2        -10998.032   22130.065 - 1.85e-12   22133.169 - 1.84e-12   22532.558 - 5.59e-14
+TIM2+F+I+G4      -10998.284   22130.567 - 1.44e-12   22133.672 - 1.43e-12   22533.061 - 4.35e-14
+TIM3e+G4         -11014.468   22154.937 - 7.36e-18   22157.681 - 8.77e-18   22533.401 - 3.67e-14
+TVMe+G4          -11012.743   22153.486 - 1.52e-17   22156.318 - 1.73e-17   22537.957 - 3.76e-15
+TIM3e+R2         -11014.468   22156.936 - 2.71e-18   22159.768 - 3.09e-18   22541.408 -  6.7e-16
+TIM3e+I+G4       -11014.745   22157.490 - 2.05e-18   22160.322 - 2.34e-18   22541.961 - 5.08e-16
+SYM+G4           -11012.619   22155.238 - 6.33e-18   22158.160 -  6.9e-18   22545.717 - 7.76e-17
+TVMe+R2          -11012.724   22155.448 -  5.7e-18   22158.370 - 6.22e-18   22545.927 - 6.99e-17
+K2P+G4           -11028.986   22179.972 - 2.69e-23   22182.544 -  3.5e-23   22546.421 - 5.46e-17
+TVMe+I+G4        -11013.017   22156.034 - 4.25e-18   22158.956 - 4.64e-18   22546.513 - 5.21e-17
+K3P+G4           -11026.669   22177.338 - 1.01e-22   22179.995 - 1.25e-22   22549.795 - 1.01e-17
+SYM+R2           -11012.584   22157.168 - 2.41e-18   22160.181 - 2.51e-18   22553.655 - 1.47e-18
+TNe+G4           -11028.806   22181.613 - 1.19e-23   22184.270 - 1.48e-23   22554.070 - 1.19e-18
+SYM+I+G4         -11012.890   22157.780 - 1.78e-18   22160.792 - 1.85e-18   22554.266 - 1.08e-18
+K2P+R2           -11028.974   22181.948 -    1e-23   22184.606 - 1.25e-23   22554.405 - 1.01e-18
+K2P+I+G4         -11029.185   22182.370 - 8.12e-24   22185.027 - 1.01e-23   22554.826 - 8.16e-19
+TIMe+G4          -11026.493   22178.985 - 4.41e-23   22181.729 - 5.26e-23   22557.449 -  2.2e-19
+K3P+R2           -11026.638   22179.276 - 3.81e-23   22182.020 - 4.55e-23   22557.740 -  1.9e-19
+K3P+I+G4         -11026.884   22179.768 - 2.98e-23   22182.512 - 3.56e-23   22558.232 - 1.49e-19
+TIM2e+G4         -11028.093   22182.187 -  8.9e-24   22184.930 - 1.06e-23   22560.651 - 4.44e-20
+TNe+R2           -11028.817   22183.635 - 4.31e-24   22186.379 - 5.15e-24   22562.099 - 2.15e-20
+TNe+I+G4         -11028.994   22183.987 - 3.62e-24   22186.731 - 4.31e-24   22562.452 -  1.8e-20
+TIMe+R2          -11026.472   22180.943 - 1.66e-23   22183.775 - 1.89e-23   22565.415 -  4.1e-21
+TIMe+I+G4        -11026.701   22181.403 - 1.32e-23   22184.235 -  1.5e-23   22565.874 - 3.26e-21
+TIM2e+R2         -11028.093   22184.185 - 3.28e-24   22187.017 - 3.74e-24   22568.656 - 8.11e-22
+TIM2e+I+G4       -11028.270   22184.541 - 2.74e-24   22187.372 - 3.13e-24   22569.012 - 6.79e-22
+GTR+F            -11118.840   22371.679 - 6.33e-65   22374.784 - 6.31e-65   22774.173 - 1.91e-66
+F81+F+G4         -11286.019   22698.038 - 8.58e-136   22700.782 - 1.02e-135   23076.502 - 4.28e-132
+F81+F+I+G4       -11286.246   22700.492 - 2.52e-136   22703.324 - 2.87e-136   23084.964 - 6.22e-134
+F81+F+R2         -11286.345   22700.690 - 2.28e-136   22703.522 - 2.6e-136   23085.162 - 5.64e-134
+JC+G4            -11311.246   22742.493 - 1.91e-145   22744.981 - 2.59e-145   23102.935 - 7.79e-138
+JC+I+G4          -11311.465   22744.931 - 5.64e-146   22747.503 - 7.33e-146   23111.380 - 1.14e-139
+JC+R2            -11311.550   22745.099 - 5.18e-146   22747.671 - 6.73e-146   23111.549 - 1.05e-139
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TPM3+F+G4
+
+Rate parameter R:
+
+  A-C: 2.2104
+  A-G: 6.5841
+  A-T: 1.0000
+  C-G: 2.2104
+  C-T: 6.5841
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.3068
+  pi(C) = 0.2018
+  pi(G) = 0.2302
+  pi(T) = 0.2612
+
+Rate matrix Q:
+
+  A   -0.9325    0.1871    0.6358    0.1096
+  C    0.2845     -1.22    0.2135    0.7216
+  G    0.8475    0.1871    -1.144    0.1096
+  T    0.1287    0.5574   0.09657   -0.7827
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 0.5045
+
+ Category  Relative_rate  Proportion
+  1         0.03423        0.25
+  2         0.2549         0.25
+  3         0.8235         0.25
+  4         2.887          0.25
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10971.9079 (s.e. 211.7832)
+Unconstrained log-likelihood (without tree): -12057.3045
+Number of free parameters (#branches + #model parameters): 65
+Akaike information criterion (AIC) score: 22073.8158
+Corrected Akaike information criterion (AICc) score: 22076.7372
+Bayesian information criterion (BIC) score: 22464.2947
+
+Total tree length (sum of branch lengths): 0.5584
+Sum of internal branch lengths: 0.2285 (40.9290% of tree length)
+
+WARNING: 2 near-zero internal branches (<0.0003) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA
+|
+|  +--XM_016942979_2_PREDICTED_Pan_troglodytes_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
++--| (100)
+|  +--XM_008974180_2_PREDICTED_Pan_paniscus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+|
+|  +--XM_019019204_1_PREDICTED_Gorilla_gorilla_gorilla_angiotensin_I_converting_enzyme_2_ACE2_mRNA
++**| (81)
+   |     +--NM_001131132_2_Pongo_abelii_angiotensin_converting_enzyme_2_ACE2_mRNA
+   |  +--| (100)
+   |  |  +--XM_054471966_1_PREDICTED_Pongo_pygmaeus_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+   +--| (100)
+      |     +--XM_003261084_3_PREDICTED_Nomascus_leucogenys_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+      |  +--| (100)
+      |  |  +--XM_032756617_1_PREDICTED_Hylobates_moloch_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+      +--| (88)
+         |                    +--NM_001135696_1_Macaca_mulatta_angiotensin_converting_enzyme_2_ACE2_mRNA
+         |                 +--| (91)
+         |                 |  +--XM_005593037_3_PREDICTED_Macaca_fascicularis_angiotensin_converting_enzyme_2_ACE2_mRNA
+         |              +--| (99)
+         |              |  |  +**XM_011735203_2_PREDICTED_Macaca_nemestrina_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         |              |  +**| (42)
+         |              |     +--XM_050777627_1_PREDICTED_Macaca_thibetana_thibetana_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         |           +--| (53)
+         |           |  +--XM_021933040_1_PREDICTED_Papio_anubis_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         |        +--| (83)
+         |        |  |  +--XM_025372062_1_PREDICTED_Theropithecus_gelada_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+         |        |  +--| (73)
+         |        |     |  +--XM_011995533_1_PREDICTED_Mandrillus_leucophaeus_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+         |        |     +--| (99)
+         |        |        +--XM_012035808_1_PREDICTED_Cercocebus_atys_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         |     +--| (98)
+         |     |  +--XM_007991113_2_PREDICTED_Chlorocebus_sabaeus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         |  +--| (100)
+         |  |  |  +--XM_023199053_2_PREDICTED_Piliocolobus_tephrosceles_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+         |  |  +--| (64)
+         |  |     |  +--XM_010366065_2_PREDICTED_Rhinopithecus_roxellana_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+         |  |     +--| (99)
+         |  |        +--XM_017888580_1_PREDICTED_Rhinopithecus_bieti_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         +--| (100)
+            |             +---XM_008988993_4_PREDICTED_Callithrix_jacchus_angiotensin_converting_enzyme_2_ACE2_mRNA
+            |          +--| (61)
+            |          |  +--XM_012434682_2_PREDICTED_Aotus_nancymaae_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+            |  +-------| (100)
+            |  |       |     +--XM_017512376_2_PREDICTED_Cebus_imitator_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+            |  |       |  +--| (100)
+            |  |       |  |  +--XM_032285963_1_PREDICTED_Sapajus_apella_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+            |  |       +--| (71)
+            |  |          +--XM_010336623_2_PREDICTED_Saimiri_boliviensis_boliviensis_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+            +--| (100)
+               |                             +--------------XM_020285237_1_PREDICTED_Microcebus_murinus_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+               |                          +--| (88)
+               |                          |  +--------XM_045538336_1_PREDICTED_Lemur_catta_angiotensin_converting_enzyme_2_ACE2_mRNA
+               |                    +-----| (100)
+               |                    |     +-----XM_012638731_1_PREDICTED_Propithecus_coquereli_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+               |          +---------| (100)
+               |          |         |              +------XM_053580366_1_PREDICTED_Nycticebus_coucang_angiotensin_converting_enzyme_2_ACE2_mRNA
+               |          |         +--------------| (100)
+               |          |                        +-------------XM_003791864_2_PREDICTED_Otolemur_garnettii_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+               +----------| (100)
+                          +------------------------------XM_008064619_1_PREDICTED_Carlito_syrichta_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+
+Tree in newick format:
+
+(NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA:0.0025315852,(XM_016942979_2_PREDICTED_Pan_troglodytes_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0008345708,XM_008974180_2_PREDICTED_Pan_paniscus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0008388905)100:0.0029617309,(XM_019019204_1_PREDICTED_Gorilla_gorilla_gorilla_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0047995683,((NM_001131132_2_Pongo_abelii_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0012611408,XM_054471966_1_PREDICTED_Pongo_pygmaeus_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0004129156)100:0.0063762898,((XM_003261084_3_PREDICTED_Nomascus_leucogenys_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0037854754,XM_032756617_1_PREDICTED_Hylobates_moloch_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0038104935)100:0.0058512625,(((((((NM_001135696_1_Macaca_mulatta_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0029462205,XM_005593037_3_PREDICTED_Macaca_fascicularis_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0012633416)91:0.0004125378,(XM_011735203_2_PREDICTED_Macaca_nemestrina_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0000010000,XM_050777627_1_PREDICTED_Macaca_thibetana_thibetana_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0008374628)42:0.0000010000)99:0.0015682372,XM_021933040_1_PREDICTED_Papio_anubis_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0009437463)53:0.0004660207,(XM_025372062_1_PREDICTED_Theropithecus_gelada_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0012581407,(XM_011995533_1_PREDICTED_Mandrillus_leucophaeus_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0020971914,XM_012035808_1_PREDICTED_Cercocebus_atys_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0012532586)99:0.0016856292)73:0.0008952817)83:0.0011406911,XM_007991113_2_PREDICTED_Chlorocebus_sabaeus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0071908639)98:0.0023374865,(XM_023199053_2_PREDICTED_Piliocolobus_tephrosceles_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0054321702,(XM_010366065_2_PREDICTED_Rhinopithecus_roxellana_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0014594782,XM_017888580_1_PREDICTED_Rhinopithecus_bieti_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0013063124)99:0.0028274969)64:0.0008832730)100:0.0099945517,(((XM_008988993_4_PREDICTED_Callithrix_jacchus_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0140227612,XM_012434682_2_PREDICTED_Aotus_nancymaae_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0103367639)61:0.0006665561,((XM_017512376_2_PREDICTED_Cebus_imitator_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0033545913,XM_032285963_1_PREDICTED_Sapajus_apella_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0017015604)100:0.0069722787,XM_010336623_2_PREDICTED_Saimiri_boliviensis_boliviensis_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0101320952)71:0.0013079227)100:0.0245302199,((((XM_020285237_1_PREDICTED_Microcebus_murinus_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0436752095,XM_045538336_1_PREDICTED_Lemur_catta_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0271241393)88:0.0048328838,XM_012638731_1_PREDICTED_Propithecus_coquereli_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0184501428)100:0.0200157411,(XM_053580366_1_PREDICTED_Nycticebus_coucang_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0226996249,XM_003791864_2_PREDICTED_Otolemur_garnettii_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0414426329)100:0.0455888337)100:0.0298006191,XM_008064619_1_PREDICTED_Carlito_syrichta_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0926478211)100:0.0345174835)100:0.0102558973)100:0.0063469971)88:0.0008801277)100:0.0051899484)81:0.0002400076);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -10971.914132
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA
+|
+|  +--XM_016942979_2_PREDICTED_Pan_troglodytes_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
++--| (100)
+|  +--XM_008974180_2_PREDICTED_Pan_paniscus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+|
+|  +--XM_019019204_1_PREDICTED_Gorilla_gorilla_gorilla_angiotensin_I_converting_enzyme_2_ACE2_mRNA
++--| (81)
+   |     +--NM_001131132_2_Pongo_abelii_angiotensin_converting_enzyme_2_ACE2_mRNA
+   |  +--| (100)
+   |  |  +--XM_054471966_1_PREDICTED_Pongo_pygmaeus_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+   +--| (100)
+      |     +--XM_003261084_3_PREDICTED_Nomascus_leucogenys_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+      |  +--| (100)
+      |  |  +--XM_032756617_1_PREDICTED_Hylobates_moloch_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+      +--| (88)
+         |                       +--NM_001135696_1_Macaca_mulatta_angiotensin_converting_enzyme_2_ACE2_mRNA
+         |                    +--| (91)
+         |                    |  +--XM_005593037_3_PREDICTED_Macaca_fascicularis_angiotensin_converting_enzyme_2_ACE2_mRNA
+         |                 +--| (45)
+         |                 |  +--XM_011735203_2_PREDICTED_Macaca_nemestrina_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         |              +--| (99)
+         |              |  +--XM_050777627_1_PREDICTED_Macaca_thibetana_thibetana_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         |           +--| (53)
+         |           |  +--XM_021933040_1_PREDICTED_Papio_anubis_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         |        +--| (83)
+         |        |  |  +--XM_025372062_1_PREDICTED_Theropithecus_gelada_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+         |        |  +--| (73)
+         |        |     |  +--XM_011995533_1_PREDICTED_Mandrillus_leucophaeus_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+         |        |     +--| (99)
+         |        |        +--XM_012035808_1_PREDICTED_Cercocebus_atys_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         |     +--| (98)
+         |     |  +--XM_007991113_2_PREDICTED_Chlorocebus_sabaeus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         |  +--| (100)
+         |  |  |  +--XM_023199053_2_PREDICTED_Piliocolobus_tephrosceles_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+         |  |  +--| (64)
+         |  |     |  +--XM_010366065_2_PREDICTED_Rhinopithecus_roxellana_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+         |  |     +--| (99)
+         |  |        +--XM_017888580_1_PREDICTED_Rhinopithecus_bieti_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+         +--| (100)
+            |             +---XM_008988993_4_PREDICTED_Callithrix_jacchus_angiotensin_converting_enzyme_2_ACE2_mRNA
+            |          +--| (61)
+            |          |  +--XM_012434682_2_PREDICTED_Aotus_nancymaae_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+            |  +-------| (100)
+            |  |       |     +--XM_017512376_2_PREDICTED_Cebus_imitator_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+            |  |       |  +--| (100)
+            |  |       |  |  +--XM_032285963_1_PREDICTED_Sapajus_apella_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+            |  |       +--| (71)
+            |  |          +--XM_010336623_2_PREDICTED_Saimiri_boliviensis_boliviensis_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+            +--| (100)
+               |                             +--------------XM_020285237_1_PREDICTED_Microcebus_murinus_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+               |                          +--| (88)
+               |                          |  +--------XM_045538336_1_PREDICTED_Lemur_catta_angiotensin_converting_enzyme_2_ACE2_mRNA
+               |                    +-----| (100)
+               |                    |     +-----XM_012638731_1_PREDICTED_Propithecus_coquereli_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA
+               |          +---------| (100)
+               |          |         |              +------XM_053580366_1_PREDICTED_Nycticebus_coucang_angiotensin_converting_enzyme_2_ACE2_mRNA
+               |          |         +--------------| (100)
+               |          |                        +-------------XM_003791864_2_PREDICTED_Otolemur_garnettii_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+               +----------| (100)
+                          +------------------------------XM_008064619_1_PREDICTED_Carlito_syrichta_angiotensin_I_converting_enzyme_2_ACE2_mRNA
+
+
+Consensus tree in newick format: 
+
+(NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA:0.0025314471,(XM_016942979_2_PREDICTED_Pan_troglodytes_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0008337224,XM_008974180_2_PREDICTED_Pan_paniscus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0008379983)100:0.0029615757,(XM_019019204_1_PREDICTED_Gorilla_gorilla_gorilla_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0047981622,((NM_001131132_2_Pongo_abelii_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0012608492,XM_054471966_1_PREDICTED_Pongo_pygmaeus_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0004123469)100:0.0063755856,((XM_003261084_3_PREDICTED_Nomascus_leucogenys_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0037841686,XM_032756617_1_PREDICTED_Hylobates_moloch_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0038093743)100:0.0058521444,((((((((NM_001135696_1_Macaca_mulatta_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0029460703,XM_005593037_3_PREDICTED_Macaca_fascicularis_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0012632771)91:0.0004125399,XM_011735203_2_PREDICTED_Macaca_nemestrina_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0000022977)45:0.0000022977,XM_050777627_1_PREDICTED_Macaca_thibetana_thibetana_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0008365854)99:0.0015681446,XM_021933040_1_PREDICTED_Papio_anubis_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0009429262)53:0.0004661191,(XM_025372062_1_PREDICTED_Theropithecus_gelada_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0012580661,(XM_011995533_1_PREDICTED_Mandrillus_leucophaeus_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0020970596,XM_012035808_1_PREDICTED_Cercocebus_atys_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0012531815)99:0.0016855425)73:0.0008952142)83:0.0011396891,XM_007991113_2_PREDICTED_Chlorocebus_sabaeus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0071904107)98:0.0023375005,(XM_023199053_2_PREDICTED_Piliocolobus_tephrosceles_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0054319061,(XM_010366065_2_PREDICTED_Rhinopithecus_roxellana_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0014591610,XM_017888580_1_PREDICTED_Rhinopithecus_bieti_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0013062577)99:0.0028272560)64:0.0008831027)100:0.0099933133,(((XM_008988993_4_PREDICTED_Callithrix_jacchus_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0140221936,XM_012434682_2_PREDICTED_Aotus_nancymaae_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0103360576)61:0.0006665784,((XM_017512376_2_PREDICTED_Cebus_imitator_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0033543780,XM_032285963_1_PREDICTED_Sapajus_apella_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0017005309)100:0.0069719546,XM_010336623_2_PREDICTED_Saimiri_boliviensis_boliviensis_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0101315184)71:0.0013075085)100:0.0245273168,((((XM_020285237_1_PREDICTED_Microcebus_murinus_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0436747165,XM_045538336_1_PREDICTED_Lemur_catta_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0271241384)88:0.0048323154,XM_012638731_1_PREDICTED_Propithecus_coquereli_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA:0.0184492459)100:0.0200149667,(XM_053580366_1_PREDICTED_Nycticebus_coucang_angiotensin_converting_enzyme_2_ACE2_mRNA:0.0227005966,XM_003791864_2_PREDICTED_Otolemur_garnettii_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0414407597)100:0.0455862382)100:0.0298001676,XM_008064619_1_PREDICTED_Carlito_syrichta_angiotensin_I_converting_enzyme_2_ACE2_mRNA:0.0926421097)100:0.0345173039)100:0.0102563951)100:0.0063465548)88:0.0008800961)100:0.0051889797)81:0.0002404332);
+
+TIME STAMP
+----------
+
+Date and time: Sat Mar  8 18:35:24 2025
+Total CPU time used: 8.759409 seconds (0h:0m:8s)
+Total wall-clock time used: 10.47338986 seconds (0h:0m:10s)
+

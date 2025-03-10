@@ -1,0 +1,23 @@
+# User settings for data files and gene label
+
+# Primate ACE2
+#Nucleotide: ACE2_refseq_transcript.fasta
+#Protein: ACE2_refseq_protein.fasta
+#CSV: ACE2_orthologs.csv
+#Label: PrimateACE2
+
+# Primate TP53
+Nucleotide: TP53_refseq_transcript.fasta
+Protein: TP53_refseq_protein.fasta
+CSV: TP53_orthologs.csv
+Label: PrimateTP53
+
+# User settings for NCBI Entrez
+Email: "aoc-user@example.com"
+
+# Snakemake settings
+log_dir: "logs"
+
+# Multiple test correction (default = 'fdr'),
+#    leave blank ('') for uncorrected version.
+multitestcorr: "fdr"

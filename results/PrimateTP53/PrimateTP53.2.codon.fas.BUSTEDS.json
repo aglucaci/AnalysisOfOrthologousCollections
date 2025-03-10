@@ -1,0 +1,1434 @@
+{
+ "Evidence Ratios":{
+  },
+ "Site Log Likelihood":{
+   "unconstrained":    [
+[-5.055597974515176, -3.327165123626679, -4.643144244868142, -4.473056451192332, -13.3521447265525, -4.307779365997149, -4.653510365440975, -4.643144244868142, -4.473056451192332, -6.64577094110985, -7.882283977096154, -7.765909200777117, -6.623791510640426, -7.661845426628668, -4.561450123309672, -4.563948061077173, -4.691405561258182, -4.561450123309672, -9.280279537932573, -3.933717728233436, -9.510492372900684, -3.649748539933237, -3.649748539933237, -4.080828529375782, -4.080828529375782, -19.86963771491682, -33.37431467029104, -33.15066335047261, -4.498804735381235, -4.394130667413146, -22.51306314420743, -22.20721505145491, -25.24246343477811, -19.47796310146544, -32.62223540709255, -21.08716419534293, -5.013333230346571, -3.667294611184827, -3.667294611184827, -10.04216811503751, -18.34697180351552, -20.2719487990652, -15.00107479941756, -20.24367566787911, -14.64288787695904, -18.4699365785872, -18.39065463352334, -13.18650042710737, -3.941912205547413, -4.459579099588691, -15.69457134042083, -13.13748940910992, -23.13386372649963, -16.16159401118937, -18.66637929978024, -12.57100070302493, -3.641927507216117, -3.641927507216117, -3.641927507216117, -3.582063369356243, -3.582063369356243, -4.315004837392136, -4.315004837392136, -9.282768971824046, -9.305922356501524] 
+    ]
+  },
+ "Synonymous site-posteriors":  [
+[0.6835964126671846, 0.6827504298919111, 0.7049630122912908, 0.6989104036959881, 0.05108620516397528, 0.7117453982199784, 0.7024630706238746, 0.7049630122912908, 0.6989104036959881, 0.9093967088553629, 0.9307890727179682, 0.6876039298319376, 0.6874370910293123, 0.6925656349783048, 0.6571492638708095, 0.6536517784129892, 0.6532067241486887, 0.6571492638708095, 0.2332494816243131, 0.6556462069709016, 0.2328830079942726, 0.6542251218179953, 0.6542251218179953, 0.6522298773799338, 0.6522298773799338, 0.8230487239915742, 0.0001033513076655877, 0.00645491551914651, 0.6310324328149719, 0.631032432814972, 0.8755676713885231, 0.3410513786378879, 0.04005129770894208, 0.7722356853860644, 0.001476662519470148, 0.3005074110900463, 0.663736540716979, 0.6614450499044292, 0.6614450499044292, 0.2422798508349839, 0.9102128307982338, 0.4350072948255548, 0.9364726683849875, 0.9056306973613818, 0.8536466959211234, 0.8971044072601774, 0.9243679908814337, 0.9280440165090762, 0.6466428360489272, 0.658306649987681, 0.9361367712841024, 0.8795194301601315, 0.8615424180751102, 0.6930125473087759, 0.8642574616363734, 0.937572659904567, 0.6558366256388696, 0.6558366256388696, 0.6558366256388696, 0.6310324328149715, 0.6310324328149715, 0.8053793180246785, 0.8053793180246785, 0.1887922038345163, 0.1406469834313374],
+  [0.04413657117375754, 0.04408194830348441, 0.0455161963238984, 0.04512538284406639, 0.003297763376522271, 0.04595413775498064, 0.04535477717305853, 0.0455161963238984, 0.04512538284406639, 0.05871908446531576, 0.06010258023546221, 0.04439605418337962, 0.04438498265437096, 0.0447160255120501, 0.04242890653538341, 0.04220307826989376, 0.0421743418615361, 0.04242890653538341, 0.0150583297743642, 0.04233185627004562, 0.01503466996899771, 0.04224009883172173, 0.04224009883172173, 0.0421112682264848, 0.0421112682264848, 0.0531350053408765, 6.668533928259586e-06, 0.0004165603840965437, 0.04074258480356542, 0.04074258480356546, 0.05653016511951994, 0.02201558292265681, 0.002584994777747627, 0.04985263309364828, 9.529436532764657e-05, 0.01939712760853161, 0.04285423874317391, 0.0427062807153042, 0.0427062807153042, 0.01564133321473683, 0.05876965117425999, 0.02808119675194821, 0.06046841959136107, 0.05847258042566221, 0.05511515951258014, 0.05791787077802633, 0.05968404172933477, 0.05992233751405936, 0.04175052178089113, 0.04250363749851496, 0.06044723837761108, 0.05678761140305812, 0.0556242609098499, 0.0447418351207106, 0.05579822203567161, 0.06054143816309959, 0.04234415255286174, 0.04234415255286174, 0.04234415255286174, 0.04074258480356547, 0.04074258480356547, 0.0520013716134204, 0.0520013716134204, 0.01218742869141806, 0.009079401287696375],
+  [0.2722670161590578, 0.2731676218046045, 0.2495207913848108, 0.2559642134599454, 0.9456160314595023, 0.2423004640250409, 0.2521821522030668, 0.2495207913848108, 0.2559642134599454, 0.03188420667932132, 0.009108347046569577, 0.2680000159846826, 0.2681779263163167, 0.2627183395096451, 0.3004218295938071, 0.3041451433171172, 0.3046189339897752, 0.3004218295938071, 0.7516921886013228, 0.3020219367590528, 0.7520823220367296, 0.3035347793502831, 0.3035347793502831, 0.3056588543935814, 0.3056588543935814, 0.1238162706675495, 0.9998899801584062, 0.9931285240967569, 0.3282249823814627, 0.3282249823814627, 0.06790216349195703, 0.6369330384394554, 0.9573637075133102, 0.1779116815202873, 0.9984280431152023, 0.6800954613014221, 0.2934092205398472, 0.2958486693802667, 0.2958486693802667, 0.7420788159502794, 0.03101751802750626, 0.5369115084224969, 0.00305891202365134, 0.03589672221295608, 0.09123814456629659, 0.04497772196179617, 0.01594796738923156, 0.01203364597686433, 0.3116066421701817, 0.2991897125138039, 0.003415990338286422, 0.06369295843681044, 0.0828333210150399, 0.2622456175705135, 0.07994431632795485, 0.001885901932333607, 0.3018192218082685, 0.3018192218082685, 0.3018192218082685, 0.328224982381463, 0.328224982381463, 0.1426193103619009, 0.1426193103619009, 0.7990203674740655, 0.8502736152809662] 
+  ],
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond",
+   "citation":"*Gene-wide identification of episodic selection*, Mol Biol Evol. 32(5):1365-71, *Synonymous Site-to-Site Substitution Rate Variation Dramatically Inflates False Positive Rates of Selection Analyses: Ignore at Your Own Peril*, Mol Biol Evol. 37(8):2430-2439",
+   "contact":"spond@temple.edu",
+   "info":"BUSTED (branch-site unrestricted statistical test of episodic diversification) uses a random effects branch-site model fitted  jointly to all or a subset of tree branches in order to test for alignment-wide evidence of episodic diversifying selection. Assuming there is evidence of positive selection (i.e. there is an omega > 1),  BUSTED will also perform a quick evidence-ratio style analysis to explore which individual sites may have been subject to selection. v2.0 adds support for synonymous rate variation, and relaxes the test statistic to 0.5 (chi^2_0 + chi^2_2).\n                               \nVersion 2.1 adds a grid search for the initial starting point.\n\nVersion 2.2 changes the grid search to LHC, and adds an initial search phase to use adaptive Nedler-Mead. \n\nVersion 3.0 implements the option for branch-site variation in synonymous substitution rates. \n\nVersion 3.1 adds HMM auto-correlation option for SRV, and binds SRV distributions for multiple branch sets.\n\nVersion 4.0 adds support for multiple hits (MH), ancestral state reconstruction saved to JSON, and profiling of branch-site level support for selection / multiple hits.\n\nVersion 4.2 adds calculation of MH-attributable fractions of substitutions.\n\nVersion 4.5 adds an 'error absorption' component [experimental]\n",
+   "requirements":"in-frame codon alignment and a phylogenetic tree (optionally annotated with {})",
+   "settings":{
+     "error-sink":0,
+     "multiple-hit":"None",
+     "srv":"Yes"
+    },
+   "version":"4.5"
+  },
+ "background":0,
+ "branch attributes":{
+   "0":{
+     "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA",
+       "unconstrained":0
+      },
+     "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0
+      },
+     "Node10":{
+       "MG94xREV with separate rates for branch sets":0.01522115954956756,
+       "Nucleotide GTR":0.01361885635795768,
+       "unconstrained":0.02167191525323507
+      },
+     "Node12":{
+       "MG94xREV with separate rates for branch sets":0.07640422721058369,
+       "Nucleotide GTR":0.06941196788765812,
+       "unconstrained":0.09514134500911645
+      },
+     "Node15":{
+       "MG94xREV with separate rates for branch sets":0.02912894404831082,
+       "Nucleotide GTR":0.0254777794824037,
+       "unconstrained":0.03013224888533806
+      },
+     "Node17":{
+       "MG94xREV with separate rates for branch sets":0.00326327156761596,
+       "Nucleotide GTR":0.003261668432483136,
+       "unconstrained":0
+      },
+     "Node2":{
+       "MG94xREV with separate rates for branch sets":0.0148031772070349,
+       "Nucleotide GTR":0.01466169709147547,
+       "unconstrained":0.013297596228804
+      },
+     "Node23":{
+       "MG94xREV with separate rates for branch sets":0.01563319422762707,
+       "Nucleotide GTR":0.01512869139363313,
+       "unconstrained":0.02062014520955861
+      },
+     "Node29":{
+       "MG94xREV with separate rates for branch sets":0.04561963170650827,
+       "Nucleotide GTR":0.04123058457072876,
+       "unconstrained":0.05490537314826111
+      },
+     "Node3":{
+       "MG94xREV with separate rates for branch sets":0.03062180383317016,
+       "Nucleotide GTR":0.02732200346391778,
+       "unconstrained":0.03667993980295153
+      },
+     "Node33":{
+       "MG94xREV with separate rates for branch sets":0.2503478875376955,
+       "Nucleotide GTR":0.2234556223550501,
+       "unconstrained":0
+      },
+     "Node34":{
+       "MG94xREV with separate rates for branch sets":0.8389356282349989,
+       "Nucleotide GTR":0.6115298092403807,
+       "unconstrained":5.919189093068821
+      },
+     "Node37":{
+       "MG94xREV with separate rates for branch sets":0.7891133984004423,
+       "Nucleotide GTR":0.5563780499889407,
+       "unconstrained":7.378623290278257
+      },
+     "Node39":{
+       "MG94xREV with separate rates for branch sets":0.3585920108789394,
+       "Nucleotide GTR":0.3306138699366387,
+       "unconstrained":0.5315965367178241
+      },
+     "Node4":{
+       "MG94xREV with separate rates for branch sets":0.001822405405951965,
+       "Nucleotide GTR":0.006302085632836574,
+       "unconstrained":0.0100386397788409
+      },
+     "Node42":{
+       "MG94xREV with separate rates for branch sets":0.02030156710449051,
+       "Nucleotide GTR":0.01985768158638644,
+       "unconstrained":0.02277360814449964
+      },
+     "Node5":{
+       "MG94xREV with separate rates for branch sets":0.02782011355062719,
+       "Nucleotide GTR":0.02372023651180805,
+       "unconstrained":0.02430588700503049
+      },
+     "Node50":{
+       "MG94xREV with separate rates for branch sets":0.01440757214758771,
+       "Nucleotide GTR":0.01340858104920119,
+       "unconstrained":0.01632837613787847
+      },
+     "Node9":{
+       "MG94xREV with separate rates for branch sets":0.03118169418533063,
+       "Nucleotide GTR":0.02758430288711343,
+       "unconstrained":0.03849354240232365
+      },
+     "XM_002747948_5_PREDICTED_Callithrix_jacchus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_002747948_5_PREDICTED_Callithrix_jacchus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0
+      },
+     "XM_003912272_5_PREDICTED_Papio_anubis_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_003912272_5_PREDICTED_Papio_anubis_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0
+      },
+     "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0.03147739548370552,
+       "Nucleotide GTR":0,
+       "original name":"XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0.06788966282224464
+      },
+     "XM_008062341_2_PREDICTED_Carlito_syrichta_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_008062341_2_PREDICTED_Carlito_syrichta_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0
+      },
+     "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0
+      },
+     "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_012655616_1_PREDICTED_Propithecus_coquereli_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_012655616_1_PREDICTED_Propithecus_coquereli_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0
+      },
+     "XM_012776058_2_PREDICTED_Microcebus_murinus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0.0296516708384576,
+       "Nucleotide GTR":0.0270098127463962,
+       "original name":"XM_012776058_2_PREDICTED_Microcebus_murinus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0.03407825138075914
+      },
+     "XM_012806041_2_PREDICTED_Otolemur_garnettii_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0.01437575907174544,
+       "Nucleotide GTR":0.01338114312102866,
+       "original name":"XM_012806041_2_PREDICTED_Otolemur_garnettii_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0.01606200141481286
+      },
+     "XM_016931470_3_PREDICTED_Pan_troglodytes_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0.002143325806266612,
+       "Nucleotide GTR":0.005198303586629569,
+       "original name":"XM_016931470_3_PREDICTED_Pan_troglodytes_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0.008715490562867568
+      },
+     "XM_017531594_2_PREDICTED_Cebus_imitator_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0.0303671844613315,
+       "Nucleotide GTR":0.02417947166950241,
+       "original name":"XM_017531594_2_PREDICTED_Cebus_imitator_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0.03508732633547666
+      },
+     "XM_017850544_1_PREDICTED_Rhinopithecus_bieti_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_017850544_1_PREDICTED_Rhinopithecus_bieti_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_025363515_1_PREDICTED_Theropithecus_gelada_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_025363515_1_PREDICTED_Theropithecus_gelada_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0
+      },
+     "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0
+      },
+     "XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_039476036_1_PREDICTED_Saimiri_boliviensis_boliviensis_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0.02219915027955303,
+       "Nucleotide GTR":0.02195897071274581,
+       "original name":"XM_039476036_1_PREDICTED_Saimiri_boliviensis_boliviensis_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0.02378280421285543
+      },
+     "XM_045570131_1_PREDICTED_Lemur_catta_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0.0126769798849763,
+       "Nucleotide GTR":0.01160465336260506,
+       "original name":"XM_045570131_1_PREDICTED_Lemur_catta_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0.01703884901899663
+      },
+     "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_053569948_1_PREDICTED_Nycticebus_coucang_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_053569948_1_PREDICTED_Nycticebus_coucang_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA",
+       "unconstrained":0
+      },
+     "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0.01415728343456617,
+       "Nucleotide GTR":0.01343868211070497,
+       "original name":"XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0.01566223040873274
+      },
+     "XM_057300362_2_PREDICTED_Pan_paniscus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0.01431669301245563,
+       "Nucleotide GTR":0.01167309167079082,
+       "original name":"XM_057300362_2_PREDICTED_Pan_paniscus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0.009060257373263875
+      },
+     "XM_063700589_1_PREDICTED_Gorilla_gorilla_gorilla_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_063700589_1_PREDICTED_Gorilla_gorilla_gorilla_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_064378361_1_PREDICTED_Aotus_nancymaae_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_064378361_1_PREDICTED_Aotus_nancymaae_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0
+      },
+     "XM_069482023_1_PREDICTED_Eulemur_rufifrons_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94xREV with separate rates for branch sets":0.01459866691492075,
+       "Nucleotide GTR":0.0133682497964093,
+       "original name":"XM_069482023_1_PREDICTED_Eulemur_rufifrons_tumor_protein_p53_TP53_transcript_variant_X1_mRNA",
+       "unconstrained":0.01658627451392444
+      },
+     "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":{
+       "MG94xREV with separate rates for branch sets":0,
+       "Nucleotide GTR":0,
+       "original name":"XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA",
+       "unconstrained":0
+      }
+    },
+   "attributes":{
+     "MG94xREV with separate rates for branch sets":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":0
+      },
+     "unconstrained":{
+       "attribute type":"branch length",
+       "display order":0
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64] 
+      ],
+     "name":"busted.filter.default"
+    }
+  },
+ "fits":{
+   "MG94xREV with separate rates for branch sets":{
+     "AIC-c":1558.498404790213,
+     "Equilibrium frequencies":      [
+[0.02781823969318721],
+      [0.01798743776122243],
+      [0.03088794497715576],
+      [0.01530678944079869],
+      [0.02087775316082447],
+      [0.0134996782584509],
+      [0.02318158510353613],
+      [0.01148783586432227],
+      [0.01118461729558126],
+      [0.007232039471449021],
+      [0.01241882475047713],
+      [0.006154256480912601],
+      [0.01758112052621238],
+      [0.01136805616479189],
+      [0.01952117349766691],
+      [0.009673887096959009],
+      [0.03662299389085377],
+      [0.02368064372537176],
+      [0.04066429194211162],
+      [0.02015154310127838],
+      [0.02748577317963373],
+      [0.01777246295382301],
+      [0.03051879123160435],
+      [0.01512385209554582],
+      [0.01472466178325172],
+      [0.009521053104095428],
+      [0.01634950837955764],
+      [0.008102140897089456],
+      [0.02314572297626463],
+      [0.01496616090974359],
+      [0.02569982233356193],
+      [0.0127357701982669],
+      [0.02766320178868789],
+      [0.0178871893382967],
+      [0.03071579884870316],
+      [0.01522148093150092],
+      [0.02076139629797448],
+      [0.0134244412250624],
+      [0.02305238841758244],
+      [0.01142381132433411],
+      [0.01112228266739274],
+      [0.007191733533428633],
+      [0.01234961158002156],
+      [0.006119957293074853],
+      [0.01748313660935795],
+      [0.01130469918658412],
+      [0.01941237718755433],
+      [0.009619972140426269],
+      [0.01465719172414543],
+      [0.01247284635494766],
+      [0.01701238580556962],
+      [0.01100030894199716],
+      [0.01888967966658478],
+      [0.009360944843510738],
+      [0.005893078852961201],
+      [0.01011956776571691],
+      [0.005014839709675817],
+      [0.01432610123235755],
+      [0.009263341502557859],
+      [0.01590696720866181],
+      [0.007882835775729107] 
+      ],
+     "Log Likelihood":-711.1857399592692,
+     "Rate Distributions":{
+       "non-synonymous/synonymous rate ratio for *test*":        [
+[0.2433984611226538, 1] 
+        ]
+      },
+     "display order":1,
+     "estimated parameters":66
+    },
+   "Nucleotide GTR":{
+     "AIC-c":1588.418880902197,
+     "Equilibrium frequencies":      [
+[0.2919343326195575],
+      [0.2762312633832976],
+      [0.2426837972876517],
+      [0.1891506067094932] 
+      ],
+     "Log Likelihood":-725.4943055631243,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.6536382133981724,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.6455309892180067,
+       "Substitution rate from nucleotide C to nucleotide G":0.5590156580758392,
+       "Substitution rate from nucleotide C to nucleotide T":0.9481713012555205,
+       "Substitution rate from nucleotide G to nucleotide T":0.5815045614273853
+      },
+     "display order":0,
+     "estimated parameters":68
+    },
+   "Unconstrained model":{
+     "AIC-c":1544.399069272614,
+     "Log Likelihood":-694.5284943364007,
+     "Rate Distributions":{
+       "Synonymous site-to-site rates":{
+         "0":{
+           "proportion":0.04074258480356544,
+           "rate":0.3377642178983198
+          },
+         "1":{
+           "proportion":0.6310324328149718,
+           "rate":0.3377965868950992
+          },
+         "2":{
+           "proportion":0.3282249823814627,
+           "rate":2.355329582393545
+          }
+        },
+       "Test":{
+         "0":{
+           "omega":0,
+           "proportion":0.4216995056259733
+          },
+         "1":{
+           "omega":0.4853390607106403,
+           "proportion":0.5783004943740266
+          },
+         "2":{
+           "omega":1.002329711350389,
+           "proportion":0
+          }
+        }
+      },
+     "display order":2,
+     "estimated parameters":75
+    }
+  },
+ "input":{
+   "file name":"/Users/alex/Documents/AutomatedOrthologCharacterization/results/PrimateTP53/PrimateTP53.2.codon.fas",
+   "number of sequences":34,
+   "number of sites":65,
+   "partition count":1,
+   "trees":{
+     "0":"((XM_003912272_5_PREDICTED_Papio_anubis_tumor_protein_p53_TP53_mRNA,XM_025363515_1_PREDICTED_Theropithecus_gelada_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node50,((((XM_002747948_5_PREDICTED_Callithrix_jacchus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_064378361_1_PREDICTED_Aotus_nancymaae_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node5,XM_017531594_2_PREDICTED_Cebus_imitator_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node4,((XM_008062341_2_PREDICTED_Carlito_syrichta_tumor_protein_p53_TP53_mRNA,(XM_053569948_1_PREDICTED_Nycticebus_coucang_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_012806041_2_PREDICTED_Otolemur_garnettii_tumor_protein_p53_TP53_mRNA)Node12)Node10,(XM_045570131_1_PREDICTED_Lemur_catta_tumor_protein_p53_TP53_mRNA,(XM_012776058_2_PREDICTED_Microcebus_murinus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_069482023_1_PREDICTED_Eulemur_rufifrons_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_012655616_1_PREDICTED_Propithecus_coquereli_tumor_protein_p53_TP53_mRNA)Node17)Node15)Node9)Node3,(XM_017850544_1_PREDICTED_Rhinopithecus_bieti_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA,XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node23,(((XM_016931470_3_PREDICTED_Pan_troglodytes_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_057300362_2_PREDICTED_Pan_paniscus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node34,(XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,(XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_039476036_1_PREDICTED_Saimiri_boliviensis_boliviensis_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node39)Node37)Node33,XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA,XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA)Node29)Node2,(XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_063700589_1_PREDICTED_Gorilla_gorilla_gorilla_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA,XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA,XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA)Node42,XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA,XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA,XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)"
+    }
+  },
+ "runtime":"2.5.61",
+ "substitutions":{
+   "0":{
+     "0":{
+       "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"---",
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node29":"---",
+       "Node3":"---",
+       "Node50":"---",
+       "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"AGC"
+      },
+     "1":{
+       "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"---",
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node29":"---",
+       "Node3":"---",
+       "Node50":"---",
+       "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"CAG"
+      },
+     "10":{
+       "Node34":"GAA",
+       "Node37":"GAA",
+       "root":"GAG"
+      },
+     "11":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"ACT",
+       "Node37":"ACT",
+       "Node39":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"ACG"
+      },
+     "12":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node39":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GTG"
+      },
+     "13":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node39":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"AGT"
+      },
+     "14":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"GGA",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GGG"
+      },
+     "15":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"TCC",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"TCG"
+      },
+     "16":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"ATT",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"ATA"
+      },
+     "17":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"GGA",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GGG"
+      },
+     "18":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_057300362_2_PREDICTED_Pan_paniscus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"AGG",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"AAG"
+      },
+     "19":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"GCA",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GCG"
+      },
+     "2":{
+       "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"---",
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node29":"---",
+       "Node3":"---",
+       "Node50":"---",
+       "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"ACT"
+      },
+     "20":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"GGC",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_057300362_2_PREDICTED_Pan_paniscus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"GGT",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GGG"
+      },
+     "21":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"CCA",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"CCG"
+      },
+     "22":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"CCA",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"CCG"
+      },
+     "23":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"CCC",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"CCG"
+      },
+     "24":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"CCC",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"CCG"
+      },
+     "25":{
+       "Node34":"CAC",
+       "Node37":"AGA",
+       "Node39":"ACT",
+       "root":"GAG"
+      },
+     "26":{
+       "Node12":"ACA",
+       "Node15":"CCG",
+       "Node2":"CCA",
+       "Node34":"CCC",
+       "Node37":"CCC",
+       "Node39":"GTG",
+       "Node5":"CCG",
+       "XM_045570131_1_PREDICTED_Lemur_catta_tumor_protein_p53_TP53_mRNA":"CCC",
+       "root":"CCG"
+      },
+     "27":{
+       "Node12":"CAA",
+       "Node34":"AAC",
+       "Node37":"ATG",
+       "Node39":"AGT",
+       "XM_017531594_2_PREDICTED_Cebus_imitator_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"CAC",
+       "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"CCG",
+       "root":"CAG"
+      },
+     "28":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"GGA",
+       "Node39":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GGG"
+      },
+     "29":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node39":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GGG"
+      },
+     "3":{
+       "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"---",
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node29":"---",
+       "Node3":"---",
+       "Node50":"---",
+       "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GCC"
+      },
+     "30":{
+       "Node10":"TCG",
+       "Node34":"CCC",
+       "Node37":"GCA",
+       "Node39":"GGA",
+       "root":"TCA"
+      },
+     "31":{
+       "Node12":"GAC",
+       "Node34":"AGC",
+       "Node37":"GAC",
+       "Node39":"TCC",
+       "root":"GAT"
+      },
+     "32":{
+       "Node3":"CTC",
+       "Node34":"CCC",
+       "Node37":"CCA",
+       "Node39":"ATG",
+       "root":"CCT"
+      },
+     "33":{
+       "Node12":"ACC",
+       "Node34":"CTA",
+       "Node37":"AGT",
+       "Node39":"AGA",
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "root":"AGC"
+      },
+     "34":{
+       "Node12":"ATT",
+       "Node29":"GTC",
+       "Node34":"GTA",
+       "Node37":"CTG",
+       "Node39":"AGG",
+       "Node42":"GTC",
+       "XM_012776058_2_PREDICTED_Microcebus_murinus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"ATT",
+       "root":"ATC"
+      },
+     "35":{
+       "Node37":"TCC",
+       "Node39":"GCA",
+       "Node50":"GAA",
+       "root":"GAG"
+      },
+     "36":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"GGC",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GGG"
+      },
+     "37":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"CCA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"CCG"
+      },
+     "38":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"CCA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"CCG"
+      },
+     "39":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node39":"ACC",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_039476036_1_PREDICTED_Saimiri_boliviensis_boliviensis_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"TCC",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"ACG"
+      },
+     "4":{
+       "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"---",
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"TTG",
+       "Node29":"---",
+       "Node3":"---",
+       "Node42":"TTC",
+       "Node50":"---",
+       "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"TTA"
+      },
+     "40":{
+       "Node34":"ACC",
+       "Node37":"CCA",
+       "XM_008062341_2_PREDICTED_Carlito_syrichta_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_012776058_2_PREDICTED_Microcebus_murinus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"GCC",
+       "root":"CCC"
+      },
+     "41":{
+       "Node29":"CCA",
+       "Node34":"---",
+       "Node37":"CCC",
+       "Node5":"CCG",
+       "XM_017531594_2_PREDICTED_Cebus_imitator_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"CCA",
+       "root":"CCT"
+      },
+     "42":{
+       "Node34":"TGT",
+       "Node37":"CAA",
+       "root":"CTG"
+      },
+     "43":{
+       "Node29":"AGC",
+       "Node34":"GGG",
+       "Node37":"CCC",
+       "root":"AGT"
+      },
+     "44":{
+       "Node34":"AAG",
+       "XM_012806041_2_PREDICTED_Otolemur_garnettii_tumor_protein_p53_TP53_mRNA":"CAA",
+       "root":"CAG"
+      },
+     "45":{
+       "Node34":"CGA",
+       "Node37":"CCC",
+       "Node9":"GAG",
+       "root":"GAA"
+      },
+     "46":{
+       "Node15":"ACG",
+       "Node34":"AAA",
+       "Node37":"CCT",
+       "root":"ACA"
+      },
+     "47":{
+       "Node34":"TTC",
+       "Node37":"AGC",
+       "root":"TTT"
+      },
+     "48":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"CAT",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"CAC"
+      },
+     "49":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node37":"---",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GGG"
+      },
+     "5":{
+       "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"---",
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node29":"---",
+       "Node3":"---",
+       "Node50":"---",
+       "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"CGG"
+      },
+     "50":{
+       "Node34":"ACT",
+       "Node37":"AGA",
+       "root":"TCA"
+      },
+     "51":{
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"GGC",
+       "root":"GAC"
+      },
+     "52":{
+       "Node23":"CTT",
+       "Node34":"TTT",
+       "Node37":"CTG",
+       "Node9":"TTA",
+       "root":"CTA"
+      },
+     "53":{
+       "Node34":"CTG",
+       "XM_039476036_1_PREDICTED_Saimiri_boliviensis_boliviensis_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"CGG",
+       "root":"TGG"
+      },
+     "54":{
+       "Node34":"CTC",
+       "Node37":"GAA",
+       "XM_069482023_1_PREDICTED_Eulemur_rufifrons_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"AAG",
+       "root":"AAA"
+      },
+     "55":{
+       "Node34":"TTG",
+       "Node37":"GCA",
+       "root":"CTA"
+      },
+     "56":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"AAA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"AAG"
+      },
+     "57":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"AAA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"AAG"
+      },
+     "58":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"AAA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"AAG"
+      },
+     "59":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"AAA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"AAG"
+      },
+     "6":{
+       "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"---",
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node29":"---",
+       "Node3":"---",
+       "Node50":"---",
+       "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GTC"
+      },
+     "60":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"AAA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"AAG"
+      },
+     "61":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"AAA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"AAG"
+      },
+     "62":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"AAA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"AAG"
+      },
+     "63":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"ATC",
+       "Node39":"AAA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"ATA"
+      },
+     "64":{
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node23":"---",
+       "Node3":"---",
+       "Node34":"---",
+       "Node37":"CAT",
+       "Node39":"AAA",
+       "Node42":"---",
+       "Node50":"---",
+       "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"CAC"
+      },
+     "7":{
+       "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"---",
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node29":"---",
+       "Node3":"---",
+       "Node50":"---",
+       "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"ACT"
+      },
+     "8":{
+       "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"---",
+       "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"---",
+       "Node29":"---",
+       "Node3":"---",
+       "Node50":"---",
+       "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"---",
+       "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"---",
+       "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"---",
+       "root":"GCC"
+      },
+     "9":{
+       "root":"ATG"
+      }
+    }
+  },
+ "test results":{
+   "LRT":0,
+   "p-value":0.5
+  },
+ "tested":{
+   "0":{
+     "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"test",
+     "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"test",
+     "Node10":"test",
+     "Node12":"test",
+     "Node15":"test",
+     "Node17":"test",
+     "Node2":"test",
+     "Node23":"test",
+     "Node29":"test",
+     "Node3":"test",
+     "Node33":"test",
+     "Node34":"test",
+     "Node37":"test",
+     "Node39":"test",
+     "Node4":"test",
+     "Node42":"test",
+     "Node5":"test",
+     "Node50":"test",
+     "Node9":"test",
+     "XM_002747948_5_PREDICTED_Callithrix_jacchus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_003912272_5_PREDICTED_Papio_anubis_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_008062341_2_PREDICTED_Carlito_syrichta_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_012655616_1_PREDICTED_Propithecus_coquereli_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_012776058_2_PREDICTED_Microcebus_murinus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_012806041_2_PREDICTED_Otolemur_garnettii_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_016931470_3_PREDICTED_Pan_troglodytes_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_017531594_2_PREDICTED_Cebus_imitator_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_017850544_1_PREDICTED_Rhinopithecus_bieti_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_025363515_1_PREDICTED_Theropithecus_gelada_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_039476036_1_PREDICTED_Saimiri_boliviensis_boliviensis_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_045570131_1_PREDICTED_Lemur_catta_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_053569948_1_PREDICTED_Nycticebus_coucang_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_057300362_2_PREDICTED_Pan_paniscus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_063700589_1_PREDICTED_Gorilla_gorilla_gorilla_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_064378361_1_PREDICTED_Aotus_nancymaae_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_069482023_1_PREDICTED_Eulemur_rufifrons_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"test"
+    }
+  },
+ "timers":{
+   "Overall":{
+     "order":0,
+     "timer":291
+    },
+   "Preliminary model fitting":{
+     "order":1,
+     "timer":8
+    },
+   "Unconstrained BUSTED model fitting":{
+     "order":2,
+     "timer":281
+    }
+  }
+}

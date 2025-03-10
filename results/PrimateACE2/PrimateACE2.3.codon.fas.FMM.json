@@ -1,0 +1,656 @@
+{
+ "Evidence Ratios":{
+   "Three-hit":    [
+[0.6769187557121574, 0.8918593015797938, 1.184823101311549, 1.000000000000001, 1, 1, 1, 0.9999999999999996, 1, 1, 1, 1.000000000000001, 1, 1, 1, 1, 1.082773603462952, 0.8069094880006564, 0.9878982855179422, 1.272591977016768, 1.032234347657865, 0.9155995173218385, 1, 1, 1.000000000000001, 1.000000000000001, 1, 1, 1, 0.9897249119557364, 1.189646319207879, 1.029585966129605, 1.111283710717289, 0.8574540418767528, 0.7844243912990694, 0.6762407028067809, 4.12235626053097, 1.066515019502037, 1.037744311678894, 0.8075429529628912, 1.265620160813452, 1.13809007173748, 0.9400228337378048, 1.045154699389327] 
+    ],
+   "Three-hit islands vs 2-hit":    [
+[0.6773035046468431, 0.8924032165583237, 1.183209104668295, 1, 1, 1, 1, 0.9999999999999996, 1, 1, 1, 1.000000000000001, 1.000000000000001, 1, 1, 1, 1.079628597375772, 0.8122422377158949, 0.9856091511065652, 1.262620588116138, 1.028303189854272, 0.9186636778623269, 0.9999999999999996, 0.9999999999999991, 1, 1.000000000000001, 0.9999999999999991, 1, 0.9999999999999996, 0.9930676340795735, 1.189584272684934, 1.029800945053686, 1.111656208018942, 0.8616614084681038, 0.7915505853841969, 0.6729573181093595, 4.119066485344749, 1.066212620427087, 1.032826257126112, 0.8023973400574832, 1.26092679914695, 1.140350629799986, 0.944589397084732, 1.048849804702082] 
+    ],
+   "Three-hit vs three-hit islands":    [
+[0.9994319401390279, 0.9993905053585221, 1.001364084029514, 1.000000000000001, 1, 1, 1, 1, 1, 1, 1, 1, 0.9999999999999991, 1, 1, 1, 1.002913044444011, 0.9934345328676397, 1.002322557992493, 1.007897375501778, 1.003822955955383, 0.996664545889505, 1.000000000000001, 1.000000000000001, 1, 1, 1.000000000000001, 1, 1.000000000000001, 0.9966339431382886, 1.000052158156735, 0.9997912422540367, 0.9996649168160383, 0.9951171463059589, 0.9909971716063243, 1.004879038549794, 1.000798670086517, 1.000283619860764, 1.004761744309703, 1.006412799056686, 1.003722152364179, 0.9980176640382069, 0.9951655572664473, 0.9964769928962286] 
+    ],
+   "Two-hit":    [
+[0.9922376724459175, 0.9907932993864422, 0.9970528520998089, 1, 1, 1, 0.9999999999999996, 1.000000000000001, 1, 0.9999999999999996, 0.9999999999999996, 1, 1, 1, 1, 0.9999999999999996, 1.002757811194139, 1.00994085709438, 1.00073920198271, 1.00506674471336, 1.003331687731641, 0.9987151102816669, 1.000000000000001, 1, 0.9999999999999996, 0.9999999999999991, 1.000000000000001, 1.000000000000001, 1.000000000000001, 0.9995182520094257, 0.9990587840644097, 0.9963227717618448, 0.9932873737461967, 1.000542732999513, 1.003232242723223, 0.9989480251513754, 1.001026338127932, 1.006884390178613, 0.9969025807200567, 1.006641140632211, 1.005246984693837, 0.9959800735401554, 1.002213849845162, 0.9939881201282871] 
+    ]
+  },
+ "Site Log Likelihood":{
+   "MG94 with double and triple instantaneous substitutions":    [
+[-24.69681758188445, -27.21190069726535, -23.03701686426037, -4.07190873773046, -4.842877971609122, -3.902160483374186, -3.948129840892556, -3.603642432053173, -3.579966719863989, -3.948129840892556, -3.948129840892556, -4.335055374072857, -5.707143598386025, -4.436930671279247, -4.640218335839015, -3.948129840892556, -12.18019286403912, -26.46716725821049, -8.214693671375251, -20.03652908199564, -19.72104282969, -5.949382783115785, -3.098381857169573, -4.760433617494101, -3.46654497819814, -4.331783495893244, -4.214840092417771, -4.663894048028199, -3.098381857169573, -7.342369095730651, -15.11454747610711, -16.5287898749967, -15.82364573190054, -6.788757735168, -24.72433787427499, -12.08027369236756, -16.8688178905211, -22.25974554644675, -11.64981345215917, -11.14896833577567, -23.13839956994941, -12.63772877769097, -12.81286464603181, -37.27203190956288] 
+    ],
+   "MG94 with double and triple instantaneous substitutions [only synonymous islands]":    [
+[-24.69624936061635, -27.21129101680651, -23.03838001877246, -4.071908737730461, -4.842877971609122, -3.902160483374186, -3.948129840892556, -3.603642432053173, -3.57996671986399, -3.948129840892556, -3.948129840892556, -4.335055374072857, -5.707143598386024, -4.436930671279247, -4.640218335839015, -3.948129840892556, -12.18310167379107, -26.46058014359622, -8.217013536398841, -20.04439543644375, -19.72485849672019, -5.946041753977944, -3.098381857169574, -4.760433617494102, -3.466544978198141, -4.331783495893244, -4.214840092417772, -4.663894048028199, -3.098381857169574, -7.338997360954505, -15.11459963290365, -16.52858109545781, -15.82331059256367, -6.7838629213951, -24.71529427553837, -12.08514086698285, -16.86961624184038, -22.26002912609501, -11.65456389522599, -11.15536066032248, -23.14211481224605, -12.63574447430075, -12.80801847957962, -37.2685026820556] 
+    ],
+   "MG94 with double instantaneous substitutions":    [
+[-24.30661356227966, -27.09745380476702, -23.20661034611022, -4.071908737730461, -4.842877971609122, -3.902160483374187, -3.948129840892556, -3.603642432053173, -3.57996671986399, -3.948129840892556, -3.948129840892556, -4.335055374072858, -5.707143598386025, -4.436930671279247, -4.640218335839015, -3.948129840892556, -12.25971876446429, -26.25262348259672, -8.202518134960654, -20.27758482938934, -19.75276855203419, -5.86120656504049, -3.098381857169574, -4.760433617494101, -3.466544978198141, -4.331783495893245, -4.214840092417771, -4.663894048028199, -3.098381857169574, -7.332040854553664, -15.288203528305, -16.55794662179334, -15.92916157513997, -6.634970038310663, -24.4815327846174, -11.68906749529158, -18.2852427983014, -22.32414188826048, -11.68686287869684, -10.93520930299938, -23.37396181770006, -12.76708025941718, -12.75101353322912, -37.3161968217163] 
+    ],
+   "Standard MG94":    [
+[-24.29882095104469, -27.08820446054561, -23.20365884681809, -4.071908737730461, -4.842877971609122, -3.902160483374187, -3.948129840892556, -3.603642432053173, -3.57996671986399, -3.948129840892556, -3.948129840892556, -4.335055374072858, -5.707143598386025, -4.436930671279247, -4.640218335839015, -3.948129840892556, -12.26247277987424, -26.26251525440304, -8.203257063868142, -20.28263878134527, -19.75609470199095, -5.859920849143588, -3.098381857169575, -4.760433617494101, -3.466544978198141, -4.331783495893244, -4.214840092417772, -4.6638940480282, -3.098381857169575, -7.331558990485245, -15.28726186914755, -16.55426261593108, -15.92242631787804, -6.635512624083889, -24.48475981487307, -11.68801496672905, -18.28626861010445, -22.33100268922803, -11.68376065248518, -10.94182848840869, -23.37919508493233, -12.76305223133372, -12.75322493611951, -37.31016679773811] 
+    ]
+  },
+ "Site substitutions":{
+  },
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Sadie Wisotsky and Alexander Lucaci",
+   "citation":"Submitted; preprint at hyphy.org/resources/fmm.pdf",
+   "contact":"spond@temple.edu",
+   "info":"Examine whether or not a codon alignment is better fit by models which permit multiple instantaneous substitutions. v0.2 adds a separate rate for codon-island triple-hit rates",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"1.0"
+  },
+ "branch attributes":{
+   "0":{
+     "NM_001131132_2_Pongo_abelii_angiotensin_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.01492664532372684,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01491486356117239,
+       "MG94 with double instantaneous substitutions":0.01479557959867853,
+       "Nucleotide GTR":0.01395944572607071,
+       "Standard MG94":0.0147999160956754,
+       "original name":"NM_001131132_2_Pongo_abelii_angiotensin_converting_enzyme_2_ACE2_mRNA"
+      },
+     "NM_001135696_1_Macaca_mulatta_angiotensin_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"NM_001135696_1_Macaca_mulatta_angiotensin_converting_enzyme_2_ACE2_mRNA"
+      },
+     "NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA"
+      },
+     "Node10":{
+       "MG94 with double and triple instantaneous substitutions":0.01560785728612241,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01560213708039898,
+       "MG94 with double instantaneous substitutions":0.01545059905250152,
+       "Nucleotide GTR":0.01404126651067287,
+       "Standard MG94":0.0154579816491739
+      },
+     "Node11":{
+       "MG94 with double and triple instantaneous substitutions":0.01558824269096283,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01557793170772746,
+       "MG94 with double instantaneous substitutions":0.01551540720195509,
+       "Nucleotide GTR":0.01422975282788873,
+       "Standard MG94":0.01551366650476617
+      },
+     "Node19":{
+       "MG94 with double and triple instantaneous substitutions":0.01540789973230296,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01539147048281356,
+       "MG94 with double instantaneous substitutions":0.01530764091157859,
+       "Nucleotide GTR":0.01424198448792412,
+       "Standard MG94":0.01532253430794112
+      },
+     "Node21":{
+       "MG94 with double and triple instantaneous substitutions":0.01483645343718504,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01481929646118128,
+       "MG94 with double instantaneous substitutions":0.01460232379235606,
+       "Nucleotide GTR":0.01431021425188425,
+       "Standard MG94":0.01461810174314927
+      },
+     "Node22":{
+       "MG94 with double and triple instantaneous substitutions":0.01781910262793731,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01782546405787517,
+       "MG94 with double instantaneous substitutions":0.01792919149247179,
+       "Nucleotide GTR":0.02095688622909147,
+       "Standard MG94":0.01792871082648427
+      },
+     "Node23":{
+       "MG94 with double and triple instantaneous substitutions":0.01618936400726976,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01618306782578216,
+       "MG94 with double instantaneous substitutions":0.01676312269312817,
+       "Nucleotide GTR":0.01185015625929868,
+       "Standard MG94":0.01675552798329377
+      },
+     "Node24":{
+       "MG94 with double and triple instantaneous substitutions":0.03295510281645726,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0329558347611944,
+       "MG94 with double instantaneous substitutions":0.03237404750215971,
+       "Nucleotide GTR":0.02680479521499882,
+       "Standard MG94":0.03240082610400679
+      },
+     "Node25":{
+       "MG94 with double and triple instantaneous substitutions":0.03324872286924418,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03324703589923469,
+       "MG94 with double instantaneous substitutions":0.0334264633308811,
+       "Nucleotide GTR":0.02939861707610496,
+       "Standard MG94":0.03344177799760959
+      },
+     "Node33":{
+       "MG94 with double and triple instantaneous substitutions":0.0474742365156785,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.04743434025526383,
+       "MG94 with double instantaneous substitutions":0.04726194821575987,
+       "Nucleotide GTR":0.04362106103538098,
+       "Standard MG94":0.04726902113782918
+      },
+     "Node35":{
+       "MG94 with double and triple instantaneous substitutions":0.03029965042908228,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03026707252337535,
+       "MG94 with double instantaneous substitutions":0.03016429530452996,
+       "Nucleotide GTR":0.02818277933444469,
+       "Standard MG94":0.03016879290879666
+      },
+     "Node39":{
+       "MG94 with double and triple instantaneous substitutions":0.01494156139678463,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01492930619423131,
+       "MG94 with double instantaneous substitutions":0.0148627621729847,
+       "Nucleotide GTR":0.0139973806383724,
+       "Standard MG94":0.01487472349163451
+      },
+     "Node43":{
+       "MG94 with double and triple instantaneous substitutions":0.01492672949910408,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01493524369959342,
+       "MG94 with double instantaneous substitutions":0.01484038579281749,
+       "Nucleotide GTR":0.01397436411304084,
+       "Standard MG94":0.01483828046222354
+      },
+     "Node49":{
+       "MG94 with double and triple instantaneous substitutions":0.01504271697334456,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01503434688705312,
+       "MG94 with double instantaneous substitutions":0.01492279369710885,
+       "Nucleotide GTR":0.01396108060061813,
+       "Standard MG94":0.01492351031533233
+      },
+     "XM_003261084_3_PREDICTED_Nomascus_leucogenys_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.03032406076688865,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03032131441081211,
+       "MG94 with double instantaneous substitutions":0.03012062079661064,
+       "Nucleotide GTR":0.02815833526609602,
+       "Standard MG94":0.03013995659135054,
+       "original name":"XM_003261084_3_PREDICTED_Nomascus_leucogenys_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_003791864_2_PREDICTED_Otolemur_garnettii_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.05162186227339178,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.05162162412030347,
+       "MG94 with double instantaneous substitutions":0.05159948361413741,
+       "Nucleotide GTR":0.04461136592745005,
+       "Standard MG94":0.05158552514273203,
+       "original name":"XM_003791864_2_PREDICTED_Otolemur_garnettii_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_005593037_3_PREDICTED_Macaca_fascicularis_angiotensin_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_005593037_3_PREDICTED_Macaca_fascicularis_angiotensin_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_007991113_2_PREDICTED_Chlorocebus_sabaeus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.04605690624587543,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0460427447491961,
+       "MG94 with double instantaneous substitutions":0.04580134254762849,
+       "Nucleotide GTR":0.04258734329790202,
+       "Standard MG94":0.04582122526946535,
+       "original name":"XM_007991113_2_PREDICTED_Chlorocebus_sabaeus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_008064619_1_PREDICTED_Carlito_syrichta_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.2427050763654467,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.2428975176521825,
+       "MG94 with double instantaneous substitutions":0.2511280830880224,
+       "Nucleotide GTR":0.2059716861336837,
+       "Standard MG94":0.2512452194504201,
+       "original name":"XM_008064619_1_PREDICTED_Carlito_syrichta_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_008974180_2_PREDICTED_Pan_paniscus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_008974180_2_PREDICTED_Pan_paniscus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_008988993_4_PREDICTED_Callithrix_jacchus_angiotensin_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.01488735595736501,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01487228216263191,
+       "MG94 with double instantaneous substitutions":0.01481081256334089,
+       "Nucleotide GTR":0.01391403088887661,
+       "Standard MG94":0.01481654279922836,
+       "original name":"XM_008988993_4_PREDICTED_Callithrix_jacchus_angiotensin_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_010336623_2_PREDICTED_Saimiri_boliviensis_boliviensis_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_010336623_2_PREDICTED_Saimiri_boliviensis_boliviensis_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_010366065_2_PREDICTED_Rhinopithecus_roxellana_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_010366065_2_PREDICTED_Rhinopithecus_roxellana_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_011735203_2_PREDICTED_Macaca_nemestrina_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_011735203_2_PREDICTED_Macaca_nemestrina_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_011995533_1_PREDICTED_Mandrillus_leucophaeus_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_011995533_1_PREDICTED_Mandrillus_leucophaeus_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_012035808_1_PREDICTED_Cercocebus_atys_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_012035808_1_PREDICTED_Cercocebus_atys_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_012434682_2_PREDICTED_Aotus_nancymaae_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.01486726398474042,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01485467197635195,
+       "MG94 with double instantaneous substitutions":0.01477971368566537,
+       "Nucleotide GTR":0.01391361211187982,
+       "Standard MG94":0.01478853233374659,
+       "original name":"XM_012434682_2_PREDICTED_Aotus_nancymaae_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_012638731_1_PREDICTED_Propithecus_coquereli_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.03121142263084639,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03120536748690433,
+       "MG94 with double instantaneous substitutions":0.03104728244941447,
+       "Nucleotide GTR":0.02923063882525126,
+       "Standard MG94":0.03104064210601669,
+       "original name":"XM_012638731_1_PREDICTED_Propithecus_coquereli_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_016942979_2_PREDICTED_Pan_troglodytes_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_016942979_2_PREDICTED_Pan_troglodytes_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_017512376_2_PREDICTED_Cebus_imitator_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_017512376_2_PREDICTED_Cebus_imitator_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_017888580_1_PREDICTED_Rhinopithecus_bieti_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_017888580_1_PREDICTED_Rhinopithecus_bieti_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_019019204_1_PREDICTED_Gorilla_gorilla_gorilla_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_019019204_1_PREDICTED_Gorilla_gorilla_gorilla_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_020285237_1_PREDICTED_Microcebus_murinus_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.9829129060416593,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.9800829347191674,
+       "MG94 with double instantaneous substitutions":1.023261066751668,
+       "Nucleotide GTR":0.7399259257445381,
+       "Standard MG94":1.019068850904678,
+       "original name":"XM_020285237_1_PREDICTED_Microcebus_murinus_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_021933040_1_PREDICTED_Papio_anubis_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_021933040_1_PREDICTED_Papio_anubis_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_023199053_2_PREDICTED_Piliocolobus_tephrosceles_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_023199053_2_PREDICTED_Piliocolobus_tephrosceles_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_025372062_1_PREDICTED_Theropithecus_gelada_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.01555431026137712,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01554195711798457,
+       "MG94 with double instantaneous substitutions":0.01541102003511479,
+       "Nucleotide GTR":0.01433945558507966,
+       "Standard MG94":0.01541189361382007,
+       "original name":"XM_025372062_1_PREDICTED_Theropithecus_gelada_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_032285963_1_PREDICTED_Sapajus_apella_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_032285963_1_PREDICTED_Sapajus_apella_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_032756617_1_PREDICTED_Hylobates_moloch_angiotensin_I_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.01514127835604907,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01515015821622176,
+       "MG94 with double instantaneous substitutions":0.01503351306183475,
+       "Nucleotide GTR":0.01397796399268593,
+       "Standard MG94":0.01503713406751984,
+       "original name":"XM_032756617_1_PREDICTED_Hylobates_moloch_angiotensin_I_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_045538336_1_PREDICTED_Lemur_catta_angiotensin_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.04847033435197948,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.04846654289665858,
+       "MG94 with double instantaneous substitutions":0.04797557094760161,
+       "Nucleotide GTR":0.04288855226786362,
+       "Standard MG94":0.04797424593658656,
+       "original name":"XM_045538336_1_PREDICTED_Lemur_catta_angiotensin_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_050777627_1_PREDICTED_Macaca_thibetana_thibetana_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_050777627_1_PREDICTED_Macaca_thibetana_thibetana_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      },
+     "XM_053580366_1_PREDICTED_Nycticebus_coucang_angiotensin_converting_enzyme_2_ACE2_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.01375296275041502,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01373675177512821,
+       "MG94 with double instantaneous substitutions":0.01342685057943675,
+       "Nucleotide GTR":0.01403076639651339,
+       "Standard MG94":0.01342925245585019,
+       "original name":"XM_053580366_1_PREDICTED_Nycticebus_coucang_angiotensin_converting_enzyme_2_ACE2_mRNA"
+      },
+     "XM_054471966_1_PREDICTED_Pongo_pygmaeus_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_054471966_1_PREDICTED_Pongo_pygmaeus_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA"
+      }
+    },
+   "attributes":{
+     "MG94 with double and triple instantaneous substitutions":{
+       "attribute type":"branch length",
+       "display order":3
+      },
+     "MG94 with double and triple instantaneous substitutions [only synonymous islands]":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "MG94 with double instantaneous substitutions":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Standard MG94":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43] 
+      ],
+     "name":"fitter.filter.default"
+    }
+  },
+ "fits":{
+   "MG94 with double and triple instantaneous substitutions":{
+     "AIC-c":1133.535901946868,
+     "Log Likelihood":-496.2525188746687,
+     "Rate Distributions":{
+       "distribution":        [
+[0.3368272476722289, 0.5418972122141015],
+        [0.3392500780903046, 0.04266929730970582],
+        [1.932917565514165, 0.4154334904761927] 
+        ],
+       "parameters":{
+         "GDD rate category 1":0.7411306280458908,
+         "GDD rate category 2":0.7358376776669106,
+         "GDD rate category 3":4.22267967439972,
+         "Mixture auxiliary weight for GDD category 1":0.04266929730970582,
+         "Mixture auxiliary weight for GDD category 2":0.5660501754422583,
+         "Substitution rate from nucleotide A to nucleotide C":0.9592981499357206,
+         "Substitution rate from nucleotide A to nucleotide G":1,
+         "Substitution rate from nucleotide A to nucleotide T":0.2642700854926724,
+         "Substitution rate from nucleotide C to nucleotide G":0.4099055692864242,
+         "Substitution rate from nucleotide C to nucleotide T":0.7663306129411325,
+         "Substitution rate from nucleotide G to nucleotide T":0.1487113147468669,
+         "non-synonymous/synonymous rate ratio":0.711608394172947,
+         "rate at which 2 nucleotides are changed instantly within a single codon":0,
+         "rate at which 3 nucleotides are changed instantly within a single codon":0,
+         "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":238.1122473429008
+        }
+      },
+     "display order":3,
+     "estimated parameters":67
+    },
+   "MG94 with double and triple instantaneous substitutions [only synonymous islands]":{
+     "AIC-c":1131.323477022032,
+     "Log Likelihood":-496.252332188734,
+     "Rate Distributions":{
+       "distribution":        [
+[0.3367536602235918, 0.5433675431509971],
+        [0.3379950699614502, 0.04103064759211798],
+        [1.932500813290034, 0.4156018092568849] 
+        ],
+       "parameters":{
+         "GDD rate category 1":0.7385497119608142,
+         "GDD rate category 2":0.7358371197196751,
+         "GDD rate category 3":4.222688571114892,
+         "Mixture auxiliary weight for GDD category 1":0.04103064759211798,
+         "Mixture auxiliary weight for GDD category 2":0.5666161716082503,
+         "Substitution rate from nucleotide A to nucleotide C":0.9578621522877157,
+         "Substitution rate from nucleotide A to nucleotide G":1,
+         "Substitution rate from nucleotide A to nucleotide T":0.2636807232983377,
+         "Substitution rate from nucleotide C to nucleotide G":0.4083106091038332,
+         "Substitution rate from nucleotide C to nucleotide T":0.7644617000147114,
+         "Substitution rate from nucleotide G to nucleotide T":0.1487109101164537,
+         "non-synonymous/synonymous rate ratio":0.7111406811367319,
+         "rate at which 2 nucleotides are changed instantly within a single codon":0,
+         "rate at which 3 nucleotides are changed instantly within a single codon":0,
+         "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":240.5486413646725
+        }
+      },
+     "display order":0,
+     "estimated parameters":66
+    },
+   "MG94 with double instantaneous substitutions":{
+     "AIC-c":1130.842997239773,
+     "Log Likelihood":-497.1164138741239,
+     "Rate Distributions":{
+       "distribution":        [
+[0.270224800282903, 0.01469525688384375],
+        [0.2710276094931728, 0.4989882669657305],
+        [1.770018953082597, 0.4863164761504257] 
+        ],
+       "parameters":{
+         "GDD rate category 1":0.7076071327836905,
+         "GDD rate category 2":0.709709358496714,
+         "GDD rate category 3":4.634948513431504,
+         "Mixture auxiliary weight for GDD category 1":0.01469525688384375,
+         "Mixture auxiliary weight for GDD category 2":0.5064303916650338,
+         "Substitution rate from nucleotide A to nucleotide C":0.9174641658407364,
+         "Substitution rate from nucleotide A to nucleotide G":1,
+         "Substitution rate from nucleotide A to nucleotide T":0.292739139664798,
+         "Substitution rate from nucleotide C to nucleotide G":0.4360194056316606,
+         "Substitution rate from nucleotide C to nucleotide T":0.6290094605690382,
+         "Substitution rate from nucleotide G to nucleotide T":0.1080911128606216,
+         "non-synonymous/synonymous rate ratio":0.7547939368308143,
+         "rate at which 2 nucleotides are changed instantly within a single codon":0
+        }
+      },
+     "display order":2,
+     "estimated parameters":65
+    },
+   "Nucleotide GTR":{
+     "AIC-c":1141.230437407936,
+     "Equilibrium frequencies":      [
+[0.3337696335078534],
+      [0.1727748691099476],
+      [0.2347294938917976],
+      [0.2587260034904014] 
+      ],
+     "Log Likelihood":-510.7372425134917,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":1.124879658749663,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.2991263221859108,
+       "Substitution rate from nucleotide C to nucleotide G":0.3938290191924117,
+       "Substitution rate from nucleotide C to nucleotide T":0.7885456725887171,
+       "Substitution rate from nucleotide G to nucleotide T":0.1411615973234191
+      },
+     "display order":0,
+     "estimated parameters":59
+    },
+   "Standard MG94":{
+     "AIC-c":1128.638054892142,
+     "Log Likelihood":-497.1165640126605,
+     "Rate Distributions":{
+       "distribution":        [
+[0.2688983538929691, 0.01469829466478043],
+        [0.2710467859502263, 0.4989459384095962],
+        [1.769918274501322, 0.4863557669256234] 
+        ],
+       "parameters":{
+         "GDD rate category 1":0.708044651879587,
+         "GDD rate category 2":0.7137017554134863,
+         "GDD rate category 3":4.660427073582672,
+         "Mixture auxiliary weight for GDD category 1":0.01469829466478043,
+         "Mixture auxiliary weight for GDD category 2":0.5063889930443637,
+         "Substitution rate from nucleotide A to nucleotide C":0.9207798046131054,
+         "Substitution rate from nucleotide A to nucleotide G":1,
+         "Substitution rate from nucleotide A to nucleotide T":0.2940496790015601,
+         "Substitution rate from nucleotide C to nucleotide G":0.4378820671263179,
+         "Substitution rate from nucleotide C to nucleotide T":0.6332102359127963,
+         "Substitution rate from nucleotide G to nucleotide T":0.1083560206312665,
+         "non-synonymous/synonymous rate ratio":0.7600668924109854
+        }
+      },
+     "display order":1,
+     "estimated parameters":64
+    }
+  },
+ "input":{
+   "file name":"/Users/alex/Documents/AutomatedOrthologCharacterization/results/PrimateACE2/PrimateACE2.3.codon.fas",
+   "number of sequences":31,
+   "number of sites":44,
+   "partition count":1,
+   "trees":{
+     "0":"(XM_011995533_1_PREDICTED_Mandrillus_leucophaeus_angiotensin_I_converting_enzyme_2_ACE2_mRNA,XM_012035808_1_PREDICTED_Cercocebus_atys_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA,XM_023199053_2_PREDICTED_Piliocolobus_tephrosceles_angiotensin_I_converting_enzyme_2_ACE2_mRNA,XM_010366065_2_PREDICTED_Rhinopithecus_roxellana_angiotensin_I_converting_enzyme_2_ACE2_mRNA,XM_017888580_1_PREDICTED_Rhinopithecus_bieti_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA,(NM_001135696_1_Macaca_mulatta_angiotensin_converting_enzyme_2_ACE2_mRNA,XM_011735203_2_PREDICTED_Macaca_nemestrina_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA,XM_050777627_1_PREDICTED_Macaca_thibetana_thibetana_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA,XM_005593037_3_PREDICTED_Macaca_fascicularis_angiotensin_converting_enzyme_2_ACE2_mRNA,XM_021933040_1_PREDICTED_Papio_anubis_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA)Node43,(NM_001131132_2_Pongo_abelii_angiotensin_converting_enzyme_2_ACE2_mRNA,XM_054471966_1_PREDICTED_Pongo_pygmaeus_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA)Node49,(XM_025372062_1_PREDICTED_Theropithecus_gelada_angiotensin_I_converting_enzyme_2_ACE2_mRNA,(((((XM_053580366_1_PREDICTED_Nycticebus_coucang_angiotensin_converting_enzyme_2_ACE2_mRNA,XM_003791864_2_PREDICTED_Otolemur_garnettii_angiotensin_I_converting_enzyme_2_ACE2_mRNA)Node25,XM_012638731_1_PREDICTED_Propithecus_coquereli_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA,XM_045538336_1_PREDICTED_Lemur_catta_angiotensin_converting_enzyme_2_ACE2_mRNA)Node24,XM_008064619_1_PREDICTED_Carlito_syrichta_angiotensin_I_converting_enzyme_2_ACE2_mRNA)Node23,XM_020285237_1_PREDICTED_Microcebus_murinus_angiotensin_I_converting_enzyme_2_ACE2_mRNA)Node22,(XM_010336623_2_PREDICTED_Saimiri_boliviensis_boliviensis_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA,(XM_008988993_4_PREDICTED_Callithrix_jacchus_angiotensin_converting_enzyme_2_ACE2_mRNA,XM_012434682_2_PREDICTED_Aotus_nancymaae_angiotensin_I_converting_enzyme_2_ACE2_mRNA,(XM_017512376_2_PREDICTED_Cebus_imitator_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA,XM_032285963_1_PREDICTED_Sapajus_apella_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA)Node39)Node35)Node33)Node21)Node19,XM_003261084_3_PREDICTED_Nomascus_leucogenys_angiotensin_I_converting_enzyme_2_ACE2_mRNA,((NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA,XM_016942979_2_PREDICTED_Pan_troglodytes_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA,XM_008974180_2_PREDICTED_Pan_paniscus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA,XM_019019204_1_PREDICTED_Gorilla_gorilla_gorilla_angiotensin_I_converting_enzyme_2_ACE2_mRNA)Node11,XM_007991113_2_PREDICTED_Chlorocebus_sabaeus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA)Node10,XM_032756617_1_PREDICTED_Hylobates_moloch_angiotensin_I_converting_enzyme_2_ACE2_mRNA)"
+    }
+  },
+ "runtime":"2.5.61",
+ "test results":{
+   "Double-hit vs single-hit":{
+     "LRT":0.0003002770733928628,
+     "p-value":0.9861745455939988
+    },
+   "Triple-hit vs Triple-hit-island":{
+     "LRT":-0.000373371869386574,
+     "p-value":1
+    },
+   "Triple-hit vs double-hit":{
+     "LRT":1.727789998910339,
+     "p-value":0.421517071944508
+    },
+   "Triple-hit vs single-hit":{
+     "LRT":1.728090275983732,
+     "p-value":0.6307068479526645
+    },
+   "Triple-hit-island vs double-hit":{
+     "LRT":1.728163370779725,
+     "p-value":0.1886456221785469
+    }
+  },
+ "tested":{
+   "0":{
+     "NM_001131132_2_Pongo_abelii_angiotensin_converting_enzyme_2_ACE2_mRNA":"test",
+     "NM_001135696_1_Macaca_mulatta_angiotensin_converting_enzyme_2_ACE2_mRNA":"test",
+     "NM_001371415_1_Homo_sapiens_angiotensin_converting_enzyme_2_ACE2_transcript_variant_1_mRNA":"test",
+     "Node10":"test",
+     "Node11":"test",
+     "Node19":"test",
+     "Node21":"test",
+     "Node22":"test",
+     "Node23":"test",
+     "Node24":"test",
+     "Node25":"test",
+     "Node33":"test",
+     "Node35":"test",
+     "Node39":"test",
+     "Node43":"test",
+     "Node49":"test",
+     "XM_003261084_3_PREDICTED_Nomascus_leucogenys_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_003791864_2_PREDICTED_Otolemur_garnettii_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_005593037_3_PREDICTED_Macaca_fascicularis_angiotensin_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_007991113_2_PREDICTED_Chlorocebus_sabaeus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_008064619_1_PREDICTED_Carlito_syrichta_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_008974180_2_PREDICTED_Pan_paniscus_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_008988993_4_PREDICTED_Callithrix_jacchus_angiotensin_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_010336623_2_PREDICTED_Saimiri_boliviensis_boliviensis_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_010366065_2_PREDICTED_Rhinopithecus_roxellana_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_011735203_2_PREDICTED_Macaca_nemestrina_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_011995533_1_PREDICTED_Mandrillus_leucophaeus_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_012035808_1_PREDICTED_Cercocebus_atys_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_012434682_2_PREDICTED_Aotus_nancymaae_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_012638731_1_PREDICTED_Propithecus_coquereli_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_016942979_2_PREDICTED_Pan_troglodytes_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_017512376_2_PREDICTED_Cebus_imitator_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_017888580_1_PREDICTED_Rhinopithecus_bieti_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_019019204_1_PREDICTED_Gorilla_gorilla_gorilla_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_020285237_1_PREDICTED_Microcebus_murinus_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_021933040_1_PREDICTED_Papio_anubis_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_023199053_2_PREDICTED_Piliocolobus_tephrosceles_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_025372062_1_PREDICTED_Theropithecus_gelada_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_032285963_1_PREDICTED_Sapajus_apella_angiotensin_I_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_032756617_1_PREDICTED_Hylobates_moloch_angiotensin_I_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_045538336_1_PREDICTED_Lemur_catta_angiotensin_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_050777627_1_PREDICTED_Macaca_thibetana_thibetana_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test",
+     "XM_053580366_1_PREDICTED_Nycticebus_coucang_angiotensin_converting_enzyme_2_ACE2_mRNA":"test",
+     "XM_054471966_1_PREDICTED_Pongo_pygmaeus_angiotensin_converting_enzyme_2_ACE2_transcript_variant_X1_mRNA":"test"
+    }
+  },
+ "timers":{
+   "MG94 with double and triple instantaneous substitutions":{
+     "order":null,
+     "timer":107
+    },
+   "MG94 with double and triple instantaneous substitutions [only synonymous islands]":{
+     "order":null,
+     "timer":19
+    },
+   "MG94 with double instantaneous substitutions":{
+     "order":null,
+     "timer":22
+    },
+   "Overall":{
+     "order":0,
+     "timer":171
+    },
+   "Standard MG94":{
+     "order":null,
+     "timer":22
+    }
+  }
+}

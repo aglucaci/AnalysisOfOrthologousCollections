@@ -1,0 +1,747 @@
+{
+ "Evidence Ratios":{
+   "Three-hit":    [
+[1.00008436183457, 0.9999085560845706, 1.001217728406822, 0.9995375979049934, 0.99972540996369, 1.000477463409847, 0.9997266705968519, 0.9993077395788101, 1.000767505562967, 0.9989620092855312, 0.9992532082617737, 1.00167046597898, 0.9988216162916368, 0.9978419499694249, 0.9999298499671574, 1.001571119711024, 0.9985481849599463, 1.003029950200708, 1.000642201765305, 0.9967793136365394, 0.9995138820409473, 0.9996500875196194, 0.9923412416569373, 1.001085968824039, 0.9986195091919979, 0.9983237852604598, 1.000164223278007, 0.9987091982651725, 0.9957247543605274, 0.9985993441737292, 0.9956917131314355, 0.9980532023918341, 0.9980766806878996, 1.000346500466068, 1.000331118719402, 0.9998104443319421, 1.002894118881969, 1.00172178215607, 0.9987408959639392, 0.9984189900605667, 1.002030519595568, 1.000638612505657, 0.9996358646682152, 0.9976457123161895, 0.9994982633028264, 1.002376262546039, 1.00339013872575, 1.00167046597898, 0.9984794340519467, 1.005184983030193, 1.004868581327528, 0.999449657376596, 1.004788557735128, 1.002166687396585, 1.001132946089612, 0.9988722925128318, 1.000880900240388, 0.9988586793703182, 0.9996677306849592, 0.999701354178713, 1.000359775282652, 0.9987256635514238, 1.000375506230295, 1.00313578983465, 0.9974691401150976, 1.001607866740919, 1.00549205203429, 0.997438593020767, 0.998008728307655, 0.9991622589788047, 1.000462379912123, 0.9980514150721833, 1.001710342243403, 1.002733759274605, 0.9999215631142984] 
+    ],
+   "Three-hit islands vs 2-hit":    [
+[1.000052925460171, 0.9999436066362135, 1.001027365153465, 1.000238956520318, 0.9995775495758433, 1.000155117570718, 0.9995790475048133, 0.9992217022241392, 1.000893696361145, 0.9983402132486803, 0.9987450596939175, 1.001789607905582, 0.9992864636280392, 0.9994384163362353, 0.9979083610626753, 1.00181706242312, 0.9996431154678121, 1.001550321239153, 1.000644789669558, 0.9980129201748927, 0.9988116890783324, 0.9995249910924155, 0.9936458671001889, 1.000365237305241, 1.000302324727511, 0.999560563507, 1.001246323597992, 0.9988657012449305, 0.9965911161607315, 0.9995652603515259, 0.9954728765206832, 0.999748184531873, 0.9990702421613108, 0.9994119876236474, 1.000081744502462, 0.9998366270562832, 1.000541559099606, 1.001199726135826, 0.9986605832213775, 0.9981860936661835, 1.003640619809326, 1.000682720862615, 0.9996938772175559, 0.9979655255770186, 1.000063159527173, 1.001784354562412, 1.002162139142273, 1.001789607905582, 0.9987251976103925, 1.004128856647747, 1.004685575380153, 1.00033965604496, 1.003765983905309, 1.00219557128704, 0.9998178729887901, 0.9980283948370041, 1.000901795472344, 0.9985785487924043, 0.9980766409739091, 0.9990038508715634, 1.001890109081886, 0.99842873537687, 0.9991832075924704, 1.002246957634249, 0.9994210881801699, 1.000604869658464, 1.005938433943206, 0.9979176169560315, 0.9993557800436498, 0.9995975354020331, 1.001802768487964, 0.9969303303748239, 1.001463136190345, 1.001655942953853, 0.9991990449892623] 
+    ],
+   "Three-hit vs three-hit islands":    [
+[1.000031434710702, 0.9999649474716271, 1.000190167881502, 0.9992988089388514, 1.000147922877929, 1.00032229584538, 1.000147685260518, 1.00008610436951, 0.9998739218773823, 1.000622829801504, 1.000508787065252, 0.9998810709098381, 0.9995348207412771, 0.9984026365799878, 1.002025725991843, 0.9997545033706038, 0.9989046785888648, 1.001477338612127, 0.9999974137633257, 0.9987639373064057, 1.000703028378916, 1.00012515587736, 0.9986870317821993, 1.000720468376869, 0.9983176930674715, 0.9987626780290322, 0.9989192466484214, 0.9998433192975162, 0.999130674771072, 0.9990336637175075, 1.00021983181653, 0.9983045909297324, 0.9990055138953374, 1.000935062670844, 1.000249353833634, 0.9999738129974112, 1.002351286421806, 1.000521430446509, 1.000080420459074, 1.000233319614309, 0.9983957402859363, 0.999955921736193, 0.9999419696862581, 0.9996795347608384, 0.9994351394519791, 1.000590853691147, 1.001225350205833, 0.9998810709098381, 0.9997539227416774, 1.001051783718249, 1.000182152458301, 0.9991103035224229, 1.001018737281614, 0.9999711793872547, 1.001315312654784, 1.000845564795745, 0.9999791235942925, 1.000280529336678, 1.001594155845084, 1.000698198817293, 0.9984725532417565, 1.000297395461522, 1.001193273294392, 1.000886839509594, 0.9980469212745684, 1.001002390766694, 0.9995562532518354, 0.9995199764718797, 0.9986520799069817, 0.9995645483228874, 0.9986620234860564, 1.001124536653367, 1.000246844885373, 1.001076034469055, 1.000723097293436] 
+    ],
+   "Two-hit":    [
+[1.00220937808827, 1.004195605404942, 0.9638394018017383, 0.9856868114685315, 0.9988336620501526, 0.9896318737327074, 1.005109547873795, 1.000547017590532, 0.991398826386289, 1.047538087051839, 1.064380317679838, 1.050881176725948, 0.9944078178362471, 0.9742585303784027, 0.8655976363689216, 1.054284689337243, 1.05960115313861, 0.8704672554097211, 0.9697428330330298, 1.066878451634611, 1.068134406860602, 0.8908259813885334, 1.24916654244965, 1.075916679015051, 0.964822531350484, 1.006862035398641, 0.9573691704501557, 1.019070162346606, 0.9557086212865391, 1.392379908307383, 0.8107654081783381, 0.8889949123069267, 1.040330732746207, 0.9977681737860277, 0.9422671390531715, 0.9997168089597153, 0.7993647116966576, 1.519050267809914, 0.877682229674149, 1.018541154454541, 1.424519536132499, 0.9908042437962439, 1.01122972527929, 0.9703052840485635, 0.8954295040223459, 1.072097204818999, 1.026372142375598, 1.050881176725948, 0.9974721260428537, 1.065258025612822, 1.003036258285242, 1.185770090473911, 0.9960970738866692, 1.059230320630227, 1.233253759777283, 0.8948248380224108, 1.009952425745926, 0.8770412380761127, 0.9347202178473279, 0.9827446092041272, 1.164886239138075, 0.8300041023667053, 1.219223286941978, 1.024845613982567, 1.148089075410863, 0.9372666038485314, 1.060704606597856, 0.9164534395850915, 1.003655001605764, 1.056890028418634, 0.7818320038870926, 1.001078222022713, 1.074902953039917, 0.8962947175051617, 0.9248021092041033] 
+    ]
+  },
+ "Site Log Likelihood":{
+   "MG94 with double and triple instantaneous substitutions":    [
+[-4.632725305250307, -4.409649140357597, -8.834434460927573, -7.41781345988942, -4.89478582558673, -5.774117776357929, -4.571373929779927, -5.676844415347319, -7.077784415648739, -6.625062789646758, -5.446178154613237, -5.92109837542991, -9.784762733860216, -14.07453312142146, -15.34546793381134, -12.27918077145375, -14.93086712305902, -27.29805259276677, -16.85472504115898, -19.95418970709805, -6.679988919710244, -14.61347629104609, -25.06168239096005, -14.16106163832797, -12.58114817038298, -25.15837230690544, -15.41698300062352, -16.43527970708154, -16.71946100481981, -27.9440198767896, -24.58715270978039, -25.5645865929773, -9.150421995130491, -20.90126826783996, -11.26124870622801, -5.218275073901244, -35.67820007024621, -21.84642691527003, -13.73617319358139, -21.88367337599558, -34.15160617609442, -13.18206695605569, -4.916889412497008, -6.417506579108146, -22.1569526310922, -12.2166911890701, -17.5789537836411, -5.92109837542991, -27.55581066859348, -26.95415475423, -14.16347715745645, -24.92121506276061, -15.38262660119173, -6.210111575476724, -18.54590443563307, -20.90941021557886, -35.46544055227823, -27.10150015391442, -29.06324792241452, -21.04207649564472, -28.45011483995571, -27.56604847088076, -21.92539870900826, -20.24022853953621, -19.98863735260646, -17.61989076783973, -15.81931328238034, -35.3442595156066, -30.36124758821711, -14.91553185425615, -19.50075746577706, -22.38519196783462, -5.713048120487539, -13.87058650047954, -14.08149066299717] 
+    ],
+   "MG94 with double and triple instantaneous substitutions [only synonymous islands]":    [
+[-4.63275673946695, -4.409614087214869, -8.834624610729456, -7.417112022878841, -4.894933737525149, -5.77444002027716, -4.57152160413605, -5.676930516010061, -7.077658329577607, -6.625685425570279, -5.446686812290235, -5.920979439267123, -9.784297446372056, -14.07293448085627, -15.34749161078699, -12.27893524468512, -14.929771201345, -27.2995288411878, -16.85472245491896, -19.95295287984887, -6.680691701080471, -14.6136014390921, -25.06036856004426, -14.16178184729209, -12.57946444678307, -25.15713421881962, -15.41590166283691, -16.43512301410335, -16.71859130150857, -27.9430530733032, -24.58737251743744, -25.56288974507457, -9.149427014196428, -20.90220289361204, -11.26149802897815, -5.218248886555769, -35.68054859671954, -21.84694820981893, -13.73625361080692, -21.8839066683951, -34.15000062817781, -13.1820228768204, -4.916831380499442, -6.417186062509026, -22.15638761095036, -12.21728186827594, -17.58017838371809, -5.920979439267123, -27.55556456105318, -26.95520598521129, -14.16365929332701, -24.92032497026822, -15.38364481991268, -6.210082754448656, -18.54721888402193, -20.91025542308608, -35.46541967565461, -27.1017806439101, -29.06484080894199, -21.04277445083461, -28.44858622546141, -27.56634582212901, -21.92659127091794, -20.24111498603599, -19.98668236413578, -17.62089265654827, -15.81886943714745, -35.34377937683031, -30.35989875886264, -14.91509630774242, -19.49941859337333, -22.38631587267027, -5.713294934911725, -13.87166195643847, -14.08221349898172] 
+    ],
+   "MG94 with double instantaneous substitutions":    [
+[-4.632809663526618, -4.409557692260917, -8.835651448504517, -7.417350950853597, -4.894511197843674, -5.774595125818391, -4.57110056301549, -5.676151915203244, -7.078551626829928, -6.624024259846852, -5.445431083887154, -5.92276744773244, -9.783583655311858, -14.07237273944534, -15.34539778131787, -12.2807506582474, -14.92941425311437, -27.3010779619196, -16.85536703680097, -19.95096382316143, -6.67950268355755, -14.61312631733205, -25.05399415371633, -14.16214701791443, -12.57976672581967, -25.15669468574611, -15.41714721041836, -16.43398807154456, -16.71517659418664, -27.94261823912804, -24.58283511550167, -25.56263789789561, -9.148496823864823, -20.90161470828861, -11.26157977013971, -5.218085500265239, -35.68109000922894, -21.84814721685844, -13.73491329620785, -21.88209111494108, -34.15363463697145, -13.18270536473515, -4.916525210851854, -6.415149515731711, -22.15645076848305, -12.21906463276896, -17.58233818880129, -5.92276744773244, -27.55428894541177, -26.95932634152019, -14.16833392556879, -24.92066456864312, -15.38740373025432, -6.2122759189912, -18.54703674042358, -20.90828187175115, -35.46632106475371, -27.10035818148236, -29.0629155978858, -21.04177780521989, -28.45047455053475, -27.56477332177501, -21.92577414475374, -20.24335942303607, -19.9861032846818, -17.62149734334682, -15.82479030808866, -35.3416948226121, -30.35925433130745, -14.91469376213384, -19.50121973882453, -22.38324148194534, -5.714757001761249, -13.87331652983052, -14.08141222303514] 
+    ],
+   "Standard MG94":    [
+[-4.63501660452809, -4.413744520654855, -8.79882085461298, -7.402934340589825, -4.893344179192383, -5.764172876099064, -4.576197101445646, -5.676698783234192, -7.069913249639222, -6.670466991954023, -5.507823852368057, -5.97239647588655, -9.777975778357996, -14.04629416048501, -15.20106267979682, -12.33361317563065, -14.98730681980684, -27.16235282559642, -16.82464267358109, -20.01570087299832, -6.745416265297631, -14.49752013966223, -25.27647071660293, -14.23532004079609, -12.54395562592758, -25.163533284534, -15.37358100654981, -16.45287867753317, -16.66987439234893, -28.27363268643828, -24.37305858637168, -25.44497413147166, -9.188035498718893, -20.89938038783869, -11.20211331263599, -5.2178022691188, -35.45715203206288, -22.26623253262361, -13.60444262014981, -21.90046247773586, -34.50746922621196, -13.17346706656074, -4.927692350873857, -6.385004984554481, -22.04599898542646, -12.28868136744387, -17.60836858165288, -5.97239647588655, -27.55175787098653, -27.02254338890783, -14.17136558373093, -25.09105699753798, -15.38349316784914, -6.269818450754738, -18.7566927502247, -20.79715458018303, -35.47622429127563, -26.96915691551847, -28.9954075711646, -21.02437180510532, -28.60309798397594, -27.37844868618179, -22.12398815070365, -20.26790140377722, -20.1242021713904, -17.55670983531969, -15.88372371858754, -35.25445080720253, -30.36290266962612, -14.97002442237809, -19.25510434851981, -22.38431912310418, -5.786987383023792, -13.7638305355261, -14.00323672268229] 
+    ]
+  },
+ "Site substitutions":{
+  },
+ "analysis":{
+   "authors":"Sergei L Kosakovsky Pond, Sadie Wisotsky and Alexander Lucaci",
+   "citation":"Submitted; preprint at hyphy.org/resources/fmm.pdf",
+   "contact":"spond@temple.edu",
+   "info":"Examine whether or not a codon alignment is better fit by models which permit multiple instantaneous substitutions. v0.2 adds a separate rate for codon-island triple-hit rates",
+   "requirements":"in-frame codon alignment and a phylogenetic tree",
+   "version":"1.0"
+  },
+ "branch attributes":{
+   "0":{
+     "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA"
+      },
+     "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA"
+      },
+     "Node13":{
+       "MG94 with double and triple instantaneous substitutions":0.005319408945154649,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.005316526453978118,
+       "MG94 with double instantaneous substitutions":0.005314370788286613,
+       "Nucleotide GTR":0.005237195034114167,
+       "Standard MG94":0.005318021071837619
+      },
+     "Node17":{
+       "MG94 with double and triple instantaneous substitutions":0.02361216471267447,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02362080748421408,
+       "MG94 with double instantaneous substitutions":0.02361929131684105,
+       "Nucleotide GTR":0.02398190340730024,
+       "Standard MG94":0.0236136476409849
+      },
+     "Node18":{
+       "MG94 with double and triple instantaneous substitutions":0.005094566853395811,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.00509339948721651,
+       "MG94 with double instantaneous substitutions":0.005093561697387152,
+       "Nucleotide GTR":0.004770677580124063,
+       "Standard MG94":0.005091608596472996
+      },
+     "Node19":{
+       "MG94 with double and triple instantaneous substitutions":0.02660518169190255,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02660139008008031,
+       "MG94 with double instantaneous substitutions":0.02660459259840643,
+       "Nucleotide GTR":0.02713779992403294,
+       "Standard MG94":0.02659007672009949
+      },
+     "Node24":{
+       "MG94 with double and triple instantaneous substitutions":0.02193471104858187,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02192527292892598,
+       "MG94 with double instantaneous substitutions":0.02192567384915121,
+       "Nucleotide GTR":0.02068019434494497,
+       "Standard MG94":0.02198137599140841
+      },
+     "Node28":{
+       "MG94 with double and triple instantaneous substitutions":0.005124854544959832,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.005127116290235013,
+       "MG94 with double instantaneous substitutions":0.005126275347710797,
+       "Nucleotide GTR":0.004999877041254663,
+       "Standard MG94":0.005128433266219025
+      },
+     "Node32":{
+       "MG94 with double and triple instantaneous substitutions":0.03407875291343011,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03407729884885899,
+       "MG94 with double instantaneous substitutions":0.03407820607422715,
+       "Nucleotide GTR":0.03236862889519805,
+       "Standard MG94":0.03412408008106362
+      },
+     "Node35":{
+       "MG94 with double and triple instantaneous substitutions":0.04663805094251597,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.04665121116464831,
+       "MG94 with double instantaneous substitutions":0.04667684234238382,
+       "Nucleotide GTR":0.04449057124341396,
+       "Standard MG94":0.04575311103272297
+      },
+     "Node36":{
+       "MG94 with double and triple instantaneous substitutions":0.0758741109958357,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.07585951401926909,
+       "MG94 with double instantaneous substitutions":0.07589183001187907,
+       "Nucleotide GTR":0.07891850580980356,
+       "Standard MG94":0.08120454642076765
+      },
+     "Node38":{
+       "MG94 with double and triple instantaneous substitutions":0.01410620778197322,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01410710766245746,
+       "MG94 with double instantaneous substitutions":0.01411466760749231,
+       "Nucleotide GTR":0.01389748704629625,
+       "Standard MG94":0.01105987876353272
+      },
+     "Node4":{
+       "MG94 with double and triple instantaneous substitutions":0.01617678078943148,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01617809270803659,
+       "MG94 with double instantaneous substitutions":0.01617676089380922,
+       "Nucleotide GTR":0.01585978368845858,
+       "Standard MG94":0.01618782326686224
+      },
+     "Node42":{
+       "MG94 with double and triple instantaneous substitutions":0.03195025386993309,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03195149831465156,
+       "MG94 with double instantaneous substitutions":0.03195604798346045,
+       "Nucleotide GTR":0.03131791342329471,
+       "Standard MG94":0.03196917106740536
+      },
+     "Node45":{
+       "MG94 with double and triple instantaneous substitutions":0.07802036118300983,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.07801451545334376,
+       "MG94 with double instantaneous substitutions":0.07804480302074958,
+       "Nucleotide GTR":0.07534382854487667,
+       "Standard MG94":0.08485382915013277
+      },
+     "Node47":{
+       "MG94 with double and triple instantaneous substitutions":0.01647543905958218,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01647376798850114,
+       "MG94 with double instantaneous substitutions":0.01646766711039841,
+       "Nucleotide GTR":0.01450776627477166,
+       "Standard MG94":0.01665223332268377
+      },
+     "Node48":{
+       "MG94 with double and triple instantaneous substitutions":0.07811533033294953,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.07812131015097129,
+       "MG94 with double instantaneous substitutions":0.07815286511414135,
+       "Nucleotide GTR":0.07784864190960712,
+       "Standard MG94":0.0804798774268559
+      },
+     "Node5":{
+       "MG94 with double and triple instantaneous substitutions":0.005303739129640407,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.005305150882069586,
+       "MG94 with double instantaneous substitutions":0.005304364149072812,
+       "Nucleotide GTR":0.005232376062120304,
+       "Standard MG94":0.005305959363882784
+      },
+     "Node51":{
+       "MG94 with double and triple instantaneous substitutions":0.06442843264097793,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.06442934135309004,
+       "MG94 with double instantaneous substitutions":0.06441742141601421,
+       "Nucleotide GTR":0.06794945038289389,
+       "Standard MG94":0.0692245303661535
+      },
+     "Node53":{
+       "MG94 with double and triple instantaneous substitutions":0.01209707162274622,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01209609173435903,
+       "MG94 with double instantaneous substitutions":0.01209991505812309,
+       "Nucleotide GTR":0.0116861760867379,
+       "Standard MG94":0.01256615110151487
+      },
+     "Node55":{
+       "MG94 with double and triple instantaneous substitutions":0.007640477642515835,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.007637518366405795,
+       "MG94 with double instantaneous substitutions":0.00762375230392474,
+       "Nucleotide GTR":0.01018474735505236,
+       "Standard MG94":0.008270271541630287
+      },
+     "Node58":{
+       "MG94 with double and triple instantaneous substitutions":0.005309613908175876,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.005311128346703344,
+       "MG94 with double instantaneous substitutions":0.00530983292107214,
+       "Nucleotide GTR":0.005246784745695092,
+       "Standard MG94":0.005315071545679007
+      },
+     "Node59":{
+       "MG94 with double and triple instantaneous substitutions":0.005309271296635045,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.005310928069209235,
+       "MG94 with double instantaneous substitutions":0.005309267867629704,
+       "Nucleotide GTR":0.005250893017545997,
+       "Standard MG94":0.005312085399290705
+      },
+     "XM_002747948_5_PREDICTED_Callithrix_jacchus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.03164730040159206,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03164977419035075,
+       "MG94 with double instantaneous substitutions":0.03165099569270471,
+       "Nucleotide GTR":0.03109451533400834,
+       "Standard MG94":0.03166752590951817,
+       "original name":"XM_002747948_5_PREDICTED_Callithrix_jacchus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.005319384469514529,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.00531781467578421,
+       "MG94 with double instantaneous substitutions":0.005318437684709379,
+       "Nucleotide GTR":0.005235951073073143,
+       "Standard MG94":0.005318884678295037,
+       "original name":"XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA"
+      },
+     "XM_003912272_5_PREDICTED_Papio_anubis_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_003912272_5_PREDICTED_Papio_anubis_tumor_protein_p53_TP53_mRNA"
+      },
+     "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.01941062204162381,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01941551840396669,
+       "MG94 with double instantaneous substitutions":0.01941411107859947,
+       "Nucleotide GTR":0.01904846554414656,
+       "Standard MG94":0.01944351273244692,
+       "original name":"XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_008062341_2_PREDICTED_Carlito_syrichta_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.0901681519197534,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0901597120591963,
+       "MG94 with double instantaneous substitutions":0.09018595958292586,
+       "Nucleotide GTR":0.09333486913625864,
+       "Standard MG94":0.0918539965914093,
+       "original name":"XM_008062341_2_PREDICTED_Carlito_syrichta_tumor_protein_p53_TP53_mRNA"
+      },
+     "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA"
+      },
+     "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.005316012842027883,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.005319511983221671,
+       "MG94 with double instantaneous substitutions":0.005320721203993746,
+       "Nucleotide GTR":0.005248269470664937,
+       "Standard MG94":0.005318183069871876,
+       "original name":"XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_012655616_1_PREDICTED_Propithecus_coquereli_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.05534045377045235,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.05532123462632324,
+       "MG94 with double instantaneous substitutions":0.05533855895135231,
+       "Nucleotide GTR":0.06249316010656532,
+       "Standard MG94":0.06287292388229437,
+       "original name":"XM_012655616_1_PREDICTED_Propithecus_coquereli_tumor_protein_p53_TP53_mRNA"
+      },
+     "XM_012776058_2_PREDICTED_Microcebus_murinus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.05689481506648882,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.05689195879957715,
+       "MG94 with double instantaneous substitutions":0.0568987736465558,
+       "Nucleotide GTR":0.06325270909367263,
+       "Standard MG94":0.0647641339846981,
+       "original name":"XM_012776058_2_PREDICTED_Microcebus_murinus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_012806041_2_PREDICTED_Otolemur_garnettii_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.02422332402480736,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02422223800868017,
+       "MG94 with double instantaneous substitutions":0.02422501176185329,
+       "Nucleotide GTR":0.02295052551002619,
+       "Standard MG94":0.02418910560133947,
+       "original name":"XM_012806041_2_PREDICTED_Otolemur_garnettii_tumor_protein_p53_TP53_mRNA"
+      },
+     "XM_016931470_3_PREDICTED_Pan_troglodytes_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_016931470_3_PREDICTED_Pan_troglodytes_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_017531594_2_PREDICTED_Cebus_imitator_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.02020811951906041,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.02020100049239433,
+       "MG94 with double instantaneous substitutions":0.02019416892232414,
+       "Nucleotide GTR":0.02003582593812731,
+       "Standard MG94":0.02020146530708388,
+       "original name":"XM_017531594_2_PREDICTED_Cebus_imitator_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_017850544_1_PREDICTED_Rhinopithecus_bieti_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_017850544_1_PREDICTED_Rhinopithecus_bieti_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.01065212339421528,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.01065697954754988,
+       "MG94 with double instantaneous substitutions":0.0106604454929838,
+       "Nucleotide GTR":0.01052883918529007,
+       "Standard MG94":0.01065887743303029,
+       "original name":"XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_025363515_1_PREDICTED_Theropithecus_gelada_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_025363515_1_PREDICTED_Theropithecus_gelada_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.005293078145360714,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.005291671595157805,
+       "MG94 with double instantaneous substitutions":0.005290473225722801,
+       "Nucleotide GTR":0.00523543443237694,
+       "Standard MG94":0.005294708857622857,
+       "original name":"XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA"
+      },
+     "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.005298354740539882,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.005296816370209039,
+       "MG94 with double instantaneous substitutions":0.005296444947808972,
+       "Nucleotide GTR":0.005253630000065232,
+       "Standard MG94":0.005299824557555971,
+       "original name":"XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA"
+      },
+     "XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.005912334456479503,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.005911815060317162,
+       "MG94 with double instantaneous substitutions":0.005909089658987988,
+       "Nucleotide GTR":0.005569956176704382,
+       "Standard MG94":0.005917405598996909,
+       "original name":"XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_039476036_1_PREDICTED_Saimiri_boliviensis_boliviensis_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.01913091507580985,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0191323561457366,
+       "MG94 with double instantaneous substitutions":0.01913473903313032,
+       "Nucleotide GTR":0.01877910858730133,
+       "Standard MG94":0.0191688462655638,
+       "original name":"XM_039476036_1_PREDICTED_Saimiri_boliviensis_boliviensis_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_045570131_1_PREDICTED_Lemur_catta_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.03100369607495612,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.03101040695355223,
+       "MG94 with double instantaneous substitutions":0.03100821474145432,
+       "Nucleotide GTR":0.03197733895249672,
+       "Standard MG94":0.03073409454514665,
+       "original name":"XM_045570131_1_PREDICTED_Lemur_catta_tumor_protein_p53_TP53_mRNA"
+      },
+     "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_053569948_1_PREDICTED_Nycticebus_coucang_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.02026432707325523,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.0202647245066234,
+       "MG94 with double instantaneous substitutions":0.02026084077724899,
+       "Nucleotide GTR":0.02123171221145365,
+       "Standard MG94":0.02036621045202094,
+       "original name":"XM_053569948_1_PREDICTED_Nycticebus_coucang_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA"
+      },
+     "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_057300362_2_PREDICTED_Pan_paniscus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_057300362_2_PREDICTED_Pan_paniscus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_063700589_1_PREDICTED_Gorilla_gorilla_gorilla_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":0,
+       "Standard MG94":0,
+       "original name":"XM_063700589_1_PREDICTED_Gorilla_gorilla_gorilla_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_064378361_1_PREDICTED_Aotus_nancymaae_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0,
+       "MG94 with double instantaneous substitutions":0,
+       "Nucleotide GTR":8.323012895513209e-07,
+       "Standard MG94":0.003352858635578619,
+       "original name":"XM_064378361_1_PREDICTED_Aotus_nancymaae_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_069482023_1_PREDICTED_Eulemur_rufifrons_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.05948495919910115,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.05948923319694058,
+       "MG94 with double instantaneous substitutions":0.05951179255293206,
+       "Nucleotide GTR":0.056279861017647,
+       "Standard MG94":0.05883429826018257,
+       "original name":"XM_069482023_1_PREDICTED_Eulemur_rufifrons_tumor_protein_p53_TP53_transcript_variant_X1_mRNA"
+      },
+     "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":{
+       "MG94 with double and triple instantaneous substitutions":0.005331720969239446,
+       "MG94 with double and triple instantaneous substitutions [only synonymous islands]":0.00532880405735154,
+       "MG94 with double instantaneous substitutions":0.005327126438087118,
+       "Nucleotide GTR":0.005238939390739794,
+       "Standard MG94":0.005328676491674715,
+       "original name":"XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA"
+      }
+    },
+   "attributes":{
+     "MG94 with double and triple instantaneous substitutions":{
+       "attribute type":"branch length",
+       "display order":3
+      },
+     "MG94 with double and triple instantaneous substitutions [only synonymous islands]":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "MG94 with double instantaneous substitutions":{
+       "attribute type":"branch length",
+       "display order":2
+      },
+     "Nucleotide GTR":{
+       "attribute type":"branch length",
+       "display order":0
+      },
+     "Standard MG94":{
+       "attribute type":"branch length",
+       "display order":1
+      },
+     "original name":{
+       "attribute type":"node label",
+       "display order":-1
+      }
+    }
+  },
+ "data partitions":{
+   "0":{
+     "coverage":      [
+[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74] 
+      ],
+     "name":"fitter.filter.default"
+    }
+  },
+ "fits":{
+   "MG94 with double and triple instantaneous substitutions":{
+     "AIC-c":2677.069521706048,
+     "Log Likelihood":-1258.041033617087,
+     "Rate Distributions":{
+       "distribution":        [
+[0, 0.1508761393974733],
+        [0.9327770052120917, 0.5932572849151632],
+        [1.745531807961875, 0.2558665756873634] 
+        ],
+       "parameters":{
+         "GDD rate category 1":0,
+         "GDD rate category 2":1.537142169421773,
+         "GDD rate category 3":0.8214177838744807,
+         "Mixture auxiliary weight for GDD category 1":0.1508761393974733,
+         "Mixture auxiliary weight for GDD category 2":0.3013300974793053,
+         "Substitution rate from nucleotide A to nucleotide C":0.3204565462895679,
+         "Substitution rate from nucleotide A to nucleotide G":1,
+         "Substitution rate from nucleotide A to nucleotide T":0.1683383123314869,
+         "Substitution rate from nucleotide C to nucleotide G":0.2312770416818321,
+         "Substitution rate from nucleotide C to nucleotide T":0.7458296320159213,
+         "Substitution rate from nucleotide G to nucleotide T":0.1352657949535687,
+         "non-synonymous/synonymous rate ratio":0.6165667532021518,
+         "rate at which 2 nucleotides are changed instantly within a single codon":0.1207825973356211,
+         "rate at which 3 nucleotides are changed instantly within a single codon":0,
+         "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":0
+        }
+      },
+     "display order":3,
+     "estimated parameters":78
+    },
+   "MG94 with double and triple instantaneous substitutions [only synonymous islands]":{
+     "AIC-c":2674.941198349928,
+     "Log Likelihood":-1258.040987524478,
+     "Rate Distributions":{
+       "distribution":        [
+[0, 0.1508727722207137],
+        [0.9328647065454049, 0.5933574704439115],
+        [1.745623728580149, 0.2557697573353747] 
+        ],
+       "parameters":{
+         "GDD rate category 1":0,
+         "GDD rate category 2":1.537109222921285,
+         "GDD rate category 3":0.8214341502650256,
+         "Mixture auxiliary weight for GDD category 1":0.1508727722207137,
+         "Mixture auxiliary weight for GDD category 2":0.3012148815487719,
+         "Substitution rate from nucleotide A to nucleotide C":0.3204278889293963,
+         "Substitution rate from nucleotide A to nucleotide G":1,
+         "Substitution rate from nucleotide A to nucleotide T":0.1683040035152504,
+         "Substitution rate from nucleotide C to nucleotide G":0.2312061856247583,
+         "Substitution rate from nucleotide C to nucleotide T":0.7461715479780975,
+         "Substitution rate from nucleotide G to nucleotide T":0.1352952002093674,
+         "non-synonymous/synonymous rate ratio":0.6159374404928777,
+         "rate at which 2 nucleotides are changed instantly within a single codon":0.1209342229595342,
+         "rate at which 3 nucleotides are changed instantly within a single codon":0,
+         "rate at which 3 nucleotides are changed instantly within a single codon between synonymous codon islands":0
+        }
+      },
+     "display order":0,
+     "estimated parameters":77
+    },
+   "MG94 with double instantaneous substitutions":{
+     "AIC-c":2672.814846829373,
+     "Log Likelihood":-1258.041066762846,
+     "Rate Distributions":{
+       "distribution":        [
+[0, 0.1510419737659599],
+        [0.9331182274252622, 0.5939968816157855],
+        [1.748229846543573, 0.2549611446182546] 
+        ],
+       "parameters":{
+         "GDD rate category 1":0,
+         "GDD rate category 2":1.552572481072322,
+         "GDD rate category 3":0.8286860474048877,
+         "Mixture auxiliary weight for GDD category 1":0.1510419737659599,
+         "Mixture auxiliary weight for GDD category 2":0.3003224384947002,
+         "Substitution rate from nucleotide A to nucleotide C":0.3200280032681739,
+         "Substitution rate from nucleotide A to nucleotide G":1,
+         "Substitution rate from nucleotide A to nucleotide T":0.1679977639636711,
+         "Substitution rate from nucleotide C to nucleotide G":0.2307187117697145,
+         "Substitution rate from nucleotide C to nucleotide T":0.7442701796959785,
+         "Substitution rate from nucleotide G to nucleotide T":0.1350815727043036,
+         "non-synonymous/synonymous rate ratio":0.615214444411364,
+         "rate at which 2 nucleotides are changed instantly within a single codon":0.1207586459159877
+        }
+      },
+     "display order":2,
+     "estimated parameters":76
+    },
+   "Nucleotide GTR":{
+     "AIC-c":2731.955045745552,
+     "Equilibrium frequencies":      [
+[0.2183698296836983],
+      [0.3619221411192214],
+      [0.2186739659367397],
+      [0.2010340632603407] 
+      ],
+     "Log Likelihood":-1292.264481690094,
+     "Rate Distributions":{
+       "Substitution rate from nucleotide A to nucleotide C":0.3117556732403105,
+       "Substitution rate from nucleotide A to nucleotide G":1,
+       "Substitution rate from nucleotide A to nucleotide T":0.1875917555136694,
+       "Substitution rate from nucleotide C to nucleotide G":0.1976636384269853,
+       "Substitution rate from nucleotide C to nucleotide T":0.8068569115902013,
+       "Substitution rate from nucleotide G to nucleotide T":0.1307460272955688
+      },
+     "display order":0,
+     "estimated parameters":73
+    },
+   "Standard MG94":{
+     "AIC-c":2671.914654142337,
+     "Log Likelihood":-1258.653365874726,
+     "Rate Distributions":{
+       "distribution":        [
+[0, 0.1574003272907],
+        [0.8877768481436972, 0.5175820283851924],
+        [1.662994817737904, 0.3250176443241076] 
+        ],
+       "parameters":{
+         "GDD rate category 1":0,
+         "GDD rate category 2":1.549023091299132,
+         "GDD rate category 3":0.8269339284929061,
+         "Mixture auxiliary weight for GDD category 1":0.1574003272907,
+         "Mixture auxiliary weight for GDD category 2":0.3857319850113921,
+         "Substitution rate from nucleotide A to nucleotide C":0.3206697897828847,
+         "Substitution rate from nucleotide A to nucleotide G":1,
+         "Substitution rate from nucleotide A to nucleotide T":0.1701550162840985,
+         "Substitution rate from nucleotide C to nucleotide G":0.229375934440685,
+         "Substitution rate from nucleotide C to nucleotide T":0.7445268393147308,
+         "Substitution rate from nucleotide G to nucleotide T":0.1344980347790327,
+         "non-synonymous/synonymous rate ratio":0.6392315250481405
+        }
+      },
+     "display order":1,
+     "estimated parameters":75
+    }
+  },
+ "input":{
+   "file name":"/Users/alex/Documents/AutomatedOrthologCharacterization/results/PrimateTP53/PrimateTP53.3.codon.fas",
+   "number of sequences":34,
+   "number of sites":75,
+   "partition count":1,
+   "trees":{
+     "0":"(((XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA,XM_017850544_1_PREDICTED_Rhinopithecus_bieti_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node59,XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node58,XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,((XM_003912272_5_PREDICTED_Papio_anubis_tumor_protein_p53_TP53_mRNA,XM_025363515_1_PREDICTED_Theropithecus_gelada_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node5,(XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node13,XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA,NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA,XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node4,(((XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA,XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA,XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node19,((XM_016931470_3_PREDICTED_Pan_troglodytes_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_057300362_2_PREDICTED_Pan_paniscus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node28,NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA,XM_063700589_1_PREDICTED_Gorilla_gorilla_gorilla_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node24)Node18,(XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA,XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA)Node32,((XM_064378361_1_PREDICTED_Aotus_nancymaae_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,(XM_039476036_1_PREDICTED_Saimiri_boliviensis_boliviensis_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_002747948_5_PREDICTED_Callithrix_jacchus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,(XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_017531594_2_PREDICTED_Cebus_imitator_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)Node42)Node38)Node36,(XM_008062341_2_PREDICTED_Carlito_syrichta_tumor_protein_p53_TP53_mRNA,((XM_053569948_1_PREDICTED_Nycticebus_coucang_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_012806041_2_PREDICTED_Otolemur_garnettii_tumor_protein_p53_TP53_mRNA)Node48,(XM_045570131_1_PREDICTED_Lemur_catta_tumor_protein_p53_TP53_mRNA,(XM_012776058_2_PREDICTED_Microcebus_murinus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,(XM_069482023_1_PREDICTED_Eulemur_rufifrons_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_012655616_1_PREDICTED_Propithecus_coquereli_tumor_protein_p53_TP53_mRNA)Node55)Node53)Node51)Node47)Node45)Node35)Node17,XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA,XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA)"
+    }
+  },
+ "runtime":"2.5.61",
+ "test results":{
+   "Double-hit vs single-hit":{
+     "LRT":1.224598223758676,
+     "p-value":0.2684601328627542
+    },
+   "Triple-hit vs Triple-hit-island":{
+     "LRT":-9.218521790899104e-05,
+     "p-value":1
+    },
+   "Triple-hit vs double-hit":{
+     "LRT":6.629151812376222e-05,
+     "p-value":0.999966854790251
+    },
+   "Triple-hit vs single-hit":{
+     "LRT":1.2246645152768,
+     "p-value":0.7470950228327946
+    },
+   "Triple-hit-island vs double-hit":{
+     "LRT":0.0001584767360327533,
+     "p-value":0.9899558925604522
+    }
+  },
+ "tested":{
+   "0":{
+     "NM_000546_6_Homo_sapiens_tumor_protein_p53_TP53_transcript_variant_1_mRNA":"test",
+     "NM_001047151_2_Macaca_mulatta_tumor_protein_p53_TP53_mRNA":"test",
+     "Node13":"test",
+     "Node17":"test",
+     "Node18":"test",
+     "Node19":"test",
+     "Node24":"test",
+     "Node28":"test",
+     "Node32":"test",
+     "Node35":"test",
+     "Node36":"test",
+     "Node38":"test",
+     "Node4":"test",
+     "Node42":"test",
+     "Node45":"test",
+     "Node47":"test",
+     "Node48":"test",
+     "Node5":"test",
+     "Node51":"test",
+     "Node53":"test",
+     "Node55":"test",
+     "Node58":"test",
+     "Node59":"test",
+     "XM_002747948_5_PREDICTED_Callithrix_jacchus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_002826974_6_PREDICTED_Pongo_abelii_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_003912272_5_PREDICTED_Papio_anubis_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_008010192_2_PREDICTED_Chlorocebus_sabaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_008062341_2_PREDICTED_Carlito_syrichta_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_010362387_1_PREDICTED_Rhinopithecus_roxellana_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_011958558_1_PREDICTED_Colobus_angolensis_palliatus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_011994540_1_PREDICTED_Mandrillus_leucophaeus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_012052423_1_PREDICTED_Cercocebus_atys_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_012655616_1_PREDICTED_Propithecus_coquereli_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_012776058_2_PREDICTED_Microcebus_murinus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_012806041_2_PREDICTED_Otolemur_garnettii_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_016931470_3_PREDICTED_Pan_troglodytes_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_017531594_2_PREDICTED_Cebus_imitator_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_017850544_1_PREDICTED_Rhinopithecus_bieti_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_023193314_2_PREDICTED_Piliocolobus_tephrosceles_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_025363515_1_PREDICTED_Theropithecus_gelada_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_030800485_1_PREDICTED_Nomascus_leucogenys_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_032139337_3_PREDICTED_Hylobates_moloch_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_032280430_1_PREDICTED_Sapajus_apella_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_033184717_1_PREDICTED_Trachypithecus_francoisi_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_039476036_1_PREDICTED_Saimiri_boliviensis_boliviensis_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_045570131_1_PREDICTED_Lemur_catta_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_050765346_1_PREDICTED_Macaca_thibetana_thibetana_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_053569948_1_PREDICTED_Nycticebus_coucang_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_054457336_2_PREDICTED_Pongo_pygmaeus_tumor_protein_p53_TP53_mRNA":"test",
+     "XM_055256596_2_PREDICTED_Symphalangus_syndactylus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_057300362_2_PREDICTED_Pan_paniscus_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_063700589_1_PREDICTED_Gorilla_gorilla_gorilla_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_064378361_1_PREDICTED_Aotus_nancymaae_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_069482023_1_PREDICTED_Eulemur_rufifrons_tumor_protein_p53_TP53_transcript_variant_X1_mRNA":"test",
+     "XM_071082299_1_PREDICTED_Macaca_nemestrina_tumor_protein_p53_LOC105473688_mRNA":"test"
+    }
+  },
+ "timers":{
+   "MG94 with double and triple instantaneous substitutions":{
+     "order":null,
+     "timer":55
+    },
+   "MG94 with double and triple instantaneous substitutions [only synonymous islands]":{
+     "order":null,
+     "timer":24
+    },
+   "MG94 with double instantaneous substitutions":{
+     "order":null,
+     "timer":69
+    },
+   "Overall":{
+     "order":0,
+     "timer":181
+    },
+   "Standard MG94":{
+     "order":null,
+     "timer":31
+    }
+  }
+}

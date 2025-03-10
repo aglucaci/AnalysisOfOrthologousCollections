@@ -1,0 +1,16 @@
+# User settings for data files and gene label
+
+Nucleotide: ""
+Protein: ""
+CSV: ""
+Label: ""
+
+# User settings for NCBI Entrez
+Email: "aoc-user@example.com"
+
+# Snakemake settings
+log_dir: "logs"
+
+# Multiple test correction (default = 'fdr'),
+#    leave blank ('') for uncorrected version.
+multitestcorr: "fdr"
