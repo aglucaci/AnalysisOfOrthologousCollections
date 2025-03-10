@@ -12,7 +12,7 @@ There is an assumption that the freely available Anaconda software is installed 
 You will also need to download the standalone hyphy-analyses repository (https://github.com/veg/hyphy-analyses). Make sure to modify the config.yml file to point to the correct directory on your system
 
 ### To install -- Steps necessary to complete before running
-1. `git clone https://github.com/aglucaci/AnalysisOfOrthologousCollections.git AOC`
+1. `git clone https://github.com/aglucaci/Analysis-of-Orthologous-Collections.git AOC`
 2. `cd AOC`
 3. `conda env create -f config/environment.yml`. This will create a virtual environment called (AOC) with the necessary dependencies.
     *NOTE* For those with arm64 CPU architecures (Apple M1/M2), compatibility errors may arise during installation with conda, in order to circumvent this issue try this command before creating the conda environment `conda config --env --set subdir osx-64`
