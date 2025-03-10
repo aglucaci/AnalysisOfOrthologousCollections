@@ -115,13 +115,86 @@ The following are JSON files produced by HyPhy analyses. These can be visualized
 │   ├── │   ├── ... other visualizations are available on HyPhy Vision.
 ```
 
-## Removing the AOC environment from conda
+### Executive summary 
+
+In order to make results easily interpretable - we provide a summary spreadsheet for each analysis (Rows), and for each recombination-free file (columns).
+
+|FIELD1      |1                      |2                      |3                      |4                      |
+|------------|-----------------------|-----------------------|-----------------------|-----------------------|
+|Filename    |PrimateACE2.1.codon.fas|PrimateACE2.2.codon.fas|PrimateACE2.3.codon.fas|PrimateACE2.4.codon.fas|
+|Seqs        |31                     |31                     |31                     |31                     |
+|Sites       |419                    |234                    |44                     |300                    |
+|FitMG94     |N/A                    |N/A                    |N/A                    |N/A                    |
+|BUSTED[S]   |0.04772686506595974    |0.5                    |0.498342357346389      |0.2872065056121928     |
+|BUSTED[S]+MH|0.05354633995163294    |0.5                    |0.5                    |0.4492374314471226     |
+|FEL[+]      |6                      |1                      |0                      |3                      |
+|FEL[-]      |66                     |44                     |4                      |36                     |
+|FUBAR[+]    |5                      |1                      |1                      |2                      |
+|FUBAR[-]    |35                     |29                     |2                      |15                     |
+|SLAC[+]     |0                      |0                      |0                      |0                      |
+|SLAC[-]     |0                      |0                      |0                      |0                      |
+|MEME        |11                     |1                      |1                      |11                     |
+|BGM         |10                     |5                      |1                      |5                      |
+|aBSREL      |1                      |0                      |1                      |0                      |
+|FMM[TH]     |0.4091059976738896     |0.5938634883238164     |0.6307068479526645     |0.3115028373429701     |
+|FMM[DH]     |0.7218940918363086     |0.6477264324528813     |0.9861745455939988     |0.05874773670413536    |
+|RELAX       |0.3694805831206783     |0.5508425231243457     |0.04165610895306981    |0.2446019676208168     |
+|CFEL        |0                      |0                      |0                      |0                      |
+
+<ol>
+  <li>We report omega values for each recombination-free segments for FitMG94.</li>
+  <li>LRT p-values are reported for BUSTED[S], FMM[TH], FMM[DH], and RELAX. </li>
+  <li>aBSREL reports the number of branches under selection. </li>
+  <li>The rest of the columns report the number of statistically significant codon sites under selection.</li>
+</ol>
+
+### Visualizations 
+
+For FEL, which reports codon-site specific dN/dS values.
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.1.codon.fas.FEL.json.FEL.png" width="300" height="200"></td>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.2.codon.fas.FEL.json.FEL.png" width="300" height="200"></td>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.3.codon.fas.FEL.json.FEL.png" width="300" height="200"></td>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.4.codon.fas.FEL.json.FEL.png" width="300" height="200"></td>
+  </tr>
+</table>
+
+For MEME, which reports adaptively evolving codon-site specific dN/dS values, and is a more sensensitive method.
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.1.codon.fas.MEME.json.MEME.png" width="300" height="200"></td>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.2.codon.fas.MEME.json.MEME.png" width="300" height="200"></td>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.3.codon.fas.MEME.json.MEME.png" width="300" height="200"></td>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.4.codon.fas.MEME.json.MEME.png" width="300" height="200"></td>
+  </tr>
+</table>
+
+For BGM, which detects co-evolving codon sites.
+<table>
+  <tr>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.1.codon.fas.BGM.json.BGM.png" width="600" height="200"></td>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.2.codon.fas.BGM.json.BGM.png" width="600" height="200"></td>
+  </tr>
+</table>
+
+<table>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.3.codon.fas.BGM.json.BGM.png" width="600" height="200"></td>
+    <td><img src="https://raw.githubusercontent.com/aglucaci/Analysis-of-Orthologous-Collections/refs/heads/main/results/PrimateACE2/Visualizations/PrimateACE2.4.codon.fas.BGM.json.BGM.png" width="600" height="200"></td>
+  </tr>
+</table>
+
+Note: Additional visualizations and statistics are available for each HyPhy JSON file at http://vision.hyphy.org/
+
+### Cleanup and miscellaneous ...
+
+#### Removing the AOC environment from conda
 
 To remove the AOC environment from you system use: 
 
 ```conda env remove --name AOC```
 
-## Starting a tmux session for AOC
+#### Starting a tmux session for AOC
 
 Due to the runtime needs of the workflow it may be useful to use a terminal multiplexer like 'tmux' in order to keep jobs running.
 
