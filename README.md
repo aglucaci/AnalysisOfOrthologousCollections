@@ -1,4 +1,4 @@
-# Automated Ortholog Characterization (AOC)
+# Analysis of Orthologous Collections (AOC)
 
 # About this repository
 
