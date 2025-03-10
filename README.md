@@ -14,7 +14,7 @@ You will also need to download the standalone hyphy-analyses repository (https:/
 ### To install -- Steps necessary to complete before running
 1. `https://github.com/aglucaci/AutomatedOrthologCharacterization.git AOC`
 2. `cd AOC`
-3. `conda env create -f configs/environment.yml`. This will create a virtual environment called (AOC) with the necessary dependencies.
+3. `conda env create -f config/environment.yml`. This will create a virtual environment called (AOC) with the necessary dependencies.
     *NOTE* For those with arm64 CPU architecures (Apple M1/M2), compatibility errors may arise during installation with conda, in order to circumvent this issue try this command before creating the conda environment `conda config --env --set subdir osx-64`
 4. At this point, run `conda activate AOC` and your environment will be ready to go.
 
